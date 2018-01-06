@@ -1,59 +1,25 @@
-#body{
+#body {
   margin: 0px;
 }
-
-.navbar-header{
-
-}
-
 
 .mainContainer {
   padding: 0px;
 }
 
-.header {
-  background-color: black;
-  height: 100px;
-}
-
-.intro {
-  background-color: red;
-  height: 100px;
-}
-
-.techSkills {
-  background-color: blue;
-  height: 100px;
-}
-
-.personalSkills {
-  background-color: green;
-  height: 100px;
-}
-
-.experience {
-  background-color: gray;
-  height: 100px;
-}
-
-.education {
-  background-color: purple: height: 100px;
-}
-
-.misc {
-  background-color: cyan;
-  height: 100px;
-}
-
-.contact {
-  background-color: yellow;
-  height: 100px;
-}
-
+.header,
+.intro,
+.techSkills,
+.personalSkills,
+.experience,
+.education,
+.misc,
+.contact,
 .footer {
-  background-color: pink;
-  height: 100px;
+  background-color: gray;
+  margin-top: 10px;
+  min-height: 100px;
 }
+
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.99px) {
