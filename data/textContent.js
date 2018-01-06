@@ -1,52 +1,4 @@
-function buildPage() {
-  console.log("JQuery working properly!! Congrats mate!");
-
-  //intro
-  $.each(textContent.intro.paragraphs, function(i, item) {
-    $(".intro").append("<p>" + item + "</p>");
-  });
-
-  //techSkills
-  $.each(textContent.techSkills.paragraphs, function(i, item) {
-    $(".techSkills").append("<p>" + item + "</p>");
-  });
-  $(".techSkills").append("<p>Development: " + textContent.techSkills.devSkills + "</p>");
-  $(".techSkills").append("<p>Concepts:" + textContent.techSkills.concepts + "</p>");
-  $(".techSkills").append("<p>Tools:" + textContent.techSkills.tools + "</p>");       
-
-
-
-}
-
 var textContent = {
-
-  "intro": {
-    "paragraphs": [
-      "My name is Francisco but everybody calls me Paco (a common Spanish nickname for Francisco). I grew up in Barcelona but moved to London to make a fresh start and it's being a great experience so far. ",
-      "I make my living as a senior software developer, and I have been building diverse software solutions for various clients and employers since 2009. I truly love what I do, and what I like most is the challenges of solving problems and improving my coding ability on a daily basis. I love helping my employers and clients improve their software and watching projects mature and grow. I’m inspired by being part of a team with a common goal, and I wake up every day motivated to get things done. This work gives me great satisfaction, and problem solving is a strength and something I truly enjoy.",
-      "I also am passionate about learning, seeing new places, and meeting new people. I am fortunate that my career in software development has provided me with the opportunity to do all three.",
-      "In my free time I enjoy playing spanish guitar, reading a good book, or cooking a nice meal with friends. Feel free to poke around my website to learn more about me and my work. ",
-      "Hasta la vista!"
-    ]
-  },
-  "techSkills": {
-    "paragraphs": [
-      "I consider myself a full stack developer able to contribute to projects across the stack. Most of my development experience has been with Microsoft technologies, including deep experience using C#, ASP.NET, Web Forms, and SQL Server. I am quite comfortable using a number of Microsoft tools including several versions of Visual Studio, Entity Framework, Team Foundation Server, and Sharepoint.",
-      "For web development projects I have worked with HTML/CSS and JavaScript including several popular frameworks and libraries such as Bootstrap, Slick, and jQuery. I also have experience using cloud tools from Azure and Amazon Web Services.",
-      "I am also competent working with design patterns (still learning) and developing in Agile environments. Below is a brief list of skills from my resume."
-    ],
-    "devSkills": "C#, ASP.NET, PHP, Java, jQuery, JavaScript, HTML/CSS, Bootstrap, Oracle, SQL, MVC, Entity Framework",
-    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, MVC, SOLID principles",
-    "tools": "TFS, Git, GitHub, Sharepoint, Visual Studio, Azure, Amazon Web Services, Notepad++, Atom, WebStorm"
-  },
-  "personalSkills": {
-    "paragraphs": [
-      "In addition to offering a robust set of hands-on technical skills, I believe my interpersonal skills and business acumen are additional assets I offer to my clients. I am quite comfortable in client-facing roles that require soft skills in negotiating deliverables and managing expectations of stakeholders. ",
-      "Over my career I have successfully managed several projects, performed as a business analyst to gather requirements from users, and written detailed requirements documentation. I have also managed offshore development teams and am able to mentor junior level resources.",
-      "My analytical skills are another strength, and I have regularly been able to identify and resolve inefficiencies within development processes that have improved delivery speed.",
-      "I am a native speaker of Spanish and Catalan with additional fluency in English."
-    ]
-  },
   "experiences": {
     "desktopPublisher": {
       "id": 1,
@@ -150,6 +102,33 @@ var textContent = {
         "Wrote unit tests to validate URL rewriting and accuracy for pricing (number of people, type of delivery, type of card, etc.). "
       ]
     }
+  },
+  "intro": {
+    "paragraphs": [
+      "My name is Francisco but everybody calls me Paco (a common Spanish nickname for Francisco). I grew up in Barcelona but moved to London to make a fresh start and it's being a great experience so far. ",
+      "I make my living as a senior software developer, and I have been building diverse software solutions for various clients and employers since 2009. I truly love what I do, and what I like most is the challenges of solving problems and improving my coding ability on a daily basis. I love helping my employers and clients improve their software and watching projects mature and grow. I’m inspired by being part of a team with a common goal, and I wake up every day motivated to get things done. This work gives me great satisfaction, and problem solving is a strength and something I truly enjoy.",
+      "I also am passionate about learning, seeing new places, and meeting new people. I am fortunate that my career in software development has provided me with the opportunity to do all three.",
+      "In my free time I enjoy playing spanish guitar, reading a good book, or cooking a nice meal with friends. Feel free to poke around my website to learn more about me and my work. ",
+      "Hasta la vista!"
+    ]
+  },
+  "techSkills": {
+    "paragraphs": [
+      "I consider myself a full stack developer able to contribute to projects across the stack. Most of my development experience has been with Microsoft technologies, including deep experience using C#, ASP.NET, Web Forms, and SQL Server. I am quite comfortable using a number of Microsoft tools including several versions of Visual Studio, Entity Framework, Team Foundation Server, and Sharepoint.",
+      "For web development projects I have worked with HTML/CSS and JavaScript including several popular frameworks and libraries such as Bootstrap, Slick, and jQuery. I also have experience using cloud tools from Azure and Amazon Web Services.",
+      "I am also competent working with design patterns (still learning) and developing in Agile environments. Below is a brief list of skills from my resume."
+    ],
+    "devSkills": "C#, ASP.NET, PHP, Java, jQuery, JavaScript, HTML/CSS, Bootstrap, Oracle, SQL, MVC, Entity Framework",
+    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, MVC, SOLID principles",
+    "tools": "TFS, Git, GitHub, Sharepoint, Visual Studio, Azure, Amazon Web Services, Notepad++, Atom, WebStorm"
+  },
+  "personalSkills": {
+    "paragraphs": [
+      "In addition to offering a robust set of hands-on technical skills, I believe my interpersonal skills and business acumen are additional assets I offer to my clients. I am quite comfortable in client-facing roles that require soft skills in negotiating deliverables and managing expectations of stakeholders. ",
+      "Over my career I have successfully managed several projects, performed as a business analyst to gather requirements from users, and written detailed requirements documentation. I have also managed offshore development teams and am able to mentor junior level resources.",
+      "My analytical skills are another strength, and I have regularly been able to identify and resolve inefficiencies within development processes that have improved delivery speed.",
+      "I am a native speaker of Spanish and Catalan with additional fluency in English."
+    ]
   },
   "education": {
     "paragraphs": [
