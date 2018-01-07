@@ -1,22 +1,37 @@
 function buildPage() {
-  console.log("JQuery working properly!! Congrats mate!");
-
-  //intro
-  $.each(textContent.intro.paragraphs, function(i, item) {
-    $(".intro").append("<p>" + item + "</p>");
-  });
+  addHandlers();
+  initSections();
+  buildIntroSection();
 
   //techSkills
-  $.each(textContent.techSkills.paragraphs, function(i, item) {
-    $(".techSkills").append("<p>" + item + "</p>");
-  });
-  $(".techSkills").append("<p>Development: " + textContent.techSkills.devSkills + "</p>");
-  $(".techSkills").append("<p>Concepts:" + textContent.techSkills.concepts + "</p>");
-  $(".techSkills").append("<p>Tools:" + textContent.techSkills.tools + "</p>");       
-
-
-
+  //  $.each(textContent.techSkills.paragraphs, function(i, item) {
+  //    $(".techSkills").append("<p>" + item + "</p>");
+  //  });
+  //  $(".techSkills").append("<p>Development: " + textContent.techSkills.devSkills + "</p>");
+  //  $(".techSkills").append("<p>Concepts:" + textContent.techSkills.concepts + "</p>");
+  //  $(".techSkills").append("<p>Tools:" + textContent.techSkills.tools + "</p>");
 }
+
+function buildIntroSection() {
+  var introSection = $(".intro");
+  $.each(textContent.intro.paragraphs, function(i, item) {
+    introSection.append("<p>" + item + "</p>");
+  });
+}
+
+function addHandlers() {
+  $(window).resize(function() {
+    initSections();
+  });
+}
+
+function initSections() {
+  //intro
+  $(".intro").css("padding-top", $("#mainNav").css("height"));
+  $(".intro").css("height", $(window).height());
+}
+
+
 
 var textContent = {
 

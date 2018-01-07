@@ -1,47 +1,107 @@
 #body {
   margin: 0px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 .mainContainer {
   padding: 0px;
 }
 
-.header,
-.intro,
-.techSkills,
-.personalSkills,
-.experience,
-.education,
-.misc,
-.contact,
-.footer {
-  background-color: gray;
-  margin-top: 10px;
-  min-height: 100px;
+.header, .intro, .techSkills, .personalSkills, .experience, .education, .misc, .contact, .footer {}
+
+.bootstrapHelper {
+  width: 100%;
+  height: 1px;
 }
 
+.intro {
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+}
 
-// Extra small devices (portrait phones, less than 576px)
+.introStart {
+  font-style: italic;
+  font-size: 68px;
+  margin-top: 30%;
+  margin-bottom: 20%;
+  line-height: 40px;
+  margin-bottom: 25px;
+  text-align: -webkit-center;
+}
+
+.introStart a {
+  margin-top: 10%;
+}
+
+/*Extra small devices (portrait phones, less than 576px) */
+
 @media (max-width: 575.99px) {
-  ...
+  .bootstrapHelper {
+    background-color: black;
+  }
+  .introStart {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 80%;
+    margin-bottom: 65%;
+  }
+  .intro p {
+    text-align: justify;
+    font-size: 17px;
+  }
 }
 
-// Small devices (landscape phones, 576px and up)
+/* Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) and (max-width: 767.99px) {
-  ...
+  .bootstrapHelper {
+    background-color: red;
+  }
+  .introStart {
+    font-size: 40px;
+    margin-top: 28%;
+    margin-bottom: 25%;
+  }
 }
 
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) and (max-width: 991.99px) {
-  ...
+  .bootstrapHelper {
+    background-color: green;
+  }
+  .introStart {
+    font-size: 50px;
+    margin-top: 35%;
+    margin-bottom: 35%;
+  }
+  .intro p {
+    font-size: 21px;
+    padding: 20px 50px 20px 50px;
+  }
 }
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up)*/
+
 @media (min-width: 992px) and (max-width: 1199.99px) {
-  ...
+  .bootstrapHelper {
+    background-color: blue;
+  }
+  .introStart {
+    margin-top: 25%;
+    margin-bottom: 35%;
+  }
 }
 
-// Extra large devices (large desktops, 1200px and up)
+/* Extra large devices (large desktops, 1200px and up)*/
+
 @media (min-width: 1200px) {
-  ...
+  .bootstrapHelper {
+    background-color: yellow;
+  }
+  .introStart {
+    margin-top: 23%;
+    margin-bottom: 10%;
+  }
 }
