@@ -1,29 +1,13 @@
+var contentSections = [".intro", ".techSkills", ".personalSkills", ".experience", ".education", ".misc", ".contact", ".footer"];
+
 function buildPage() {
   initSections();
-  buildIntroSection();
+  intro();
+  techSkills();
+  personal();
   addHandlers();
   console.log("Page built!");
 }
-
-function initSections() {
-  //intro
-  $(".intro").css("padding-top", "55");
-
-
-  //set width intro content
-  if ($("#linksGroup").width() > 200) {
-    $(".intro").css("width", $("#linksGroup").width());
-  }
-}
-
-
-function buildIntroSection() {
-  var introSection = $(".intro");
-  $.each(textContent.intro.paragraphs, function(i, item) {
-    introSection.append("<p>" + item + "</p>");
-  });
-}
-
 
 function addHandlers() {
   resizingElement();
@@ -31,12 +15,53 @@ function addHandlers() {
   showHideNavBar();
 }
 
+function initSections() {
+  //intro
+  $(".intro").css("padding-top", "55");
+  //set width intro content
+  if ($("#linksGroup").width() > 200) {
+    $.each(contentSections, function(i, section) {
+      console.log(section);
+      $(section).css("width", $("#linksGroup").width());
+    });
+  };
+}
+
+function intro() {
+  var introSection = $(".intro");
+  introSection.append("<h2>Introduction</hw>");
+  $.each(textContent.intro.paragraphs, function(i, item) {
+    introSection.append("<p>" + item + "</p>");
+  });
+}
+
+function techSkills() {
+  var techSkillsSection = $(".techSkills");
+  techSkillsSection.append("<h2>Tech Skills</h2>");
+  $.each(textContent.techSkills.paragraphs, function(i, item) {
+    techSkillsSection.append("<p>" + item + "</p>");
+  });
+  techSkillsSection.append("</br><h4><b>Development</b></h4>");
+  techSkillsSection.append("<p>" + textContent.techSkills.devSkills + "</p></br>");
+  techSkillsSection.append("<h4><b>Concepts</b></h4>");
+  techSkillsSection.append("<p>" + textContent.techSkills.concepts + "</p></br>");
+  techSkillsSection.append("<h4><b>Tools</b></h4>");
+  techSkillsSection.append("<p>" + textContent.techSkills.tools + "</p></br>");
+}
+
+function personal(){
+  var personalSkillsSection = $(".personalSkills");
+  personalSkillsSection.append("<h2>Personal Skills</hw>");
+  $.each(textContent.personalSkills.paragraphs, function(i, item) {
+    personalSkillsSection.append("<p>" + item + "</p>");
+  });
+}
+
 function resizingElement() {
   $(window).resize(function() {
     initSections();
   });
 }
-
 
 function smoothScrolling() {
   //add smooth scrolling on navBar links...
@@ -67,12 +92,6 @@ function showHideNavBar() {
 }
 
 
-
-
-
-
-
-
 var textContent = {
 
   "intro": {
@@ -92,7 +111,7 @@ var textContent = {
     ],
     "devSkills": "C#, ASP.NET, PHP, Java, jQuery, JavaScript, HTML/CSS, Bootstrap, Oracle, SQL, MVC, Entity Framework",
     "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, MVC, SOLID principles",
-    "tools": "TFS, Git, GitHub, Sharepoint, Visual Studio, Azure, Amazon Web Services, Notepad++, Atom, WebStorm"
+    "tools": "TFS, Git, GitHub, Sharepoint, Visual Studio, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, WebStorm"
   },
   "personalSkills": {
     "paragraphs": [

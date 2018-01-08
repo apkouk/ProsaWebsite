@@ -4,21 +4,24 @@
 }
 
 /* Containers */
-#intro, #techSkills, #personalSkills, #experience, #education, #misc, #contact, #footer{
-  padding: 50px 0px 50px 0px;
+
+#intro, #techSkills, #personalSkillsContainer, #experience, #education, #misc, #contact, #footer {}
+
+#intro {
+  background-color: lightgray;
 }
-#intro{
-    background-color: lightgray;
+
+#personalSkillsContainer {
+  background-color: #ECECEC;
 }
 
 /* Content */
-.intro, .techSkills, .personalSkills, .experience, .education, .misc, .contact, .footer{
+
+.intro, .techSkills, .personalSkills, .experience, .education, .misc, .contact, .footer {
   text-align: left;
   padding: 50px 50px 50px 50px;
-  margin:0 auto;
+  margin: 0 auto;
 }
-
-
 
 .bootstrapHelper {
   width: 100%;
@@ -55,9 +58,9 @@
     margin-top: 80%;
     margin-bottom: 65%;
   }
-  .intro p {
+  .intro, .techSkills, .personalSkills p {
     text-align: justify;
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
@@ -72,7 +75,7 @@
     margin-top: 55%;
     margin-bottom: 55%;
   }
-  .intro p {
+  .intro, .techSkills, .personalSkills p {
     font-size: 21px;
   }
 }
@@ -86,7 +89,7 @@
     margin-top: 25%;
     margin-bottom: 20%;
   }
-  .intro p {
+  .intro, .techSkills, .personalSkills p {
     font-size: 15px;
   }
 }
@@ -102,7 +105,7 @@
     margin-top: 35%;
     margin-bottom: 35%;
   }
-  .intro p {
+  .intro, .techSkills, .personalSkills p {
     font-size: 21px;
   }
 }
