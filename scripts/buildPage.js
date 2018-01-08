@@ -1,15 +1,8 @@
 function buildPage() {
-  addHandlers();
   initSections();
   buildIntroSection();
-
-  //techSkills
-  //  $.each(textContent.techSkills.paragraphs, function(i, item) {
-  //    $(".techSkills").append("<p>" + item + "</p>");
-  //  });
-  //  $(".techSkills").append("<p>Development: " + textContent.techSkills.devSkills + "</p>");
-  //  $(".techSkills").append("<p>Concepts:" + textContent.techSkills.concepts + "</p>");
-  //  $(".techSkills").append("<p>Tools:" + textContent.techSkills.tools + "</p>");
+  addHandlers();
+    console.log("Page built!");
 }
 
 function buildIntroSection() {
@@ -18,18 +11,41 @@ function buildIntroSection() {
     introSection.append("<p>" + item + "</p>");
   });
 }
-
-function addHandlers() {
-  $(window).resize(function() {
-    initSections();
-  });
-}
-
 function initSections() {
   //intro
   $(".intro").css("padding-top", $("#mainNav").css("height"));
   $(".intro").css("height", $(window).height());
 }
+
+function addHandlers() {
+  $(window).resize(function() {
+    initSections();
+  });
+
+  //add smooth scrolling on links and button
+  var links = $("#linksGroup").find('a');
+  for (var i = 0; i < links.length; i++) {
+    $(links[i]).on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if( target.length ) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+    });
+  }
+  $("#btnWellcome").click(function() {
+     $('html, body').animate({
+       scrollTop: $("#intro").offset().top
+     }, 1000);
+   });
+}
+
+
+
+
+
 
 
 
@@ -272,3 +288,12 @@ var textContent = {
     }
   }
 }
+
+
+//techSkills
+//  $.each(textContent.techSkills.paragraphs, function(i, item) {
+//    $(".techSkills").append("<p>" + item + "</p>");
+//  });
+//  $(".techSkills").append("<p>Development: " + textContent.techSkills.devSkills + "</p>");
+//  $(".techSkills").append("<p>Concepts:" + textContent.techSkills.concepts + "</p>");
+//  $(".techSkills").append("<p>Tools:" + textContent.techSkills.tools + "</p>");
