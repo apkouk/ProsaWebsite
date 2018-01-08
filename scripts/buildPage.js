@@ -8,8 +8,9 @@ function buildPage() {
 function initSections() {
   //intro
   $(".intro").css("padding-top", $("#mainNav").css("height"));
-  $(".intro").css("height", $(window).height());
+  //$("#intro").css("height", $(window).height());
 }
+
 function buildIntroSection() {
   var introSection = $(".intro");
   $.each(textContent.intro.paragraphs, function(i, item) {
@@ -21,12 +22,15 @@ function buildIntroSection() {
 function addHandlers() {
   resizingElement();
   smoothScrolling();
+  showHideNavBar();
 }
+
 function resizingElement() {
   $(window).resize(function() {
     initSections();
   });
 }
+
 function smoothScrolling() {
   //add smooth scrolling on navBar links...
   var links = $("#linksGroup").find('a');
@@ -36,7 +40,7 @@ function smoothScrolling() {
       if (target.length) {
         event.preventDefault();
         $('html, body').stop().animate({
-          scrollTop: target.offset().top
+          scrollTop: target.position().top
         }, 1000);
       }
     });
@@ -44,8 +48,14 @@ function smoothScrolling() {
   //...and button
   $("#btnWellcome").click(function() {
     $('html, body').animate({
-      scrollTop: $("#intro").offset().top
+      scrollTop: $("#intro").position().top
     }, 1000);
+  });
+}
+
+function showHideNavBar() {
+  $(window).scroll(function(event) {
+    ($(window).scrollTop() > 50) ? $("#navBar").fadeOut() : $("#navBar").fadeIn();    
   });
 }
 
