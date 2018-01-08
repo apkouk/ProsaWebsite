@@ -7,9 +7,15 @@ function buildPage() {
 
 function initSections() {
   //intro
-  $(".intro").css("padding-top", $("#mainNav").css("height"));
-  //$("#intro").css("height", $(window).height());
+  $(".intro").css("padding-top", "55");
+
+
+  //set width intro content
+  if ($("#linksGroup").width() > 200) {
+    $(".intro").css("width", $("#linksGroup").width());
+  }
 }
+
 
 function buildIntroSection() {
   var introSection = $(".intro");
@@ -30,6 +36,7 @@ function resizingElement() {
     initSections();
   });
 }
+
 
 function smoothScrolling() {
   //add smooth scrolling on navBar links...
@@ -55,7 +62,7 @@ function smoothScrolling() {
 
 function showHideNavBar() {
   $(window).scroll(function(event) {
-    ($(window).scrollTop() > 50) ? $("#navBar").fadeOut() : $("#navBar").fadeIn();    
+    ($(window).scrollTop() > 50) ? $("#navBar").fadeOut(): $("#navBar").fadeIn();
   });
 }
 

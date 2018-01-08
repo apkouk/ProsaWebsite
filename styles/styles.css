@@ -3,9 +3,22 @@
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
-#intro, #techSkills, #personalSkills, #experience, #education, #misc, #contact, #footer
+/* Containers */
+#intro, #techSkills, #personalSkills, #experience, #education, #misc, #contact, #footer{
   padding: 50px 0px 50px 0px;
 }
+#intro{
+    background-color: lightgray;
+}
+
+/* Content */
+.intro, .techSkills, .personalSkills, .experience, .education, .misc, .contact, .footer{
+  text-align: left;
+  padding: 50px 50px 50px 50px;
+  margin:0 auto;
+}
+
+
 
 .bootstrapHelper {
   width: 100%;
@@ -14,12 +27,6 @@
 
 .mainContainer {
   padding: 0px;
-}
-
-.intro {
-  text-align: left;
-  padding: 50px 50px 50px 50px;
-  background-color: lightgray;
 }
 
 .introStart {
@@ -120,6 +127,6 @@
   }
   .introStart {
     margin-top: 23%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 }
