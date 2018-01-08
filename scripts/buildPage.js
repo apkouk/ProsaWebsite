@@ -2,44 +2,51 @@ function buildPage() {
   initSections();
   buildIntroSection();
   addHandlers();
-    console.log("Page built!");
+  console.log("Page built!");
 }
 
+function initSections() {
+  //intro
+  $(".intro").css("padding-top", $("#mainNav").css("height"));
+  $(".intro").css("height", $(window).height());
+}
 function buildIntroSection() {
   var introSection = $(".intro");
   $.each(textContent.intro.paragraphs, function(i, item) {
     introSection.append("<p>" + item + "</p>");
   });
 }
-function initSections() {
-  //intro
-  $(".intro").css("padding-top", $("#mainNav").css("height"));
-  $(".intro").css("height", $(window).height());
-}
+
 
 function addHandlers() {
+  resizingElement();
+  smoothScrolling();
+}
+function resizingElement() {
   $(window).resize(function() {
     initSections();
   });
-
-  //add smooth scrolling on links and button
+}
+function smoothScrolling() {
+  //add smooth scrolling on navBar links...
   var links = $("#linksGroup").find('a');
   for (var i = 0; i < links.length; i++) {
     $(links[i]).on('click', function(event) {
-        var target = $(this.getAttribute('href'));
-        if( target.length ) {
-            event.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: target.offset().top
-            }, 1000);
-        }
+      var target = $(this.getAttribute('href'));
+      if (target.length) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 1000);
+      }
     });
   }
+  //...and button
   $("#btnWellcome").click(function() {
-     $('html, body').animate({
-       scrollTop: $("#intro").offset().top
-     }, 1000);
-   });
+    $('html, body').animate({
+      scrollTop: $("#intro").offset().top
+    }, 1000);
+  });
 }
 
 
