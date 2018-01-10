@@ -3,7 +3,7 @@ function experience() {
   $.each(textContent.experiences, function(i, experience) {
     var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card" });
 
-    var cardContainer = $("<div>", { class: "col card-container" });
+    var cardContainer = $("<div>", { id: experience.ref, class: "col card-container" });
     var cardImageDiv = $("<div>", { class: "card-image" });
     var cardImage = $("<img>", { src: "src/images/" + experience.image, class: "cardImg" });
     cardImageDiv.append(cardImage);
@@ -20,6 +20,7 @@ function experience() {
     card.append(cardContainer);
 
     card.click(function(){
+      experienceSection.slideUp();
       var experienceId = this.getAttribute('id');
       $.each(textContent.experiences, function(i, experience) {
         if(experience.id == experienceId)
@@ -28,7 +29,6 @@ function experience() {
             return;
         }
       });
-        experienceSection.slideUp();
     });
 
     experienceSection.append(card);
@@ -38,14 +38,12 @@ function experience() {
 
 function buildExperienceInfo(experience)
 {
+
   var experienceInfo = $(".experienceInfo");
   experienceInfo.empty();
 
   experienceInfo.append("<input id='closeInfo' type='image' src='src/images/close.png' />");
-  $("#closeInfo").click(function(){
-    $(".experienceInfo").fadeOut();
-    $(".experience").slideDown();
-  });
+
   console.log(experience);
 
   var width = $(".experience").width();
@@ -64,7 +62,7 @@ function buildExperienceInfo(experience)
 
   if(experience.tasks.length > 0)
   {
-    expHeader.append("<h3><b>Highlights</b></h3>");
+    expHeader.append("<h2><b>Highlights</b></h2>");
     expHeader.append("<ul>");
     $.each(experience.tasks, function(i, task) {
       expHeader.append("<li>" + task +"</li>");
@@ -74,7 +72,7 @@ function buildExperienceInfo(experience)
 
   if(experience.sightseeingpass !== undefined)
   {
-    expHeader.append("<h3><b>Sightseeing Pass</b></h3>");
+    expHeader.append("<h2><b>Sightseeing Pass</b></h2>");
     expHeader.append("<ul>");
     $.each(experience.sightseeingpass, function(i, task) {
       expHeader.append("<li>" + task +"</li>");
@@ -83,4 +81,20 @@ function buildExperienceInfo(experience)
   }
 
   experienceInfo.fadeIn();
+  $(".experience").scrollView();
+
+  $("#closeInfo").click(function(){
+    $(".experienceInfo").fadeOut();
+    $(".experience").slideDown();
+   $("#" + experience.ref).scrollView();
+  });
+
 };
+
+$.fn.scrollView = function () {
+  return this.each(function () {
+    $('html, body').animate({
+      scrollTop: $(this).offset().top
+    }, 1500);
+  });
+}

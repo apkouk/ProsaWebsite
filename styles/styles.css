@@ -66,10 +66,21 @@
   .experience {
     padding: 50px 0px 50px 0px;
   }
+  .experienceInfo h1 {
+    font-size: 20px;
+  }
+  .experienceInfo h2 {
+    font-size: 18px;
+  }
+  .experienceInfo h4 {
+    font-size: 16px;
+  }
+
   #closeInfo {
-    width: 10%;
+    width: 5%;
     margin-top: 7%;
   }
+
 }
 
 /* Tablets  */
@@ -89,9 +100,20 @@
   .experience {
     padding: 50px 0px 50px 0px;
   }
+
+  .experienceInfo h1 {
+    font-size: 24px;
+  }
+  .experienceInfo h2 {
+    font-size: 22px;
+  }
+  .experienceInfo h4 {
+    font-size: 20px;
+  }
+
   #closeInfo {
     width: 6%;
-  margin-top: 3%;
+    margin-top: 3%;
   }
 }
 
@@ -109,6 +131,15 @@
   }
   .experience {
     padding: 50px 0px 50px 0px;
+  }
+  .experienceInfo h1 {
+    font-size: 24px;
+  }
+  .experienceInfo h2 {
+    font-size: 22px;
+  }
+  .experienceInfo h4 {
+    font-size: 20px;
   }
   #closeInfo {
     width: 5%;
@@ -130,7 +161,6 @@
   .intro, .techSkills, .personalSkills, .experienceInfo p {
     font-size: 21px;
   }
-
   #closeInfo {
     margin-top: 3%;
   }
@@ -147,8 +177,9 @@
     margin-bottom: 35%;
   }
   #closeInfo {
+    width: 3%;
     margin-top: 1em;
-}
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -160,5 +191,9 @@
   .introStart {
     margin-top: 23%;
     margin-bottom: 20%;
+  }
+  #closeInfo {
+    width: 3%;
+    margin-top: 1em;
   }
 }

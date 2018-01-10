@@ -27,9 +27,6 @@ function initSections() {
       $(section).css("width", "100%");
     }
   });
-
-  $(".experienceInfo").fadeOut();
-  $(".experience").slideDown();
 }
 
 function intro() {
@@ -132,6 +129,7 @@ var textContent = {
   "experiences": {
     "desktopPublisher": {
       "id": 1,
+      "ref":"desktopPublisher",
       "company": "Multiple companies",
       "website": "",
       "city": "Barcelona",
@@ -145,6 +143,7 @@ var textContent = {
     },
     "netLife": {
       "id": 2,
+      "ref":"netLife",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -158,6 +157,7 @@ var textContent = {
     },
     "btgsa": {
       "id": 3,
+      "ref":"btgsa",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "http://btgsa.com",
@@ -176,10 +176,11 @@ var textContent = {
     },
     "luxtripper": {
       "id": 4,
+      "ref":"luxtripper",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
-      "role": "Project Manager/Developer/IT Manager",
+      "role": "Project Manager / Developer",
       "dateStart": "Jan 2015 ",
       "dateEnd": "Aug 2015",
       "techStack": "",
@@ -196,6 +197,7 @@ var textContent = {
     },
     "membra": {
       "id": 5,
+      "ref":"membra",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "http://membra.co.uk",
@@ -214,6 +216,7 @@ var textContent = {
     },
     "mission": {
       "id": 6,
+      "ref":"mission",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
