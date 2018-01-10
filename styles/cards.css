@@ -1,0 +1,23 @@
+.experience {
+margin: 0 auto !important;
+}
+
+.card-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.card-image {
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.card-title {
+  margin: 0 auto;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+}

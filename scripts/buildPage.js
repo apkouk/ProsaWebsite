@@ -5,6 +5,7 @@ function buildPage() {
   intro();
   techSkills();
   personal();
+  experience();
   addHandlers();
   console.log("Page built!");
 }
@@ -18,13 +19,16 @@ function addHandlers() {
 function initSections() {
   //intro
   $(".intro").css("padding-top", "55");
-  //set width intro content
-  if ($("#linksGroup").width() > 200) {
-    $.each(contentSections, function(i, section) {
-      console.log(section);
-      $(section).css("width", $("#linksGroup").width());
-    });
-  };
+  //set width content
+
+
+  $.each(contentSections, function(i, section) {
+    if ($(window).width() > 768) {
+      $(section).css("width", ($(window).width() / 4) * 3);
+    } else {
+      $(section).css("width", "100%");
+    }
+  });
 }
 
 function intro() {
@@ -49,13 +53,47 @@ function techSkills() {
   techSkillsSection.append("<p>" + textContent.techSkills.tools + "</p></br>");
 }
 
-function personal(){
+function personal() {
   var personalSkillsSection = $(".personalSkills");
   personalSkillsSection.append("<h2>Personal Skills</hw>");
   $.each(textContent.personalSkills.paragraphs, function(i, item) {
     personalSkillsSection.append("<p>" + item + "</p>");
   });
 }
+
+function experience() {
+  var experienceSection = $(".experience");
+  $.each(textContent.experiences, function(i, experience) {
+    var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card" });
+
+    var cardContainer = $("<div>", { class: "col card-container" });
+    var cardImageDiv = $("<div>", { class: "card-image" });
+    var cardImage = $("<img>", { src: "src/images/" + experience.image, class: "cardImg" });
+    cardImageDiv.append(cardImage);
+
+    var cardTitle = $("<div>", { class: "card-title" });
+    cardTitle.append("<h4>" + experience.company + "</h4>");
+
+    var cardRole = $("<div>", { class: "card-role" });
+    cardRole.append("<h5>" + experience.role + "</h5>");
+
+    cardContainer.append(cardImageDiv);
+    cardContainer.append(cardTitle);
+    cardContainer.append(cardRole);
+    card.append(cardContainer);
+
+    //$card.click(function(){ /* ... */ });
+    experienceSection.append(card);
+
+    card.click(function(){
+      alert(this.getAttribute('id'));
+    });
+
+
+  });
+}
+
+
 
 function resizingElement() {
   $(window).resize(function() {
@@ -132,7 +170,8 @@ var textContent = {
       "dateEnd": "Aug 2008",
       "techStack": "",
       "description": "Before becoming a software developer I was a designer for several companies around Barcelona. I mostly did design work using Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand, and ArtiosCad.",
-      "tasks": ""
+      "tasks": "",
+      "image": "img1.png"
     },
     "netLife": {
       "id": 2,
@@ -144,7 +183,8 @@ var textContent = {
       "dateEnd": "May 2010",
       "techStack": "",
       "description": "This was my first real programming role, and I built web pages using C# (framework 3.5), ASP.NET, HTML, MS SQL Server, and Visual Studio 2010.",
-      "tasks": ""
+      "tasks": "",
+      "image": "img2.jpg"
     },
     "btgsa": {
       "id": 3,
@@ -161,7 +201,8 @@ var textContent = {
         "Designed and implemented MS SQL Server and Oracle databases including complex queries, stored procedures, views and integration, and data migrations for new clients.",
         "Fixed software issues and SQL code irregularities in queries or stored procedures and business logic in C#.",
         "Wrote functional documentation for new clients and trained new users."
-      ]
+      ],
+      "image": "img3.jpg"
     },
     "luxtripper": {
       "id": 4,
@@ -180,7 +221,8 @@ var textContent = {
         "Resolved coding errors related to SQL and business logic. Contributed to cosmetic changes.",
         "Implemented testing plans for both front and back-end with TFS online.",
         "Migrated a WordPress blog to an internal IIS server and migrated data from MySQL to MS SQL Server. "
-      ]
+      ],
+      "image": "img4.jpg"
     },
     "membra": {
       "id": 5,
@@ -197,7 +239,8 @@ var textContent = {
         "Implemented Sort-Modify-Delete for survey questions/answers instead of requiring changes in the database.",
         "Performed multiple database tasks including pivot tables, creation and design of tables, stored procedures, and query", "timization. Wrote scripts to automate data import that improved speed from days to only six hours.",
         "Built a responsive three-tier architecture admin tool that automated and optimized project managers tasks. (Bootstrap,Telerikframework, ASP.NET Webforms, C#, and MS SQL Server)."
-      ]
+      ],
+      "image": "img5.jpg"
     },
     "mission": {
       "id": 6,
@@ -222,7 +265,8 @@ var textContent = {
         "Developed a new sightseeingpass.com feature for users to create custom itineraries for New York bus tours with ability to select date and attractions from a list (using data from company API), creating a Google Map with most efficient routes. (Web Forms, Bootstrap, C#, JQuery, ASP.NET handlers, and internal APIs).",
         "Built a feature using company API to compare data between systems with alerts for any differences. Solution enabled users to update disparate data through the website database or the central system database in one click and allowed team to check consistency between systems. (MS SQL Server, internal API, and C#).",
         "Wrote unit tests to validate URL rewriting and accuracy for pricing (number of people, type of delivery, type of card, etc.). "
-      ]
+      ],
+      "image": "img6.png"
     }
   },
   "education": {
