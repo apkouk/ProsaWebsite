@@ -27,11 +27,14 @@ function initSections() {
       $(section).css("width", "100%");
     }
   });
+
+  $(".experienceInfo").fadeOut();
+  $(".experience").slideDown();
 }
 
 function intro() {
   var introSection = $(".intro");
-  introSection.append("<h2>Introduction</hw>");
+  introSection.append("<h2>Introduction</h2>");
   $.each(textContent.intro.paragraphs, function(i, item) {
     introSection.append("<p>" + item + "</p>");
   });

@@ -1,10 +1,4 @@
 function experience() {
-  $("#closeInfo").click(function(){
-    $(".experienceInfo").fadeOut();
-    $(".experience").slideDown();
-  });
-
-
   var experienceSection = $(".experience");
   $.each(textContent.experiences, function(i, experience) {
     var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card" });
@@ -26,15 +20,67 @@ function experience() {
     card.append(cardContainer);
 
     card.click(function(){
-    //  alert(this.getAttribute('id'));
-
-
-      var experienceInfo = $(".experienceInfo");
-      experienceSection.slideUp();
-      experienceInfo.fadeIn();
-
+      var experienceId = this.getAttribute('id');
+      $.each(textContent.experiences, function(i, experience) {
+        if(experience.id == experienceId)
+        {
+            buildExperienceInfo(experience);
+            return;
+        }
+      });
+        experienceSection.slideUp();
     });
 
     experienceSection.append(card);
   });
 }
+
+
+function buildExperienceInfo(experience)
+{
+  var experienceInfo = $(".experienceInfo");
+  experienceInfo.empty();
+
+  experienceInfo.append("<input id='closeInfo' type='image' src='src/images/close.png' />");
+  $("#closeInfo").click(function(){
+    $(".experienceInfo").fadeOut();
+    $(".experience").slideDown();
+  });
+  console.log(experience);
+
+  var width = $(".experience").width();
+  experienceInfo.css("width", width);
+  experienceInfo.css("margin", "0 auto");
+
+  var expHeader = $("<div>", { class: "expHeader" });
+  expHeader.append("<h1>" + experience.company  +"</h1>");
+  expHeader.append("<hr>");
+  expHeader.append("<h2>" + experience.role  +"</b>");
+  expHeader.append("<h4>" + experience.city + ", " + experience.dateStart + "-" + experience.dateEnd  +"</h4>");
+  expHeader.append("<a href='" + experience.website +"'>" +experience.website + "</a></br>");
+  expHeader.append("<hr>");
+  expHeader.append("<p>" + experience.description +"</p>");
+  experienceInfo.append(expHeader);
+
+  if(experience.tasks.length > 0)
+  {
+    expHeader.append("<h3><b>Highlights</b></h3>");
+    expHeader.append("<ul>");
+    $.each(experience.tasks, function(i, task) {
+      expHeader.append("<li>" + task +"</li>");
+    });
+    expHeader.append("</ul>");
+  }
+
+  if(experience.sightseeingpass !== undefined)
+  {
+    expHeader.append("<h3><b>Sightseeing Pass</b></h3>");
+    expHeader.append("<ul>");
+    $.each(experience.sightseeingpass, function(i, task) {
+      expHeader.append("<li>" + task +"</li>");
+    });
+    expHeader.append("</ul>");
+  }
+
+  experienceInfo.fadeIn();
+};

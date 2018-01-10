@@ -1,15 +1,24 @@
+#experienceContainer li{
+  font-size: medium;
+}
+
+#closeInfo
+{
+  float: right;
+  width: 5%;
+  margin-top: 1%;
+}
+
 .experience {
   margin: 0 auto !important;
 }
 
 .experienceInfo {
 
-  background-color: red;
   display: none;
   top: 0;
   left: 0;
   width: 100%;
-  height: 1000px;
 }
 
 .card-container {
