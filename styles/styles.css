@@ -5,19 +5,18 @@
 
 /* Containers */
 
-#intro, #techSkills, #personalSkillsContainer, #experience, #education, #misc, #contact, #footer {}
+#intro, #techSkills, #personalSkillsContainer, #experience, #educationContainer, #misc, #contact, #footer {}
 
-#intro {
-  background-color: lightgray;
-}
-
-#personalSkillsContainer {
+#intro, #educationContainer, #miscContainer, #personalSkillsContainer {
   background-color: #ECECEC;
 }
 
+hr{
+    border-top: 2px solid #999999 !important;
+}
 /* Content */
 
-.intro, .techSkills, .personalSkills, .experience, .education, .misc, .contact, .footer {
+.intro, .techSkills, .personalSkills, .experience, .education, .services, .misc, .contact, .footer {
   text-align: left;
   padding: 50px 50px 50px 50px;
   margin: 0 auto;
@@ -59,8 +58,7 @@
     margin-top: 80%;
     margin-bottom: 65%;
   }
-  .intro, .techSkills, .personalSkills, .experienceInfo p {
-    text-align: justify;
+  .intro, .techSkills, .personalSkills, .education, .misc, .services, .experienceInfo p {
     font-size: 15px;
   }
   .experience {
@@ -75,12 +73,10 @@
   .experienceInfo h4 {
     font-size: 16px;
   }
-
   #closeInfo {
     width: 5%;
     margin-top: 7%;
   }
-
 }
 
 /* Tablets  */
@@ -94,13 +90,12 @@
     margin-top: 55%;
     margin-bottom: 55%;
   }
-  .intro, .techSkills, .personalSkills, .experienceInfo p {
+  .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo p {
     font-size: 21px;
   }
   .experience {
     padding: 50px 0px 50px 0px;
   }
-
   .experienceInfo h1 {
     font-size: 24px;
   }
@@ -110,7 +105,13 @@
   .experienceInfo h4 {
     font-size: 20px;
   }
-
+  .services {
+    font-size: 18px;
+  }
+  .service-item {
+    height: 380px;
+    width: 48% !important;
+  }
   #closeInfo {
     width: 6%;
     margin-top: 3%;
@@ -126,7 +127,7 @@
     margin-top: 25%;
     margin-bottom: 20%;
   }
-  .intro, .techSkills, .personalSkills, .experienceInfo p {
+  .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo p {
     font-size: 15px;
   }
   .experience {
@@ -158,8 +159,15 @@
     margin-top: 35%;
     margin-bottom: 35%;
   }
-  .intro, .techSkills, .personalSkills, .experienceInfo p {
+  .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo p {
     font-size: 21px;
+  }
+  .services {
+    font-size: 18px;
+  }
+  .service-item {
+    height: 380px;
+    width: 48% !important;
   }
   #closeInfo {
     margin-top: 3%;
@@ -176,6 +184,11 @@
     margin-top: 25%;
     margin-bottom: 35%;
   }
+  .service-item {
+    height: 260px;
+    width: 48% !important;
+  }
+
   #closeInfo {
     width: 3%;
     margin-top: 1em;
@@ -191,6 +204,11 @@
   .introStart {
     margin-top: 23%;
     margin-bottom: 20%;
+  }
+
+  .service-item {
+    height: 230px;
+    width: 48% !important;
   }
   #closeInfo {
     width: 3%;

@@ -1,6 +1,6 @@
 function experience() {
-  var experienceSection = $(".experience");
-  $.each(textContent.experiences, function(i, experience) {
+  var experienceSection = $(".experience");  
+    $.each(textContent.experiences, function(i, experience) {
     var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card" });
 
     var cardContainer = $("<div>", { id: experience.ref, class: "col card-container" });
@@ -30,7 +30,6 @@ function experience() {
         }
       });
     });
-
     experienceSection.append(card);
   });
 }
@@ -86,7 +85,7 @@ function buildExperienceInfo(experience)
   $("#closeInfo").click(function(){
     $(".experienceInfo").fadeOut();
     $(".experience").slideDown();
-   $("#" + experience.ref).scrollView();
+    $("#" + experience.ref).scrollView();
   });
 
 };

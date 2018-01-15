@@ -9,8 +9,18 @@
   margin-top: 1%;
 }
 
-.experience {
+.experience, .service {
   margin: 0 auto !important;
+}
+
+.service-item
+{
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid lightgray;
+  border-left: 10px solid lightgray;
+  border-radius: 5px;
+  min-height: 250px;
 }
 
 .experienceInfo {
@@ -21,7 +31,7 @@
   width: 100%;
 }
 
-.card-container {
+.card-container, .service-container {
   max-width: 400px;
   margin: 0 auto;
   padding-bottom: 50px;
@@ -32,7 +42,7 @@
   height: 200px;
 }
 
-.card-title {
+.card-title, .service-title {
   margin: 0 auto;
 }
 

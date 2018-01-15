@@ -1,4 +1,4 @@
-var contentSections = [".intro", ".techSkills", ".personalSkills", ".experience", ".education", ".misc", ".contact", ".footer"];
+var contentSections = [".intro", ".techSkills", ".personalSkills", ".experience", ".education", ".services", ".misc", ".contact", ".footer"];
 
 function buildPage() {
   initSections();
@@ -6,6 +6,9 @@ function buildPage() {
   techSkills();
   personal();
   experience();
+  education();
+  services();
+  misc();
   addHandlers();
   console.log("Page built!");
 }
@@ -15,6 +18,7 @@ function addHandlers() {
   smoothScrolling();
   showHideNavBar();
 }
+
 
 function initSections() {
   //intro
@@ -53,13 +57,60 @@ function techSkills() {
 
 function personal() {
   var personalSkillsSection = $(".personalSkills");
-  personalSkillsSection.append("<h2>Personal Skills</hw>");
+  personalSkillsSection.append("<h2>Personal Skills</h2>");
   $.each(textContent.personalSkills.paragraphs, function(i, item) {
     personalSkillsSection.append("<p>" + item + "</p>");
   });
 }
 
+function education() {
+  var educationSection = $(".education");
+  educationSection.append("<h2>Education</h2>");
+  $.each(textContent.education.paragraphs, function(i, item) {
+    educationSection.append("<p>" + item + "</p>");
+  });
+}
 
+function services() {
+  var servicesSection = $(".services");
+  servicesSection.append("<h2>Services</h2>");
+  servicesSection.append("<p>" + textContent.services.title + "</p></br>");
+  var serviceItem = $(".service");
+
+  $.each(textContent.services.serviceItems, function(i, service) {
+    var serviceItemContainer = $("<div>", {
+      class: "col-sm-6 col-md-4 col-lg-4 service-item"
+    });
+    var serviceTitle = $("<div>", {
+      class: "service-title"
+    });
+    serviceItemContainer.append("<h4><b>" + service.title + "</b></h4>");
+
+    var serviceInfo = $("<div>", {
+      class: "card-role"
+    });
+    serviceItemContainer.append("<p>" + service.desc + "</p>");
+    serviceItem.append(serviceItemContainer);
+  });
+  servicesSection.append(serviceItem);
+
+}
+
+function misc() {
+  var miscSection = $(".misc");
+  miscSection.append("<h2>My Library</h2><hr>");
+  $.each(textContent.misc.books, function(i, book) {
+    miscSection.append("<p><b>" + book.title + "</b></br> " + book.author + "</p><hr>");
+  });
+  miscSection.append("</br>")
+  miscSection.append("<h2>Conferences</h2><hr>");
+  $.each(textContent.misc.conferences, function(i, conference) {
+    miscSection.append("<p><b>" + conference.name + "</b></p>");
+    miscSection.append("<h4>Date: " + conference.date + "</h4>");
+    miscSection.append("<h4>" + conference.desc + "</h4>");
+    miscSection.append("<a href='" + conference.URL +"'>" +conference.URL + "</a><hr>");
+  });
+}
 
 
 function resizingElement() {
@@ -129,7 +180,7 @@ var textContent = {
   "experiences": {
     "desktopPublisher": {
       "id": 1,
-      "ref":"desktopPublisher",
+      "ref": "desktopPublisher",
       "company": "Multiple companies",
       "website": "",
       "city": "Barcelona",
@@ -143,7 +194,7 @@ var textContent = {
     },
     "netLife": {
       "id": 2,
-      "ref":"netLife",
+      "ref": "netLife",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -157,7 +208,7 @@ var textContent = {
     },
     "btgsa": {
       "id": 3,
-      "ref":"btgsa",
+      "ref": "btgsa",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "http://btgsa.com",
@@ -176,7 +227,7 @@ var textContent = {
     },
     "luxtripper": {
       "id": 4,
-      "ref":"luxtripper",
+      "ref": "luxtripper",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -197,7 +248,7 @@ var textContent = {
     },
     "membra": {
       "id": 5,
-      "ref":"membra",
+      "ref": "membra",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "http://membra.co.uk",
@@ -216,7 +267,7 @@ var textContent = {
     },
     "mission": {
       "id": 6,
-      "ref":"mission",
+      "ref": "mission",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -295,9 +346,16 @@ var textContent = {
       {
         "id": 2,
         "name": "CODENODE",
-        "desc": "Regularly attend events about different subjects in the Skill Matters community ",
+        "desc": "Regularly attend events about different subjects at the Skill Matters community ",
         "date": "-",
         "URL": "https://skillsmatter.com/"
+      },
+      {
+        "id": 3,
+        "name": "SOFTWARE CRAFTSMANSHIP BARCELONA",
+        "desc": "Regularly attend events about different subjects with their Barcelona Meetup Group",
+        "date": "-",
+        "URL": "https://www.meetup.com/Barcelona-Software-Craftsmanship/events/"
       }
     ]
   },
@@ -312,40 +370,46 @@ var textContent = {
       "name": "LinkedIn",
       "URL": "https://www.linkedIn.com/in/pacorosa",
       "image": ""
+    }, {
+      "id": 3,
+      "name": "GMail",
+      "URL": "https://www.linkedIn.com/in/pacorosa",
+      "image": ""
     }]
   },
   "services": {
     "title": "As a freelance consultant I offer various services to clients that can include:",
-    "softwareDev": {
-      "id": 1,
-      "title": "Software Development",
-      "desc": "For eight years I have focused on software development work mostly utilizing the Microsoft technology stack and I have built many solutions using C#, ASP.NET, Entity Framework, and Microsoft SQL Server. I am able to contribute to the full lifecycle of software development projects from requirements through testing and deployment."
-    },
-    "databaseScript": {
-      "id": 2,
-      "title": "Database Scripting",
-      "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures."
-    },
-    "systemIntegration": {
-      "id": 3,
-      "title": "System Integration",
-      "desc": "My experience includes extensive system integration work that often has required an ability to problem solve and work with ambiguous or vague documentation related to third-party software and APIs. I can navigate these areas for clients and develop a working solution."
-    },
-    "debuggingRefract": {
-      "id": 4,
-      "title": "Error Fixing/Code Quality",
-      "desc": "One of my strengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability."
-    },
-    "softProcess": {
-      "id": 5,
-      "title": "Software Process Improvement",
-      "desc": "I am able to review your software development process in order to design and implement new processes and tools. This may include implementations of new software development methodologies (Agile, Scrum), source control solutions (Git, Team Foundation Server), and industry practices such as code reviews."
-    },
-    "teamManagement": {
-      "id": 6,
-      "title": "Team Management",
-      "desc": "Throughout my career I have managed small teams that include onsite and offshore or distributed team members. I am also able to mentor junior team members and gain team buy-in for adhering to best practices."
-    }
+    "serviceItems": [{
+        "id": 1,
+        "title": "Software Development",
+        "desc": "For eight years I have focused on software development work mostly utilizing the Microsoft technology stack and I have built many solutions using C#, ASP.NET, Entity Framework, and Microsoft SQL Server. I am able to contribute to the full lifecycle of software development projects from requirements through testing and deployment."
+      },
+      {
+        "id": 2,
+        "title": "Database Scripting",
+        "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures."
+      },
+      {
+        "id": 3,
+        "title": "System Integration",
+        "desc": "My experience includes extensive system integration work that often has required an ability to problem solve and work with ambiguous or vague documentation related to third-party software and APIs. I can navigate these areas for clients and develop a working solution."
+      },
+      {
+        "id": 4,
+        "title": "Error Fixing/Code Quality",
+        "desc": "One of my strengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability."
+      },
+      {
+        "id": 5,
+        "title": "Software Process Improvement",
+        "desc": "I am able to review your software development process in order to design and implement new processes and tools. This may include implementations of new software development methodologies (Agile, Scrum), source control solutions (Git, Team Foundation Server), and industry practices such as code reviews."
+      },
+      {
+        "id": 6,
+        "title": "Team Management",
+        "desc": "Throughout my career I have managed small teams that include onsite and offshore or distributed team members. I am also able to mentor junior team members and gain team buy-in for adhering to best practices."
+      }
+    ]
   }
 }
 
