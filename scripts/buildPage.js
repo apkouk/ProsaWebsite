@@ -9,6 +9,7 @@ function buildPage() {
   education();
   services();
   misc();
+  contact();
   addHandlers();
   console.log("Page built!");
 }
@@ -100,18 +101,30 @@ function misc() {
   var miscSection = $(".misc");
   miscSection.append("<h2>My Library</h2><hr>");
   $.each(textContent.misc.books, function(i, book) {
-    miscSection.append("<p><b>" + book.title + "</b></br> " + book.author + "</p><hr>");
+    miscSection.append("<p><i>" + book.title + "</i></br> " + book.author + "</p><hr>");
   });
   miscSection.append("</br>")
   miscSection.append("<h2>Conferences</h2><hr>");
   $.each(textContent.misc.conferences, function(i, conference) {
-    miscSection.append("<p><b>" + conference.name + "</b></p>");
+    miscSection.append("<p><i>" + conference.name + "</i></p>");
     miscSection.append("<h4>Date: " + conference.date + "</h4>");
     miscSection.append("<h4>" + conference.desc + "</h4>");
-    miscSection.append("<a href='" + conference.URL +"'>" +conference.URL + "</a><hr>");
+    miscSection.append("<a href='" + conference.URL + "'>" + conference.URL + "</a><hr>");
   });
 }
 
+function contact() {
+  var contactSection = $(".contact");
+  var contactItem = $("<div>" ,{ class: "contactItem" });
+  var contactImage = $("<img>", {    src: "src/images/prosaWeb.png", class: "img-circle"  });
+  contactItem.append(contactImage);
+  contactItem.append("<h3>Francisco Rosa</h3>");
+  contactItem.append("<p>Barcelona - London</p>");
+  contactItem.append("<p>CAT: +34 634 538 340</p>");
+  contactItem.append("<p>UK:  +44 7756 291844</p>");
+  contactSection.prepend(contactItem);
+
+}
 
 function resizingElement() {
   $(window).resize(function() {
@@ -412,12 +425,3 @@ var textContent = {
     ]
   }
 }
-
-
-//techSkills
-//  $.each(textContent.techSkills.paragraphs, function(i, item) {
-//    $(".techSkills").append("<p>" + item + "</p>");
-//  });
-//  $(".techSkills").append("<p>Development: " + textContent.techSkills.devSkills + "</p>");
-//  $(".techSkills").append("<p>Concepts:" + textContent.techSkills.concepts + "</p>");
-//  $(".techSkills").append("<p>Tools:" + textContent.techSkills.tools + "</p>");
