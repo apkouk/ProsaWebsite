@@ -1,9 +1,13 @@
-#experienceContainer li{
+#experienceContainer li {
   font-size: medium;
 }
 
-#closeInfo
-{
+#experienceContainer a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#closeInfo {
   float: right;
   width: 5%;
   margin-top: 1%;
@@ -13,33 +17,40 @@
   margin: 0 auto !important;
 }
 
-.service-item
-{
+.service-item {
   padding: 5px;
   margin: 5px;
-  border: 1px solid lightgray;
-  border-left: 10px solid lightgray;
-  border-radius: 5px;
-  min-height: 250px;
+  height: 100%;
+  text-align: -webkit-center;
+  margin-bottom: 20px;
+}
+
+.service-image {
+  margin-bottom: 20px;
 }
 
 .experienceInfo {
-
   display: none;
   top: 0;
   left: 0;
   width: 100%;
 }
 
-.card-container, .service-container {
+.card-container {
   max-width: 400px;
   margin: 0 auto;
   padding-bottom: 50px;
+  text-align: -webkit-center;
+}
+#serviciesContainer
+{
+  margin-bottom: 50px;
 }
 
 .card-image {
   background-repeat: no-repeat;
   height: 200px;
+  border-bottom: 2px solid lightgray;
 }
 
 .card-title, .service-title {

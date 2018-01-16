@@ -1,5 +1,5 @@
 function experience() {
-  var experienceSection = $(".experience");  
+  var experienceSection = $(".experience");
     $.each(textContent.experiences, function(i, experience) {
     var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card" });
 
@@ -37,13 +37,9 @@ function experience() {
 
 function buildExperienceInfo(experience)
 {
-
   var experienceInfo = $(".experienceInfo");
   experienceInfo.empty();
-
   experienceInfo.append("<input id='closeInfo' type='image' src='src/images/close.png' />");
-
-  console.log(experience);
 
   var width = $(".experience").width();
   experienceInfo.css("width", width);

@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>Prosa's website</title>
+  <title>Prosa</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 
@@ -58,16 +59,17 @@
     </div>
 
     <div id="mainContainer" class="mainContainer">
-      <div class="bootstrapHelper">
+      <div class="bootstrapHelper" >
       </div>
+      <div id="introContainer " class="row introImage">
 
-      <!--<div class="row header">
-      </div>-->
-      <div class="introStart">
-        <p>
-          Wellcome to my website!
-        </p>
-        <a id="btnWellcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row">Tell Me More</a>
+          <div class="introStart">
+            <p class="wellcome">
+              Wellcome to my website!
+            </p>
+            <a id="btnWellcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row">Tell Me More</a>
+          </div>
+
       </div>
       <div id="intro" class="row">
         <div class="col intro">
@@ -161,6 +163,7 @@
 <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 <script type="text/javascript">
   $(document).ready(function() {
     buildPage();

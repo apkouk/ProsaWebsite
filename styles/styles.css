@@ -3,13 +3,57 @@
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
-/* Containers */
-
-#intro, #techSkills, #personalSkillsContainer, #experience, #educationContainer, #misc, #contact, #footer {}
-
 #intro, #educationContainer, #miscContainer, #personalSkillsContainer {
   background-color: #F3F3F3;
 }
+
+hr {
+  border-top: 1px solid #999999 !important;
+}
+
+.mainContainer {
+  padding: 0px;
+  width: 100%;
+}
+
+.intro, .techSkills, .personalSkills, .experience, .education, .services, .misc, .contact, .footer {
+  text-align: left;
+  padding: 50px 50px 50px 50px;
+  margin: 0 auto;
+}
+
+.wellcome{
+  color: black;
+}
+
+.bootstrapHelper {
+  width: 100%;
+  height: 1px;
+}
+
+.introStart {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 68px;
+  margin-top: 30%;
+  margin-bottom: 20%;
+  line-height: 40px;
+  margin-bottom: 25px;
+  text-align: -webkit-center;
+
+}
+
+.introImage{
+  background-image: url('../src/images/codecode1024b.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.introStart a {
+  margin-top: 10%;
+}
+
 
 #contactForm {
   background-image: url(../src/images/worldMap.png);
@@ -22,46 +66,13 @@
   margin: 0 auto;
 }
 
-.contactEmail, #contactEmail{
+.contactEmail, #contactEmail {
   padding: 0px !important;
-  margin:  0px !important;
+  margin: 0px !important;
 }
 
-hr {
-  border-top: 1px solid #999999 !important;
-}
-
-/* Content */
-
-.intro, .techSkills, .personalSkills, .experience, .education, .services, .misc, .contact, .footer {
-  text-align: left;
-  padding: 50px 50px 50px 50px;
-  margin: 0 auto;
-}
-
-.bootstrapHelper {
-  width: 100%;
-  height: 1px;
-}
-
-.mainContainer {
-  padding: 0px;
-  width: 100%;
-}
-
-.introStart {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 68px;
-  margin-top: 30%;
-  margin-bottom: 20%;
-  line-height: 40px;
-  margin-bottom: 25px;
+.contactItem {
   text-align: -webkit-center;
-}
-
-.introStart a {
-  margin-top: 10%;
 }
 
 .img-circle {
@@ -73,16 +84,13 @@ hr {
   margin-right: auto;
 }
 
-.contactItem {
-  text-align: -webkit-center;
-}
-
 /* Phones */
 
 @media (max-width: 599px) {
   .bootstrapHelper {
     background-color: black;
   }
+
   .introStart {
     font-size: 22px;
     margin-top: 80%;
@@ -107,12 +115,9 @@ hr {
     width: 200px;
     height: 200px;
   }
-
   .contactForm {
     width: 100%;
-
   }
-
   #closeInfo {
     width: 5%;
     margin-top: 7%;
@@ -162,6 +167,7 @@ hr {
   .bootstrapHelper {
     background-color: red;
   }
+
   .introStart {
     font-size: 40px;
     margin-top: 25%;
@@ -210,7 +216,7 @@ hr {
     font-size: 18px;
   }
   .service-item {
-    height: 380px;
+    height: 350px;
     width: 48% !important;
   }
   #closeInfo {
@@ -229,7 +235,6 @@ hr {
     margin-bottom: 35%;
   }
   .service-item {
-    height: 260px;
     width: 48% !important;
   }
   #closeInfo {
@@ -249,7 +254,7 @@ hr {
     margin-bottom: 20%;
   }
   .service-item {
-    height: 230px;
+    height: 280px;
     width: 48% !important;
   }
   #closeInfo {

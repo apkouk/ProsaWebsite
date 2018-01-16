@@ -25,13 +25,18 @@ function initSections() {
   //intro
   $(".intro").css("padding-top", "55");
   //set width content
+  var windowWidth = $(window).width();
+  var windowHeight = $(window).height();
   $.each(contentSections, function(i, section) {
-    if ($(window).width() > 768) {
+    if (windowWidth > 768) {
       $(section).css("width", ($(window).width() / 4) * 3);
     } else {
       $(section).css("width", "100%");
     }
   });
+
+  $('.introImage').css("width", windowWidth);
+  $('.introImage').css("height", windowHeight);
 }
 
 function intro() {
@@ -80,16 +85,19 @@ function services() {
 
   $.each(textContent.services.serviceItems, function(i, service) {
     var serviceItemContainer = $("<div>", {
-      class: "col-sm-6 col-md-4 col-lg-4 service-item"
+      class: "col-sm-6 col-md-4 col-lg-3 service-item"
     });
-    var serviceTitle = $("<div>", {
-      class: "service-title"
+    var serviceImageDiv = $("<div>", {
+      class: "service-image"
     });
-    serviceItemContainer.append("<h4><b>" + service.title + "</b></h4>");
+    var serviceImage = $("<img>", {
+      src: "src/images/" + service.image,
+      class: "serviceImg"
+    });
+    serviceImageDiv.append(serviceImage);
+    serviceItemContainer.append(serviceImageDiv);
 
-    var serviceInfo = $("<div>", {
-      class: "card-role"
-    });
+    serviceItemContainer.append("<h4 style=><b>" + service.title + "</b></h4>");
     serviceItemContainer.append("<p>" + service.desc + "</p>");
     serviceItem.append(serviceItemContainer);
   });
@@ -115,8 +123,13 @@ function misc() {
 
 function contact() {
   var contactSection = $(".contact");
-  var contactItem = $("<div>" ,{ class: "contactItem" });
-  var contactImage = $("<img>", {    src: "src/images/prosaWeb.png", class: "img-circle"  });
+  var contactItem = $("<div>", {
+    class: "contactItem"
+  });
+  var contactImage = $("<img>", {
+    src: "src/images/prosaWeb.png",
+    class: "img-circle"
+  });
   contactItem.append(contactImage);
   contactItem.append("<h3>Francisco Rosa</h3>");
   contactItem.append("<p>Barcelona - London</p>");
@@ -203,7 +216,7 @@ var textContent = {
       "techStack": "",
       "description": "Before becoming a software developer I was a designer for several companies around Barcelona. I mostly did design work using Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand, and ArtiosCad.",
       "tasks": "",
-      "image": "img1.png"
+      "image": "graphic.png"
     },
     "netLife": {
       "id": 2,
@@ -217,7 +230,7 @@ var textContent = {
       "techStack": "",
       "description": "This was my first real programming role, and I built web pages using C# (framework 3.5), ASP.NET, HTML, MS SQL Server, and Visual Studio 2010.",
       "tasks": "",
-      "image": "img2.jpg"
+      "image": "netlife.png"
     },
     "btgsa": {
       "id": 3,
@@ -236,7 +249,7 @@ var textContent = {
         "Fixed software issues and SQL code irregularities in queries or stored procedures and business logic in C#.",
         "Wrote functional documentation for new clients and trained new users."
       ],
-      "image": "img3.jpg"
+      "image": "aggity.png"
     },
     "luxtripper": {
       "id": 4,
@@ -257,7 +270,7 @@ var textContent = {
         "Implemented testing plans for both front and back-end with TFS online.",
         "Migrated a WordPress blog to an internal IIS server and migrated data from MySQL to MS SQL Server. "
       ],
-      "image": "img4.jpg"
+      "image": "luxtripper.png"
     },
     "membra": {
       "id": 5,
@@ -276,7 +289,7 @@ var textContent = {
         "Performed multiple database tasks including pivot tables, creation and design of tables, stored procedures, and query", "timization. Wrote scripts to automate data import that improved speed from days to only six hours.",
         "Built a responsive three-tier architecture admin tool that automated and optimized project managers tasks. (Bootstrap,Telerikframework, ASP.NET Webforms, C#, and MS SQL Server)."
       ],
-      "image": "img5.jpg"
+      "image": "mes.png"
     },
     "mission": {
       "id": 6,
@@ -303,7 +316,7 @@ var textContent = {
         "Built a feature using company API to compare data between systems with alerts for any differences. Solution enabled users to update disparate data through the website database or the central system database in one click and allowed team to check consistency between systems. (MS SQL Server, internal API, and C#).",
         "Wrote unit tests to validate URL rewriting and accuracy for pricing (number of people, type of delivery, type of card, etc.). "
       ],
-      "image": "img6.png"
+      "image": "mission.png"
     }
   },
   "education": {
@@ -393,35 +406,42 @@ var textContent = {
   "services": {
     "title": "As a freelance consultant I offer various services to clients that can include:",
     "serviceItems": [{
-        "id": 1,
-        "title": "Software Development",
-        "desc": "For eight years I have focused on software development work mostly utilizing the Microsoft technology stack and I have built many solutions using C#, ASP.NET, Entity Framework, and Microsoft SQL Server. I am able to contribute to the full lifecycle of software development projects from requirements through testing and deployment."
-      },
-      {
         "id": 2,
         "title": "Database Scripting",
-        "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures."
+        "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures.",
+        "image": "database.png"
       },
       {
         "id": 3,
         "title": "System Integration",
-        "desc": "My experience includes extensive system integration work that often has required an ability to problem solve and work with ambiguous or vague documentation related to third-party software and APIs. I can navigate these areas for clients and develop a working solution."
-      },
-      {
-        "id": 4,
-        "title": "Error Fixing/Code Quality",
-        "desc": "One of my strengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability."
-      },
-      {
-        "id": 5,
-        "title": "Software Process Improvement",
-        "desc": "I am able to review your software development process in order to design and implement new processes and tools. This may include implementations of new software development methodologies (Agile, Scrum), source control solutions (Git, Team Foundation Server), and industry practices such as code reviews."
+        "desc": "My experience includes extensive system integration work that often has required an ability to problem solve and work with ambiguous or vague documentation related to third-party software and APIs. I can navigate these areas for clients and develop a working solution.",
+        "image": "systemInt.png"
       },
       {
         "id": 6,
         "title": "Team Management",
-        "desc": "Throughout my career I have managed small teams that include onsite and offshore or distributed team members. I am also able to mentor junior team members and gain team buy-in for adhering to best practices."
+        "desc": "Throughout my career I have managed small teams that include onsite and offshore or distributed team members. I am also able to mentor junior team members and gain team buy-in for adhering to best practices.",
+        "image": "teamMan.png"
+      },
+      {
+        "id": 4,
+        "title": "Error Fixing/Code Quality",
+        "desc": "One of my strengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability.",
+        "image": "errorFix.png"
+      },
+      {
+        "id": 1,
+        "title": "Software Development",
+        "desc": "For eight years I have focused on software development work and I have built many solutions using C#, ASP.NET, Entity Framework, Microsoft SQL Server, JQuery, HTML and CSS. I am able to contribute to the full lifecycle of software development projects from requirements through testing and deployment.",
+        "image": "softdev.png"
+      },
+      {
+        "id": 5,
+        "title": "Software Process Improvement",
+        "desc": "I am able to review your software development process in order to design and implement new processes and tools. This may include implementations of new software development methodologies (Agile, Scrum), source control solutions (Git, Team Foundation Server), and industry practices such as code reviews.",
+        "image": "softdevProc.png"
       }
+
     ]
   }
 }
