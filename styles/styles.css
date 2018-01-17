@@ -35,25 +35,17 @@ hr {
   font-style: italic;
   font-weight: bold;
   font-size: 68px;
-  margin-top: 30%;
-  margin-bottom: 20%;
   line-height: 40px;
   margin-bottom: 25px;
   text-align: -webkit-center;
 
 }
-
 .introImage{
   background-image: url('../src/images/codecode1024b.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
-
-.introStart a {
-  margin-top: 10%;
-}
-
 
 #contactForm {
   background-image: url(../src/images/worldMap.png);
@@ -93,8 +85,6 @@ hr {
 
   .introStart {
     font-size: 22px;
-    margin-top: 80%;
-    margin-bottom: 65%;
   }
   .intro, .techSkills, .personalSkills, .education, .misc, .services, .experienceInfo, .contactItem p {
     font-size: 15px;
@@ -132,8 +122,6 @@ hr {
   }
   .introStart {
     font-size: 40px;
-    margin-top: 55%;
-    margin-bottom: 55%;
   }
   .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo, .contactItem p {
     font-size: 21px;
@@ -170,8 +158,6 @@ hr {
 
   .introStart {
     font-size: 40px;
-    margin-top: 25%;
-    margin-bottom: 20%;
   }
   .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo, .contactItem p {
     font-size: 15px;
@@ -206,8 +192,6 @@ hr {
   }
   .introStart {
     font-size: 50px;
-    margin-top: 35%;
-    margin-bottom: 35%;
   }
   .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo, .contactItem p {
     font-size: 21px;
@@ -230,10 +214,6 @@ hr {
   .bootstrapHelper {
     background-color: blue;
   }
-  .introStart {
-    margin-top: 25%;
-    margin-bottom: 35%;
-  }
   .service-item {
     width: 48% !important;
   }
@@ -248,10 +228,6 @@ hr {
 @media (min-width: 1800px) {
   .bootstrapHelper {
     background-color: yellow;
-  }
-  .introStart {
-    margin-top: 23%;
-    margin-bottom: 20%;
   }
   .service-item {
     height: 280px;

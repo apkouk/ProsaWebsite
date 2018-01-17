@@ -35,8 +35,11 @@ function initSections() {
     }
   });
 
+  //intro image
   $('.introImage').css("width", windowWidth);
   $('.introImage').css("height", windowHeight);
+  $('.introStart').css("margin-top", windowHeight / 2);
+
 }
 
 function intro() {
