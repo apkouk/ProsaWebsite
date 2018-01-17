@@ -67,6 +67,12 @@ hr {
   text-align: -webkit-center;
 }
 
+.help-block
+{
+  background-color: black;
+  color: orange !important;
+}
+
 .img-circle {
   border-radius: 50%;
   height: 300px;
