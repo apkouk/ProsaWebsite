@@ -5,7 +5,7 @@ function experience() {
 
     var cardContainer = $("<div>", { id: experience.ref, class: "col card-container" });
     var cardImageDiv = $("<div>", { class: "card-image" });
-    var cardImage = $("<img>", { src: "src/images/" + experience.image, class: "cardImg" });
+    var cardImage = $("<img>", { src: "src/images/" + experience.image + extensionImage, class: "cardImg" });
     cardImageDiv.append(cardImage);
 
     var cardTitle = $("<div>", { class: "card-title" });

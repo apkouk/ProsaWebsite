@@ -41,14 +41,9 @@ hr {
 }
 
 .introImage {
-  background-image: url('../src/images/codecode1024b.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-}
-
-#contactForm {
-  background-image: url(../src/images/worldMap.png);
 }
 
 .contactForm {

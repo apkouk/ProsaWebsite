@@ -8,6 +8,7 @@ window.onclick = function(event) {
 
 
 function buildPage() {
+  canUseWebP();
   initSections();
   intro();
   techSkills();
@@ -19,6 +20,19 @@ function buildPage() {
   contact();
   addHandlers();
   console.log("Page built!");
+}
+
+var extensionImage = "";
+function canUseWebP() {
+    var elem = document.createElement('canvas');
+    if (!!(elem.getContext && elem.getContext('2d'))) {
+      extensionImage = ".webp";
+    }
+    else {
+      extensionImage = ".png";                
+    }
+    $("#contactForm").css("background-image", "url(src/images/worldMap" + extensionImage + ")");
+    $(".introImage").css("background-image", "url('src/images/codecode1024b" + extensionImage );
 }
 
 function addHandlers() {
@@ -107,7 +121,7 @@ function services() {
       class: "service-image"
     });
     var serviceImage = $("<img>", {
-      src: "src/images/" + service.image,
+      src: "src/images/" + service.image + extensionImage,
       class: "serviceImg"
     });
     serviceImageDiv.append(serviceImage);
@@ -232,7 +246,7 @@ var textContent = {
       "techStack": "",
       "description": "Before becoming a software developer I was a designer for several companies around Barcelona. I mostly did design work using Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand, and ArtiosCad.",
       "tasks": "",
-      "image": "graphic.png"
+      "image": "graphic"
     },
     "netLife": {
       "id": 2,
@@ -246,7 +260,7 @@ var textContent = {
       "techStack": "",
       "description": "This was my first real programming role, and I built web pages using C# (framework 3.5), ASP.NET, HTML, MS SQL Server, and Visual Studio 2010.",
       "tasks": "",
-      "image": "netlife.png"
+      "image": "netlife"
     },
     "btgsa": {
       "id": 3,
@@ -265,7 +279,7 @@ var textContent = {
         "Fixed software issues and SQL code irregularities in queries or stored procedures and business logic in C#.",
         "Wrote functional documentation for new clients and trained new users."
       ],
-      "image": "aggity.png"
+      "image": "aggity"
     },
     "luxtripper": {
       "id": 4,
@@ -286,7 +300,7 @@ var textContent = {
         "Implemented testing plans for both front and back-end with TFS online.",
         "Migrated a WordPress blog to an internal IIS server and migrated data from MySQL to MS SQL Server. "
       ],
-      "image": "luxtripper.png"
+      "image": "luxtripper"
     },
     "membra": {
       "id": 5,
@@ -305,7 +319,7 @@ var textContent = {
         "Performed multiple database tasks including pivot tables, creation and design of tables, stored procedures, and query", "timization. Wrote scripts to automate data import that improved speed from days to only six hours.",
         "Built a responsive three-tier architecture admin tool that automated and optimized project managers tasks. (Bootstrap,Telerikframework, ASP.NET Webforms, C#, and MS SQL Server)."
       ],
-      "image": "mes.png"
+      "image": "mes"
     },
     "mission": {
       "id": 6,
@@ -332,7 +346,7 @@ var textContent = {
         "Built a feature using company API to compare data between systems with alerts for any differences. Solution enabled users to update disparate data through the website database or the central system database in one click and allowed team to check consistency between systems. (MS SQL Server, internal API, and C#).",
         "Wrote unit tests to validate URL rewriting and accuracy for pricing (number of people, type of delivery, type of card, etc.). "
       ],
-      "image": "mission.png"
+      "image": "mission"
     }
   },
   "education": {
@@ -425,37 +439,37 @@ var textContent = {
         "id": 2,
         "title": "Database Scripting",
         "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures.",
-        "image": "database.png"
+        "image": "database"
       },
       {
         "id": 3,
         "title": "System Integration",
         "desc": "My experience includes extensive system integration work that often has required an ability to problem solve and work with ambiguous or vague documentation related to third-party software and APIs. I can navigate these areas for clients and develop a working solution.",
-        "image": "systemInt.png"
+        "image": "systemInt"
       },
       {
         "id": 6,
         "title": "Team Management",
         "desc": "Throughout my career I have managed small teams that include onsite and offshore or distributed team members. I am also able to mentor junior team members and gain team buy-in for adhering to best practices.",
-        "image": "teamMan.png"
+        "image": "teamMan"
       },
       {
         "id": 4,
         "title": "Error Fixing/Code Quality",
         "desc": "One of my strengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability.",
-        "image": "errorFix.png"
+        "image": "errorFix"
       },
       {
         "id": 1,
         "title": "Software Development",
         "desc": "For eight years I have focused on software development work and I have built many solutions using C#, ASP.NET, Entity Framework, Microsoft SQL Server, JQuery, HTML and CSS. I am able to contribute to the full lifecycle of software development projects from requirements through testing and deployment.",
-        "image": "softdev.png"
+        "image": "softdev"
       },
       {
         "id": 5,
         "title": "Software Process Improvement",
         "desc": "I am able to review your software development process in order to design and implement new processes and tools. This may include implementations of new software development methodologies (Agile, Scrum), source control solutions (Git, Team Foundation Server), and industry practices such as code reviews.",
-        "image": "softdevProc.png"
+        "image": "softdevProc"
       }
 
     ]
