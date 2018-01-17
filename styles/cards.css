@@ -29,13 +29,6 @@
   margin-bottom: 20px;
 }
 
-.experienceInfo {
-  display: none;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
 .card-container {
   max-width: 400px;
   margin: 0 auto;

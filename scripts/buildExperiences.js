@@ -20,7 +20,6 @@ function experience() {
     card.append(cardContainer);
 
     card.click(function(){
-      experienceSection.slideUp();
       var experienceId = this.getAttribute('id');
       $.each(textContent.experiences, function(i, experience) {
         if(experience.id == experienceId)
@@ -42,7 +41,6 @@ function buildExperienceInfo(experience)
   experienceInfo.append("<input id='closeInfo' type='image' src='src/images/close.png' />");
 
   var width = $(".experience").width();
-  experienceInfo.css("width", width);
   experienceInfo.css("margin", "0 auto");
 
   var expHeader = $("<div>", { class: "expHeader" });
@@ -74,22 +72,9 @@ function buildExperienceInfo(experience)
     });
     expHeader.append("</ul>");
   }
-
   experienceInfo.fadeIn();
-  $(".experience").scrollView();
 
   $("#closeInfo").click(function(){
     $(".experienceInfo").fadeOut();
-    $(".experience").slideDown();
-    $("#" + experience.ref).scrollView();
   });
-
 };
-
-$.fn.scrollView = function () {
-  return this.each(function () {
-    $('html, body').animate({
-      scrollTop: $(this).offset().top
-    }, 1500);
-  });
-}

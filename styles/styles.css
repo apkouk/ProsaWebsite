@@ -22,7 +22,7 @@ hr {
   margin: 0 auto;
 }
 
-.wellcome{
+.wellcome {
   color: black;
 }
 
@@ -38,9 +38,9 @@ hr {
   line-height: 40px;
   margin-bottom: 25px;
   text-align: -webkit-center;
-
 }
-.introImage{
+
+.introImage {
   background-image: url('../src/images/codecode1024b.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,13 +76,24 @@ hr {
   margin-right: auto;
 }
 
+.experienceInfo {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+  padding: 50px;
+  border-left: 10px solid steelblue;
+  border-right: 10px solid steelblue;
+}
+
 /* Phones */
 
 @media (max-width: 599px) {
   .bootstrapHelper {
     background-color: black;
   }
-
   .introStart {
     font-size: 22px;
   }
@@ -100,6 +111,9 @@ hr {
   }
   .experienceInfo h4 {
     font-size: 16px;
+  }
+  .experienceInfo {
+    padding-left: 20px;
   }
   .img-circle {
     width: 200px;
@@ -155,7 +169,6 @@ hr {
   .bootstrapHelper {
     background-color: red;
   }
-
   .introStart {
     font-size: 40px;
   }

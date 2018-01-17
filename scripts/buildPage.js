@@ -1,5 +1,12 @@
 var contentSections = [".intro", ".techSkills", ".personalSkills", ".experience", ".education", ".services", ".misc", ".contact", ".footer"];
 
+window.onclick = function(event) {
+    if (event.target.id.indexOf("Container") > 0 || event.target.id == 'intro'){
+        $(".experienceInfo").fadeOut();
+    }
+}
+
+
 function buildPage() {
   initSections();
   intro();
@@ -29,9 +36,12 @@ function initSections() {
   var windowHeight = $(window).height();
   $.each(contentSections, function(i, section) {
     if (windowWidth > 768) {
-      $(section).css("width", ($(window).width() / 4) * 3);
+      var widthVal = ($(window).width() / 4) * 3;
+      $(section).css("width", widthVal);
+      $('.experienceInfo').css("width", widthVal);
     } else {
       $(section).css("width", "100%");
+      $('.experienceInfo').css("width", "100%");
     }
   });
 
@@ -40,6 +50,9 @@ function initSections() {
   $('.introImage').css("height", windowHeight);
   $('.introStart').css("margin-top", windowHeight / 2);
 
+  //experiences
+  $('#experienceInfoContainer').css("margin-left", $(".intro").offset().left);
+  $('#experienceInfoContainer').css("width", windowWidth);
 }
 
 function intro() {
