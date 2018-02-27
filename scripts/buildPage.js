@@ -29,7 +29,7 @@ function canUseWebP() {
       extensionImage = ".webp";
     }
     else {
-      extensionImage = ".png";                
+      extensionImage = ".png";
     }
     $("#contactForm").css("background-image", "url(src/images/worldMap" + extensionImage + ")");
     $(".introImage").css("background-image", "url('src/images/codecode1024b" + extensionImage );
@@ -109,8 +109,8 @@ function education() {
 
 function services() {
   var servicesSection = $(".services");
-  servicesSection.append("<h2>Services</h2>");
-  servicesSection.append("<p>" + textContent.services.title + "</p></br>");
+  //servicesSection.append("<h2>Services</h2>");
+  //servicesSection.append("<p>" + textContent.services.title + "</p></br>");
   var serviceItem = $(".service");
 
   $.each(textContent.services.serviceItems, function(i, service) {
@@ -199,10 +199,17 @@ function smoothScrolling() {
 
 function showHideNavBar() {
   $(window).scroll(function(event) {
-    ($(window).scrollTop() > 50) ? $("#navBar").fadeOut(): $("#navBar").fadeIn();
+    ($(window).scrollTop() > 550) ? showNavBarTimeOut() : $("#navBar").show();
+    console.log("SCROLLTOP: " + $(window).scrollTop());
   });
 }
 
+function showNavBarTimeOut(){
+    $(window).scroll($.debounce( 250, function(){
+     $("#navBar").fadeIn();
+     setTimeout(function(){ $("#navBar").fadeOut(); }, 5000);
+}));
+}
 
 var textContent = {
 
