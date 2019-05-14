@@ -164,7 +164,6 @@ function contact() {
     contactItem.append("<h3>Francisco Rosa</h3>");
     contactItem.append("<p>Barcelona - London</p>");
     contactItem.append("<p>CAT: +34 634 538 340</p>");
-    contactItem.append("<p>UK:  +44 7756 291844</p>");
     contactSection.prepend(contactItem);
 
 }
