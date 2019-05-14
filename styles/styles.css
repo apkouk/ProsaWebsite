@@ -283,6 +283,24 @@ hr {
     }
 }
 
+@media (min-width: 640px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 8%;        
+    }
+}
+
+@media (min-width: 736px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 13%;        
+    }
+}
+
+@media (min-width: 812px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 17%;        
+    }
+}
+
 /* Tablets landscape */
 
 @media (min-width: 900px) and (orientation: landscape) {
@@ -320,6 +338,21 @@ hr {
     }
 }
 
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 23%;        
+    }
+}
+
+@media (min-width: 1024px) and (orientation: portrait) {
+    .linksWrapper {
+        margin-left: 23%;        
+    }
+}
+
+
+
 /* Large devices (desktops, 992px and up)*/
 
 @media (min-width: 1200px) {
@@ -334,6 +367,19 @@ hr {
     #closeInfo {
         width: 3%;
         margin-top: 1em;
+    }    
+}
+
+
+@media (min-width: 1366px) and (orientation: landscape) {
+    .linksWrapper {
+        margin-left: 30%;        
+    }
+}
+
+@media (min-width: 1440px) {
+    .linksWrapper {
+        margin-left: 31%;        
     }
 }
 
@@ -352,5 +398,13 @@ hr {
     #closeInfo {
         width: 3%;
         margin-top: 1em;
+    }
+
+    .linksWrapper {
+        margin-left: 36%;        
+    }
+
+    .githubWrapper {
+        margin-bottom: 2em;
     }
 }
