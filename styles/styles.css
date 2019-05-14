@@ -90,7 +90,40 @@ hr {
     border-right: 10px solid steelblue;
 }
 
+.linksContainer {
+    margin-bottom: 3em;
+}
+
+.linksWrapper {
+    margin-left: 32%;
+    margin-bottom: 10em;
+}
+
+.githubWrapper {
+    width: 250px;
+    height: 321px;
+    background-color: #303336;
+    padding-top: 3em;
+    margin-right: 3em;
+    float: left;
+}
+
+.linkedinWrapper{
+    float: left;
+}
+
 /* Phones */
+
+@media (max-width: 380px) {
+    .linksWrapper {
+        margin-left: 17%;        
+    }
+
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
+}
+
 
 @media (max-width: 599px) {
     .bootstrapHelper {
@@ -138,6 +171,14 @@ hr {
         width: 5%;
         margin-top: 7%;
     }
+
+    .linksWrapper {
+        margin-left: 17%;        
+    }
+
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
 }
 
 /* Tablets  */
@@ -184,6 +225,14 @@ hr {
         width: 6%;
         margin-top: 3%;
     }
+
+    .linksWrapper {
+        margin-left: 15%;        
+    }
+
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
 }
 
 @media (min-width: 600px) and (orientation: landscape) {
@@ -224,6 +273,14 @@ hr {
         width: 5%;
         margin-top: 4%;
     }
+
+    .linksWrapper {
+        margin-left: 23%;        
+    }
+
+    .githubWrapper {
+        margin-bottom: 2em;
+    }
 }
 
 /* Tablets landscape */
@@ -252,6 +309,14 @@ hr {
 
     #closeInfo {
         margin-top: 3%;
+    }
+
+    .linksWrapper {
+        margin-left: 30%;        
+    }
+
+    .githubWrapper {
+        margin-bottom: 2em;
     }
 }
 
