@@ -162,8 +162,8 @@ function contact() {
     });
     contactItem.append(contactImage);
     contactItem.append("<h3>Francisco Rosa</h3>");
-    contactItem.append("<p>Barcelona - London</p>");
-    contactItem.append("<p>CAT: +34 634 538 340</p>");
+    contactItem.append("<p>Barcelona - +34 634 538 340</p>");
+   
     contactSection.prepend(contactItem);
 
 }
