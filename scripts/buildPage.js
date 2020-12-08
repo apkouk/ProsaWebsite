@@ -227,9 +227,9 @@ var textContent = {
           "For web development projects I have worked with HTML/CSS and JavaScript including several popular frameworks and libraries such as ASP.NET, Bootstrap, Angular, Slick, and jQuery. I also have experience using cloud tools from Azure and Amazon Web Services.",
           "Below is a brief list of skills from my resume."
         ],
-        "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Angular, React, jQuery, JavaScript, Typescript, HTML/CSS, Bootstrap, Oracle, SQL, CloudantDb (NoSql), MVC, Entity Framework, EFCore",
+        "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
         "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
-        "tools": "TFS, Git, GitHub, Visual Studio, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains, Docker"
+        "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman"
     },
     "personalSkills": {
         "paragraphs": [
@@ -430,6 +430,11 @@ var textContent = {
               "id": 7,
               "title": "Pro ASP.NET Web API Security",
               "author": "Badrinarayanan Lakshmiraghavan"
+          },
+		   {
+              "id": 8,
+              "title": "Working Effectively with Legacy Code (Robert C Martin)",
+              "author": "Michael C. Feathers"
           }
         ],
         "conferences": [{
