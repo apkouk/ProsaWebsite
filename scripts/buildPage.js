@@ -197,10 +197,10 @@ function smoothScrolling() {
 }
 
 function showHideNavBar() {
-    $(window).scroll(function (event) {
-        ($(window).scrollTop() > 550) ? showNavBarTimeOut() : $("#navBar").show();
-        console.log("SCROLLTOP: " + $(window).scrollTop());
-    });
+    // $(window).scroll(function (event) {
+    //     ($(window).scrollTop() > 550) ? showNavBarTimeOut() : $("#navBar").show();
+    //     console.log("SCROLLTOP: " + $(window).scrollTop());
+    // });
 }
 
 function showNavBarTimeOut() {

@@ -1,3 +1,12 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-default { 
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075) !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0px 1px 10px 2px #777 !important;
+}
+
 #body {
     margin: 0px;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -233,6 +242,10 @@ hr {
     .githubWrapper {
         margin-bottom: 2em;
     }
+
+    .navbar-right{
+        font-size: smaller;
+    }
 }
 
 @media (min-width: 600px) and (orientation: landscape) {
@@ -280,6 +293,11 @@ hr {
 
     .githubWrapper {
         margin-bottom: 2em;
+    }
+
+    
+    .navbar-right{
+        font-size: smaller;
     }
 }
 
@@ -335,6 +353,10 @@ hr {
 
     .githubWrapper {
         margin-bottom: 2em;
+    }
+
+    .navbar-right{
+        font-size: smaller;
     }
 }
 
