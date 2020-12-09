@@ -66,7 +66,7 @@ function initSections() {
 
     //experiences
     $('#experienceInfoContainer').css("margin-left", $(".intro").offset().left);
-    $('#experienceInfoContainer').css("width", windowWidth);
+    // $('#experienceInfoContainer').css("width", windowWidth);
 }
 
 function intro() {
@@ -297,7 +297,7 @@ var textContent = {
             "dateStart": "Jan 2015 ",
             "dateEnd": "Aug 2015",
             "techStack": "",
-            "description": "At Luxtripper I had a hybrid role that included both hands-on work and leadership for their technical teams. My work included project management of various in-house projects, managing an offshore development team in Pakistan, gathering requirements for their e-commerce and marketing departments, and hands-on development work.",
+            "description": "Startup in the luxury sector to find destinations worldwide according to its own algorithm. I implemented the minimal infrastructure (servers, backups, version control) and processes of a software department leading a team of four offshore developers in Pakistan.",
             "tasks": [
               "Designed and implemented integrations with third APIs for hotel booking data. Prototyped a flight booking feature.",
               "Implemented TFS source control software and set source control processes (branch merges, deployments, testing).",
@@ -364,7 +364,7 @@ var textContent = {
             "dateStart": "Mar 2018",
             "dateEnd": "Aug 2018", 
             "techStack": "Kentico CMS, C#, SQL Server, Javascript",
-            "description": "Maternity leave substitution",
+            "description": "NGO to watch over and safeguard the rights of children. I was basically covering a maternity leave helping in the incidental of the application.",            
             "tasks": [
               "Built a responsive crowdfunding component in Kentico CMS integrated with Redsys payment system and Paypal. Used C#, Javascript, HTML, CSS and Kentico components.",
               "Fixed bugs on the commercial website, also in Kentico CMS.",
@@ -382,11 +382,32 @@ var textContent = {
             "dateStart": "Oct 2018",
             "dateEnd": "Apr 2019",
             "techStack": "",
-            "description": "Web Developer",
+            "description": "Due to a confidentiality agreement, it is not allowed to me to show publicly any description of any task nor technology during my time in this startup.",
             "tasks": [
-                "Due to a confidentiality agreement, it is not allowed to me to show publicly any description of any task nor technology during my time in this startup."
             ],
             "image": "wivi"
+        },
+        "planeta": {
+            "id": 9,
+            "ref": "planeta",
+            "company": "Grupo Planeta",
+            "city": "Barcelona",
+            "website": "https://www.planeta.es/en/learning",
+            "role": "Web Developer - Team Leader",
+            "dateStart": "Ago 2018",
+            "dateEnd": "Dec 2020", 
+            "techStack": "ASP.NET, ASP.NET API, C #, HTML, CSS, Canvas, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
+            "description": "Worked as a web developer for the group's learning and universities division, where it is managed from the courses' recruitment websites to enrollment in them and integration with learning platforms. The last 4 months I acted as team lead managing a team of 7 developers, 2 QA and 1 BA",
+            "tasks": [
+              "Integration of two brands having to migrate all the data from one brand (students, enrollments, courses ...) to the other to preserve their history",
+              "Solution for changing a conflicting NAS cabin where all the documentation generated during the enrollment process of students and courses was housed.",
+              "I modified the behavior of the two main applications to historicize the huge documentation that was generated in the enrollment process. In this way, the backup processes were simplified and the performance of the application was improved. In addition, standardizations were applied to document names.",
+              "I wrote an script in SQL to avoid a known exploit of the CMS of the websites that allows to create super users in the sites.",
+              "I participated as team leader in the different upgrade processes of 3 of the CMS where part of the websites ran, providing technical and functional help when required and carrying out the deployments.",
+              "I finished a critical project for the organization such as the migration of the Flash exercises/tests editor to HTML5, having to use canvas for the preview part of them.",
+              "As a team lead I participated in the planning and execution to change the payment provider of the applications due to a European regulatory change (3DS)."              
+            ],
+            "image": "planeta"
         }
     },
     "education": {

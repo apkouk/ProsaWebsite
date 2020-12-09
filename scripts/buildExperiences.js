@@ -44,8 +44,11 @@ function buildExperienceInfo(experience)
   experienceInfo.css("margin", "0 auto");
 
   var expHeader = $("<div>", { class: "expHeader" });
-  expHeader.append("<h1>" + experience.company  +"</h1>");
-  expHeader.append("<hr>");
+  // expHeader.append("<h1>" + experience.company  +"</h1>");
+  var imageExp = $("<img>", { src: "src/images/" + experience.image + extensionImage, class: "imgInfoExperience" });
+  expHeader.append(imageExp);
+
+  // expHeader.append("<hr>");
   expHeader.append("<h2>" + experience.role  +"</b>");
   expHeader.append("<h4>" + experience.city + ", " + experience.dateStart + "-" + experience.dateEnd  +"</h4>");
   expHeader.append("<a href='" + experience.website +"'>" +experience.website + "</a></br>");
