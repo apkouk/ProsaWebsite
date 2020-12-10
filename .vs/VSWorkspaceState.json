@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\data",
+    "\\scripts",
+    "\\src"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\data\\textContent.json",
   "PreviewInSolutionExplorer": false
 }
