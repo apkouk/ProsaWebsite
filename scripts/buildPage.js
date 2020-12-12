@@ -25,15 +25,12 @@ function buildPage() {
 
 var textContent;
 function loadTextContent() {
+    // var lang;
+    // var params = new window.URLSearchParams(window.location.search);
+    // lang = params.get('lang');
 
-
-
-    var lang;
-    var params = new window.URLSearchParams(window.location.search);
-    lang = params.get('lang');
-
-    if (lang == null)
-        lang = $('#lang-select :selected').val();
+    // if (lang == null)
+    lang = $('#lang-select :selected').val();
 
     textContent = "";
     switch (lang) {
@@ -80,9 +77,9 @@ function addHandlers() {
         //         $(this).append($temp);
         //     }
         // );        
-        // loadTextContent();
-        // buildPage();
-        location.assign(location.origin + location.pathname + "?lang=" + $('#lang-select :selected').val());
+        loadTextContent();
+        buildPage();
+        //location.assign(location.origin + location.pathname + "?lang=" + $('#lang-select :selected').val());
     });
 }
 
@@ -116,6 +113,7 @@ function initSections() {
 
 function intro() {
     var introSection = $(".intro");
+    introSection.empty();
     introSection.append("<h2>Introduction</h2>");
     $.each(textContent.intro.paragraphs, function (i, item) {
         introSection.append("<p>" + item + "</p>");
@@ -124,6 +122,7 @@ function intro() {
 
 function techSkills() {
     var techSkillsSection = $(".techSkills");
+    techSkillsSection.empty();
     techSkillsSection.append("<h2>Tech Skills</h2>");
     $.each(textContent.techSkills.paragraphs, function (i, item) {
         techSkillsSection.append("<p>" + item + "</p>");
@@ -138,6 +137,7 @@ function techSkills() {
 
 function personal() {
     var personalSkillsSection = $(".personalSkills");
+    personalSkillsSection.empty();
     personalSkillsSection.append("<h2>Personal Skills</h2>");
     $.each(textContent.personalSkills.paragraphs, function (i, item) {
         personalSkillsSection.append("<p>" + item + "</p>");
@@ -146,6 +146,7 @@ function personal() {
 
 function education() {
     var educationSection = $(".education");
+    educationSection.empty();
     educationSection.append("<h2>Education</h2>");
     $.each(textContent.education.paragraphs, function (i, item) {
         educationSection.append("<p>" + item + "</p>");
@@ -154,10 +155,11 @@ function education() {
 
 function services() {
     var servicesSection = $(".services");
+    servicesSection.empty();
     //servicesSection.append("<h2>Services</h2>");
     //servicesSection.append("<p>" + textContent.services.title + "</p></br>");
     var serviceItem = $(".service");
-
+    serviceItem.empty();
     $.each(textContent.services.serviceItems, function (i, service) {
         var serviceItemContainer = $("<div>", {
             class: "col-sm-6 col-md-4 col-lg-3 service-item"
@@ -169,7 +171,10 @@ function services() {
             src: "src/images/" + service.image + extensionImage,
             class: "serviceImg"
         });
+        
+        serviceImageDiv.empty();
         serviceImageDiv.append(serviceImage);
+        serviceItemContainer.empty();
         serviceItemContainer.append(serviceImageDiv);
 
         serviceItemContainer.append("<h4 style=><b>" + service.title + "</b></h4>");
@@ -182,6 +187,7 @@ function services() {
 
 function misc() {
     var miscSection = $(".misc");
+    miscSection.empty();
     miscSection.append("<h2>My Library</h2><hr>");
     $.each(textContent.misc.books, function (i, book) {
         miscSection.append("<p><i>" + book.title + "</i></br> " + book.author + "</p><hr>");
@@ -198,6 +204,7 @@ function misc() {
 
 function contact() {
     var contactSection = $(".contact");
+    contactSection.empty();
     var contactItem = $("<div>", {
         class: "contactItem"
     });
@@ -248,12 +255,12 @@ function showHideNavBar() {
     // });
 }
 
-function showNavBarTimeOut() {
-    $(window).scroll($.debounce(250, function () {
-        $("#navBar").fadeIn();
-        setTimeout(function () { $("#navBar").fadeOut(); }, 5000);
-    }));
-}
+// function showNavBarTimeOut() {
+//     $(window).scroll($.debounce(250, function () {
+//         $("#navBar").fadeIn();
+//         setTimeout(function () { $("#navBar").fadeOut(); }, 5000);
+//     }));
+// }
 
 var textContent = {}
 
