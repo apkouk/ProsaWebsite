@@ -20,11 +20,14 @@ function buildPage() {
     contact();
     addHandlers();
 
-    console.log("Page built!");
+    // console.log("Page built!");
 }
 
 var textContent;
 function loadTextContent() {
+
+
+
     var lang;
     var params = new window.URLSearchParams(window.location.search);
     lang = params.get('lang');
@@ -36,17 +39,15 @@ function loadTextContent() {
     switch (lang) {
         case "en":
             textContent = textContent_EN;
-            $("#lang-select").val("en");
-            break;         
+            break;
         case "es":
             textContent = textContent_ES;
-            $("#lang-select").val("es");
             break;
         case "ca":
             textContent = textContent_CA;
-            $("#lang-select").val("ca");
             break;
     }
+    $("#lang-select").val(lang);
 }
 
 var extensionImage = "";
@@ -68,6 +69,19 @@ function addHandlers() {
     showHideNavBar();
 
     $('#lang-select').on('change', function () {
+
+        // $("p").each(
+        //     function () {
+        //         // temprary save the children elements like spans & divs
+        //         $temp = $(this).children("span,div,h4,h2");
+        //         // clean the "p" container (text + <br>)
+        //         $(this).empty();
+        //         // recive the children
+        //         $(this).append($temp);
+        //     }
+        // );        
+        // loadTextContent();
+        // buildPage();
         location.assign(location.origin + location.pathname + "?lang=" + $('#lang-select :selected').val());
     });
 }
