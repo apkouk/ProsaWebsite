@@ -121,6 +121,34 @@ hr {
     float: left;
 }
 
+
+
+
+#lang-select{
+    float: right;
+}
+
+
+.navbar-default .navbar-brand { 
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+
+.float-button {
+    position: fixed;
+    transition: all 0.2s ease-in 0s;
+    z-index: 19999;
+    cursor: pointer;
+    padding-top: 5%;
+    float: right;
+    right: -30px;
+    }
+
+    .float-button:hover {
+        right: -7px;
+        }
 /* Phones */
 
 @media (max-width: 380px) {
