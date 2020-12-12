@@ -197,6 +197,19 @@ hr {
     background-color: #3e8e41;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #777 !important;
+}
+
+nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #777 !important;
+    background-color: transparent;
+    font-size: x-large;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 0s;
+}
+
 /* p {
     animation-duration: 3s;
     animation-name: slidein;
