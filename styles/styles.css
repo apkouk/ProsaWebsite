@@ -204,10 +204,18 @@ hr {
 nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #777 !important;
     background-color: transparent;
-    font-size: x-large;
+    font-weight: bolder;
+    font-size: 15px;
     transition-property: font-size;
     transition-duration: 2s;
     transition-delay: 0s;
+}
+.navbar-default .navbar-toggle {
+    background-color: #777;
+    margin-right: 10%;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #3f3e3e ;
 }
 
 /* p {
