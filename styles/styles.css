@@ -8,7 +8,7 @@ html::-webkit-scrollbar {
 
 .navbar-default {
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075) !important;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0px 1px 10px 2px #777 !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0px 1px 10px 2px #2f70a9 !important;
 }
 
 #body {
@@ -56,7 +56,7 @@ hr {
     line-height: 40px;
     margin-bottom: 25px;
     text-align: -moz-center;
-    text-align: -webkit-center;
+    text-align: -webkit-center; 
 }
 
 .introImage {
@@ -137,6 +137,7 @@ hr {
 .navbar-default .navbar-brand {
     font-size: xx-large;
     font-weight: bolder;
+    color: #265b8a !important;
 }
 
 .float-button {
@@ -207,11 +208,11 @@ hr {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #777 !important;
+    color: #265b8a !important;
 }
 
 nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #777 !important;
+    color: #265b8a !important;
     background-color: transparent;
     font-weight: bolder;
     font-size: 15px;
@@ -220,11 +221,11 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     transition-delay: 0s;
 }
 .navbar-default .navbar-toggle {
-    background-color: #777;
+    background-color: #265b8a;
     margin-right: 10%;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #3f3e3e ;
+    background-color: #73bdff ;
 }
 
 /* p {
