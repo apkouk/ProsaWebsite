@@ -236,10 +236,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #265b8a !important;
     background-color: transparent;
     font-weight: bolder;
-    font-size: 15px;
-    transition-property: font-size;
-    transition-duration: 1s;
-    transition-delay: 0s;
+    font-size: 130%;
 }
 
 .navbar-default .navbar-toggle {
@@ -333,6 +330,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: red;
     }
+    .navbar-right {
+        font-size: 9px !important;
+    }
     .float-button {
         margin-top: 10%;
     }
@@ -381,9 +381,14 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 @media (min-width: 600px) and (orientation: landscape) {
-    .bootstrapHelper {
+       .bootstrapHelper {
         background-color: red;
     }
+    
+    .navbar-right {
+        font-size: 9px !important;
+    }
+
     .float-button {
         margin-top: 5%;
     }
@@ -448,10 +453,13 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 
 /* Tablets landscape */
 
-@media (min-width: 900px) and (orientation: landscape) {
+
+
+@media (min-width: 930px) {
     .bootstrapHelper {
         background-color: green;
     }
+ 
     .float-button {
         margin-top: 1%;
     }
@@ -482,7 +490,15 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
         margin-bottom: 2em;
     }
     .navbar-right {
-        font-size: smaller;
+        font-size: 9px !important;
+    }
+}
+@media (min-width: 992px)  {
+    .bootstrapHelper {
+        background-color: green;
+    }
+    .navbar-right {
+        font-size: 12px !important;
     }
 }
 
@@ -504,6 +520,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: blue;
     }
+    .navbar-right {
+        font-size: 16px !important;
+    }
+
     .float-button {
         margin-top: 0%;
     }
@@ -557,3 +577,4 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
         margin-bottom: 2em;
     }
 }
+
