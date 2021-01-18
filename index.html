@@ -10,18 +10,18 @@
 
 
 <body id="body">
-
     <div class="float-button">
-        <div class="" style="float: right;">
-            <select name="langs" id="lang-select">
-                <option value="en">ENG</option>
-                <option value="ca">CAT</option>
-                <option value="es">ESP</option>
-            </select>
-        </div>
-        <!-- <div class="bootstrapHelper" style="height: 15px; width: 100px;">
-        </div>    -->
+        <div>
+            <input id="lang-en" type="button" class="btnSelectLang uk">
+            <br>
+            <input id="lang-ca" type="button" class="btnSelectLang catalonia" style="border: 1px solid white ">
+            <br>
+            <input id="lang-es" type="button" class="btnSelectLang spain">
+        </div>  
+        <!-- <div class="bootstrapHelper" style="height: 15px; width: 15px;">
+        </div>       -->
     </div>
+     
     <div id="page" class="container-fluid">
         <div id="navBar" class="navbar-expand-md">
             <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix">
@@ -70,7 +70,7 @@
                 </div>
             </nav>
         </div>
-        <div id="mainContainer" class="mainContainer">
+        <div id="mainContainer" class="mainContainer">           
             <div id="experienceInfoContainer">
                 <div class="experienceInfo">
                 </div>
@@ -80,7 +80,8 @@
                 <div class="introStart">
                     <p id="wellcome" class="wellcome">
                     </p>
-                    <a id="btnWellcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row" style="font-weight: bolder; border:none;"></a>
+                    <a id="btnWellcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row"
+                        style="font-weight: bolder; border:none;"></a>
                 </div>
 
             </div>
@@ -187,6 +188,7 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
+        loadTextContent("en");
         buildPage();
-    });
+    }); 
 </script>

@@ -134,6 +134,30 @@ hr {
     float: right;
 }
 
+.btnSelectLang {
+    border-radius: 40px;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.lang-selected {
+    box-shadow: 0px 0px 1px 1px #265b8a;
+}
+
+.catalonia {
+    background-image: url("../src/images/flag-catalonia.png");
+}
+
+.uk {
+    background-image: url("../src/images/flag-uk.png");
+}
+
+.spain {
+    background-image: url("../src/images/flag-spain.png");
+}
+
 .navbar-default .navbar-brand {
     font-size: xx-large;
     font-weight: bolder;
@@ -147,7 +171,7 @@ hr {
     cursor: pointer;
     padding-top: 5%;
     float: right;
-    right: 0px;
+    right: 5px;
 }
 
 /* .float-button:hover {
@@ -220,7 +244,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 
 .navbar-default .navbar-toggle {
     background-color: #265b8a;
-    margin-right: 10%;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -258,9 +281,12 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: black;
     }
-    .navbar-default .navbar-toggle {
-        margin-right: 20%;
+    .float-button {
+        margin-top: 15%;
     }
+    /* .navbar-default .navbar-toggle {
+        margin-right: 20%;
+    } */
     .introStart {
         font-size: 22px;
     }
@@ -306,6 +332,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 @media (min-width: 600px) and (orientation: portrait) {
     .bootstrapHelper {
         background-color: red;
+    }
+    .float-button {
+        margin-top: 10%;
     }
     #lang-select {
         float: right;
@@ -354,6 +383,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 @media (min-width: 600px) and (orientation: landscape) {
     .bootstrapHelper {
         background-color: red;
+    }
+    .float-button {
+        margin-top: 5%;
     }
     #lang-select {
         float: right;
@@ -420,6 +452,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: green;
     }
+    .float-button {
+        margin-top: 1%;
+    }
     #lang-select {
         float: right;
         margin-top: 0%;
@@ -468,6 +503,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 @media (min-width: 1200px) {
     .bootstrapHelper {
         background-color: blue;
+    }
+    .float-button {
+        margin-top: 0%;
     }
     #lang-select {
         float: right;
