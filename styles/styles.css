@@ -1,9 +1,9 @@
-html{
+html {
     scrollbar-width: none;
 }
 
 html::-webkit-scrollbar {
-    display: none;    
+    display: none;
 }
 
 .navbar-default {
@@ -13,7 +13,7 @@ html::-webkit-scrollbar {
 
 #body {
     margin: 0px;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;    
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 #intro, #educationContainer, #miscContainer, #personalSkillsContainer {
@@ -39,9 +39,9 @@ hr {
     color: #245580;
     font-size: 0.9em;
     background-color: #fff;
-    box-shadow: 0px 10px 10px #24558b;
+    box-shadow: 0px 1px 10px 2px #24558b;
     font-variant: petite-caps;
-    height: 1.05em;
+    padding-bottom: 5px;
 }
 
 .bootstrapHelper {
@@ -56,7 +56,7 @@ hr {
     line-height: 40px;
     margin-bottom: 25px;
     text-align: -moz-center;
-    text-align: -webkit-center; 
+    text-align: -webkit-center;
 }
 
 .introImage {
@@ -163,7 +163,6 @@ hr {
     border: none;
     border-radius: 20px;
     width: 150%;
-    
 }
 
 .dropdown {
@@ -189,18 +188,16 @@ hr {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    
 }
 
 .dropdown-content a:hover {
     background-color: #ddd;
- 
 }
 
 .dropdown:hover .dropdown-content {
     /* display: block; */
-  transition-delay: 2ms;
-  padding-right: 50%;
+    transition-delay: 2ms;
+    padding-right: 50%;
 }
 
 .dropdown:hover .dropbtn {
@@ -217,33 +214,34 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     font-weight: bolder;
     font-size: 15px;
     transition-property: font-size;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-delay: 0s;
 }
+
 .navbar-default .navbar-toggle {
     background-color: #265b8a;
     margin-right: 10%;
 }
+
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #73bdff ;
+    background-color: #73bdff;
 }
 
 /* p {
     animation-duration: 3s;
     animation-name: slidein;
   } */
-  
-  @keyframes slidein {
+
+@keyframes slidein {
     from {
-      margin-left: 100%;
-      width: 300%
+        margin-left: 100%;
+        width: 300%
     }
-  
     to {
-      margin-left: 0%;
-      width: 100%;
+        margin-left: 0%;
+        width: 100%;
     }
-  }
+}
 
 /* Phones */
 
@@ -260,10 +258,9 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: black;
     }
-    .navbar-default .navbar-toggle {     
+    .navbar-default .navbar-toggle {
         margin-right: 20%;
     }
-
     .introStart {
         font-size: 22px;
     }
