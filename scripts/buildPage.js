@@ -8,6 +8,7 @@ window.onclick = function (event) {
 
 function buildPage() {
     loadTextContent();
+    loadOptionsMenu();
     canUseWebP();
     initSections();
     intro();
@@ -21,6 +22,49 @@ function buildPage() {
     addHandlers();
 
     // console.log("Page built!");
+}
+
+function loadOptionsMenu() {
+    var option = $("#introOption");
+    option.empty();
+    option.text(textContent.intro.optionMenu);
+
+    option = $("#techOption");
+    option.empty();
+    option.text(textContent.techSkills.optionMenu);
+
+    option = $("#skillsOption");
+    option.empty();
+    option.text(textContent.personalSkills.optionMenu);
+
+    option = $("#experienceOption");
+    option.empty();
+    option.text(textContent.experiences.optionMenu);
+
+    option = $("#educationOption");
+    option.empty();
+    option.text(textContent.education.optionMenu);
+
+    option = $("#servicesOption");
+    option.empty();
+    option.text(textContent.services.optionMenu);
+
+    option = $("#contactOption");
+    option.empty();
+    option.text(textContent.socialMedia.optionMenu);
+
+    option = $("#wellcome");
+    option.empty();
+    option.text(textContent.intro.wellcome);
+
+    option = $("#btnWellcome");
+    option.empty();
+    option.text(textContent.intro.btnWellcome);
+    
+
+
+
+
 }
 
 var textContent;
@@ -114,7 +158,7 @@ function initSections() {
 function intro() {
     var introSection = $(".intro");
     introSection.empty();
-    introSection.append("<h2>Introduction</h2>");
+    introSection.append("<h2>" + textContent.intro.optionMenu + "</h2>");
     $.each(textContent.intro.paragraphs, function (i, item) {
         introSection.append("<p>" + item + "</p>");
     });
@@ -123,22 +167,22 @@ function intro() {
 function techSkills() {
     var techSkillsSection = $(".techSkills");
     techSkillsSection.empty();
-    techSkillsSection.append("<h2>Tech Skills</h2>");
+    techSkillsSection.append("<h2>" + textContent.techSkills.optionMenu + "</h2>");
     $.each(textContent.techSkills.paragraphs, function (i, item) {
         techSkillsSection.append("<p>" + item + "</p>");
     });
-    techSkillsSection.append("</br><h4><b>Development</b></h4>");
+    techSkillsSection.append("</br><h4><b>" + textContent.techSkills.subTitle1 + "</b></h4>");
     techSkillsSection.append("<p>" + textContent.techSkills.devSkills + "</p></br>");
-    techSkillsSection.append("<h4><b>Concepts</b></h4>");
+    techSkillsSection.append("<h4><b>" + textContent.techSkills.subTitle2 + "</b></h4>");
     techSkillsSection.append("<p>" + textContent.techSkills.concepts + "</p></br>");
-    techSkillsSection.append("<h4><b>Tools</b></h4>");
+    techSkillsSection.append("<h4><b>" + textContent.techSkills.subTitle3 + "</b></h4>");
     techSkillsSection.append("<p>" + textContent.techSkills.tools + "</p></br>");
 }
 
 function personal() {
     var personalSkillsSection = $(".personalSkills");
     personalSkillsSection.empty();
-    personalSkillsSection.append("<h2>Personal Skills</h2>");
+    personalSkillsSection.append("<h2>" + textContent.personalSkills.optionMenu + "</h2>");
     $.each(textContent.personalSkills.paragraphs, function (i, item) {
         personalSkillsSection.append("<p>" + item + "</p>");
     });
@@ -147,7 +191,7 @@ function personal() {
 function education() {
     var educationSection = $(".education");
     educationSection.empty();
-    educationSection.append("<h2>Education</h2>");
+    educationSection.append("<h2>" + textContent.education.optionMenu + "</h2>");
     $.each(textContent.education.paragraphs, function (i, item) {
         educationSection.append("<p>" + item + "</p>");
     });
@@ -155,9 +199,6 @@ function education() {
 
 function services() {
     var servicesSection = $(".services");
-    servicesSection.empty();
-    //servicesSection.append("<h2>Services</h2>");
-    //servicesSection.append("<p>" + textContent.services.title + "</p></br>");
     var serviceItem = $(".service");
     serviceItem.empty();
     $.each(textContent.services.serviceItems, function (i, service) {
@@ -171,7 +212,7 @@ function services() {
             src: "src/images/" + service.image + extensionImage,
             class: "serviceImg"
         });
-        
+
         serviceImageDiv.empty();
         serviceImageDiv.append(serviceImage);
         serviceItemContainer.empty();
@@ -188,12 +229,12 @@ function services() {
 function misc() {
     var miscSection = $(".misc");
     miscSection.empty();
-    miscSection.append("<h2>My Library</h2><hr>");
+    miscSection.append("<h2>" + textContent.misc.optionMenu + "</h2><hr>");
     $.each(textContent.misc.books, function (i, book) {
         miscSection.append("<p><i>" + book.title + "</i></br> " + book.author + "</p><hr>");
     });
     miscSection.append("</br>")
-    miscSection.append("<h2>Conferences and Meetups</h2><hr>");
+    miscSection.append("<h2>" + textContent.misc.optionMenu2 + "</h2><hr>");
     $.each(textContent.misc.conferences, function (i, conference) {
         miscSection.append("<p><i>" + conference.name + "</i></p>");
         miscSection.append("<h4>Date: " + conference.date + "</h4>");

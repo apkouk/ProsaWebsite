@@ -1,5 +1,9 @@
+html{
+    scrollbar-width: none;
+}
+
 html::-webkit-scrollbar {
-    display: none;
+    display: none;    
 }
 
 .navbar-default {
@@ -9,7 +13,7 @@ html::-webkit-scrollbar {
 
 #body {
     margin: 0px;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;    
 }
 
 #intro, #educationContainer, #miscContainer, #personalSkillsContainer {
@@ -32,7 +36,12 @@ hr {
 }
 
 .wellcome {
-    color: black;
+    color: #245580;
+    font-size: 0.9em;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px #24558b;
+    font-variant: petite-caps;
+    height: 1.05em;
 }
 
 .bootstrapHelper {
@@ -137,12 +146,12 @@ hr {
     cursor: pointer;
     padding-top: 5%;
     float: right;
-    right: -30px;
+    right: 0px;
 }
 
-.float-button:hover {
-    right: -7px;
-}
+/* .float-button:hover {
+    right: 5px;
+} */
 
 .dropbtn {
     background-color: #4CAF50;
@@ -250,6 +259,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: black;
     }
+    .navbar-default .navbar-toggle {     
+        margin-right: 20%;
+    }
+
     .introStart {
         font-size: 22px;
     }
@@ -296,6 +309,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: red;
     }
+    #lang-select {
+        float: right;
+        margin-top: -30%;
+    }
     .introStart {
         font-size: 40px;
     }
@@ -339,6 +356,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 @media (min-width: 600px) and (orientation: landscape) {
     .bootstrapHelper {
         background-color: red;
+    }
+    #lang-select {
+        float: right;
+        margin-top: -30%;
     }
     .introStart {
         font-size: 40px;
@@ -401,6 +422,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: green;
     }
+    #lang-select {
+        float: right;
+        margin-top: 0%;
+    }
     .introStart {
         font-size: 50px;
     }
@@ -446,6 +471,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .bootstrapHelper {
         background-color: blue;
     }
+    #lang-select {
+        float: right;
+        margin-top: 0%;
+    }
     .service-item {
         width: 48% !important;
     }
@@ -472,6 +501,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 @media (min-width: 1800px) {
     .bootstrapHelper {
         background-color: yellow;
+    }
+    #lang-select {
+        float: right;
+        margin-top: 0%;
     }
     .service-item {
         height: 280px;

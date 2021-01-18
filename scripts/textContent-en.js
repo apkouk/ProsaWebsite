@@ -6,7 +6,10 @@ var textContent_EN = {
       "I also am passionate about learning, seeing new places, and meeting new people. I am fortunate that my career in software development has provided me with the opportunity to do all three.",
       "In my free time I enjoy playing spanish guitar, reading a good book, or cooking a nice meal with friends. Feel free to poke around my website to learn more about me and my work. ",
       "Hasta la vista!"
-    ]
+    ],
+    "optionMenu": "Introduction",
+    "wellcome" : "Wellcome to my website",
+    "btnWellcome" : "Tell me more..."
   },
   "techSkills": {
     "paragraphs": [
@@ -16,7 +19,11 @@ var textContent_EN = {
     ],
     "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
     "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
-    "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman"
+    "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
+    "optionMenu" : "Tech",
+    "subTitle1" : "Development",
+    "subTitle2" : "Concepts",
+    "subTitle3" : "Tools",
   },
   "personalSkills": {
     "paragraphs": [
@@ -24,9 +31,11 @@ var textContent_EN = {
       "Over my career I have successfully managed several projects, performed as a business analyst to gather requirements from users, and written detailed requirements documentation. I have also managed offshore development teams and am able to mentor junior level resources.",
       "My analytical skills are another strength, and I have regularly been able to identify and resolve inefficiencies within development processes that have improved delivery speed.",
       "I am a native speaker of Spanish and Catalan with additional fluency in English."
-    ]
+    ],
+    "optionMenu" : "Personal Skills"
   },
   "experiences": {
+    "optionMenu" : "Experience",
     "desktopPublisher": {
       "id": 1,
       "ref": "desktopPublisher",
@@ -201,9 +210,12 @@ var textContent_EN = {
     "paragraphs": [
       "I received professional training in Software Development at Escola Politècnica Salessians Sarrià (2008 - 2010) and in Graphic Design at IES Esteve Terradasi illa (2005 - 2007).  ",
       "I’ve received additional training as a systems programmer for Android (Master D, 2012) and Java Programming (Escola BIT, 2008 - 2009)."
-    ]
+    ],
+    "optionMenu" : "Education"
   },
   "misc": {
+    "optionMenu" : "My Library",
+    "optionMenu2" : "Conferences and Meetups",
     "books": [
       {
         "id": 1,
@@ -278,6 +290,7 @@ var textContent_EN = {
     ]
   },
   "socialMedia": {
+    "optionMenu" : "Contact",
     "links": [
       {
         "id": 1,
@@ -300,6 +313,7 @@ var textContent_EN = {
     ]
   },
   "services": {
+    "optionMenu" : "Services",
     "title": "As a freelance consultant I offer various services to clients that can include:",
     "serviceItems": [
       {

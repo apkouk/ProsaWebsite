@@ -6,7 +6,10 @@ var textContent_ES = {
       "También me apasiona aprender, conocer nuevos lugares y conocer gente nueva. Tengo la suerte de que mi carrera en el desarrollo de software me haya brindado la oportunidad de hacer las tres cosas.",
       "En mi tiempo libre disfruto tocar la guitarra española, leer un buen libro o cocinar una buena comida con amigos. No dudes en echar un vistazo a mi sitio web para aprender más sobre mí y mi trabajo.",
       "¡Hasta la vista!"
-    ]
+    ],
+    "optionMenu": "Introducción",
+    "wellcome" : "Bienvenido a mi website",
+    "btnWellcome" : "Explícame más..."
   },
   "techSkills": {
     "paragraphs": [
@@ -16,7 +19,11 @@ var textContent_ES = {
     ],
     "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
     "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
-    "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman"
+    "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
+    "optionMenu": "Tecnologías",
+    "subTitle1" : "Desarrollo",
+    "subTitle2" : "Conceptos",
+    "subTitle3" : "Herramientas"
   },
   "personalSkills": {
     "paragraphs": [
@@ -24,9 +31,11 @@ var textContent_ES = {
       "A lo largo de mi carrera, he gestionado con éxito varios proyectos, me desempeñé como analista de negocios para recopilar los requisitos de los usuarios y redacté documentación detallada de los requisitos. También he gestionado equipos de desarrollo en el extranjero y puedo orientar recursos de nivel junior.",
       "Mis habilidades analíticas son otra fortaleza, y regularmente he podido identificar y resolver ineficiencias dentro de los procesos de desarrollo que han mejorado la velocidad de entrega.",
       "Soy un hablante nativo de español y catalán con una fluidez adicional en inglés."
-    ]
+    ],
+    "optionMenu": "Skills"
   },
   "experiences": {
+    "optionMenu" : "Experiencia",
     "desktopPublisher": {
       "id": 1,
       "ref": "Diseñador/Maquetador",
@@ -200,9 +209,12 @@ var textContent_ES = {
     "paragraphs": [
       "Técnico superior en desarrollo de aplicaciones informáticas Escola Politècnica Salessians Sarrià - BCN(2008 - 2010)",
       "Técnico superior en Producción Editorial IES Esteve Terradasi illa - BCN(2005 - 2007)"
-    ]
+    ],
+    "optionMenu" : "Educación"
   },
   "misc": {
+    "optionMenu" : "Mi Librería",
+    "optionMenu2" : "Conferencias y Meetups",
     "books": [
       {
         "id": 1,
@@ -277,6 +289,7 @@ var textContent_ES = {
     ]
   },
   "socialMedia": {
+    "optionMenu" : "Contacto",
     "links": [
       {
         "id": 1,
@@ -299,6 +312,7 @@ var textContent_ES = {
     ]
   },
   "services": {
+    "optionMenu" : "Servicios",
     "title": "Como consultor autónomo ofrezco varios servicios a los clientes que pueden incluir:",
     "serviceItems": [
       {

@@ -10,6 +10,7 @@
 
 
 <body id="body">
+   
     <div class="float-button">
         <div class="" style="float: right;">
              <select name="langs" id="lang-select">          
@@ -18,6 +19,8 @@
                 <option value="es">ESP</option>
             </select>  
         </div>
+        <!-- <div class="bootstrapHelper" style="height: 15px; width: 100px;">
+        </div>    -->
     </div>
     <div id="page" class="container-fluid">
         <div id="navBar" class="navbar-expand-md">
@@ -28,7 +31,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#linksGroup">
                             <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand page-scroll" href="#page">prosa</a>
+                        <a class="navbar-brand page-scroll" href="#page">#prosa</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,48 +41,45 @@
                                 <a href="#page"></a>
                             </li> -->
                             <li>
-                                <a class="page-scroll" href="#intro">Intro</a>
+                                <a id="introOption" class="page-scroll" href="#intro"></a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#techSkillsContainer">Tech</a>
+                                <a id="techOption" class="page-scroll" href="#techSkillsContainer"></a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#personalSkillsContainer">Personal Skills</a>
+                                <a id="skillsOption" class="page-scroll" href="#personalSkillsContainer"></a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#experienceContainer">Experience</a>
+                                <a id="experienceOption" class="page-scroll" href="#experienceContainer"></a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#educationContainer">Education</a>
+                                <a id="educationOption" class="page-scroll" href="#educationContainer"></a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#serviciesContainer">Servicies</a>
+                                <a id="servicesOption" class="page-scroll" href="#serviciesContainer"></a>
                             </li>
                             <li>
                                 <a class="page-scroll" href="#miscContainer">Misc</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#contactContainer">Contact</a>
+                                <a id="contactOption" class="page-scroll" href="#contactContainer"></a>
                             </li>
                         </ul>
                     </div>                    
                 </div>                             
             </nav>            
-        </div>      
+        </div>        
         <div id="mainContainer" class="mainContainer">
             <div id="experienceInfoContainer">
                 <div class="experienceInfo">
                 </div>
             </div>
-            <div class="bootstrapHelper">
-            </div>
+          
             <div id="introContainer" class="row introImage">
                 <div class="introStart">
-                    <p class="wellcome">
-                        Wellcome to my website!
+                    <p id="wellcome" class="wellcome">                        
                     </p>
-                    <a id="btnWellcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row">Tell Me
-                        More</a>
+                    <a id="btnWellcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row"></a>
                 </div>
 
             </div>
@@ -176,17 +176,13 @@
 <script src="scripts/buildPage.js" type="text/javascript"></script>
 <script src="scripts/jqBootstrapValidation.js" type="text/javascript"></script>
 <script src="scripts/contactMe.js" type="text/javascript"></script>
-
 <script src="scripts/jquery.ba-throttle-debounce.js" type="text/javascript"></script>
-
-
 
 <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles/cards.css">
 <link rel="stylesheet" type="text/css" href="styles/styles.css">
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 <script type="text/javascript">
     $(document).ready(function () {

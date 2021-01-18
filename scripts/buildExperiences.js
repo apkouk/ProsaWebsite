@@ -2,34 +2,38 @@ function experience() {
   var experienceSection = $(".experience");
   experienceSection.empty();
   $.each(textContent.experiences, function (i, experience) {
-    var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card" });
 
-    var cardContainer = $("<div>", { id: experience.ref, class: "col card-container" });
-    var cardImageDiv = $("<div>", { class: "card-image" });
-    var cardImage = $("<img>", { src: "src/images/" + experience.image + extensionImage, class: "cardImg" });
-    cardImageDiv.append(cardImage);
+    if (experience.company != undefined) {
 
-    var cardTitle = $("<div>", { class: "card-title" });
-    cardTitle.append("<h4>" + experience.company + "</h4>");
+      var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card" });
 
-    var cardRole = $("<div>", { class: "card-role" });
-    cardRole.append("<h5>" + experience.role + "</h5>");
+      var cardContainer = $("<div>", { id: experience.ref, class: "col card-container" });
+      var cardImageDiv = $("<div>", { class: "card-image" });
+      var cardImage = $("<img>", { src: "src/images/" + experience.image + extensionImage, class: "cardImg" });
+      cardImageDiv.append(cardImage);
 
-    cardContainer.append(cardImageDiv);
-    cardContainer.append(cardTitle);
-    cardContainer.append(cardRole);
-    card.append(cardContainer);
+      var cardTitle = $("<div>", { class: "card-title" });
+      cardTitle.append("<h4>" + experience.company + "</h4>");
 
-    card.click(function () {
-      var experienceId = this.getAttribute('id');
-      $.each(textContent.experiences, function (i, experience) {
-        if (experience.id == experienceId) {
-          buildExperienceInfo(experience);
-          return;
-        }
+      var cardRole = $("<div>", { class: "card-role" });
+      cardRole.append("<h5>" + experience.role + "</h5>");
+
+      cardContainer.append(cardImageDiv);
+      cardContainer.append(cardTitle);
+      cardContainer.append(cardRole);
+      card.append(cardContainer);
+
+      card.click(function () {
+        var experienceId = this.getAttribute('id');
+        $.each(textContent.experiences, function (i, experience) {
+          if (experience.id == experienceId) {
+            buildExperienceInfo(experience);
+            return;
+          }
+        });
       });
-    });
-    experienceSection.append(card);
+      experienceSection.append(card);
+    }
   });
 }
 

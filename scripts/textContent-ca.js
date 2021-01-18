@@ -6,7 +6,10 @@ var textContent_CA = {
         "També m'apassiona aprendre, veure llocs nous i conèixer gent nova. Tinc la sort que la meva carrera en el desenvolupament de programari m'hagi donat l'oportunitat de fer els tres.",
         "Durant el meu temps lliure, gaudeixo tocant la guitarra espanyola, llegint un bon llibre o cuinant un bon àpat amb els amics. No dubteu a fer una ullada al meu lloc web per obtenir més informació sobre mi i la meva feina.",
         "A reveure!"
-      ]
+      ],
+      "optionMenu": "Introducció",
+      "wellcome" : "Benvingut al meu website",
+      "btnWellcome" : "Explica'm més..."
     },
     "techSkills": {
       "paragraphs": [
@@ -16,7 +19,11 @@ var textContent_CA = {
       ],
       "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
       "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
-      "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman"
+      "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
+      "optionMenu" : "Tecnologies",
+      "subTitle1" : "Desenvolupament",
+      "subTitle2" : "Conceptes",
+      "subTitle3" : "Eines",
     },
     "personalSkills": {
       "paragraphs": [
@@ -24,9 +31,11 @@ var textContent_CA = {
         "Al llarg de la meva carrera professional, he gestionat amb èxit diversos projectes, he realitzat analistes empresarials per reunir els requisits dels usuaris i he escrit documentació detallada sobre els requisits. També he gestionat equips de desenvolupament offshore i sóc capaç de fer de tutor de recursos de nivell júnior.",
         "Les meves habilitats analítiques són un altre dels punts forts i he estat capaç d'identificar i resoldre regularment les ineficiències dels processos de desenvolupament que han millorat la velocitat de lliurament.",
         "Sóc parlant nadiu de castellà i català amb una fluïdesa addicional en anglès."
-      ]
+      ],
+      "optionMenu" : "Skills"
     },
     "experiences": {
+      "optionMenu" : "Experiència",
       "desktopPublisher": {
         "id": 1,
         "ref": "desktopPublisher",
@@ -202,9 +211,12 @@ var textContent_CA = {
       "paragraphs": [
         "Tècnic superior en Desenvolupament d’Aplicacions Informàtiques Escola Politècnica Salessians Sarrià - BCN(2008 - 2010)",
         "Tècnic superior en Producció Editorial IES Esteve Terradasi illa - BCN(2005 - 2007)"
-      ]
+      ],
+      "optionMenu" : "Educació"
     },
     "misc": {
+      "optionMenu" : "La meva Llibreria",
+      "optionMenu2" : "Conferències i Meetups",
       "books": [
         {
           "id": 1,
@@ -279,6 +291,7 @@ var textContent_CA = {
       ]
     },
     "socialMedia": {
+      "optionMenu" : "Contacte",
       "links": [
         {
           "id": 1,
@@ -301,6 +314,7 @@ var textContent_CA = {
       ]
     },
     "services": {
+      "optionMenu" : "Serveis",
       "title": "Com a consultor independent, ofereixo diversos serveis als clients que poden incloure:",
       "serviceItems": [
         {
