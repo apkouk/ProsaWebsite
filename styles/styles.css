@@ -11,9 +11,65 @@ html::-webkit-scrollbar {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0px 1px 10px 2px #2f70a9 !important;
 }
 
+.active {
+    color: #265b8a !important;
+    background-color: transparent;
+    font-weight: bolder;
+    position: relative;
+}
+
+
+.navbar-items li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.navbar-items li a {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-items li a::after {
+    width: 0;
+    content: "";
+    height: 6px;
+    background-color: #fcda20;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    transition: width .1s ease-in-out;
+    border-radius: 10px;
+}
+
+.navbar-items li a.active::after {
+    width: 100%;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #265b8a !important;
+}
+
+nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #265b8a !important;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 130%;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #265b8a;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #73bdff;
+}
+
 #body {
     margin: 0px;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #intro, #educationContainer, #miscContainer, #personalSkillsContainer {
@@ -228,24 +284,6 @@ hr {
     background-color: #3e8e41;
 }
 
-.navbar-default .navbar-nav>li>a {
-    color: #265b8a !important;
-}
-
-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #265b8a !important;
-    background-color: transparent;
-    font-weight: bolder;
-    font-size: 130%;
-}
-
-.navbar-default .navbar-toggle {
-    background-color: #265b8a;
-}
-
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #73bdff;
-}
 
 /* p {
     animation-duration: 3s;
@@ -381,14 +419,12 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 @media (min-width: 600px) and (orientation: landscape) {
-       .bootstrapHelper {
+    .bootstrapHelper {
         background-color: red;
     }
-    
     .navbar-right {
         font-size: 9px !important;
     }
-
     .float-button {
         margin-top: 5%;
     }
@@ -453,13 +489,10 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 
 /* Tablets landscape */
 
-
-
 @media (min-width: 930px) {
     .bootstrapHelper {
         background-color: green;
     }
- 
     .float-button {
         margin-top: 1%;
     }
@@ -493,7 +526,8 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
         font-size: 9px !important;
     }
 }
-@media (min-width: 992px)  {
+
+@media (min-width: 992px) {
     .bootstrapHelper {
         background-color: green;
     }
@@ -523,7 +557,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     .navbar-right {
         font-size: 16px !important;
     }
-
     .float-button {
         margin-top: 0%;
     }
@@ -577,4 +610,3 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
         margin-bottom: 2em;
     }
 }
-

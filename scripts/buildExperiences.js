@@ -9,7 +9,7 @@ function experience() {
 
       var cardContainer = $("<div>", { id: experience.ref, class: "col card-container" });
       var cardImageDiv = $("<div>", { class: "card-image" });
-      var cardImage = $("<img>", { src: "src/images/" + experience.image + extensionImage, class: "cardImg" });
+      var cardImage = $("<img>", { src: "src/images/" + experience.image + extensionImage, class: "cardImg", alt: experience.image });
       cardImageDiv.append(cardImage);
 
       var cardTitle = $("<div>", { class: "card-title" });
@@ -48,7 +48,7 @@ function buildExperienceInfo(experience) {
 
   var expHeader = $("<div>", { class: "expHeader" });
   // expHeader.append("<h1>" + experience.company  +"</h1>");
-  var imageExp = $("<img>", { src: "src/images/" + experience.image + extensionImage, class: "imgInfoExperience" });
+  var imageExp = $("<img>", { src: "src/images/" + experience.image + extensionImage, class: "imgInfoExperience", alt: experience.image });
   expHeader.append(imageExp);
 
   // expHeader.append("<hr>");

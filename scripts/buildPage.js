@@ -49,6 +49,10 @@ function loadOptionsMenu() {
     option.empty();
     option.text(textContent.services.optionMenu);
 
+    option = $("#miscOption");
+    option.empty();
+    option.text("Misc");
+
     option = $("#contactOption");
     option.empty();
     option.text(textContent.socialMedia.optionMenu);
@@ -60,11 +64,6 @@ function loadOptionsMenu() {
     option = $("#btnWellcome");
     option.empty();
     option.text(textContent.intro.btnWellcome);
-
-
-
-
-
 }
 
 var textContent;
@@ -84,7 +83,6 @@ function loadTextContent(lang) {
             textContent = textContent_CA;
             break;
     }
-    // $("#lang-select").val(lang);
 }
 
 var extensionImage = "";
@@ -102,8 +100,6 @@ function canUseWebP() {
 
 function addHandlers() {
     resizingElement();
-    smoothScrolling();
-    showHideNavBar();
     
     $("#lang-en").removeClass("lang-selected");
     $("#lang-ca").removeClass("lang-selected");
@@ -152,8 +148,7 @@ function initSections() {
     $('.introStart').css("margin-top", windowHeight / 2);
 
     //experiences
-    $('#experienceInfoContainer').css("margin-left", $(".intro").offset().left);
-    // $('#experienceInfoContainer').css("width", windowWidth);
+    $('#experienceInfoContainer').css("margin-left", $(".intro").offset().left);        
 }
 
 function intro() {
@@ -172,11 +167,11 @@ function techSkills() {
     $.each(textContent.techSkills.paragraphs, function (i, item) {
         techSkillsSection.append("<p>" + item + "</p>");
     });
-    techSkillsSection.append("</br><h4><b>" + textContent.techSkills.subTitle1 + "</b></h4>");
+    techSkillsSection.append("</br><h3><b>" + textContent.techSkills.subTitle1 + "</b></h3>");
     techSkillsSection.append("<p>" + textContent.techSkills.devSkills + "</p></br>");
-    techSkillsSection.append("<h4><b>" + textContent.techSkills.subTitle2 + "</b></h4>");
+    techSkillsSection.append("<h3><b>" + textContent.techSkills.subTitle2 + "</b></h3>");
     techSkillsSection.append("<p>" + textContent.techSkills.concepts + "</p></br>");
-    techSkillsSection.append("<h4><b>" + textContent.techSkills.subTitle3 + "</b></h4>");
+    techSkillsSection.append("<h3><b>" + textContent.techSkills.subTitle3 + "</b></h3>");
     techSkillsSection.append("<p>" + textContent.techSkills.tools + "</p></br>");
 }
 
@@ -211,7 +206,8 @@ function services() {
         });
         var serviceImage = $("<img>", {
             src: "src/images/" + service.image + extensionImage,
-            class: "serviceImg"
+            class: "serviceImg",
+            alt: service.image
         });
 
         serviceImageDiv.empty();
@@ -252,11 +248,12 @@ function contact() {
     });
     var contactImage = $("<img>", {
         src: "src/images/prosaWeb.png",
-        class: "img-circle"
+        class: "img-circle",
+        alt: "prosaWeb"
     });
     contactItem.append(contactImage);
     contactItem.append("<h3>Francisco Rosa</h3>");
-    contactItem.append("<p>Barcelona - +34 634 538 340</p>");
+    contactItem.append("<p>Barcelona +34 634 538 340</p>");
 
     contactSection.prepend(contactItem);
 
@@ -268,34 +265,6 @@ function resizingElement() {
     });
 }
 
-function smoothScrolling() {
-    //add smooth scrolling on navBar links...
-    var links = $("#linksGroup").find('a');
-    for (var i = 0; i < links.length; i++) {
-        $(links[i]).on('click', function (event) {
-            var target = $(this.getAttribute('href'));
-            if (target.length) {
-                event.preventDefault();
-                $('html, body').stop().animate({
-                    scrollTop: target.position().top
-                }, 1000);
-            }
-        });
-    }
-    //...and button
-    $("#btnWellcome").click(function () {
-        $('html, body').animate({
-            scrollTop: $("#intro").position().top
-        }, 1000);
-    });
-}
-
-function showHideNavBar() {
-    // $(window).scroll(function (event) {
-    //     ($(window).scrollTop() > 550) ? showNavBarTimeOut() : $("#navBar").show();
-    //     console.log("SCROLLTOP: " + $(window).scrollTop());
-    // });
-}
 
 var textContent = {}
 

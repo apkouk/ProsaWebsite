@@ -61,7 +61,7 @@ var textContent_CA = {
         "dateEnd": "Mai 2010",
         "techStack": "",
         "description": "Aquest va ser el meu primer treball en pràctiques com a programador.",
-        "tasks": "Vaig escriure pàgines web fent servir C # (framework 3.5), ASP.NET, SOAP Web Services, HTML, CSS, MS SQL Server, Oracle i Visual Studio 2010.",
+        "tasks": ["Vaig escriure pàgines web fent servir C # (framework 3.5), ASP.NET, SOAP Web Services, HTML, CSS, MS SQL Server, Oracle i Visual Studio 2010."],
         "image": "netlife"
       },
       "btgsa": {
