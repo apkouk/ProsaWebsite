@@ -2,7 +2,7 @@ var textContent_ES = {
   "intro": {
     "paragraphs": [
       "Mi nombre es Francisco pero todos me llaman Paco i me gano la vida como desarrolador de software.",
-      "He estado creando diversas soluciones de software para varios clientes desde 2009. Lo que más me gusta son los desafíos y resolver problemas, mejorando mis capacidades a diario. Me encanta ayudar a mis clientes y compñeros y ver cómo los proyectos maduran y crecen. Me inspira ser parte de un equipo con un objetivo común y me despierto todos los días motivado para hacer las cosas. En el día a día el trabajo me proporciona una gran satisfacción y la resolución de problemas es una de mis fortaleza y algo con lo que realmente disfruto.",
+      "He estado creando diversas soluciones de software para varios clientes desde 2009. Lo que más me gusta son los desafíos y resolver problemas, mejorando mis capacidades a diario. Me encanta ayudar a mis clientes y compañeros y ver cómo los proyectos maduran y crecen. Me inspira ser parte de un equipo con un objetivo común y me despierto todos los días motivado para hacer las cosas. En el día a día el trabajo me proporciona una gran satisfacción y la resolución de problemas es una de mis fortaleza y algo con lo que realmente disfruto.",
       "También me apasiona aprender, conocer nuevos lugares y conocer gente nueva. Tengo la suerte de que mi carrera en el desarrollo me haya brindado la oportunidad de hacer las tres cosas.",
       "En mi tiempo libre disfruto aprendiendo y tocando la guitarra española, leyendo un buen libro o cocinando una buen festín con amigos. Aparte me encanta poder enseñar mis conocimientos dando clases particulares de programación, lo mejor del saber no es tenerlo, es compartirlo! También me inscribo a cursos de humanidades cuando la ocasión lo merece para no olvidar mi parte más 'humana'. No dudes en echar un vistazo a mi sitio web para aprender más sobre mí y mi trabajo.",
       "¡Hasta la vista!"
@@ -14,7 +14,7 @@ var textContent_ES = {
   "techSkills": {
     "paragraphs": [
       "Me considero un desarrollador full-stack capaz de contribuir a proyectos en todas sus facetas. La mayor parte de mi experiencia ha sido con tecnologías de Microsoft, incluida una amplia experiencia en el uso de C#, ASP.NET, Web Forms y SQL Server. Me siento cómodo usando una herramientas de Microsoft, incluidas varias versiones de Visual Studio, Entity Framework, Team Foundation Server y Git. ",
-      "Para proyectos de desarrollo web, he trabajado con HTML / CSS y JavaScript, incluidos varios frameworks y librerias populares como ASP.NET, Telerik, Bootstrap, Angular, Slick y jQuery. También tengo experiencia en el uso de herramientas cloud de Azure y Amazon Web Services.",
+      "Para proyectos de desarrollo web he trabajado con HTML/CSS y JavaScript, incluidos varios frameworks y librerias populares como ASP.NET, Telerik, Bootstrap, Angular, Slick y jQuery. También tengo experiencia en el uso de herramientas cloud de Azure y Amazon Web Services.",
       "A continuación se muestra una breve lista de mis habilidades."
     ],
     "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",

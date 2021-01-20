@@ -13,8 +13,8 @@ var textContent_CA = {
     },
     "techSkills": {
       "paragraphs": [
-        "Em considero un full-stack developer capaç de contribuir a projectes en totes les seves vessants. La majoria de la meva experiència ha estat amb tecnologies de Microsoft, inclosa una extensa experiència utilitzant C#, ASP.NET, Web Forms i SQL Server. Treballo comodament amb diverses eines de Microsoft, incloses diverses versions de Visual Studio, Entity Framework, Team Foundation Server i Git. ",
-        "Per a projectes de desenvolupament web, he treballat amb HTML/CSS i JavaScript, inclosos diversos frameworks i llibreries populars, com ara ASP.NET, Telerik, Bootstrap, Angular, Slick i jQuery. També tinc experiència utilitzant eines cloud d'Azure i Amazon Web Services.",
+        "Em considero un full-stack developer capaç de contribuir en totes les seves vessants dels projectes. La majoria de la meva experiència ha estat amb tecnologies de Microsoft, inclosa una extensa experiència utilitzant C#, ASP.NET, Web Forms i SQL Server. Treballo comodament amb diverses eines de Microsoft, incloses diverses versions de Visual Studio, Entity Framework, Team Foundation Server i Git. ",
+        "Per a projectes de desenvolupament web he treballat amb HTML/CSS i JavaScript, inclosos diversos frameworks i llibreries populars, com ara ASP.NET, Telerik, Bootstrap, Angular, Slick i jQuery. També tinc experiència utilitzant eines cloud d'Azure i Amazon Web Services.",
         "A continuació es mostra una breu llista d'habilitats del meu currículum."
       ],
       "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
