@@ -4,7 +4,7 @@ var textContent_EN = {
       "My name is Francisco but everybody calls me Paco (a common Spanish nickname for Francisco).",
       "I make my living as a senior software developer, and I have been building diverse software solutions for various clients and employers since 2009. I truly love what I do, and what I like most is the challenges of solving problems and improving my coding ability on a daily basis. I love helping my employers and clients improve their software and watching projects mature and grow. I’m inspired by being part of a team with a common goal, and I wake up every day motivated to get things done. This work gives me great satisfaction, and problem solving is a strength and something I truly enjoy.",
       "I also am passionate about learning, seeing new places, and meeting new people. I am fortunate that my career in software development has provided me with the opportunity to do all three.",
-      "In my free time I enjoy playing spanish guitar, reading a good book, or cooking a nice meal with friends. Feel free to poke around my website to learn more about me and my work. ",
+      "In my free time I enjoy learning and playing spanish guitar, reading a good book, or cooking a nice meal with friends. Feel free to poke around my website to learn more about me and my work. ",
       "Hasta la vista!"
     ],
     "optionMenu": "Introduction",

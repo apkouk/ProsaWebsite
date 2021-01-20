@@ -56,7 +56,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #265b8a !important;
     background-color: transparent;
     font-weight: bolder;
-    font-size: 130%;
 }
 
 .navbar-default .navbar-toggle {
