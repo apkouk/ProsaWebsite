@@ -205,11 +205,59 @@ var textContent_EN = {
       ],
       "image": "planeta"
     }
-  },
+  },  
   "education": {
-    "paragraphs": [
-      "I received professional training in Software Development at Escola Politècnica Salessians Sarrià (2008 - 2010) and in Graphic Design at IES Esteve Terradasi illa (2005 - 2007).  ",
-      "I’ve received additional training as a systems programmer for Android (Master D, 2012) and Java Programming (Escola BIT, 2008 - 2009)."
+    "collection": [
+      {
+        "id":1,
+        "center": "Microsoft Learn",
+        "date" : "Barcelona (2021)",
+        "title" : "Microsoft Certified: Azure Fundamentals",
+        "desc": "I also learn new skills using the microsoft challenges and learning paths options",
+        "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
+        "image" : "az900",
+        "url" : "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c/public_url" 
+      },
+      {
+        "id":2,
+        "center": "Escola Politècnica Salessians Sarrià",
+        "date" : "Barcelona (2008 - 2010)",
+        "title" : "Professional training in Software Development",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "epps",
+        "url" : "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma" 
+      },
+      {
+        "id":3,
+        "center": "IES Esteve Terradas i illa",
+        "date" : "Barcelona (2005 - 2007)",
+        "title" : "Graphic Design",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "esteve",
+        "url" : "https://agora.xtec.cat/iesesteveterradas/arts-grafiques/" 
+      },
+      {
+        "id":4,
+        "center": "Master D",
+        "date" : "Barcelona (2012)",
+        "title" : "Systems programmer for Android",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "masterd",
+        "url" : "https://www.masterd.es/curso-android" 
+      },
+      {
+        "id":5,
+        "center": "Escola Bit",
+        "date" : "Barcelona (2009)",
+        "title" : "Java Programming",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "escolabit",
+        "url" : "https://www.bit.es/curso/desarrollo-de-aplicaciones-con-java-9-11/" 
+      }          
     ],
     "optionMenu" : "Education"
   },

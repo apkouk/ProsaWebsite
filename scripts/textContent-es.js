@@ -206,11 +206,59 @@ var textContent_ES = {
     }
   },
   "education": {
-    "paragraphs": [
-      "Técnico superior en desarrollo de aplicaciones informáticas Escola Politècnica Salessians Sarrià - BCN(2008 - 2010)",
-      "Técnico superior en Producción Editorial IES Esteve Terradasi illa - BCN(2005 - 2007)"
+    "collection": [
+      {
+        "id": 1,
+        "center": "Microsoft Learn",
+        "date": "Barcelona (2021)",
+        "title": "Microsoft Certified: Azure Fundamentals",
+        "desc": "También adquiero nuevos conociemientos con los challenges y los learning paths",
+        "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
+        "image": "az900",
+        "url": "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c/public_url"
+      },
+      {
+        "id": 2,
+        "center": "Escola Politècnica Salessians Sarrià",
+        "date": "Barcelona (2008 - 2010)",
+        "title": "Técnico superior en Desarrollo de Aplicaciones Informáticas",
+        "desc": "",
+        "descUrl" : "",
+        "image": "epps",
+        "url": "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma"
+      },
+      {
+        "id": 3,
+        "center": "IES Esteve Terradasi illa",
+        "date": "Barcelona (2005 - 2007)",
+        "title": "Técnico superior en Producción Editorial",
+        "desc": "",
+        "descUrl" : "",
+        "image": "esteve",
+        "url": "https://agora.xtec.cat/iesesteveterradas/arts-grafiques/"
+      },
+      {
+        "id": 4,
+        "center": "Master D",
+        "date": "Barcelona (2012)",
+        "title": "Curso programación en Android",
+        "desc": "",
+        "descUrl" : "",
+        "image": "masterd",
+        "url": "https://www.masterd.es/curso-android"
+      },      
+      {
+        "id": 5,
+        "center": "Escola Bit",
+        "date": "Barcelona (2009)",
+        "title": "Programación en Java",
+        "desc": "",
+        "descUrl" : "",
+        "image": "escolabit",
+        "url": "https://www.bit.es/curso/desarrollo-de-aplicaciones-con-java-9-11/"
+      }
     ],
-    "optionMenu" : "Educación"
+    "optionMenu": "Educación"
   },
   "misc": {
     "optionMenu" : "Mi biblioteca",
