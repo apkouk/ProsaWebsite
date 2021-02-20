@@ -219,6 +219,16 @@ var textContent_ES = {
       },
       {
         "id": 2,
+        "center": "Pluralsight",
+        "date": "Barcelona (2019)",
+        "title": "Varios módulos de aprendizaje y pruebas de nivel",
+        "desc": "",
+        "descUrl" : "",
+        "image": "pluralsight",
+        "url": "https://app.pluralsight.com/profile/francisco-rosa"
+      },
+      {
+        "id": 3,
         "center": "Escola Politècnica Salessians Sarrià",
         "date": "Barcelona (2008 - 2010)",
         "title": "Técnico superior en Desarrollo de Aplicaciones Informáticas",
@@ -228,7 +238,7 @@ var textContent_ES = {
         "url": "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma"
       },
       {
-        "id": 3,
+        "id": 4,
         "center": "IES Esteve Terradasi illa",
         "date": "Barcelona (2005 - 2007)",
         "title": "Técnico superior en Producción Editorial",
@@ -238,7 +248,7 @@ var textContent_ES = {
         "url": "https://agora.xtec.cat/iesesteveterradas/arts-grafiques/"
       },
       {
-        "id": 4,
+        "id": 5,
         "center": "Master D",
         "date": "Barcelona (2012)",
         "title": "Curso programación en Android",
@@ -248,7 +258,7 @@ var textContent_ES = {
         "url": "https://www.masterd.es/curso-android"
       },      
       {
-        "id": 5,
+        "id": 6,
         "center": "Escola Bit",
         "date": "Barcelona (2009)",
         "title": "Programación en Java",
