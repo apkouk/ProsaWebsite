@@ -188,8 +188,19 @@ function education() {
     var educationSection = $(".education");
     educationSection.empty();
     educationSection.append("<h2>" + textContent.education.optionMenu + "</h2>");
-    $.each(textContent.education.paragraphs, function (i, item) {
-        educationSection.append("<p>" + item + "</p>");
+    $.each(textContent.education.collection, function (i, item) {
+
+        var education = $("<div>", { class: "educationChunk" });
+        var imageExp = $("<img>", { src: "src/images/" + item.image + extensionImage, class: "educationimg", alt: item.image });
+        education.append(imageExp);      
+        education.append("<p>" + item.center + ", " + item.date + "</p>");
+        education.append("<b><a target=\"_blank\" rel=\"noopener noreferrer\" href='" + item.url + "' >" + item.title  + "</a></b></br>");
+
+        if(item.desc !== ""){
+            education.append("<a target=\"_blank\" rel=\"noopener noreferrer\" href='" + item.descUrl + "' >" + item.desc  + "</a></br>");
+        }
+
+        educationSection.append(education);
     });
 }
 

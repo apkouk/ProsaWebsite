@@ -4,7 +4,7 @@ var textContent_EN = {
       "My name is Francisco but everybody calls me Paco (a common Spanish nickname for Francisco).",
       "I make my living as a senior software developer, and I have been building diverse software solutions for various clients and employers since 2009. I truly love what I do, and what I like most is the challenges of solving problems and improving my coding ability on a daily basis. I love helping my employers and clients improve their software and watching projects mature and grow. I’m inspired by being part of a team with a common goal, and I wake up every day motivated to get things done. This work gives me great satisfaction, and problem solving is a strength and something I truly enjoy.",
       "I also am passionate about learning, seeing new places, and meeting new people. I am fortunate that my career in software development has provided me with the opportunity to do all three.",
-      "In my free time I enjoy playing spanish guitar, reading a good book, or cooking a nice meal with friends. Feel free to poke around my website to learn more about me and my work. ",
+      "In my free time I enjoy learning and playing spanish guitar, reading a good book, or cooking a nice meal with friends. Feel free to poke around my website to learn more about me and my work. ",
       "Hasta la vista!"
     ],
     "optionMenu": "Introduction",
@@ -205,11 +205,59 @@ var textContent_EN = {
       ],
       "image": "planeta"
     }
-  },
+  },  
   "education": {
-    "paragraphs": [
-      "I received professional training in Software Development at Escola Politècnica Salessians Sarrià (2008 - 2010) and in Graphic Design at IES Esteve Terradasi illa (2005 - 2007).  ",
-      "I’ve received additional training as a systems programmer for Android (Master D, 2012) and Java Programming (Escola BIT, 2008 - 2009)."
+    "collection": [
+      {
+        "id":1,
+        "center": "Microsoft Learn",
+        "date" : "Barcelona (2021)",
+        "title" : "Microsoft Certified: Azure Fundamentals",
+        "desc": "I also learn new skills using the microsoft challenges and learning paths options",
+        "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
+        "image" : "az900",
+        "url" : "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c/public_url" 
+      },
+      {
+        "id":2,
+        "center": "Escola Politècnica Salessians Sarrià",
+        "date" : "Barcelona (2008 - 2010)",
+        "title" : "Professional training in Software Development",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "epps",
+        "url" : "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma" 
+      },
+      {
+        "id":3,
+        "center": "IES Esteve Terradas i illa",
+        "date" : "Barcelona (2005 - 2007)",
+        "title" : "Graphic Design",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "esteve",
+        "url" : "https://agora.xtec.cat/iesesteveterradas/arts-grafiques/" 
+      },
+      {
+        "id":4,
+        "center": "Master D",
+        "date" : "Barcelona (2012)",
+        "title" : "Systems programmer for Android",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "masterd",
+        "url" : "https://www.masterd.es/curso-android" 
+      },
+      {
+        "id":5,
+        "center": "Escola Bit",
+        "date" : "Barcelona (2009)",
+        "title" : "Java Programming",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "escolabit",
+        "url" : "https://www.bit.es/curso/desarrollo-de-aplicaciones-con-java-9-11/" 
+      }          
     ],
     "optionMenu" : "Education"
   },

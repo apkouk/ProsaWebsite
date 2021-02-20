@@ -18,12 +18,10 @@ html::-webkit-scrollbar {
     position: relative;
 }
 
-
 .navbar-items li {
     list-style: none;
     display: inline-block;
 }
-
 
 .navbar-items li a {
     color: #ffffff;
@@ -47,7 +45,6 @@ html::-webkit-scrollbar {
     width: 100%;
 }
 
-
 .navbar-default .navbar-nav>li>a {
     color: #265b8a !important;
 }
@@ -56,7 +53,6 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #265b8a !important;
     background-color: transparent;
     font-weight: bolder;
-    font-size: 130%;
 }
 
 .navbar-default .navbar-toggle {
@@ -285,6 +281,19 @@ hr {
     background-color: #3e8e41;
 }
 
+.educationChunk {
+    width: 100%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: white;
+    border-top: 2px solid #265b8a;
+    margin-bottom: 2%;
+}
+
+.educationimg {
+    max-height: 120px;
+    padding-bottom: 1%;
+}
 
 /* p {
     animation-duration: 3s;
