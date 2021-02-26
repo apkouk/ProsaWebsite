@@ -6,6 +6,10 @@ html::-webkit-scrollbar {
     display: none;
 }
 
+h2 {
+    font-weight: bold;
+}
+
 .navbar-default {
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075) !important;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0px 1px 10px 2px #2f70a9 !important;
@@ -342,10 +346,10 @@ hr {
         padding: 50px 0px 50px 0px;
     }
     .experienceInfo h1 {
-        font-size: 20px;
+        font-size: 22px;
     }
     .experienceInfo h2 {
-        font-size: 18px;
+        font-size: 21px;
     }
     .experienceInfo h4 {
         font-size: 16px;
@@ -361,7 +365,7 @@ hr {
         width: 100%;
     }
     #closeInfo {
-        width: 5%;
+        width: 8%;
         margin-top: 7%;
     }
     .linksWrapper {
@@ -370,13 +374,20 @@ hr {
     .githubWrapper {
         margin-bottom: 2em;
     }
-    .educationChunk {     
-        padding: 3%;    
+    .educationChunk {
+        padding: 3%;
         margin-bottom: 5%;
-    }    
+    }
     .educationimg {
         max-height: 50px;
         padding-bottom: 1%;
+    }
+    h3 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    h4 {
+        font-size: 15px;
     }
 }
 
@@ -434,10 +445,10 @@ hr {
     .navbar-right {
         font-size: smaller;
     }
-    .educationChunk {     
-        padding: 2%;    
+    .educationChunk {
+        padding: 2%;
         margin-bottom: 2%;
-    }    
+    }
     .educationimg {
         max-height: 70px;
         padding-bottom: 1%;
@@ -493,10 +504,10 @@ hr {
     .navbar-right {
         font-size: smaller;
     }
-    .educationChunk {     
-        padding: 2%;    
+    .educationChunk {
+        padding: 2%;
         margin-bottom: 3%;
-    }    
+    }
     .educationimg {
         max-height: 70px;
         padding-bottom: 1%;
@@ -568,11 +579,10 @@ hr {
     .navbar-right {
         font-size: 14px !important;
     }
-
-    .educationChunk {     
-        padding: 2%;    
+    .educationChunk {
+        padding: 2%;
         margin-bottom: 1%;
-    }        
+    }
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {

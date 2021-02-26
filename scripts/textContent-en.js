@@ -230,26 +230,6 @@ var textContent_EN = {
       },
       {
         "id":3,
-        "center": "Escola Politècnica Salessians Sarrià",
-        "date" : "Barcelona (2008 - 2010)",
-        "title" : "Professional training in Software Development",
-        "desc": "",
-        "descUrl" : "",
-        "image" : "epps",
-        "url" : "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma" 
-      },
-      {
-        "id":4,
-        "center": "IES Esteve Terradas i illa",
-        "date" : "Barcelona (2005 - 2007)",
-        "title" : "Graphic Design",
-        "desc": "",
-        "descUrl" : "",
-        "image" : "esteve",
-        "url" : "https://agora.xtec.cat/iesesteveterradas/arts-grafiques/" 
-      },
-      {
-        "id":5,
         "center": "Master D",
         "date" : "Barcelona (2012)",
         "title" : "Systems programmer for Android",
@@ -259,7 +239,17 @@ var textContent_EN = {
         "url" : "https://www.masterd.es/curso-android" 
       },
       {
-        "id":6,
+        "id":4,
+        "center": "Escola Politècnica Salessians Sarrià",
+        "date" : "Barcelona (2008 - 2010)",
+        "title" : "Professional training in Software Development",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "epps",
+        "url" : "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma" 
+      },           
+      {
+        "id":5,
         "center": "Escola Bit",
         "date" : "Barcelona (2009)",
         "title" : "Java Programming",
@@ -267,6 +257,16 @@ var textContent_EN = {
         "descUrl" : "",
         "image" : "escolabit",
         "url" : "https://www.bit.es/curso/desarrollo-de-aplicaciones-con-java-9-11/" 
+      },
+      {
+        "id":6,
+        "center": "IES Esteve Terradas i illa",
+        "date" : "Barcelona (2005 - 2007)",
+        "title" : "Graphic Design",
+        "desc": "",
+        "descUrl" : "",
+        "image" : "esteve",
+        "url" : "https://agora.xtec.cat/iesesteveterradas/arts-grafiques/" 
       }          
     ],
     "optionMenu" : "Education"

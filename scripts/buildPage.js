@@ -7,7 +7,7 @@ window.onclick = function (event) {
 }
 
 function buildPage() {
-   
+
     loadOptionsMenu();
     canUseWebP();
     initSections();
@@ -100,7 +100,7 @@ function canUseWebP() {
 
 function addHandlers() {
     resizingElement();
-    
+
     $("#lang-en").removeClass("lang-selected");
     $("#lang-ca").removeClass("lang-selected");
     $("#lang-es").removeClass("lang-selected");
@@ -121,7 +121,7 @@ function addHandlers() {
         loadTextContent("es");
         buildPage();
         $("#lang-es").addClass("lang-selected");
-    }); 
+    });
 }
 
 
@@ -148,7 +148,7 @@ function initSections() {
     $('.introStart').css("margin-top", windowHeight / 2);
 
     //experiences
-    $('#experienceInfoContainer').css("margin-left", $(".intro").offset().left);        
+    $('#experienceInfoContainer').css("margin-left", $(".intro").offset().left);
 }
 
 function intro() {
@@ -192,12 +192,12 @@ function education() {
 
         var education = $("<div>", { class: "educationChunk" });
         var imageExp = $("<img>", { src: "src/images/" + item.image + extensionImage, class: "educationimg", alt: item.image });
-        education.append(imageExp);      
+        education.append(imageExp);
         education.append("<p>" + item.center + ", " + item.date + "</p>");
-        education.append("<b><a target=\"_blank\" rel=\"noopener noreferrer\" href='" + item.url + "' >" + item.title  + "</a></b></br>");
+        education.append("<b><a target=\"_blank\" rel=\"noopener noreferrer\" href='" + item.url + "' >" + item.title + "</a></b></br>");
 
-        if(item.desc !== ""){
-            education.append("<a target=\"_blank\" rel=\"noopener noreferrer\" href='" + item.descUrl + "' >" + item.desc  + "</a></br>");
+        if (item.desc !== "") {
+            education.append("<a target=\"_blank\" rel=\"noopener noreferrer\" href='" + item.descUrl + "' >" + item.desc + "</a></br>");
         }
 
         educationSection.append(education);
@@ -239,13 +239,14 @@ function misc() {
     miscSection.empty();
     miscSection.append("<h2>" + textContent.misc.optionMenu + "</h2><hr>");
     $.each(textContent.misc.books, function (i, book) {
-        miscSection.append("<p><i>" + book.title + "</i></br> " + book.author + "</p><hr>");
+        miscSection.append("<ul><li><p><cite>" + book.title + "</cite></br> " + book.author + "</p></li></ul>");
     });
     miscSection.append("</br>")
     miscSection.append("<h2>" + textContent.misc.optionMenu2 + "</h2><hr>");
     $.each(textContent.misc.conferences, function (i, conference) {
-        miscSection.append("<p><i>" + conference.name + "</i></p>");
-        miscSection.append("<h4>Date: " + conference.date + "</h4>");
+        miscSection.append("<h3>" + conference.name + "</h3>");
+        if (conference.date !== "-")
+            miscSection.append("<h4>Date: " + conference.date + "</h4>");
         miscSection.append("<h4>" + conference.desc + "</h4>");
         miscSection.append("<a href='" + conference.URL + "'>" + conference.URL + "</a><hr>");
     });
