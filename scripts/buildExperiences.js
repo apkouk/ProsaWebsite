@@ -1,7 +1,15 @@
 function experience() {
   var experienceSection = $(".experience");
   experienceSection.empty();
+
+  let experiences = [];
   $.each(textContent.experiences, function (i, experience) {
+    if (experience.company != undefined) {
+    experiences.push(experience);
+    }
+  });
+
+  $.each(experiences.sort(SortById), function (i, experience) {
 
     if (experience.company != undefined) {
 
@@ -35,6 +43,12 @@ function experience() {
       experienceSection.append(card);
     }
   });
+}
+
+function SortById(a, b){
+  var aId = a.id;
+  var bId = b.id; 
+  return ((aId > bId) ? -1 : ((aId < bId) ? 1 : 0));
 }
 
 

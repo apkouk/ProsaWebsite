@@ -42,7 +42,7 @@ var textContent_ES = {
       "company": "Varias compañias",
       "website": "",
       "city": "Barcelona",
-      "role": "Diseñador/Mauqetador",
+      "role": "Diseñador/Maquetador",
       "dateStart": "Dic 2006",
       "dateEnd": "Ago 2008",
       "techStack": "",
