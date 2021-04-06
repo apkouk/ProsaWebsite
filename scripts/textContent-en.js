@@ -13,11 +13,11 @@ var textContent_EN = {
   },
   "techSkills": {
     "paragraphs": [
-      "I consider myself a full stack developer able to contribute to projects across the stack. Most of my development experience has been with Microsoft technologies, including deep experience using C#, ASP.NET, Web Forms, and SQL Server. I am quite comfortable using a number of Microsoft tools including several versions of Visual Studio, Entity Framework, Team Foundation Server and Git.",
+      "I consider myself a full stack developer able to contribute to projects across the stack. Most of my development experience has been with Microsoft technologies, including deep experience using C#, ASP.NET, Web Forms and SQL Server. I am quite comfortable using a number of Microsoft tools including several versions of Visual Studio, Entity Framework, Team Foundation Server and Git.",
       "For web development projects I have worked with HTML/CSS and JavaScript including several popular frameworks and libraries such as ASP.NET, Bootstrap, Angular, Slick, and jQuery. I also have experience using cloud tools from Azure and Amazon Web Services.",
       "Below is a brief list of skills from my resume."
     ],
-    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
+    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Solutions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
     "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
     "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
     "optionMenu" : "Tech",
@@ -76,7 +76,7 @@ var textContent_EN = {
       "techStack": "C#, Visual Studio, Oracle, MSSQL Server, TFS (Sharepoint integrated), ASP.NET, HTML, Gembase.",
       "description": "At T&G (now Aggity) I was a software engineer focused on development using the Microsoft stack including C#, ASP.NET, and SQL Server. I also trained users.",
       "tasks": [
-        "Developed and modified program features according to client specifications using Visual Studio 2010, C#, and ASP.NET.",
+        "Developed and modified program features according to client specifications using Visual Studio 2010, C#, and ASP.NET.",        
         "Designed and implemented MS SQL Server and Oracle databases including complex queries, stored procedures, views and integration, and data migrations for new clients.",
         "Fixed software issues and SQL code irregularities in queries or stored procedures and business logic in C#.",
         "Wrote functional documentation for new clients and trained new users."
@@ -161,11 +161,11 @@ var textContent_EN = {
       "dateStart": "Mar 2018",
       "dateEnd": "Aug 2018",
       "techStack": "Kentico CMS, C#, SQL Server, Javascript",
-      "description": "NGO to watch over and safeguard the rights of children. I was basically covering a maternity leave helping in the incidental of the application.",
+      "description": "NGO to watch over and safeguard the rights of children. I was covering a maternity leave for 6 months.",
       "tasks": [
-        "Built a responsive crowdfunding component in Kentico CMS integrated with Redsys payment system and Paypal. Used C#, Javascript, HTML, CSS and Kentico components.",
-        "Fixed bugs on the commercial website, also in Kentico CMS.",
-        "Refactored Javascript code according to the SOLID principles."
+        "Built a responsive crowdfunding component in Kentico CMS integrated with Redsys payments and Paypal. Used C#, Javascript, HTML, CSS and Kentico components.",
+        "Fixed bugs on the website, also in Kentico CMS.",
+        "Refactored Javascript code according to SOLID principles."
       ],
       "image": "educo"
     },
@@ -189,19 +189,19 @@ var textContent_EN = {
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://www.planeta.es/en/learning",
-      "role": "Web Developer - Team Leader",
-      "dateStart": "Ago 2018",
+      "role": "Web Developer - Team Lead",
+      "dateStart": "Aug 2018",
       "dateEnd": "Dec 2020",
-      "techStack": "ASP.NET, ASP.NET API, C #, HTML, CSS, Canvas, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
-      "description": "Worked as a web developer for the group's learning and universities division, where it is managed from the courses' recruitment websites to enrollment in them and integration with learning platforms. The last 4 months I acted as team lead managing a team of 7 developers, 2 QA and 1 BA",
+      "techStack": "ASP.NET, ASP.NET API, C #, HTML, HTML5, CSS, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
+      "description": "Worked as a web developer for the learning and universities division, working on a solution for managing the courses' recruitment websites, the enrollment and the integration with learning platforms. Last 4 months I acted as team lead managing a team of 6 developers, 2 QA and 1 BA",
       "tasks": [
-        "Integration of two brands having to migrate all the data from one brand (students, enrollments, courses ...) to the other to preserve their history",
-        "Solution for changing a conflicting NAS cabin where all the documentation generated during the enrollment process of students and courses was housed.",
-        "I modified the behavior of the two main applications to historicize the huge documentation that was generated in the enrollment process. In this way, the backup processes were simplified and the performance of the application was improved. In addition, standardizations were applied to document names.",
-        "I wrote an script in SQL to avoid a known exploit of the CMS of the websites that allows to create super users in the sites.",
-        "I participated as team leader in the different upgrade processes of 3 of the CMS where part of the websites ran, providing technical and functional help when required and carrying out the deployments.",
-        "I finished a critical project for the organization such as the migration of the Flash exercises/tests editor to HTML5, having to use canvas for the preview part of them.",
-        "As a team lead I participated in the planning and execution to change the payment provider of the applications due to a European regulatory change (3DS)."
+        "Integration of two brands having to merge their data (students, enrollments, courses ...) to preserve their history",
+        "Solution for changing a conflicting NAS cabin where the documentation generated during the enrollment process (students and courses) was housed.",
+        "I modified the two main applications behavior to historicize the huge documentation that was generated in the enrollment process. Backup processes were simplified and the application performance was improved.",
+        "I wrote an script in SQL to avoid a known exploit on the websites CMS that allowed to create super users.",
+        "I participated as team lead in the upgrade of 3 Dotnet Nuke CMS, providing technical and functional help when required and carrying out the deployments.",
+        "I finished a critical project for the organization such as the exercises/tests editor migration from Flash to HTML5.",
+        "As a team lead I participated planning and executing to change the application's payment provider due to a European regulatory change (3DS)."
       ],
       "image": "planeta"
     }
@@ -213,7 +213,7 @@ var textContent_EN = {
         "center": "Microsoft Learn",
         "date": "Barcelona (2021)",
         "title": "Microsoft Certified: Azure Data Fundamentals",
-        "desc": "I also learn new skills using the microsoft challenges and learning paths options",
+        "desc": "I also learn new skills using microsoft challenges and their learning paths",
         "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
         "image": "dp900",
         "url": "https://www.credly.com/badges/b4f0bec9-cba2-48e6-ab40-72be4c68c089"
@@ -223,7 +223,7 @@ var textContent_EN = {
         "center": "Microsoft Learn",
         "date" : "Barcelona (2021)",
         "title" : "Microsoft Certified: Azure Fundamentals",
-        "desc": "I also learn new skills using the microsoft challenges and learning paths options",
+        "desc": "I also learn new skills using microsoft challenges and their learning paths",
         "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
         "image" : "az900",
         "url" : "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c/public_url" 

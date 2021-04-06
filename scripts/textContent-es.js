@@ -4,7 +4,7 @@ var textContent_ES = {
       "Mi nombre es Francisco pero todos me llaman Paco i me gano la vida como desarrolador de software.",
       "He estado creando diversas soluciones de software para varios clientes desde 2009. Lo que más me gusta son los desafíos y resolver problemas, mejorando mis capacidades a diario. Me encanta ayudar a mis clientes y compañeros y ver cómo los proyectos maduran y crecen. Me inspira ser parte de un equipo con un objetivo común y me despierto todos los días motivado para hacer las cosas. En el día a día el trabajo me proporciona una gran satisfacción y la resolución de problemas es una de mis fortaleza y algo con lo que realmente disfruto.",
       "También me apasiona aprender, conocer nuevos lugares y conocer gente nueva. Tengo la suerte de que mi carrera en el desarrollo me haya brindado la oportunidad de hacer las tres cosas.",
-      "En mi tiempo libre disfruto aprendiendo y tocando la guitarra, leyendo un buen libro o cocinando una buen festín con amigos. Aparte me encanta poder enseñar mis conocimientos dando clases particulares de programación, lo mejor del saber no es tenerlo, es compartirlo! También me inscribo a cursos de humanidades cuando la ocasión lo merece para no olvidar mi parte más 'humana'. No dudes en echar un vistazo a mi sitio web para aprender más sobre mí y mi trabajo.",
+      "En mi tiempo libre disfruto aprendiendo y tocando la guitarra, leyendo un buen libro o cocinando un buen festín con amigos. Aparte me encanta poder enseñar mis conocimientos dando clases particulares de programación. También me inscribo a cursos de humanidades cuando la ocasión lo merece para no olvidar mi parte más 'humana'. No dudes en echar un vistazo a mi sitio web para aprender más sobre mí y mi trabajo.",
       "¡Hasta la vista!"
     ],
     "optionMenu": "Introducción",
@@ -17,7 +17,7 @@ var textContent_ES = {
       "Para proyectos de desarrollo web he trabajado con HTML/CSS y JavaScript, incluidos varios frameworks y librerias populares como ASP.NET, Telerik, Bootstrap, Angular, Slick y jQuery. También tengo experiencia en el uso de herramientas cloud de Azure y Amazon Web Services.",
       "A continuación se muestra una breve lista de mis habilidades."
     ],
-    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
+    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Solcuiones en Azure, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
     "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
     "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
     "optionMenu": "Tecnologías",
@@ -46,7 +46,7 @@ var textContent_ES = {
       "dateStart": "Dic 2006",
       "dateEnd": "Ago 2008",
       "techStack": "",
-      "description": "Trabajos de diseño realizados con Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand y ArtiosCad.",
+      "description": "Antes de entrar en el mundo de la infórmatica trabajé como diseñador/maquetador para varias empresas en el área de Barcelona utilizando mayormente Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand y ArtiosCad.",
       "tasks": "",
       "image": "graphic"
     },
@@ -60,7 +60,7 @@ var textContent_ES = {
       "dateStart": "Dec 2009",
       "dateEnd": "May 2010",
       "techStack": "",
-      "description": "Este fue mi primer trabajo como programador en prácticas construyendo páginas web usando C# (framework 3.5), ASP.NET, HTML, MS SQL Server y Visual Studio 2010.",
+      "description": "Este fue mi primer trabajo como programador en prácticas montando páginas web usando C# (framework 3.5), ASP.NET, HTML, MS SQL Server y Visual Studio 2010.",
       "tasks": "",
       "image": "netlife"
     },
@@ -98,7 +98,7 @@ var textContent_ES = {
         "Gestioné varios proyectos internos. Desempeñé funciones como analista de negocios para recopilar y escribir los requisitos para los departamentos de ventas y marketing.",
         "Diseñé e implementé integraciones con terceras API para reservas de hoteles. Prototipé una función de reserva de vuelos.",
         "Se implementó el software de control de versiones TFS y se establecieron procesos sobre el mismo (fusiones de ramas, despliegues, pruebas).",
-        "Implementación de servidores de producción, backup y test usando Rackspace y la plataforma Azure. Copias de seguridad automatizadas mediante scripts para que las bases de datos, los servidores de imágenes y el código se puedan guardar en el servicio Amazon S3.",
+        "Implementación de servidores de producción, backup y test usando Rackspace y la plataforma Azure. Copias de seguridad automatizadas mediante scripts para que las bases de datos, los servidores de imágenes y el código se pudieran guardar en el servicio Amazon S3.",
         "Se resolvieron errores de codificación relacionados con SQL y lógica empresarial. Contribución a cambios cosméticos.",
         "Implementé planes de prueba para front y back-end con TFS en línea.",
         "Migré un blog de WordPress a un servidor IIS interno migrando los datos de MySQL a MS SQL Server."
@@ -117,7 +117,7 @@ var textContent_ES = {
       "techStack": "",
       "description": "Se implementaron nuevas características y funcionalidades en un sitio web utilizado por los hospitales de la NHS para recopilar y presentar datos de encuestas a los usuarios (casi no tenían back-end).",
       "tasks": [
-        "Se modificó sitio web para que fuera responsive y así mejorar la compatibilidad entre dispositivos. Se añadió una barra de progreso para mejorar UI/UX, entre otras funcionalidades.",
+        "Se modificó sitio web para que fuera responsive y así mejorar la compatibilidad entre dispositivos. Se añadió una barra de progreso para mejorar UI/UX entre otras funcionalidades.",
         "Implementación de un mantenimiento para todo lo referente a las preguntas/respuestas de encuestas como Ordenar-Modificar-Eliminar (en lugar de hacer cambios directamente en la base de datos).",
         "Realice múltiples tareas de bases de datos, incluidas tablas dinámicas, creación y diseño de tablas, procedimientos almacenados y optimización de consultas. Hice un scripting para automatizar la importación de datos que mejoró la velocidad de días a solo seis horas.",
         "Crée una herramienta de administración de arquitectura de tres niveles que automatizaba y optimizaba las tareas de los administradores de proyectos. Desarrollada con Bootstrap, Telerik framework, ASP.NET Webforms, C# y MS SQL Server."
@@ -137,10 +137,10 @@ var textContent_ES = {
       "description": "En Mission Communications pude trabajar en varios proyectos de desarrollo web para clientes de diversas industrias y en particular hice contribuciones significativas al desarrollo de sightseeingpass.com.",
       "tasks": [
         "Creé un sitio web de comercio electrónico y contenido de noticias/blogs que se integró con Facebook, Instagram y Twitter. Usé Web Forms, C#, Bootstrap y jQuery.",
-        "Creé un sitio para un evento de administradores de propiedades privadas. El sitio estaba protegido con contraseña para mostrar detalles sobre propiedades disponibles (imágenes, descripción, planos, etc.). Se implementó una presentación de diapositivas utilizando la biblioteca Slick JavaScript y Typescript. El sitio permitía a los agentes inmobiliarios enviar correos electrónicos individuales o masivos a los registrantes (adjuntando pdfs con la info de la propiedad). Construido en Web Forms, C#, jQuery y Bootstrap.",
+        "Creé un sitio para un evento de administradores de propiedades privadas. El sitio estaba protegido con contraseña para mostrar detalles sobre propiedades disponibles (imágenes, descripción, planos, etc.). Se implementó una presentación de diapositivas utilizando la biblioteca Slick JavaScript y Typescript. El sitio permitía a los agentes inmobiliarios enviar correos electrónicos individuales o masivos a los registrantes (adjuntando pdfs con la información de la propiedad). Construido en Web Forms, C#, jQuery y Bootstrap.",
         "Conversión de sitios web críticos para la empresa en aplicaciones web ASP.NET para mejorar la capacidad de depuración.",
         "Se migraron varios sitios web a TFS para permitir a los desarrolladores trabajar localmente, reemplazando una solución FTP problemática.",
-        "Implementé nuevos puntos finales y corrección de errores en la API de la empresa. La API se desarrolló utilizando la arquitectura MVC con un Entity Framework que apunta a una base de datos de MS SQL Server."
+        "Implementé nuevos puntos finales y corrección de errores en la API de la empresa. La API se desarrolló utilizando la arquitectura MVC con un Entity Framework que apuntaba a una base de datos de MS SQL Server."
       ],
       "sightseeingpass": [
         "Añadí una nueva función en el back-end para sightseeingpass.com para administrar todas las imágenes relacionadas con una atracción turística. La función permitía a los usuarios cargar varias imágenes a la vez y ordenarlas mediante drag and drop. Se utilizaron Web Forms, C#, jQuery y SQL stored procedures para operaciones CRUD.",
@@ -160,7 +160,7 @@ var textContent_ES = {
       "dateStart": "Mar 2018",
       "dateEnd": "Ago 2018",
       "techStack": "Kentico CMS, C#, SQL Server, Javascript",
-      "description": "ONG para velar y salvaguardar los derechos de la infancia. Estuve básicamente cubriendo una baja por maternidad ayudando en el incidental del aplicativo.",
+      "description": "ONG para velar y salvaguardar los derechos de la infancia. Estuve cubriendo una baja por maternidad ayudando en el incidental del aplicativo.",
       "tasks": [
         "Creé un componente de crowdfunding en Kentico CMS integrado con los sistemas de pago Redsys y Paypal. Usé componentes C#, Javascript, HTML, CSS y Kentico.",
         "Corrección de bugs en el sitio web comercial, también en Kentico CMS.",
