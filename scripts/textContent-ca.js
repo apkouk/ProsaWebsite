@@ -4,7 +4,7 @@ var textContent_CA = {
       "El meu nom és Paco i em guanyo la vida com a desenvolupador.",
       "He estat construint diverses solucions per diversos clients des del 2009. M'encanta el que faig i el que més m'agrada són els reptes i resoldre problemes, millorant les meves capacitats diàriament. M'encanta ajudar als meus clients i companys i veure com els projectes maduren i creixen. M'inspira el formar part d'un equip amb un objectiu comú llevant-me cada dia motivat per fer les coses. En el dia a dia em proporciona una gran satisfacció la resolució de problemes que crec a més que és un dels meus punts forts.",
       "També m'apassiona aprendre, veure llocs nous i conèixer gent nova, tenint la sort que la meva carrera m'hagi donat l'oportunitat de fer les tres coses.",
-      "Durant el meu temps lliure, gaudeixo aprenent i tocant la guitarra, llegint un bon llibre o cuinant un bon àpat amb els amics. Apart m'encanta poder ensenyar els meus coneixements donant classes particulars de programació, lo millor del saber no és tenir-lo, és compartir-lo! També m'inscric a cursos d'humanitats quan l'ocasió ho mereix per no oblidar la meva part més 'huamana'. No dubteu a fer una ullada per obtenir més informació sobre mi i la meva feina.",
+      "Durant el meu temps lliure, gaudeixo aprenent i tocant la guitarra, llegint un bon llibre o cuinant un bon àpat amb els amics. Apart m'encanta poder ensenyar els meus coneixements donant classes particulars de programació. També m'inscric a cursos d'humanitats quan l'ocasió ho mereix per no oblidar la meva part més 'huamana'. No dubteu a fer una ullada per obtenir més informació sobre mi i la meva feina.",
       "A reveure!"
     ],
     "optionMenu": "Introducció",
@@ -13,11 +13,11 @@ var textContent_CA = {
   },
   "techSkills": {
     "paragraphs": [
-      "Em considero un full-stack developer capaç de contribuir en totes les seves vessants dels projectes. La majoria de la meva experiència ha estat amb tecnologies de Microsoft, inclosa una extensa experiència utilitzant C#, ASP.NET, Web Forms i SQL Server. Treballo comodament amb diverses eines de Microsoft, incloses diverses versions de Visual Studio, Entity Framework, Team Foundation Server i Git. ",
+      "Em considero un full-stack developer capaç de contribuir en totes les vessants dels projectes. La majoria de la meva experiència ha estat amb tecnologies de Microsoft, inclosa una extensa experiència utilitzant C#, ASP.NET, Web Forms i SQL Server. Treballo comodament amb diverses eines de Microsoft, incloses diverses versions de Visual Studio, Entity Framework, Team Foundation Server i Git.",
       "Per a projectes de desenvolupament web he treballat amb HTML/CSS i JavaScript, inclosos diversos frameworks i llibreries populars, com ara ASP.NET, Telerik, Bootstrap, Angular, Slick i jQuery. També tinc experiència utilitzant eines cloud d'Azure i Amazon Web Services.",
       "A continuació es mostra una breu llista d'habilitats del meu currículum."
     ],
-    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Functions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
+    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Solucions d'Azure , React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
     "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
     "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
     "optionMenu": "Tecnologies",
@@ -138,7 +138,7 @@ var textContent_CA = {
       "description": "A Mission Communications vaig poder treballar en diversos projectes de desenvolupament web per a clients de diverses indústries i en particular vaig fer contribucions significatives al desenvolupament de sightseeingpass.com.",
       "tasks": [
         "Vaig crear un lloc web de comerç electrònic i contingut de notícies/blog que es va integrar amb Facebook, Instagram i Twitter. Vaig fer servir Web Forms, C#, Bootstrap i jQuery.",
-        "Vaig crear un lloc per a un esdeveniment d'administradors de propietats privades. Aquest lloc protegit amb contrasenya era per mostrar detalls sobre propietats disponibles (imatges, vista general, plànols, etc.). Es va implementar una presentació de diapositives utilitzant la biblioteca Slick JavaScript i Typescript. El lloc permetia als agents immobiliaris enviar correus electrònics individuals o massius als registrants (adjuntant pdfs amb la info de la propietat). Construït en Web Forms, C#, jQuery i Bootstrap.",
+        "Vaig crear un lloc per a un esdeveniment d'administradors de propietats privades. Aquest lloc protegit amb contrasenya era per mostrar detalls sobre propietats disponibles (imatges, vista general, plànols, etc.). Es va implementar una presentació de diapositives utilitzant la biblioteca Slick JavaScript . El lloc permetia als agents immobiliaris enviar correus electrònics individuals o massius als registrants (adjuntant pdfs amb la info de la propietat). Construït en Web Forms, C#, jQuery i Bootstrap.",
         "Conversió de llocs web crítics per a l'empresa en aplicacions web ASP.NET per millorar la capacitat de depuració.",
         "Es van migrar diversos llocs web a TFS per permetre als desenvolupadors treballar localment, reemplaçant una solució FTP problemàtica.",
         "Vaig implementar nous punts finals i correcció d'errors en l'API de l'empresa. L'API es va desenvolupar utilitzant l'arquitectura MVC amb un Entity Framework que apuntava a una base de dades de MS SQL Server.",
@@ -194,7 +194,7 @@ var textContent_CA = {
       "dateStart": "Ago 2018",
       "dateEnd": "Dec 2020",
       "techStack": "ASP.NET, ASP.NET API, C#, HTML, CSS, Canvas, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
-      "description": "Treballs com a desenvolupador web per a la divisió de formació i universitats del grup on es gestiona des de les webs de captació dels cursos fins a la matriculació en els mateixos i la integració amb les plataformes d'aprenentatge. Els últims 4 mesos vaig actuar com team lead gestionant 6 desenvolupadors i un QA.",
+      "description": "Treballs com a desenvolupador web per a la divisió de formació i universitats del grup on es gestiona des de les webs de captació dels cursos fins a la matriculació en els mateixos i la integració amb les plataformes d'aprenentatge. Els últims 4 mesos vaig actuar com team lead gestionant 6 desenvolupadors, 2 QA i 1 BA.",
       "tasks": [
         "Integració de dues marques migrant totes les dades d'una marca (alumnes, matrícules, cursos...) cap a l'altra per preservar l'històric de les mateixes.",
         "Solució per a canvi de cabina NAS conflictiva on s'allotjava tota la documentació que es genera durant el procés de matriculació dels alumnes i dels cursos.",
