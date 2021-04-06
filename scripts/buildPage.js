@@ -226,7 +226,7 @@ function services() {
         serviceItemContainer.empty();
         serviceItemContainer.append(serviceImageDiv);
 
-        serviceItemContainer.append("<h4 style=><b>" + service.title + "</b></h4>");
+        serviceItemContainer.append("<h4><b>" + service.title + "</b></h4>");
         serviceItemContainer.append("<p>" + service.desc + "</p>");
         serviceItem.append(serviceItemContainer);
     });
