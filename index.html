@@ -216,74 +216,10 @@
 
 
     $(document).ready(function () {
-
-        loadTextContent("en");
-        buildPage();
-        $('.carrousel').slick({
-            // prev arrow
-            prevArrow: '<button type="button" data-role="none" class="slick-prev">Previous</button>',
-
-            // next arrow
-            nextArrow: '<button type="button" data-role="none" class="slick-next">Next</button>',
-
-            // Enables auto play of slides
-            autoplay: true,
-
-            // Auto play change interval
-            autoplaySpeed: 5000,
-
-            // Current slide indicator dots
-            dots: true,
-
-            // Class for slide indicator dots container
-            dotsClass: 'slick-dots',
-
-            // Target containet to respond to
-            respondTo: 'window',
-
-            slidesToShow: 3,
-
-            infinite: false,
-
-            accessibility: true,
-
-            initialSlide: 0,
-
-            // Breakpoint triggered settings
-            responsive: [
-                {
-                    breakpoint: 1648,
-                    settings: {
-                        slidesToShow: 2,
-                        infinite: true
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        infinite: true
-                    }
-                },
-                {
-                    breakpoint: 300,
-                    settings: "unslick" // destroys slick
-                }]
-
-        });
-
-        let experiences = [];
-        $.each(textContent.experiences, function (i, experience) {
-            if (experience.company != undefined) {
-                experiences.push(experience);
-            }
-        });
-
-        $.each(experiences.sort(SortById), function (i, experience) {
-            $(experience.slickitem).click(function () {             
-                        buildExperienceInfo(experience);
-            });
-        });
+        var url = new URL(window.location.href); 
+        loadTextContent(url.searchParams.get("lang"));              
+        buildPage(); 
+        loadCarrousel();      
     });
     
 </script>

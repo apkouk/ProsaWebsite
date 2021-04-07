@@ -39,6 +39,7 @@ var textContent_ES = {
     "desktopPublisher": {
       "id": 1,
       "ref": "Diseñador/Maquetador",
+      "slickitem":"#slick-slide08",
       "company": "Varias compañias",
       "website": "",
       "city": "Barcelona",
@@ -53,6 +54,7 @@ var textContent_ES = {
     "netLife": {
       "id": 2,
       "ref": "netLife",
+      "slickitem":"#slick-slide07",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -67,6 +69,7 @@ var textContent_ES = {
     "btgsa": {
       "id": 3,
       "ref": "btgsa",
+      "slickitem":"#slick-slide06",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "http://btgsa.com",
@@ -86,6 +89,7 @@ var textContent_ES = {
     "luxtripper": {
       "id": 4,
       "ref": "luxtripper",
+      "slickitem":"#slick-slide05",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -108,6 +112,7 @@ var textContent_ES = {
     "membra": {
       "id": 5,
       "ref": "membra",
+      "slickitem":"#slick-slide04",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "http://membra.co.uk",
@@ -127,6 +132,7 @@ var textContent_ES = {
     "mission": {
       "id": 6,
       "ref": "mission",
+      "slickitem":"#slick-slide03",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -153,6 +159,7 @@ var textContent_ES = {
     "educo": {
       "id": 7,
       "ref": "educo",
+      "slickitem":"#slick-slide02",
       "company": "Educo ONG",
       "city": "Barcelona",
       "website": "https://www.educo.org/",
@@ -171,6 +178,7 @@ var textContent_ES = {
     "wivi": {
       "id": 8,
       "ref": "wivi",
+      "slickitem":"#slick-slide01",
       "company": "Wivi Vision",
       "city": "Barcelona",
       "website": "https://wivivision.com/",
@@ -185,6 +193,7 @@ var textContent_ES = {
     "planeta": {
       "id": 9,
       "ref": "planeta",
+      "slickitem":"#slick-slide00",
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://www.planeta.es/en/learning",
