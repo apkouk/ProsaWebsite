@@ -1,5 +1,5 @@
 function experience() {
-  var experienceSection = $(".experience");
+  var experienceSection = $(".carrousel");
   experienceSection.empty();
 
   let experiences = [];
@@ -30,16 +30,6 @@ function experience() {
       cardContainer.append(cardTitle);
       cardContainer.append(cardRole);
       card.append(cardContainer);
-
-      card.click(function () {
-        var experienceId = this.getAttribute('id');
-        $.each(textContent.experiences, function (i, experience) {
-          if (experience.id == experienceId) {
-            buildExperienceInfo(experience);
-            return;
-          }
-        });
-      });
       experienceSection.append(card);
     }
   });

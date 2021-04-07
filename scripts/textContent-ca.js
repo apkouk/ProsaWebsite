@@ -187,6 +187,7 @@ var textContent_CA = {
     "planeta": {
       "id": 9,
       "ref": "planeta",
+      "slick-item":"slick-slide00",
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://www.planeta.es/en/learning",
