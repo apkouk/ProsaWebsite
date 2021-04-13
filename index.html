@@ -20,8 +20,8 @@
             <br>
             <input id="lang-es" type="button" class="btnSelectLang spain">
         </div>
-        <!-- <div class="bootstrapHelper" style="height: 15px; width: 15px;">
-        </div>       -->
+        <div class="bootstrapHelper" style="height: 15px; width: 15px;">
+        </div>      
     </div>
 
     <div id="page" class="container-fluid">
@@ -62,7 +62,7 @@
                                 <a id="miscOption" class="page-scroll" href="#miscContainer"></a>
                             </li>
                             <li>
-                                <a id="contactOption" class="page-scroll" href="#contactContainer"></a>
+                                <a id="contactOption" class="page-scroll" href="#pdfsContainer"></a>
                             </li>
                         </ul>
                     </nav>
@@ -118,7 +118,33 @@
                 <div class="col misc">
                 </div>
             </div>
+            <div id="pdfsContainer" class="row" style="background-image: url('src/images/worldMap.webp');">    
+                <h4 style="color: white; font-weight: bolder; ">Curriculum Vitae (.pdf)</h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a class="btn btnSelectLang uk" href="src/cvs/ProsaResume-ENG.pdf"
+                                    download></a>
+                                    ENG
+                            </td>
+                            <td>
+                                <a class="btn btnSelectLang catalonia" href="src/cvs/ProsaResume-CAT.pdf"
+                                    download></a>
+                                    CAT
+                            </td>
+
+                            <td>
+                                <a class="btn btnSelectLang spain" href="src/cvs/ProsaResume-ESP.pdf"
+                                    download></a>
+                                    ESP
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <div id="contactContainer" class="row">
+
                 <div class="col contact">
                 </div>
                 <div id="contactEmail" class="row">
@@ -216,10 +242,10 @@
 
 
     $(document).ready(function () {
-        var url = new URL(window.location.href); 
-        loadTextContent(url.searchParams.get("lang"));              
-        buildPage(); 
-        loadCarrousel();      
+        var url = new URL(window.location.href);
+        loadTextContent(url.searchParams.get("lang"));
+        buildPage();
+        loadCarrousel();
     });
-    
+
 </script>

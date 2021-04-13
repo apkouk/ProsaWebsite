@@ -299,6 +299,25 @@ hr {
     padding-bottom: 1%;
 }
 
+#pdfsContainer {
+    text-align: center;
+    background-color: #265b8a;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#pdfsContainer table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#pdfsContainer table td {
+    padding-top: 1%;
+}
+
 /* p {
     animation-duration: 3s;
     animation-name: slidein;
@@ -389,6 +408,18 @@ hr {
     h4 {
         font-size: 15px;
     }
+
+    #pdfsContainer{
+        padding-bottom: 5%;
+    }
+
+    #pdfsContainer table{
+        width:80%;
+    }
+
+    #pdfsContainer table td{
+        padding-top:2%;
+    }
 }
 
 /* Tablets  */
@@ -453,6 +484,19 @@ hr {
         max-height: 70px;
         padding-bottom: 1%;
     }
+
+    #pdfsContainer{
+        padding-bottom: 4%;
+    }
+
+    #pdfsContainer table{
+        width:50%;
+    }
+
+    .img-circle{
+        width:220px;
+        height:220px;
+    }
 }
 
 @media (min-width: 600px) and (orientation: landscape) {
@@ -511,6 +555,14 @@ hr {
     .educationimg {
         max-height: 70px;
         padding-bottom: 1%;
+    }
+
+    #pdfsContainer{
+        padding-bottom: 4%;
+    }
+
+    #pdfsContainer table{
+        width:80%;
     }
 }
 
@@ -582,6 +634,13 @@ hr {
     .educationChunk {
         padding: 2%;
         margin-bottom: 1%;
+    }
+    #pdfsContainer{
+        padding-bottom: 3%;
+    }
+
+    #pdfsContainer table{
+        width:50%;
     }
 }
 
@@ -658,4 +717,14 @@ hr {
     .githubWrapper {
         margin-bottom: 2em;
     }
+
+    #pdfsContainer{
+        padding-bottom: 2%;
+    }
+
+    #pdfsContainer table{
+        width:35%;
+    }
+
+    
 }
