@@ -2,7 +2,7 @@ var textContent_ES = {
   "intro": {
     "paragraphs": [
       "Mi nombre es Francisco pero todos me llaman Paco i me gano la vida como desarrolador de software.",
-      "He estado creando diversas soluciones de software para varios clientes desde 2009. Lo que más me gusta son los desafíos y resolver problemas, mejorando mis capacidades a diario. Me encanta ayudar a mis clientes y compañeros y ver cómo los proyectos maduran y crecen. Me inspira ser parte de un equipo con un objetivo común y me despierto todos los días motivado para hacer las cosas. En el día a día el trabajo me proporciona una gran satisfacción y la resolución de problemas es una de mis fortaleza y algo con lo que realmente disfruto.",
+      "He estado creando diversas soluciones de software para varios clientes desde 2009. Lo que más me gusta son los desafíos y resolver problemas, mejorando mis capacidades a diario. Me encanta ayudar a mis clientes y compañeros y ver cómo los proyectos maduran y crecen. Me inspira ser parte de un equipo con un objetivo común y me despierto todos los días motivado para hacer las cosas. En el día a día el trabajo me proporciona una gran satisfacción y la resolución de problemas es una de mis fortalezas y algo con lo que realmente disfruto.",
       "También me apasiona aprender, conocer nuevos lugares y conocer gente nueva. Tengo la suerte de que mi carrera en el desarrollo me haya brindado la oportunidad de hacer las tres cosas.",
       "En mi tiempo libre disfruto aprendiendo y tocando la guitarra, leyendo un buen libro o cocinando un buen festín con amigos. Aparte me encanta poder enseñar mis conocimientos dando clases particulares de programación. También me inscribo a cursos de humanidades cuando la ocasión lo merece para no olvidar mi parte más 'humana'. No dudes en echar un vistazo a mi sitio web para aprender más sobre mí y mi trabajo.",
       "¡Hasta la vista!"
@@ -218,26 +218,46 @@ var textContent_ES = {
     "collection": [
       {
         "id": 1,
-        "center": "Microsoft Learn",
+        "center": "Microsoft Certified",
         "date": "Barcelona (2021)",
-        "title": "Microsoft Certified: Azure Data Fundamentals",
-        "desc": "También adquiero nuevos conociemientos con los challenges y los learning paths",
-        "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
+        "title": "Azure Developer Associate",
+        "desc": "",
+        "descUrl": "",
+        "image": "az204",
+        "url": "https://www.credly.com/badges/4a608036-cc3e-44cc-9a30-b6c0a46392d8"
+      },
+      {
+        "id": 2,
+        "center": "Microsoft Certified",
+        "date": "Barcelona (2021)",
+        "title": "Azure Data Fundamentals",
+        "desc": "",
+        "descUrl": "",
         "image": "dp900",
         "url": "https://www.credly.com/badges/b4f0bec9-cba2-48e6-ab40-72be4c68c089"
       },
       {
-        "id": 2,
-        "center": "Microsoft Learn",
+        "id": 3,
+        "center": "Microsoft Certified",
         "date": "Barcelona (2021)",
-        "title": "Microsoft Certified: Azure Fundamentals",
-        "desc": "También adquiero nuevos conociemientos con los challenges y los learning paths",
-        "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
+        "title": "Azure Fundamentals",
+        "desc": "",
+        "descUrl": "",
         "image": "az900",
-        "url": "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c/public_url"
+        "url": "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c"
       },
       {
-        "id": 3,
+        "id": 4,
+        "center": "Microsoft Learn",
+        "date": "Barcelona (2021)",
+        "title": "Varios módulos, learning paths y challenges",
+        "desc": "",
+        "descUrl": "",
+        "image": "mlearn",
+        "url": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686"
+      },
+      {
+        "id": 5,
         "center": "Pluralsight",
         "date": "Barcelona (2019)",
         "title": "Varios módulos de aprendizaje y pruebas de nivel",
@@ -247,7 +267,7 @@ var textContent_ES = {
         "url": "https://app.pluralsight.com/profile/francisco-rosa"
       },
       {
-        "id": 4,
+        "id": 6,
         "center": "Master D",
         "date": "Barcelona (2012)",
         "title": "Curso programación en Android",
@@ -257,7 +277,7 @@ var textContent_ES = {
         "url": "https://www.masterd.es/curso-android"
       }, 
       {
-        "id": 5,
+        "id": 7,
         "center": "Escola Politècnica Salessians Sarrià",
         "date": "Barcelona (2008 - 2010)",
         "title": "Técnico superior en Desarrollo de Aplicaciones Informáticas",
@@ -267,7 +287,7 @@ var textContent_ES = {
         "url": "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma"
       }, 
       {
-        "id": 6,
+        "id": 8,
         "center": "Escola Bit",
         "date": "Barcelona (2009)",
         "title": "Programación en Java",
@@ -277,7 +297,7 @@ var textContent_ES = {
         "url": "https://www.bit.es/curso/desarrollo-de-aplicaciones-con-java-9-11/"
       },
       {
-        "id": 7,
+        "id": 9,
         "center": "IES Esteve Terradas i illa",
         "date": "Barcelona (2005 - 2007)",
         "title": "Técnico superior en Producción Editorial",

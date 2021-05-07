@@ -216,29 +216,49 @@ var textContent_EN = {
     }
   },  
   "education": {
-    "collection": [
+    "collection": [      
       {
         "id": 1,
-        "center": "Microsoft Learn",
+        "center": "Microsoft Certified",
         "date": "Barcelona (2021)",
-        "title": "Microsoft Certified: Azure Data Fundamentals",
-        "desc": "I also learn new skills using microsoft challenges and their learning paths",
-        "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
+        "title": "Azure Developer Associate",
+        "desc": "",
+        "descUrl": "",
+        "image": "az204",
+        "url": "https://www.credly.com/badges/4a608036-cc3e-44cc-9a30-b6c0a46392d8"
+      },
+      {
+        "id": 2,
+        "center": "Microsoft Certified",
+        "date": "Barcelona (2021)",
+        "title": "Azure Data Fundamentals",
+        "desc": "",
+        "descUrl": "",
         "image": "dp900",
         "url": "https://www.credly.com/badges/b4f0bec9-cba2-48e6-ab40-72be4c68c089"
       },
       {
-        "id":2,
-        "center": "Microsoft Learn",
-        "date" : "Barcelona (2021)",
-        "title" : "Microsoft Certified: Azure Fundamentals",
-        "desc": "I also learn new skills using microsoft challenges and their learning paths",
-        "descUrl": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686/",
-        "image" : "az900",
-        "url" : "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c/public_url" 
+        "id": 3,
+        "center": "Microsoft Certified",
+        "date": "Barcelona (2021)",
+        "title": "Azure Fundamentals",
+        "desc": "",
+        "descUrl": "",
+        "image": "az900",
+        "url": "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c"
       },
       {
-        "id": 3,
+        "id": 4,
+        "center": "Microsoft Learn",
+        "date": "Barcelona (2021)",
+        "title": "Several modules, learning paths and challenges",
+        "desc": "",
+        "descUrl": "",
+        "image": "mlearn",
+        "url": "https://docs.microsoft.com/en-us/users/franciscorosaherrero-0686"
+      },
+      {
+        "id": 5,
         "center": "Pluralsight",
         "date": "Barcelona (2019)",
         "title": "Multiples modules, learning paths and IQ assesments",
@@ -248,7 +268,7 @@ var textContent_EN = {
         "url": "https://app.pluralsight.com/profile/francisco-rosa"
       },
       {
-        "id":4,
+        "id":6,
         "center": "Master D",
         "date" : "Barcelona (2012)",
         "title" : "Systems programmer for Android",
@@ -258,7 +278,7 @@ var textContent_EN = {
         "url" : "https://www.masterd.es/curso-android" 
       },
       {
-        "id":5,
+        "id":7,
         "center": "Escola Politècnica Salessians Sarrià",
         "date" : "Barcelona (2008 - 2010)",
         "title" : "Professional training in Software Development",
@@ -268,7 +288,7 @@ var textContent_EN = {
         "url" : "https://www.salesianssarria.com/grado-superior/desarrollo-aplicaciones-multiplataforma" 
       },           
       {
-        "id":6,
+        "id":8,
         "center": "Escola Bit",
         "date" : "Barcelona (2009)",
         "title" : "Java Programming",
@@ -278,7 +298,7 @@ var textContent_EN = {
         "url" : "https://www.bit.es/curso/desarrollo-de-aplicaciones-con-java-9-11/" 
       },
       {
-        "id":7,
+        "id":9,
         "center": "IES Esteve Terradas i illa",
         "date" : "Barcelona (2005 - 2007)",
         "title" : "Graphic Design",
