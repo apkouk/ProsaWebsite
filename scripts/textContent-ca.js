@@ -252,7 +252,7 @@ var textContent_CA = {
       {
         "id": 4,
         "center": "Microsoft Learn",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (2020 - 2021)",
         "title": "Varis mòduls, learning paths i challenges",
         "desc": "",
         "descUrl": "",

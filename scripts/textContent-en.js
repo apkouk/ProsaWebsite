@@ -250,7 +250,7 @@ var textContent_EN = {
       {
         "id": 4,
         "center": "Microsoft Learn",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (2020 - 2021)",
         "title": "Several modules, learning paths and challenges",
         "desc": "",
         "descUrl": "",
