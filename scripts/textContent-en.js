@@ -36,25 +36,10 @@ var textContent_EN = {
   },
   "experiences": {
     "optionMenu" : "Experience",
-    "desktopPublisher": {
-      "id": 1,
-      "ref": "desktopPublisher",
-      "slickitem":"#slick-slide08",
-      "company": "Multiple companies",
-      "website": "",
-      "city": "Barcelona",
-      "role": "Designer/Desktop Publisher",
-      "dateStart": "Dec 2006",
-      "dateEnd": "Aug 2008",
-      "techStack": "",
-      "description": "Before becoming a software developer I was a designer for several companies around Barcelona. I mostly did design work using Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand, and ArtiosCad.",
-      "tasks": "",
-      "image": "graphic"
-    },
     "netLife": {
-      "id": 2,
+      "id": 1,
       "ref": "netLife",
-      "slickitem":"#slick-slide07",
+      "slickitem":"#slick-slide08",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -67,9 +52,9 @@ var textContent_EN = {
       "image": "netlife"
     },
     "btgsa": {
-      "id": 3,
+      "id": 2,
       "ref": "btgsa",
-      "slickitem":"#slick-slide06",
+      "slickitem":"#slick-slide07",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "http://btgsa.com",
@@ -87,9 +72,9 @@ var textContent_EN = {
       "image": "aggity"
     },
     "luxtripper": {
-      "id": 4,
+      "id": 3,
       "ref": "luxtripper",
-      "slickitem":"#slick-slide05",
+      "slickitem":"#slick-slide06",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -109,9 +94,9 @@ var textContent_EN = {
       "image": "luxtripper"
     },
     "membra": {
-      "id": 5,
+      "id": 4,
       "ref": "membra",
-      "slickitem":"#slick-slide04",
+      "slickitem":"#slick-slide05",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "http://membra.co.uk",
@@ -130,9 +115,9 @@ var textContent_EN = {
       "image": "mes"
     },
     "mission": {
-      "id": 6,
+      "id": 5,
       "ref": "mission",
-      "slickitem":"#slick-slide03",
+      "slickitem":"#slick-slide04",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -158,9 +143,9 @@ var textContent_EN = {
       "image": "mission"
     },
     "educo": {
-      "id": 7,
+      "id": 6,
       "ref": "educo",
-      "slickitem":"#slick-slide02",
+      "slickitem":"#slick-slide03",
       "company": "Educo ONG",
       "city": "Barcelona",
       "website": "https://www.educo.org/",
@@ -177,9 +162,9 @@ var textContent_EN = {
       "image": "educo"
     },
     "wivi": {
-      "id": 8,
+      "id": 7,
       "ref": "wivi",
-      "slickitem":"#slick-slide01",
+      "slickitem":"#slick-slide02",
       "company": "Wivi Vision",
       "city": "Barcelona",
       "website": "https://wivivision.com/",
@@ -192,9 +177,10 @@ var textContent_EN = {
       "image": "wivi"
     },
     "planeta": {
-      "id": 9,
+      "id": 8,
       "ref": "planeta",
-      "slickitem":"#slick-slide00",
+      "slickitem":"#slick-slide01",
+      "slick-item":"slick-slide01",
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://www.planeta.es/en/learning",
@@ -213,6 +199,33 @@ var textContent_EN = {
         "As a team lead I participated planning and executing to change the application's payment provider due to a European regulatory change (3DS)."
       ],
       "image": "planeta"
+    },
+     "unimedia": {
+      "id": 9,
+      "ref": "unimedia",
+      "slickitem":"#slick-slide00",
+      "slick-item":"slick-slide00",
+      "company": "Unimedia S.L",
+      "city": "Barcelona",
+      "website": "https://www.unimedia.tech",
+      "role": "Azure and .NET Developer",
+      "dateStart": "April 2018",
+      "dateEnd": "Current",
+      "techStack": "C# .Net 10, Azure, Azure Devops and SQL",
+      "description": "I work as a freelance web developer for a web application aimed at small and medium-sized businesses to reduce their emissions and be more sustainable. I mainly use .Net, Azure and Azure DevOps with C#. The front-end is built with React and sometimes I have also had to work on it.",
+      "tasks": [
+        "Development of the application APIs using C#, .Net 6, EF Core 6 and SQL according to requirements (project management with JIRA and Agile methodology).",
+        "Migration of APIs to .NET 6 and databases to .NET framework 4.8 from older versions.",
+        "Adaptation of all APIs to work with Docker, creating an Azure Container Registry and modifying the App Services and their DevOps pipelines. I also migrated all APIs from one location to another within Azure.",
+        "Implementation of integrations with Mixpanel, Salesforce and Stripe, creating our own nugets hosted in Azure DevOps. I have maintained and improved other integrations such as Perse (energy consumption) or Loqate (location service).",
+        "Creation of our SSO to allow login with the Zellar account on other platforms like Circle.",
+        "Development of a microservice (API) to manage all notifications to third-party integrations through a message queue, using the Outbox pattern.",
+        "Maintenance of Azure DevOps services (pipelines and deployments), modifying or creating new pipelines.",
+        "Maintenance of infrastructure for all environments (development, testing and production) in Azure. Some of the services I have worked with are: App Services (logs, scaling rules, network protection and backups), SQL Servers (failover group, resolved SQL audits and network protections), Blobs Storage (different types), Service Bus, Azure Functions, Azure API Management, Azure Front Door and Azure Key Vault (secrets and certificates).",
+        "Implementation of Azure API Management in Azure to manage and protect our APIs (currently 4).",
+        "Moving all secrets from app settings to Azure Key Vault, replacing them during deployment from Azure DevOps."
+      ],
+      "image": "unimedia"
     }
   },  
   "education": {

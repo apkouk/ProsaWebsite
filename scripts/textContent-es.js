@@ -36,25 +36,10 @@ var textContent_ES = {
   },
   "experiences": {
     "optionMenu" : "Experiencia",
-    "desktopPublisher": {
-      "id": 1,
-      "ref": "Diseñador/Maquetador",
-      "slickitem":"#slick-slide08",
-      "company": "Varias compañias",
-      "website": "",
-      "city": "Barcelona",
-      "role": "Diseñador/Maquetador",
-      "dateStart": "Dic 2006",
-      "dateEnd": "Ago 2008",
-      "techStack": "",
-      "description": "Antes de entrar en el mundo de la infórmatica trabajé como diseñador/maquetador para varias empresas en el área de Barcelona utilizando mayormente Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand y ArtiosCad.",
-      "tasks": "",
-      "image": "graphic"
-    },
     "netLife": {
-      "id": 2,
+      "id": 1,
       "ref": "netLife",
-      "slickitem":"#slick-slide07",
+      "slickitem":"#slick-slide08",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -67,9 +52,9 @@ var textContent_ES = {
       "image": "netlife"
     },
     "btgsa": {
-      "id": 3,
+      "id": 2,
       "ref": "btgsa",
-      "slickitem":"#slick-slide06",
+      "slickitem":"#slick-slide07",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "http://btgsa.com",
@@ -87,9 +72,9 @@ var textContent_ES = {
       "image": "aggity"
     },
     "luxtripper": {
-      "id": 4,
+      "id": 3,
       "ref": "luxtripper",
-      "slickitem":"#slick-slide05",
+      "slickitem":"#slick-slide06",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -110,9 +95,9 @@ var textContent_ES = {
       "image": "luxtripper"
     },
     "membra": {
-      "id": 5,
+      "id": 4,
       "ref": "membra",
-      "slickitem":"#slick-slide04",
+      "slickitem":"#slick-slide05",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "http://membra.co.uk",
@@ -130,9 +115,9 @@ var textContent_ES = {
       "image": "mes"
     },
     "mission": {
-      "id": 6,
+      "id": 5,
       "ref": "mission",
-      "slickitem":"#slick-slide03",
+      "slickitem":"#slick-slide04",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -157,9 +142,9 @@ var textContent_ES = {
       "image": "mission"
     },
     "educo": {
-      "id": 7,
+      "id": 6,
       "ref": "educo",
-      "slickitem":"#slick-slide02",
+      "slickitem":"#slick-slide03",
       "company": "Educo ONG",
       "city": "Barcelona",
       "website": "https://www.educo.org/",
@@ -176,9 +161,9 @@ var textContent_ES = {
       "image": "educo"
     },
     "wivi": {
-      "id": 8,
+      "id": 7,
       "ref": "wivi",
-      "slickitem":"#slick-slide01",
+      "slickitem":"#slick-slide02",
       "company": "Wivi Vision",
       "city": "Barcelona",
       "website": "https://wivivision.com/",
@@ -191,9 +176,10 @@ var textContent_ES = {
       "image": "wivi"
     },
     "planeta": {
-      "id": 9,
+      "id": 8,
       "ref": "planeta",
-      "slickitem":"#slick-slide00",
+      "slickitem":"#slick-slide01",
+      "slick-item":"slick-slide01",
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://www.planeta.es/en/learning",
@@ -212,6 +198,33 @@ var textContent_ES = {
         "Como team lead participé en la planificación y ejecución para cambiar el proveedor de pagos de los aplicativos debido a un cambio normativo europeo (3DS)."
       ],
       "image": "planeta"
+    },
+     "unimedia": {
+      "id": 9,
+      "ref": "unimedia",
+      "slickitem":"#slick-slide00",
+      "slick-item":"slick-slide00",
+      "company": "Unimedia S.L",
+      "city": "Barcelona",
+      "website": "https://www.unimedia.tech",
+      "role": "Azure and .NET Developer",
+      "dateStart": "Abril 2018",
+      "dateEnd": "Actual",
+      "techStack": "C# .Net 10, Azure, Azure Devops and SQL",
+      "description": "Trabajo como desarrollador web freelance para una aplicación web destinada a pequeñas y medianas empresas para reducir sus emisiones y ser más sostenibles. Principalmente utilizo .Net, Azure y Azure DevOps con C#. El front-end está hecho con React y a veces también he tenido que trabajar en él.",
+      "tasks": [
+        "Desarrollo de las APIs de la aplicación utilizando C#, .Net 6, EF Core 6 y SQL según los requisitos (gestión de proyecto con JIRA y metodología Ágil).",
+        "Migración de las APIs a .NET 6 y de las bases de datos a .NET framework 4.8 desde versiones más antiguas.",
+        "Adaptación de todas las APIs para funcionar con Docker, creando un Azure Container Registry y modificando los App Services y sus pipelines de DevOps. También migré todas las APIs de una ubicación a otra dentro de Azure.",
+        "Implementación de integraciones con Mixpanel, Salesforce y Stripe, creando nuestros propios nugets alojados en Azure DevOps. He mantenido y mejorado otras integraciones como Perse (consumos energéticos) o Loqate (servicio de localización).",
+        "Creación de nuestro SSO para permitir iniciar sesión con la cuenta de Zellar en otras plataformas como Circle.",
+        "Desarrollo de un microservicio (API) para gestionar todas las notificaciones a integraciones de terceros mediante una cola de mensajes, utilizando el patrón Outbox.",
+        "Mantenimiento de los servicios de Azure DevOps (pipelines y deployments), modificando o creando nuevos pipelines.",
+        "Mantenimiento de la infraestructura para todos los entornos (desarrollo, pruebas y producción) en Azure. Algunos de los servicios con los que he trabajado son: App Services (logs, reglas de escalado, protección de red y copias de seguridad), SQL Servers (grupo de recuperación ante fallos, auditorías SQL resueltas y protecciones de red), Blobs Storage (diferentes tipos), Service Bus, Azure Functions, Azure API Management, Azure Front Door y Azure Key Vault (secrets y certificados).",
+        "Implementación de Azure API Management en Azure para gestionar y proteger nuestras APIs (actualmente 4).",
+        "Traslado de todos los secrets de los app settings a Azure Key Vault, sustituyéndolos durante el despliegue desde Azure DevOps."
+      ],
+      "image": "unimedia"
     }
   },
   "education": {
