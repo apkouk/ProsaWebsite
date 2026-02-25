@@ -1,10 +1,9 @@
 var textContent_ES = {
   "intro": {
     "paragraphs": [
-      "Mi nombre es Francisco pero todos me llaman Paco i me gano la vida como desarrolador de software.",
-      "He estado creando diversas soluciones de software para varios clientes desde 2009. Lo que más me gusta son los desafíos y resolver problemas, mejorando mis capacidades a diario. Me encanta ayudar a mis clientes y compañeros y ver cómo los proyectos maduran y crecen. Me inspira ser parte de un equipo con un objetivo común y me despierto todos los días motivado para hacer las cosas. En el día a día el trabajo me proporciona una gran satisfacción y la resolución de problemas es una de mis fortalezas y algo con lo que realmente disfruto.",
-      "También me apasiona aprender, conocer nuevos lugares y conocer gente nueva. Tengo la suerte de que mi carrera en el desarrollo me haya brindado la oportunidad de hacer las tres cosas.",
-      "En mi tiempo libre disfruto aprendiendo y tocando la guitarra, leyendo un buen libro o cocinando un buen festín con amigos. Aparte me encanta poder enseñar mis conocimientos dando clases particulares de programación. También me inscribo a cursos de humanidades cuando la ocasión lo merece para no olvidar mi parte más 'humana'. No dudes en echar un vistazo a mi sitio web para aprender más sobre mí y mi trabajo.",
+      "Soy un Desarrollador Senior de .NET y Azure con más de 15 años de experiencia construyendo soluciones de software en diversas industrias. Me especializo en .NET, Azure, C# y SQL, y me apasiona resolver problemas complejos y entregar código de alta calidad.",
+      "Creo en mantener un equilibrio saludable entre el trabajo y la vida personal que impulse tanto la excelencia profesional como la realización personal.",
+      "En mi tiempo libre disfruto del cine, leyendo un buen libro o cocinando una buena comida con familia y amigos. No dudes en explorar mi sitio web para conocer más sobre mí y mi trabajo.",
       "¡Hasta la vista!"
     ],
     "optionMenu": "Introducción",
@@ -13,13 +12,13 @@ var textContent_ES = {
   },
   "techSkills": {
     "paragraphs": [
-      "Me considero un desarrollador full-stack capaz de contribuir a proyectos en todas sus facetas. La mayor parte de mi experiencia ha sido con tecnologías de Microsoft, incluida una amplia experiencia en el uso de C#, ASP.NET, Web Forms y SQL Server. Me siento cómodo usando una herramientas de Microsoft, incluidas varias versiones de Visual Studio, Entity Framework, Team Foundation Server y Git. ",
-      "Para proyectos de desarrollo web he trabajado con HTML/CSS y JavaScript, incluidos varios frameworks y librerias populares como ASP.NET, Telerik, Bootstrap, Angular, Slick y jQuery. También tengo experiencia en el uso de herramientas cloud de Azure y Amazon Web Services.",
+      "Me considero un desarrollador full-stack capaz de contribuir a proyectos en todas sus facetas. La mayor parte de mi experiencia ha sido con tecnologías de Microsoft, incluyendo amplia experiencia con C#, .NET (desde .NET 6 hasta .NET 10), ASP.NET Core, Entity Framework y SQL Server. Me especializo en servicios cloud de Azure como App Services, Functions, Service Bus, API Management y Key Vault.",
+      "Para proyectos de desarrollo web he trabajado con HTML/CSS y JavaScript incluyendo frameworks como React, Angular y jQuery. Tengo amplia experiencia con pipelines CI/CD usando Azure DevOps, contenedorización con Docker y arquitectura de microservicios.",
       "A continuación se muestra una breve lista de mis habilidades."
     ],
-    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Solcuiones en Azure, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
-    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
-    "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
+    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry",
+    "concepts": "Proceso de desarrollo de software (Agile, Scrum), bases de datos relacionales, modelado de datos, programación orientada a objetos, TDD, MVC, arquitectura n-tier, principios SOLID, Microservicios, pipelines CI/CD, patrón Outbox",
+    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman",
     "optionMenu": "Tecnologías",
     "subTitle1" : "Desarrollo",
     "subTitle2" : "Conceptos",
@@ -210,7 +209,7 @@ var textContent_ES = {
       "role": "Azure and .NET Developer",
       "dateStart": "Abril 2018",
       "dateEnd": "Actual",
-      "techStack": "C# .Net 10, Azure, Azure Devops and SQL",
+      "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps y SQL",
       "description": "Trabajo como desarrollador web freelance para una aplicación web destinada a pequeñas y medianas empresas para reducir sus emisiones y ser más sostenibles. Principalmente utilizo .Net, Azure y Azure DevOps con C#. El front-end está hecho con React y a veces también he tenido que trabajar en él.",
       "tasks": [
         "Desarrollo de las APIs de la aplicación utilizando C#, .Net 6, EF Core 6 y SQL según los requisitos (gestión de proyecto con JIRA y metodología Ágil).",
@@ -370,27 +369,34 @@ var textContent_ES = {
     "conferences": [
       {
         "id": 1,
+        "name": "TALENT ARENA",
+        "desc": "",
+        "date": "2-4 Marzo 2026",
+        "URL": "https://talentarena.tech/"
+      },
+      {
+        "id": 2,
         "name": "SOFTWARE CRAFTSMANSHIP LONDON",
         "desc": "",
         "date": "5-6 October 2017",
         "URL": "http://sc-london.com/"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "CODENODE",
         "desc": "Cuando el tiempo lo permite atiendo a eventos y workshops sobre diferentes materias (el de las promises en javasript estuvo muy bien, por ejemplo)",
         "date": "-",
         "URL": "https://skillsmatter.com/"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "SOFTWARE CRAFTSMANSHIP BARCELONA",
         "desc": "Sigo lo eventos del Barcelona Meetup Group",
         "date": "-",
         "URL": "https://www.meetup.com/Barcelona-Software-Craftsmanship/events/"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Codebar",
         "desc": "Actué como mentor en sus eventos para enseñar programación con javascript o SQL",
         "date": "-",
@@ -416,7 +422,7 @@ var textContent_ES = {
       {
         "id": 3,
         "name": "GMail",
-        "URL": "https://www.linkedIn.com/in/pacorosa",
+        "URL": "mailto:cescorh@prosa.co.uk",
         "image": ""
       }
     ]
@@ -452,7 +458,7 @@ var textContent_ES = {
       {
         "id": 1,
         "title": "Software Development",
-        "desc": "Durante diez años me he centrado en el trabajo de desarrollo de software y he creado muchas soluciones utilizando C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typecript HTML y CSS. Puedo contribuir al ciclo de vida completo de los proyectos de desarrollo de software desde los requisitos hasta las pruebas y la implementación.",
+        "desc": "Durante más de quince años me he centrado en el trabajo de desarrollo de software y he creado muchas soluciones utilizando C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML y CSS. Puedo contribuir al ciclo de vida completo de los proyectos de desarrollo de software desde los requisitos hasta las pruebas y la implementación.",
         "image": "softdev"
       },
       {

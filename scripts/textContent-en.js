@@ -1,7 +1,6 @@
 var textContent_EN = {
   "intro": {
     "paragraphs": [
-      "My name is Francisco but everybody calls me Paco.",
       "I'm a Senior .NET and Azure Developer with 15+ years of experience building software solutions across diverse industries. I specialize in .NET, Azure, C#, and SQL, and I'm passionate about solving complex problems and delivering high-quality code.",
       "I believe in maintaining a healthy work-life balance that fuels both professional excellence and personal fulfillment.",
       "In my free time I enjoy cinema, having a good read, or cooking a nice meal with family and friends. Feel free to explore my website to learn more about me and my work.",
@@ -13,13 +12,13 @@ var textContent_EN = {
   },
   "techSkills": {
     "paragraphs": [
-      "I consider myself a full stack developer able to contribute to projects across the stack. Most of my development experience has been with Microsoft technologies, including deep experience using C#, ASP.NET, Web Forms and SQL Server. I am quite comfortable using a number of Microsoft tools including several versions of Visual Studio, Entity Framework, Team Foundation Server and Git.",
-      "For web development projects I have worked with HTML/CSS and JavaScript including several popular frameworks and libraries such as ASP.NET, Bootstrap, Angular, Slick, and jQuery. I also have experience using cloud tools from Azure and Amazon Web Services.",
+      "I consider myself a full stack developer able to contribute to projects across the stack. Most of my development experience has been with Microsoft technologies, including deep experience using C#, .NET (from .NET 6 to .NET 10), ASP.NET Core, Entity Framework and SQL Server. I specialize in Azure cloud services including App Services, Functions, Service Bus, API Management and Key Vault.",
+      "For web development projects I have worked with HTML/CSS and JavaScript including frameworks like React, Angular, and jQuery. I have extensive experience with CI/CD pipelines using Azure DevOps, containerization with Docker, and microservices architecture.",
       "Below is a brief list of skills from my resume."
     ],
-    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Azure Solutions, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
-    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
-    "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
+    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry",
+    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles, Microservices, CI/CD pipelines",
+    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman",
     "optionMenu" : "Tech",
     "subTitle1" : "Development",
     "subTitle2" : "Concepts",
@@ -108,8 +107,7 @@ var textContent_EN = {
       "tasks": [
         "Added responsive web features to improve device compatibility and a progress bar to improve UI/UX.",
         "Implemented Sort-Modify-Delete for survey questions/answers instead of requiring changes in the database.",
-        "Performed multiple database tasks including pivot tables, creation and design of tables, stored procedures, and query",
-        "timization. Wrote scripts to automate data import that improved speed from days to only six hours.",
+        "Performed multiple database tasks including pivot tables, creation and design of tables, stored procedures, and query optimization. Wrote scripts to automate data import that improved speed from days to only six hours.",
         "Built a responsive three-tier architecture admin tool that automated and optimized project managers tasks. (Bootstrap,Telerikframework, ASP.NET Webforms, C#, and MS SQL Server)."
       ],
       "image": "mes"
@@ -211,7 +209,7 @@ var textContent_EN = {
       "role": "Azure and .NET Developer",
       "dateStart": "April 2018",
       "dateEnd": "Current",
-      "techStack": "C# .Net 10, Azure, Azure Devops and SQL",
+      "techStack": "C# .NET 6 to .NET 10, Azure, Azure DevOps and SQL",
       "description": "I work as a freelance web developer for a web application aimed at small and medium-sized businesses to reduce their emissions and be more sustainable. I mainly use .Net, Azure and Azure DevOps with C#. The front-end is built with React and sometimes I have also had to work on it.",
       "tasks": [
         "Development of the application APIs using C#, .Net 6, EF Core 6 and SQL according to requirements (project management with JIRA and Agile methodology).",
@@ -274,7 +272,7 @@ var textContent_EN = {
         "id": 5,
         "center": "Pluralsight",
         "date": "Barcelona (2019)",
-        "title": "Multiples modules, learning paths and IQ assesments",
+        "title": "Multiple modules, learning paths and IQ assessments",
         "desc": "",
         "descUrl" : "",
         "image": "pluralsight",
@@ -371,27 +369,34 @@ var textContent_EN = {
     "conferences": [
       {
         "id": 1,
+        "name": "TALENT ARENA",
+        "desc": "",
+        "date": "2-4 March 2026",
+        "URL": "https://talentarena.tech/"
+      },
+      {
+        "id": 2,
         "name": "SOFTWARE CRAFTSMANSHIP LONDON",
         "desc": "",
         "date": "5-6 October 2017",
         "URL": "http://sc-london.com/"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "CODENODE",
         "desc": "Regularly attend events about different subjects at the Skill Matters community ",
         "date": "-",
         "URL": "https://skillsmatter.com/"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "SOFTWARE CRAFTSMANSHIP BARCELONA",
         "desc": "Regularly attend events about different subjects with their Barcelona Meetup Group",
         "date": "-",
         "URL": "https://www.meetup.com/Barcelona-Software-Craftsmanship/events/"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Codebar",
         "desc": "Regularly attend events to mentor and teach programming like Javascript or SQL",
         "date": "-",
@@ -417,7 +422,7 @@ var textContent_EN = {
       {
         "id": 3,
         "name": "GMail",
-        "URL": "https://www.linkedIn.com/in/pacorosa",
+        "URL": "mailto:cescorh@prosa.co.uk",
         "image": ""
       }
     ]
@@ -429,7 +434,7 @@ var textContent_EN = {
       {
         "id": 2,
         "title": "Database Scripting",
-        "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures. I can work with NoSql databases like CLoudantDb or MongoDb.",
+        "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures. I can work with NoSql databases like CloudantDb or MongoDb.",
         "image": "database"
       },
       {
@@ -453,7 +458,7 @@ var textContent_EN = {
       {
         "id": 1,
         "title": "Software Development",
-        "desc": "For ten years I have focused on software development work and I have built many solutions using C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML and CSS. I am able to contribute to the full lifecycle of software development projects from requirements through testing and deployment.",
+        "desc": "For over fifteen years I have focused on software development work and I have built many solutions using C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML and CSS. I am able to contribute to the full lifecycle of software development projects from requirements through testing and deployment.",
         "image": "softdev"
       },
       {

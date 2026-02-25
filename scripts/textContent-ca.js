@@ -1,10 +1,9 @@
 var textContent_CA = {
   "intro": {
     "paragraphs": [
-      "El meu nom és Paco i em guanyo la vida com a desenvolupador.",
-      "He estat construint diverses solucions per diversos clients des del 2009. M'encanta el que faig i el que més m'agrada són els reptes i resoldre problemes, millorant les meves capacitats diàriament. M'encanta ajudar als meus clients i companys i veure com els projectes maduren i creixen. M'inspira el formar part d'un equip amb un objectiu comú llevant-me cada dia motivat per fer les coses. En el dia a dia em proporciona una gran satisfacció la resolució de problemes que crec a més que és un dels meus punts forts.",
-      "També m'apassiona aprendre, veure llocs nous i conèixer gent nova, tenint la sort que la meva carrera m'hagi donat l'oportunitat de fer les tres coses.",
-      "Durant el meu temps lliure, gaudeixo aprenent i tocant la guitarra, llegint un bon llibre o cuinant un bon àpat amb els amics. Apart m'encanta poder ensenyar els meus coneixements donant classes particulars de programació. També m'inscric a cursos d'humanitats quan l'ocasió ho mereix per no oblidar la meva part més 'huamana'. No dubteu a fer una ullada per obtenir més informació sobre mi i la meva feina.",
+      "Sóc un Desenvolupador Sènior de .NET i Azure amb més de 15 anys d'experiència construint solucions de programari en diverses indústries. M'especialitzo en .NET, Azure, C# i SQL, i m'apassiona resoldre problemes complexos i lliurar codi d'alta qualitat.",
+      "Crec en mantenir un equilibri saludable entre la feina i la vida personal que impulsi tant l'excel·lència professional com la realització personal.",
+      "En el meu temps lliure gaudeixo del cinema, llegint un bon llibre o cuinant un bon àpat amb família i amics. No dubtis a explorar el meu lloc web per conèixer més sobre mi i la meva feina.",
       "A reveure!"
     ],
     "optionMenu": "Introducció",
@@ -13,13 +12,13 @@ var textContent_CA = {
   },
   "techSkills": {
     "paragraphs": [
-      "Em considero un full-stack developer capaç de contribuir en totes les vessants dels projectes. La majoria de la meva experiència ha estat amb tecnologies de Microsoft, inclosa una extensa experiència utilitzant C#, ASP.NET, Web Forms i SQL Server. Treballo comodament amb diverses eines de Microsoft, incloses diverses versions de Visual Studio, Entity Framework, Team Foundation Server i Git.",
-      "Per a projectes de desenvolupament web he treballat amb HTML/CSS i JavaScript, inclosos diversos frameworks i llibreries populars, com ara ASP.NET, Telerik, Bootstrap, Angular, Slick i jQuery. També tinc experiència utilitzant eines cloud d'Azure i Amazon Web Services.",
+      "Em considero un desenvolupador full-stack capaç de contribuir en totes les vessants dels projectes. La majoria de la meva experiència ha estat amb tecnologies de Microsoft, incloent àmplia experiència amb C#, .NET (des de .NET 6 fins a .NET 10), ASP.NET Core, Entity Framework i SQL Server. M'especialitzo en serveis cloud d'Azure com App Services, Functions, Service Bus, API Management i Key Vault.",
+      "Per a projectes de desenvolupament web he treballat amb HTML/CSS i JavaScript incloent frameworks com React, Angular i jQuery. Tinc àmplia experiència amb pipelines CI/CD utilitzant Azure DevOps, contenidors amb Docker i arquitectura de microserveis.",
       "A continuació es mostra una breu llista d'habilitats del meu currículum."
     ],
-    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Solucions d'Azure , React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
-    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
-    "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
+    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry",
+    "concepts": "Procés de desenvolupament de programari (Agile, Scrum), bases de dades relacionals, modelatge de dades, programació orientada a objectes, TDD, MVC, arquitectura n-tier, principis SOLID, Microserveis, pipelines CI/CD, patró Outbox",
+    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman",
     "optionMenu": "Tecnologies",
     "subTitle1": "Desenvolupament",
     "subTitle2": "Conceptes",
@@ -212,7 +211,7 @@ var textContent_CA = {
       "role": "Azure and .NET Developer",
       "dateStart": "April 2018",
       "dateEnd": "Current",
-      "techStack": "C# .Net 10, Azure, Azure Devops and SQL",
+      "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps i SQL",
       "description": "Treballo com a desenvolupador web freelance per a una aplicació web destinada a petites i mitjanes empreses per reduir les seves emissions i ser més sostenibles. Principalment utilitzo .Net, Azure i Azure DevOps amb C#. El front-end està fet amb React i de vegades també he hagut de treballar-hi.",
       "tasks": [
         "Desenvolupament de les APIs de l’aplicació utilitzant C#, .Net 6, EF Core 6 i SQL segons els requisits (gestió de projecte amb JIRA i metodologia Àgil).",
@@ -372,27 +371,34 @@ var textContent_CA = {
     "conferences": [
       {
         "id": 1,
+        "name": "TALENT ARENA",
+        "desc": "",
+        "date": "2-4 Març 2026",
+        "URL": "https://talentarena.tech/"
+      },
+      {
+        "id": 2,
         "name": "SOFTWARE CRAFTSMANSHIP LONDON",
         "desc": "",
         "date": "5-6 October 2017",
         "URL": "http://sc-london.com/"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "CODENODE",
         "desc": "Quan el temps m'ho permet intento atendre a events sobre diferents matèries",
         "date": "-",
         "URL": "https://skillsmatter.com/"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "SOFTWARE CRAFTSMANSHIP BARCELONA",
         "desc": "Segeuixo de prop els events del seu Barcelona Meetup Group",
         "date": "-",
         "URL": "https://www.meetup.com/Barcelona-Software-Craftsmanship/events/"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Codebar",
         "desc": "Vaig participar com a mentor en els seus events per ensenyar javascript i SQL",
         "date": "-",
@@ -418,7 +424,7 @@ var textContent_CA = {
       {
         "id": 3,
         "name": "GMail",
-        "URL": "https://www.linkedIn.com/in/pacorosa",
+        "URL": "mailto:cescorh@prosa.co.uk",
         "image": ""
       }
     ]
@@ -454,7 +460,7 @@ var textContent_CA = {
       {
         "id": 1,
         "title": "Software Development",
-        "desc": "Durant deu anys m’he centrat en el desenvolupament de programari i he creat moltes solucions mitjançant C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML i CSS. Puc contribuir a tots el cicles dels projectes de desenvolupament, des de la presa dels requisits fins a les proves i el desplegament.",
+"desc": "Durant més de quinze anys m'he centrat en el desenvolupament de programari i he creat moltes solucions mitjançant C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML i CSS. Puc contribuir a tots el cicles dels projectes de desenvolupament, des de la presa dels requisits fins a les proves i el desplegament.",
         "image": "softdev"
       },
       {
