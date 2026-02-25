@@ -8,8 +8,8 @@ var textContent_CA = {
       "A reveure!"
     ],
     "optionMenu": "Introducció",
-    "wellcome": "Benvingut al meu website",
-    "btnWellcome": "Explica'm més..."
+    "welcome": "Benvingut al meu website",
+    "btnwelcome": "Explica'm més..."
   },
   "techSkills": {
     "paragraphs": [

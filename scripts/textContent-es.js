@@ -8,8 +8,8 @@ var textContent_ES = {
       "¡Hasta la vista!"
     ],
     "optionMenu": "Introducción",
-    "wellcome" : "Bienvenido a mi website",
-    "btnWellcome" : "Explícame más..."
+    "welcome" : "Bienvenido a mi website",
+    "btnwelcome" : "Explícame más..."
   },
   "techSkills": {
     "paragraphs": [

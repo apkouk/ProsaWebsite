@@ -56,13 +56,13 @@ function loadOptionsMenu() {
     option.empty();
     option.text(textContent.socialMedia.optionMenu);
 
-    option = $("#wellcome");
+    option = $("#welcome");
     option.empty();
-    option.text(textContent.intro.wellcome);
+    option.text(textContent.intro.welcome);
 
-    option = $("#btnWellcome");
+    option = $("#btnwelcome");
     option.empty();
-    option.text(textContent.intro.btnWellcome);
+    option.text(textContent.intro.btnwelcome);
 }
 
 var textContent;
