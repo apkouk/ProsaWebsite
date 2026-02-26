@@ -209,8 +209,8 @@ var textContent_EN = {
       "role": "Azure and .NET Developer",
       "dateStart": "April 2018",
       "dateEnd": "Current",
-      "techStack": "C# .NET 6 to .NET 10, Azure, Azure DevOps and SQL",
-      "description": "I work as a freelance web developer for a web application aimed at small and medium-sized businesses to reduce their emissions and be more sustainable. I mainly use .Net, Azure and Azure DevOps with C#. The front-end is built with React and sometimes I have also had to work on it.",
+      "techStack": "C# .NET 6 to .NET 10, Azure, Azure DevOps and SQL",      
+      "description": "I work as a freelance web developer for a web application aimed at small and medium-sized businesses to reduce their emissions and be more sustainable. See more at <a href='https://zellar.com' target='_blank'>zellar.com</a>. I mainly use .Net, Azure and Azure DevOps with C#. The front-end is built with React and sometimes I have also had to work on it.",
       "tasks": [
         "Development of the application APIs using C#, .Net 6, EF Core 6 and SQL according to requirements (project management with JIRA and Agile methodology).",
         "Migration of APIs to .NET 6 and databases to .NET framework 4.8 from older versions.",
