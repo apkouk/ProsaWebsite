@@ -300,7 +300,7 @@ function services() {
 function misc() {
     var miscSection = $(".misc");
     miscSection.empty();
-    miscSection.append("<h2>" + textContent.misc.optionMenu + "</h2><hr>");
+    miscSection.append("<h2>" + textContent.misc.title + "</h2><hr>");
     $.each(textContent.misc.books, function (i, book) {
         miscSection.append("<ul><li><p><cite>" + book.title + "</cite></br> " + book.author + "</p></li></ul>");
     });

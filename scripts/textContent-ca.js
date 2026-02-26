@@ -324,7 +324,8 @@ var textContent_CA = {
     "optionMenu": "Educació"
   },
   "misc": {
-    "optionMenu": "Misc",
+    "title": "Llibres",
+    "optionMenu": "Misc",    
     "optionMenu2": "Conferències i Meetups",
     "books": [
       {
