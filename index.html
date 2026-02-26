@@ -19,15 +19,10 @@
                     style="border-radius: 10px;margin-top: 2px;/* margin: 2px; */margin-bottom: 1px;color: white;">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header page-scroll">
+                        <a class="navbar-brand page-scroll" href="#page">#prosa</a>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#linksGroup">
                             <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand page-scroll" href="#page">#prosa</a>
-                        <span class="lang-buttons">
-                            <input id="lang-en" type="button" class="btnSelectLang uk" title="English">
-                            <input id="lang-ca" type="button" class="btnSelectLang catalonia" title="Català">
-                            <input id="lang-es" type="button" class="btnSelectLang spain" title="Español">
-                        </span>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -75,7 +70,11 @@
                     <a id="btnwelcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row"
                         style="font-weight: bolder; border:none; " href="#intro"></a>
                 </div>
-
+                <div class="lang-buttons">
+                    <button id="lang-en" type="button" class="btnSelectLang" title="English">EN</button>
+                    <button id="lang-ca" type="button" class="btnSelectLang" title="Català">CA</button>
+                    <button id="lang-es" type="button" class="btnSelectLang" title="Español">ES</button>
+                </div>
             </div>
             <div id="intro" class="row">
                 <div class="col intro">
@@ -112,29 +111,6 @@
                 </div>
             </div>
             <div id="pdfsContainer" class="row" style="background-image: url('src/images/worldMap.webp');">    
-                <h4 style="color: white; font-weight: bolder; ">Curriculum Vitae (.pdf)</h4>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <a class="btn btnSelectLang uk" href="src/cvs/ProsaResume-ENG.pdf"
-                                    download></a>
-                                    ENG
-                            </td>
-                            <td>
-                                <a class="btn btnSelectLang catalonia" href="src/cvs/ProsaResume-CAT.pdf"
-                                    download></a>
-                                    CAT
-                            </td>
-
-                            <td>
-                                <a class="btn btnSelectLang spain" href="src/cvs/ProsaResume-ESP.pdf"
-                                    download></a>
-                                    ESP
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
             <div id="contactContainer" class="row">
 
