@@ -431,43 +431,43 @@ var textContent_EN = {
   "services": {
     "optionMenu" : "Services",
     "title": "As a freelance consultant I offer various services to clients that can include:",
-    "serviceItems": [
-      {
-        "id": 2,
-        "title": "Database Scripting",
-        "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures. I can work with NoSql databases like CloudantDb or MongoDb.",
-        "image": "database"
-      },
-      {
-        "id": 3,
-        "title": "System Integration",
-        "desc": "My experience includes extensive system integration work that often has required an ability to problem solve and work with ambiguous or vague documentation related to third-party software and APIs. I can navigate these areas for clients and develop a working solution.",
-        "image": "systemInt"
-      },
-      {
-        "id": 6,
-        "title": "Team Management",
-        "desc": "Throughout my career I have managed small teams that include onsite and offshore or distributed team members. I am also able to mentor junior team members and gain team buy-in for adhering to best practices.",
-        "image": "teamMan"
-      },
-      {
-        "id": 4,
-        "title": "Error Fixing/Code Quality",
-        "desc": "One of my strengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability.",
-        "image": "errorFix"
-      },
-      {
-        "id": 1,
-        "title": "Software Development",
-        "desc": "For over fifteen years I have focused on software development work and I have built many solutions using C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML and CSS. I am able to contribute to the full lifecycle of software development projects from requirements through testing and deployment.",
-        "image": "softdev"
-      },
-      {
-        "id": 5,
-        "title": "Software Process Improvement",
-        "desc": "I am able to review your software development process in order to design and implement new processes and tools. This may include implementations of new software development methodologies (Agile, Scrum), source control solutions (Git, Team Foundation Server), and industry practices such as code reviews.",
-        "image": "softdevProc"
-      }
+    "serviceItems": [      
+        {
+            "id": 1,
+            "title": "Software Development",
+            "desc": "For over fifteen years I have focused on software development work and I have built many solutions using C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML and CSS. I have developed APIs and microservices using C#, .NET 6-10, Azure, and React, contributing to the full lifecycle from requirements gathering (Agile/JIRA) through testing and deployment.",
+            "image": "softdev"
+        },
+        {
+            "id": 2,
+            "title": "Database Scripting",
+            "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures. I have managed migrations and maintenance of SQL databases, adapting APIs and databases to newer .NET versions, and implementing advanced Azure SQL features such as failover groups and audits. I can also work with NoSql databases like CloudantDb or MongoDb.",
+            "image": "database"
+        },
+        {
+            "id": 3,
+            "title": "System Integration",
+            "desc": "My experience includes extensive system integration work, including integrating third-party services (Mixpanel, Salesforce, Stripe, Perse, Loqate), developing custom NuGet packages, and SSO solutions. I am skilled at problem solving and working with ambiguous or vague documentation related to third-party software and APIs, delivering robust solutions for clients.",
+            "image": "systemInt"
+        },
+        {
+            "id": 4,
+            "title": "Error Fixing/Code Quality",
+            "desc": "One of myhttp://127.0.0.1:8080/trengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability. I have maintained and improved integrations, refactored APIs for Docker compatibility, and enhanced security by moving secrets to Azure Key Vault.",
+            "image": "errorFix"
+        },
+        {
+            "id": 5,
+            "title": "Software Process Improvement",
+            "desc": "I am able to review your software development process in order to design and implement new processes and tools. I have contributed to DevOps automation, pipeline creation and modification, and managed infrastructure across environments (development, testing, production) in Azure. This may include implementations of new software development methodologies (Agile, Scrum), source control solutions (Git, Team Foundation Server), and industry practices such as code reviews.",
+            "image": "softdevProc"
+        },
+        {
+            "id": 6,  
+            "title": "Team Management",
+            "desc": "Throughout my career I have managed small teams that include onsite and offshore or distributed team members. I have coordinated migrations and integrations, collaborated with stakeholders, and guided DevOps practices. I am also able to mentor junior team members and gain team buy-in for adhering to best practices.",
+            "image": "teamMan"
+        }
     ]
   }
 }
