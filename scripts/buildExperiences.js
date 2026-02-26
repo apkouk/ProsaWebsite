@@ -31,6 +31,10 @@ function experience() {
       cardContainer.append(cardRole);
       card.append(cardContainer);
       experienceSection.append(card);
+
+       $(cardContainer).click(function () {
+            buildExperienceInfo(experience);
+        });
     }
   });
 }
