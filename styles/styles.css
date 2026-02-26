@@ -313,9 +313,13 @@ hr {
     border-left: 10px solid steelblue;
     border-right: 10px solid steelblue;
     box-shadow: 0 2px 16px rgba(0,0,0,0.15);
-    min-width: fit-content;
-    padding-top: 15%;
-    padding-bottom: 15%;    
+min-width: fit-content;
+      padding-top: 10%;
+    padding-bottom: 10%;
+   
+        padding-left: 20%;
+        padding-right: 20%;
+   
 }
 
 .linksContainer {
@@ -631,11 +635,15 @@ hr {
     .introStart {
         font-size: 22px;
     }
-    .intro, .techSkills, .personalSkills, .education, .misc, .services, .experienceInfo, .contactItem p {
+    .intro, .techSkills, .personalSkills, .education, .misc, .services, .contactItem p {
         font-size: 15px;
     }
     .experience {
         padding: 50px 0px 50px 0px;
+    }
+    .experienceInfo{
+        padding-left: 2%;
+        padding-right: -1%;    
     }
     .experienceInfo h1 {
         font-size: 22px;
@@ -714,11 +722,15 @@ hr {
     .introStart {
         font-size: 40px;
     }
-    .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo, .contactItem p {
+    .intro, .techSkills, .personalSkills, .education, .misc,  .contactItem p {
         font-size: 21px;
     }
     .experience {
         padding: 50px 0px 50px 0px;
+    }
+    .experienceInfo{
+       padding-left: 10%;
+    padding-right: 10%;
     }
     .experienceInfo h1 {
         font-size: 24px;

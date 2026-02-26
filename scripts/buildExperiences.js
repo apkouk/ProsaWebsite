@@ -50,9 +50,7 @@ function buildExperienceInfo(experience) {
   var experienceInfo = $(".experienceInfo");
   experienceInfo.empty();
   experienceInfo.append("<input id='closeInfo' type='image' src='src/images/close.png' />");
-
-  var width = $(".experience").width();
-  experienceInfo.css("margin", "0 auto");
+  
 
   var expHeader = $("<div>", { class: "expHeader" });
   // expHeader.append("<h1>" + experience.company  +"</h1>");
