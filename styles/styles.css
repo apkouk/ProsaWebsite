@@ -1,3 +1,13 @@
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .experience-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+    .mainContainer {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
 .card-image {
     width: 100%;
     height: 240px;
@@ -129,7 +139,7 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 #intro, #educationContainer, #miscContainer, #personalSkillsContainer {
-    background-color: #F3F3F3;
+    background-color: #ffffff;
 }
 
 #intro {
@@ -158,8 +168,17 @@ hr {
 }
 
 .mainContainer {
-    padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    padding: 0;
     width: 100%;
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
 }
 
 .intro, .techSkills, .personalSkills, .experience, .education, .services, .misc, .contact, .footer {
