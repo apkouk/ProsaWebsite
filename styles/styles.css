@@ -777,11 +777,18 @@ hr {
         font-size: 21px;
     }
     .services {
-        font-size: 18px;
+        font-size: 15px;
+    }
+    #servicesList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
     }
     .service-item {
-        height: 350px;
-        width: 48% !important;
+        height: 340px;
+        width: 46% !important;
+        margin-bottom: 24px;
+        font-size: 15px;
     }
     #closeInfo {
         margin-top: 3%;
