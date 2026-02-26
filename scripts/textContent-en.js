@@ -185,8 +185,8 @@ var textContent_EN = {
       "role": "Web Developer - Team Lead",
       "dateStart": "Aug 2018",
       "dateEnd": "Dec 2020",
-      "techStack": "ASP.NET, ASP.NET API, C #, HTML, HTML5, CSS, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
-      "description": "Worked as a web developer for the learning and universities division, working on a solution for managing the courses' recruitment websites, the enrollment and the integration with learning platforms. Last 4 months I acted as team lead managing a team of 6 developers, 2 QA and 1 BA",
+      "techStack": "ASP.NET, ASP.NET API, C #, HTML, HTML5, CSS, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",      
+      "description": "Worked as a web developer for the learning and universities division, working on a solution for managing the courses' recruitment websites, the enrollment and the integration with learning platforms. Some of the clients I worked for: <a href='https://www.eae.es/' target='_blank'>EAE</a>, <a href='https://www.universidadviu.com/es/' target='_blank'>VIU</a>, <a href='https://www.ceac.es/' target='_blank'>CEAC</a>. Last 4 months I acted as team lead managing a team of 6 developers, 2 QA and 1 BA",
       "tasks": [
         "Integration of two brands having to merge their data (students, enrollments, courses ...) to preserve their history",
         "Solution for changing a conflicting NAS cabin where the documentation generated during the enrollment process (students and courses) was housed.",
