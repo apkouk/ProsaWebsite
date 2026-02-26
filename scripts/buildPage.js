@@ -70,16 +70,24 @@ function loadTextContent(lang) {
     if (lang == undefined)
         lang = "en";
 
+    // Remove selected class from all language buttons
+    $("#lang-en").removeClass("lang-selected");
+    $("#lang-ca").removeClass("lang-selected");
+    $("#lang-es").removeClass("lang-selected");
+
     textContent = "";
     switch (lang) {
         case "en":
             textContent = textContent_EN;
+            $("#lang-en").addClass("lang-selected");
             break;
         case "es":
             textContent = textContent_ES;
+            $("#lang-es").addClass("lang-selected");
             break;
         case "ca":
             textContent = textContent_CA;
+            $("#lang-ca").addClass("lang-selected");
             break;
     }
 }
@@ -99,10 +107,6 @@ function canUseWebP() {
 
 function addHandlers() {
     resizingElement();
-
-    $("#lang-en").removeClass("lang-selected");
-    $("#lang-ca").removeClass("lang-selected");
-    $("#lang-es").removeClass("lang-selected");
 
     $("#lang-en").click(function () {
         $(location).prop("href", window.location.href.replace(window.location,'')  + "?lang=en");               
