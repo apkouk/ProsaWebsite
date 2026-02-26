@@ -1,3 +1,54 @@
+.card-image {
+    width: 100%;
+    height: 240px;
+        min-width: 280px;
+        min-height: 340px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        height: 100%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 100px;
+}
+.cardImg {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 40px;
+}
+.experience-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+}
 html {
     scrollbar-width: none;
     overflow-x: hidden;
@@ -181,7 +232,7 @@ hr {
     width: 70%;
     margin: 0 auto;
 }
-
+        /* min-width removed for more flexible sizing */
 .contactEmail, #contactEmail {
     padding: 0px !important;
     margin: 0px !important;

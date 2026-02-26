@@ -1,5 +1,5 @@
 function experience() {
-  var experienceSection = $(".carrousel");
+  var experienceSection = $(".experience-grid");
   experienceSection.empty();
 
   let experiences = [];
@@ -13,7 +13,7 @@ function experience() {
 
     if (experience.company != undefined) {
 
-      var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card", target: "_blank" });
+      var card = $("<a>", { id: experience.id, target: "_blank" });
 
       var cardContainer = $("<div>", { id: experience.ref, class: "col card-container" });
       var cardImageDiv = $("<div>", { class: "card-image" });
