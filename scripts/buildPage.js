@@ -42,7 +42,7 @@ function loadOptionsMenu() {
 
     option = $("#miscOption");
     option.empty();
-    option.text("Misc");
+    option.text(textContent.misc.optionMenu);
 
     option = $("#contactOption");
     option.empty();
@@ -55,6 +55,12 @@ function loadOptionsMenu() {
     option = $("#btnwelcome");
     option.empty();
     option.text(textContent.intro.btnwelcome);
+
+    // Section titles
+    $("#techSkillsTitle").text(textContent.services.optionMenu);
+    $("#experienceTitle").text(textContent.experiences.optionMenu);
+    $("#educationTitle").text(textContent.education.optionMenu);
+    $("#miscTitle").text(textContent.misc.optionMenu);
 }
 
 var textContent;
@@ -245,7 +251,6 @@ function personal() {
 function education() {
     var educationSection = $(".education");
     educationSection.empty();
-    educationSection.append("<h2>" + textContent.education.optionMenu + "</h2>");
     $.each(textContent.education.collection, function (i, item) {
 
         var education = $("<div>", { class: "educationChunk" });

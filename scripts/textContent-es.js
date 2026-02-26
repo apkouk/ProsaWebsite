@@ -6,7 +6,7 @@ var textContent_ES = {
       "En mi tiempo libre disfruto del cine, leyendo un buen libro o cocinando una buena comida con familia y amigos. No dudes en explorar mi sitio web para conocer más sobre mí y mi trabajo.",
       "¡Hasta la vista!"
     ],
-    "optionMenu": "Introducción",
+    "optionMenu": "Intro",
     "welcome" : "Bienvenido a mi website",
     "btnwelcome" : "Explícame más..."
   },
@@ -322,7 +322,7 @@ var textContent_ES = {
     "optionMenu": "Educación"
   },
   "misc": {
-    "optionMenu" : "Mi biblioteca",
+    "optionMenu" : "Misc",
     "optionMenu2" : "Conferencias y Meetups",
     "books": [
       {

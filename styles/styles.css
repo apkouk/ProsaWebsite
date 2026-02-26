@@ -76,6 +76,26 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     background-color: #F3F3F3;
 }
 
+#intro {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#intro .intro {
+    min-width: 105%;
+    text-align: left;
+}
+
+@media (min-width: 769px) {
+    #intro .intro {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
 hr {
     border-top: 1px solid #999999 !important;
 }
@@ -89,6 +109,32 @@ hr {
     text-align: left;
     padding: 50px 50px 50px 50px;
     margin: 0 auto;
+}
+
+#experienceContainer {
+    position: relative;
+}
+
+#experienceContainer .experience {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#experienceContainer .slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#experienceContainer .slick-prev {
+    left: 10px !important;
+    z-index: 1;
+}
+
+#experienceContainer .slick-next {
+    right: 10px !important;
+    z-index: 1;
 }
 
 .welcome {

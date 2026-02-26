@@ -6,7 +6,7 @@ var textContent_CA = {
       "En el meu temps lliure gaudeixo del cinema, llegint un bon llibre o cuinant un bon àpat amb família i amics. No dubtis a explorar el meu lloc web per conèixer més sobre mi i la meva feina.",
       "A reveure!"
     ],
-    "optionMenu": "Introducció",
+    "optionMenu": "Intro",
     "welcome": "Benvingut al meu website",
     "btnwelcome": "Explica'm més..."
   },
@@ -324,7 +324,7 @@ var textContent_CA = {
     "optionMenu": "Educació"
   },
   "misc": {
-    "optionMenu": "La meva biblioteca",
+    "optionMenu": "Misc",
     "optionMenu2": "Conferències i Meetups",
     "books": [
       {
