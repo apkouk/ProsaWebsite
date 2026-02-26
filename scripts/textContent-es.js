@@ -56,7 +56,7 @@ var textContent_ES = {
       "slickitem":"#slick-slide07",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
-      "website": "http://btgsa.com",
+      "website": "https://aggity.com/",
       "role": "Software Engineer",
       "dateStart": "Jun 2010",
       "dateEnd": "Mar 2014",
@@ -99,7 +99,7 @@ var textContent_ES = {
       "slickitem":"#slick-slide05",
       "company": "Membership Engagement Services",
       "city": "London",
-      "website": "http://membra.co.uk",
+      "website": "https://www.civica.com/",
       "role": "Web Developer",
       "dateStart": "Ago 2015",
       "dateEnd": "Ago 2016",
@@ -187,6 +187,7 @@ var textContent_ES = {
       "dateEnd": "Dic 2020",
       "techStack": "ASP.NET, ASP.NET API, C#, HTML, CSS, Canvas, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
       "description": "Trabajos como desarrollador web para la división de formación y universidades del grupo, donde se gestiona desde las webs de captación de los cursos hasta la matriculación en los mismos y la integración con las plataformas de aprendizaje. Los últimos 4 meses actué como team lead gestionando un equipo de 6 desarrolladores, 2 QA y 1 BA.",
+      "description": "Trabajos como desarrollador web para la división de formación y universidades del grupo, donde se gestiona desde las webs de captación de los cursos hasta la matriculación en los mismos y la integración con las plataformas de aprendizaje. Algunos de los clientes para los que trabajé: <a href='https://www.eae.es/' target='_blank'>EAE</a>, <a href='https://www.universidadviu.com/es/' target='_blank'>VIU</a>, <a href='https://www.ceac.es/' target='_blank'>CEAC</a>. Los últimos 4 meses actué como team lead gestionando un equipo de 6 desarrolladores, 2 QA y 1 BA.",
       "tasks": [
         "Integración de dos marcas debiendo migrar todos los datos de una marca (alumnos, matrículas, cursos…) hacia la otra para preservar el histórico de las mismas.",
         "Solución para cambio de cabina NAS conflictiva donde se alojaba toda la documentación que se generaba durante el proceso de matriculación de los alumnos y de los cursos.",
@@ -211,6 +212,7 @@ var textContent_ES = {
       "dateEnd": "Actual",
       "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps y SQL",
       "description": "Trabajo como desarrollador web freelance para una aplicación web destinada a pequeñas y medianas empresas para reducir sus emisiones y ser más sostenibles. Principalmente utilizo .Net, Azure y Azure DevOps con C#. El front-end está hecho con React y a veces también he tenido que trabajar en él.",
+      "description": "Trabajo como desarrollador web freelance para una aplicación web destinada a pequeñas y medianas empresas para reducir sus emisiones y ser más sostenibles. Consulta más en <a href='https://zellar.com' target='_blank'>zellar.com</a>. Principalmente utilizo .Net, Azure y Azure DevOps con C#. El front-end está hecho con React y a veces también he tenido que trabajar en él.",
       "tasks": [
         "Desarrollo de las APIs de la aplicación utilizando C#, .Net 6, EF Core 6 y SQL según los requisitos (gestión de proyecto con JIRA y metodología Ágil).",
         "Migración de las APIs a .NET 6 y de las bases de datos a .NET framework 4.8 desde versiones más antiguas.",
