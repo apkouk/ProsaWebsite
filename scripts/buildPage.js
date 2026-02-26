@@ -30,11 +30,7 @@ function loadOptionsMenu() {
 
     option = $("#techOption");
     option.empty();
-    option.text(textContent.techSkills.optionMenu);
-
-    option = $("#skillsOption");
-    option.empty();
-    option.text(textContent.personalSkills.optionMenu);
+    option.text(textContent.services.optionMenu);
 
     option = $("#experienceOption");
     option.empty();
@@ -43,10 +39,6 @@ function loadOptionsMenu() {
     option = $("#educationOption");
     option.empty();
     option.text(textContent.education.optionMenu);
-
-    option = $("#servicesOption");
-    option.empty();
-    option.text(textContent.services.optionMenu);
 
     option = $("#miscOption");
     option.empty();

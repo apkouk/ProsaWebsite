@@ -379,6 +379,35 @@ hr {
     padding-bottom: 2%;
 }
 
+#techSkillsContainer #pdfsContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#experienceTitleContainer,
+#techSkillsTitleContainer,
+#educationTitleContainer,
+#miscTitleContainer {
+    text-align: center;
+    background-color: #265b8a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.servicesTitle {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.experienceTitle {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
 #pdfsContainer table {
     margin-left: auto;
     margin-right: auto;
