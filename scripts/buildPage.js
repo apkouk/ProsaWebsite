@@ -249,7 +249,7 @@ function personal() {
 }
 
 function education() {
-    var educationSection = $(".education");
+    var educationSection = $(".education-grid");
     educationSection.empty();
     $.each(textContent.education.collection, function (i, item) {
 
