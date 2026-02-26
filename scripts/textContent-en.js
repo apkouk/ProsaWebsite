@@ -322,7 +322,7 @@ var textContent_EN = {
     "optionMenu" : "Education"
   },
   "misc": {
-    "optionMenu" : "My Library",
+    "optionMenu" : "Misc",
     "optionMenu2" : "Conferences and Meetups",
     "books": [
       {
