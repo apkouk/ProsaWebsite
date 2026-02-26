@@ -239,7 +239,7 @@ var textContent_CA = {
         "desc": "",
         "descUrl": "",
         "image": "az204",
-        "url": "https://www.credly.com/badges/4a608036-cc3e-44cc-9a30-b6c0a46392d8"
+        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
       },
       {
         "id": 2,
@@ -249,7 +249,7 @@ var textContent_CA = {
         "desc": "",
         "descUrl": "",
         "image": "dp900",
-        "url": "https://www.credly.com/badges/b4f0bec9-cba2-48e6-ab40-72be4c68c089"
+        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
       },
       {
         "id": 3,
@@ -259,7 +259,7 @@ var textContent_CA = {
         "desc": "",
         "descUrl": "",
         "image": "az900",
-        "url": "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c"
+        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
       },
       {
         "id": 4,
