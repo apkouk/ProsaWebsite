@@ -1,9 +1,14 @@
 html {
     scrollbar-width: none;
+    overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {
     display: none;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 h2 {
@@ -85,12 +90,13 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 }
 
 #intro .intro {
-    min-width: 105%;
+    width: 100%;
     text-align: left;
 }
 
 @media (min-width: 769px) {
     #intro .intro {
+        min-width: 105%;
         padding-left: 15%;
         padding-right: 15%;
     }
