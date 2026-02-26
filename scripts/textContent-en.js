@@ -181,7 +181,7 @@ var textContent_EN = {
       "slick-item":"slick-slide01",
       "company": "Grupo Planeta",
       "city": "Barcelona",
-      "website": "https://www.planeta.es/en/learning",
+      "website": "https://planeta.es/",
       "role": "Web Developer - Team Lead",
       "dateStart": "Aug 2018",
       "dateEnd": "Dec 2020",
