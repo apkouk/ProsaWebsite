@@ -432,43 +432,43 @@ var textContent_CA = {
   },
   "services": {
     "optionMenu": "Serveis",
-    "title": "Com a consultor independent, ofereixo diversos serveis als clients que poden incloure:",
+    "title": "Com a consultor freelance ofereixo diversos serveis als clients, que poden incloure:",
     "serviceItems": [
+      {
+        "id": 1,
+        "title": "Software Development",
+        "desc": "Durant més de quinze anys m'he dedicat al desenvolupament de programari, creant solucions amb C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, SQL Server, JQuery, Angular, Typescript, HTML i CSS. He desenvolupat APIs i microserveis amb C#, .NET 6-10, Azure i React, participant en tot el cicle de vida del projecte, des de la recollida de requisits (Agile/JIRA) fins a les proves i el desplegament.",
+        "image": "softdev"
+      },
       {
         "id": 2,
         "title": "Database Scripting",
-        "desc": "Al llarg dels anys he treballat amb diverses bases de dades, inclosa una àmplia experiència amb Microsoft SQL Server i Oracle en el disseny de taules i procediments emmagatzemats. Puc treballar amb bases de dades NoSql com CLoudantDb o MongoDb.",
+        "desc": "Al llarg dels anys he treballat amb diverses bases de dades, especialment amb SQL Server i Oracle, dissenyant taules i procediments. He gestionat migracions i manteniment de bases de dades SQL, adaptant APIs i bases de dades a noves versions de .NET, i implementant funcionalitats avançades d'Azure SQL com grups de failover i auditories. També puc treballar amb bases de dades NoSQL com CloudantDb o MongoDb.",
         "image": "database"
       },
       {
         "id": 3,
         "title": "System Integration",
-        "desc": "La meva experiència inclou un ampli treball d'integració de sistemes que sovint ha requerit la capacitat de resoldre problemes i treballar amb documentació ambigua o vaga relacionada amb programes i API de tercers. Puc navegar per aquestes àrees per als clients i desenvolupar una solució de treball.",
+        "desc": "Tinc experiència en integració de sistemes, incloent serveis de tercers (Mixpanel, Salesforce, Stripe, Perse, Loqate), desenvolupament de paquets NuGet personalitzats i solucions SSO. Sóc resolutiu davant documentació poc clara i ofereixo solucions robustes per als clients.",
         "image": "systemInt"
-      },
-      {
-        "id": 6,
-        "title": "Team Management",
-        "desc": "Al llarg de la meva carrera he gestionat equips petits presencials i offshore o distribuïts. També puc fer de mentor als membres de l’equip que siguin júniors i incorporar a l’equip les millors pràctiques.",
-        "image": "teamMan"
       },
       {
         "id": 4,
         "title": "Error Fixing/Code Quality",
-        "desc": "Un dels meus punts forts és la capacitat d’analitzar el codi per identificar els errors i les àrees de millora del rendiment o manteniment.",
+        "desc": "Una de les meves fortaleses és analitzar el codi per detectar errors i millorar el rendiment o la mantenibilitat. He mantingut i millorat integracions, refactoritzat APIs per compatibilitat amb Docker i reforçat la seguretat traslladant secrets a Azure Key Vault.",
         "image": "errorFix"
-      },
-      {
-        "id": 1,
-        "title": "Software Development",
-"desc": "Durant més de quinze anys m'he centrat en el desenvolupament de programari i he creat moltes solucions mitjançant C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML i CSS. Puc contribuir a tots el cicles dels projectes de desenvolupament, des de la presa dels requisits fins a les proves i el desplegament.",
-        "image": "softdev"
       },
       {
         "id": 5,
         "title": "Software Process Improvement",
-        "desc": "Puc revisar el procés de desenvolupament per dissenyar i implementar nous processos i eines. Això pot incloure implementacions de noves metodologies de desenvolupament de programari (Agile, Scrum), solucions de control de codi (Git, Team Foundation Server) i bones pràctiques del sector, com ara revisions de codi.",
+        "desc": "Puc revisar el procés de desenvolupament de programari per dissenyar i implementar nous processos i eines. He contribuït a l'automatització DevOps, creació i modificació de pipelines, i gestionat infraestructures en entorns Azure. Això pot incloure la implementació de noves metodologies (Agile, Scrum), solucions de control de versions (Git, TFS) i pràctiques com revisions de codi.",
         "image": "softdevProc"
+      },
+      {
+        "id": 6,
+        "title": "Team Management",
+        "desc": "Al llarg de la meva trajectòria he gestionat equips petits, tant presencials com distribuïts. He coordinat migracions i integracions, col·laborat amb stakeholders i guiat pràctiques DevOps. També puc mentoritzar membres júnior i fomentar l'adopció de bones pràctiques.",
+        "image": "teamMan"
       }
     ]
   }

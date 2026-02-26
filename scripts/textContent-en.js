@@ -453,7 +453,7 @@ var textContent_EN = {
         {
             "id": 4,
             "title": "Error Fixing/Code Quality",
-            "desc": "One of myhttp://127.0.0.1:8080/trengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability. I have maintained and improved integrations, refactored APIs for Docker compatibility, and enhanced security by moving secrets to Azure Key Vault.",
+            "desc": "One of my strengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability. I have maintained and improved integrations, refactored APIs for Docker compatibility, and enhanced security by moving secrets to Azure Key Vault.",
             "image": "errorFix"
         },
         {

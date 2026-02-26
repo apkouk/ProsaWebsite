@@ -431,43 +431,43 @@ var textContent_ES = {
   "services": {
     "optionMenu" : "Servicios",
     "title": "Como consultor autónomo ofrezco varios servicios a los clientes que pueden incluir:",
-    "serviceItems": [
-      {
-        "id": 2,
-        "title": "Database Scripting",
-        "desc": "A lo largo de los años he trabajado con varias bases de datos, incluida una amplia experiencia con Microsoft SQL Server y Oracle en el diseño de tablas y procedimientos almacenados. Puedo trabajar con bases de datos NoSql como CLoudantDb o MongoDb.",
-        "image": "database"
-      },
-      {
-        "id": 3,
-        "title": "System Integration",
-        "desc": "Mi experiencia incluye un extenso trabajo de integración de sistemas que a menudo ha requerido la capacidad de resolver problemas y trabajar con documentación ambigua o vaga relacionada con software y API de terceros. Puedo navegar por estas áreas para los clientes y desarrollar una solución funcional.",
-        "image": "systemInt"
-      },
-      {
-        "id": 6,
-        "title": "Team Management",
-        "desc": "A lo largo de mi carrera, he dirigido pequeños equipos in situ y en el extranjero o distribuidos. También puedo orientar a los miembros del equipo junior y obtener la aceptación del equipo para que se adhieran a las mejores prácticas.",
-        "image": "teamMan"
-      },
-      {
-        "id": 4,
-        "title": "Error Fixing/Code Quality",
-        "desc": "Uno de mis puntos fuertes es la capacidad de analizar código para identificar errores y áreas de mejora para el rendimiento o la mantenibilidad.",
-        "image": "errorFix"
-      },
-      {
-        "id": 1,
-        "title": "Software Development",
-        "desc": "Durante más de quince años me he centrado en el trabajo de desarrollo de software y he creado muchas soluciones utilizando C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML y CSS. Puedo contribuir al ciclo de vida completo de los proyectos de desarrollo de software desde los requisitos hasta las pruebas y la implementación.",
-        "image": "softdev"
-      },
-      {
-        "id": 5,
-        "title": "Software Process Improvement",
-        "desc": "Puedo revisar el proceso de desarrollo de software para diseñar e implementar nuevos procesos y herramientas. Esto puede incluir implementaciones de nuevas metodologías de desarrollo de software (Agile, Scrum), soluciones de control de código (Git, Team Foundation Server) y buenas prácticas de la industria como revisiones de código.",
-        "image": "softdevProc"
-      }
+    "serviceItems": [      
+        {
+          "id": 1,
+          "title": "Software Development",
+          "desc": "Durante más de quince años me he dedicado al desarrollo de software, creando soluciones con C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, SQL Server, JQuery, Angular, Typescript, HTML y CSS. He desarrollado APIs y microservicios con C#, .NET 6-10, Azure y React, participando en todo el ciclo de vida del proyecto, desde la toma de requisitos (Agile/JIRA) hasta las pruebas y el despliegue.",
+          "image": "softdev"
+        },
+        {
+          "id": 2,
+          "title": "Database Scripting",
+          "desc": "A lo largo de los años he trabajado con diversas bases de datos, especialmente con SQL Server y Oracle, diseñando tablas y procedimientos. He gestionado migraciones y mantenimiento de bases de datos SQL, adaptando APIs y bases de datos a nuevas versiones de .NET, e implementando funcionalidades avanzadas de Azure SQL como grupos de failover y auditorías. También puedo trabajar con bases de datos NoSQL como CloudantDb o MongoDb.",
+          "image": "database"
+        },
+        {
+          "id": 3,
+          "title": "System Integration",
+          "desc": "Tengo experiencia en integración de sistemas, incluyendo servicios de terceros (Mixpanel, Salesforce, Stripe, Perse, Loqate), desarrollo de paquetes NuGet personalizados y soluciones SSO. Soy resolutivo ante documentación poco clara y ofrezco soluciones robustas para los clientes.",
+          "image": "systemInt"
+        },
+        {
+          "id": 4,
+          "title": "Error Fixing/Code Quality",
+          "desc": "Una de mis fortalezas es analizar el código para detectar errores y mejorar el rendimiento o la mantenibilidad. He mantenido y mejorado integraciones, refactorizado APIs para compatibilidad con Docker y reforzado la seguridad trasladando secretos a Azure Key Vault.",
+          "image": "errorFix"
+        },
+        {
+          "id": 5,
+          "title": "Software Process Improvement",
+          "desc": "Puedo revisar el proceso de desarrollo de software para diseñar e implementar nuevos procesos y herramientas. He contribuido a la automatización DevOps, creación y modificación de pipelines, y gestionado infraestructuras en entornos Azure. Esto puede incluir la implementación de nuevas metodologías (Agile, Scrum), soluciones de control de versiones (Git, TFS) y prácticas como revisiones de código.",
+          "image": "softdevProc"
+        },
+        {
+          "id": 6,
+          "title": "Team Management",
+          "desc": "A lo largo de mi trayectoria he gestionado equipos pequeños, tanto presenciales como distribuidos. He coordinado migraciones e integraciones, colaborado con stakeholders y guiado prácticas DevOps. También puedo mentorizar miembros junior y fomentar la adopción de buenas prácticas.",
+          "image": "teamMan"
+        }
     ]
   }
 }
