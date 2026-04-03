@@ -83,9 +83,7 @@ var textContent_CA = {
       "techStack": "",
       "description": "Startup del sector del turisme de luxe per trobar destinacions a nivell mundial segons un algoritme propi. Vaig crear la infraestructura mínima (servidors, backups, control de versions) i els processos d'un departament de programari dirigint un equip de quatre desenvolupadors offshore al Pakistan.",
       "tasks": [
-        "Vaig gestionar diversos projectes interns. Vaig exercir funcions com a analista de negoci per recopilar i escriure requisits de programari per als departaments de vendes i màrqueting.",
         "Vaig dissenyar i vaig implementar integracions amb APIs de tercers per a dades de reserves d'hotel. També vaig prototipar una funció de reserva de vols.",
-        "Vaig dirigir un equip de quatre desenvolupadors offshore al Pakistan.",
         "Es va implementar un control de versions TFS i es van establir els processos sobre el mateix (fusions de branques, desplegaments, proves).",
         "Implementació de servidors de producció, backup i test usant Rackspace i la plataforma Azure. Còpies de seguretat automatitzades mitjançant scripts perquè les bases de dades, els servidors d'imatges i el codi es puguin guardar al servei Amazon S3.",
         "Es van resoldre errors de codificació relacionats amb SQL i lògica de negoci. Contribució a canvis cosmètics.",
@@ -157,7 +155,7 @@ var textContent_CA = {
       "tasks": [
         "Vaig crear un component de crowdfunding a Kentico CMS integrat amb els sistemes de pagament Redsys i Paypal. Vaig fer servir components C#, Javascript, HTML, CSS i Kentico.",
         "Correcció de bugs en el lloc web comercial, també en Kentico CMS.",
-        "Codi Javascript refactorizado d'acord amb els principis SOLID."
+        "Codi Javascript refactoritzat d'acord amb els principis SOLID."
       ],
       "image": "educo"
     },
@@ -212,7 +210,6 @@ var textContent_CA = {
       "dateStart": "Abril 2018",
       "dateEnd": "Actual",
       "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps i SQL",
-      "description": "Treballo com a desenvolupador web freelance per a una aplicació web destinada a petites i mitjanes empreses per reduir les seves emissions i ser més sostenibles. Principalment utilitzo .Net, Azure i Azure DevOps amb C#. El front-end està fet amb React i de vegades també he hagut de treballar-hi.",
       "description": "Treballo com a desenvolupador web freelance per a una aplicació web destinada a petites i mitjanes empreses per reduir les seves emissions i ser més sostenibles. Pots veure més a <a href='https://zellar.com' target='_blank'>zellar.com</a>. Principalment utilitzo .Net, Azure i Azure DevOps amb C#. El front-end està fet amb React i de vegades també hi he treballat.",
       "tasks": [
         "Desenvolupament de les APIs de l’aplicació utilitzant C#, .Net 6, EF Core 6 i SQL segons els requisits (gestió de projecte amb JIRA i metodologia Àgil).",

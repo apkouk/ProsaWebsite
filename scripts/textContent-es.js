@@ -18,7 +18,7 @@ var textContent_ES = {
     ],
     "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry",
     "concepts": "Proceso de desarrollo de software (Agile, Scrum), bases de datos relacionales, modelado de datos, programación orientada a objetos, TDD, MVC, arquitectura n-tier, principios SOLID, Microservicios, pipelines CI/CD, patrón Outbox",
-    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman",
+    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman, GitHub Copilot, Claude",
     "optionMenu": "Tecnologías",
     "subTitle1" : "Desarrollo",
     "subTitle2" : "Conceptos",
@@ -83,7 +83,6 @@ var textContent_ES = {
       "techStack": "",
       "description": "Startup del sector del turimso de lujo para encontrar destinos a nivel mundial según un algoritmo propio. Implementé la infraestructura mínima (servidores, backups, control de versiones) y los procesos del departamento de software dirigiendo un equipo de cuatro desarrolladores offshore en Pakistán.",
       "tasks": [
-        "Gestioné varios proyectos internos. Desempeñé funciones como analista de negocios para recopilar y escribir los requisitos para los departamentos de ventas y marketing.",
         "Diseñé e implementé integraciones con terceras API para reservas de hoteles. Prototipé una función de reserva de vuelos.",
         "Se implementó el software de control de versiones TFS y se establecieron procesos sobre el mismo (fusiones de ramas, despliegues, pruebas).",
         "Implementación de servidores de producción, backup y test usando Rackspace y la plataforma Azure. Copias de seguridad automatizadas mediante scripts para que las bases de datos, los servidores de imágenes y el código se pudieran guardar en el servicio Amazon S3.",
@@ -187,7 +186,6 @@ var textContent_ES = {
       "dateStart": "Ago 2018",
       "dateEnd": "Dic 2020",
       "techStack": "ASP.NET, ASP.NET API, C#, HTML, CSS, Canvas, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
-      "description": "Trabajos como desarrollador web para la división de formación y universidades del grupo, donde se gestiona desde las webs de captación de los cursos hasta la matriculación en los mismos y la integración con las plataformas de aprendizaje. Los últimos 4 meses actué como team lead gestionando un equipo de 6 desarrolladores, 2 QA y 1 BA.",
       "description": "Trabajos como desarrollador web para la división de formación y universidades del grupo, donde se gestiona desde las webs de captación de los cursos hasta la matriculación en los mismos y la integración con las plataformas de aprendizaje. Algunos de los clientes para los que trabajé: <a href='https://www.eae.es/' target='_blank'>EAE</a>, <a href='https://www.universidadviu.com/es/' target='_blank'>VIU</a>, <a href='https://www.ceac.es/' target='_blank'>CEAC</a>. Los últimos 4 meses actué como team lead gestionando un equipo de 6 desarrolladores, 2 QA y 1 BA.",
       "tasks": [
         "Integración de dos marcas debiendo migrar todos los datos de una marca (alumnos, matrículas, cursos…) hacia la otra para preservar el histórico de las mismas.",
@@ -212,7 +210,6 @@ var textContent_ES = {
       "dateStart": "Abril 2018",
       "dateEnd": "Actual",
       "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps y SQL",
-      "description": "Trabajo como desarrollador web freelance para una aplicación web destinada a pequeñas y medianas empresas para reducir sus emisiones y ser más sostenibles. Principalmente utilizo .Net, Azure y Azure DevOps con C#. El front-end está hecho con React y a veces también he tenido que trabajar en él.",
       "description": "Trabajo como desarrollador web freelance para una aplicación web destinada a pequeñas y medianas empresas para reducir sus emisiones y ser más sostenibles. Consulta más en <a href='https://zellar.com' target='_blank'>zellar.com</a>. Principalmente utilizo .Net, Azure y Azure DevOps con C#. El front-end está hecho con React y a veces también he tenido que trabajar en él.",
       "tasks": [
         "Desarrollo de las APIs de la aplicación utilizando C#, .Net 6, EF Core 6 y SQL según los requisitos (gestión de proyecto con JIRA y metodología Ágil).",
