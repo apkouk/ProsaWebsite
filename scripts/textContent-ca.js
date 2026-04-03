@@ -31,7 +31,7 @@ var textContent_CA = {
       "Les meves habilitats analítiques són un altre dels punts forts i he estat capaç d'identificar i resoldre regularment les ineficiències dels processos de desenvolupament millorant la velocitat de lliurament i la comoditat dels desenvolupadors a l'hora de treballar.",
       "Sóc parlant nadiu de castellà i català i puc parlar fluïdament en anglès."
     ],
-    "optionMenu": "Skills"
+    "optionMenu": "Habilitats Personals"
   },
   "experiences": {
     "optionMenu": "Experiència",    
@@ -42,7 +42,7 @@ var textContent_CA = {
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
-      "role": "Programmer",
+      "role": "Programador",
       "dateStart": "Dec 2009",
       "dateEnd": "Mai 2010",
       "techStack": "",
@@ -131,7 +131,7 @@ var textContent_CA = {
         "Vaig crear un lloc per a un esdeveniment d'administradors de propietats privades. Aquest lloc protegit amb contrasenya era per mostrar detalls sobre propietats disponibles (imatges, vista general, plànols, etc.). Es va implementar una presentació de diapositives utilitzant la biblioteca Slick JavaScript . El lloc permetia als agents immobiliaris enviar correus electrònics individuals o massius als registrants (adjuntant pdfs amb la info de la propietat). Construït en Web Forms, C#, jQuery i Bootstrap.",
         "Conversió de llocs web crítics per a l'empresa en aplicacions web ASP.NET per millorar la capacitat de depuració.",
         "Es van migrar diversos llocs web a TFS per permetre als desenvolupadors treballar localment, reemplaçant una solució FTP problemàtica.",
-        "Vaig implementar nous punts finals i correcció d'errors en l'API de l'empresa. L'API es va desenvolupar utilitzant l'arquitectura MVC amb un Entity Framework que apuntava a una base de dades de MS SQL Server.",
+        "Vaig implementar nous punts finals i correcció d'errors en l'API de l'empresa. L'API es va desenvolupar utilitzant l'arquitectura MVC amb un Entity Framework que apuntava a una base de dades de MS SQL Server amb Postman per dur a terme les proves dels endpoints.",
         "Codi refractoritzat segons els principis SOLID."
       ],
       "sightseeingpass": [
@@ -209,8 +209,8 @@ var textContent_CA = {
       "city": "Barcelona",
       "website": "https://www.unimedia.tech",
       "role": "Azure and .NET Developer",
-      "dateStart": "April 2018",
-      "dateEnd": "Current",
+      "dateStart": "Abril 2018",
+      "dateEnd": "Actual",
       "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps i SQL",
       "description": "Treballo com a desenvolupador web freelance per a una aplicació web destinada a petites i mitjanes empreses per reduir les seves emissions i ser més sostenibles. Principalment utilitzo .Net, Azure i Azure DevOps amb C#. El front-end està fet amb React i de vegades també he hagut de treballar-hi.",
       "description": "Treballo com a desenvolupador web freelance per a una aplicació web destinada a petites i mitjanes empreses per reduir les seves emissions i ser més sostenibles. Pots veure més a <a href='https://zellar.com' target='_blank'>zellar.com</a>. Principalment utilitzo .Net, Azure i Azure DevOps amb C#. El front-end està fet amb React i de vegades també hi he treballat.",

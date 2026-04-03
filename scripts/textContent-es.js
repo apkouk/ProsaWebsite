@@ -31,7 +31,7 @@ var textContent_ES = {
       "Mis habilidades analíticas son otra fortaleza, y regularmente he podido identificar y resolver ineficiencias dentro de los procesos de desarrollo que han mejorado la velocidad de entrega.",
       "Soy hablante nativo de español y catalán y puedo hablar fluidamente en inglés."
     ],
-    "optionMenu": "Skills"
+    "optionMenu": "Habilidades Personales"
   },
   "experiences": {
     "optionMenu" : "Experiencia",
@@ -130,7 +130,8 @@ var textContent_ES = {
         "Creé un sitio para un evento de administradores de propiedades privadas. El sitio estaba protegido con contraseña para mostrar detalles sobre propiedades disponibles (imágenes, descripción, planos, etc.). Se implementó una presentación de diapositivas utilizando la biblioteca Slick JavaScript y Typescript. El sitio permitía a los agentes inmobiliarios enviar correos electrónicos individuales o masivos a los registrantes (adjuntando pdfs con la información de la propiedad). Construido en Web Forms, C#, jQuery y Bootstrap.",
         "Conversión de sitios web críticos para la empresa en aplicaciones web ASP.NET para mejorar la capacidad de depuración.",
         "Se migraron varios sitios web a TFS para permitir a los desarrolladores trabajar localmente, reemplazando una solución FTP problemática.",
-        "Implementé nuevos puntos finales y corrección de errores en la API de la empresa. La API se desarrolló utilizando la arquitectura MVC con un Entity Framework que apuntaba a una base de datos de MS SQL Server."
+        "Implementé nuevos puntos finales y corrección de errores en la API de la empresa. La API se desarrolló utilizando la arquitectura MVC con un Entity Framework que apuntaba a una base de datos de MS SQL Server con Postman para llevar a cabo las pruebas de los endpoints.",
+        "Refactorización de código de acuerdo con los principios SOLID."
       ],
       "sightseeingpass": [
         "Añadí una nueva función en el back-end para sightseeingpass.com para administrar todas las imágenes relacionadas con una atracción turística. La función permitía a los usuarios cargar varias imágenes a la vez y ordenarlas mediante drag and drop. Se utilizaron Web Forms, C#, jQuery y SQL stored procedures para operaciones CRUD.",
