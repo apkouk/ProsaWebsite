@@ -435,7 +435,7 @@ var textContent_EN = {
         {
             "id": 1,
             "title": "API & Cloud Development",
-            "desc": "APIs and Azure are at the heart of what I do. I design and build REST APIs and microservices using C# and .NET 6–10, architect Azure infrastructure from scratch, and manage the full delivery lifecycle from requirements to production. On the back end I'm equally comfortable implementing new features, tracking down bugs, or refactoring code that needs a new lease of life. I use AI tools daily to ship faster and with higher quality.",
+            "desc": "APIs and Azure are at the heart of what I do. I design and build REST APIs and microservices using C# and .NET 6–10, architect Azure infrastructure from scratch, and manage the full delivery lifecycle from requirements to production. On the backend I'm equally comfortable implementing new features, tracking down bugs, or refactoring code that needs a new lease of life. I use AI tools daily to ship faster and with higher quality.",
             "image": "softdev"
         },
         {

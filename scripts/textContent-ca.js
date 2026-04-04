@@ -430,42 +430,42 @@ var textContent_CA = {
   },
   "services": {
     "optionMenu": "Serveis",
-    "title": "Com a consultor freelance ofereixo diversos serveis als clients, que poden incloure:",
+    "title": "M'especialitzo en Azure, desenvolupament d'APIs i integracions de sistemes. Així és com puc ajudar-te:",
     "serviceItems": [
       {
         "id": 1,
-        "title": "Software Development",
-        "desc": "Durant més de quinze anys m'he dedicat al desenvolupament de programari, creant solucions amb C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, SQL Server, JQuery, Angular, Typescript, HTML i CSS. He desenvolupat APIs i microserveis amb C#, .NET 6-10, Azure i React, participant en tot el cicle de vida del projecte, des de la recollida de requisits (Agile/JIRA) fins a les proves i el desplegament.",
+        "title": "API & Cloud Development",
+        "desc": "Les APIs i Azure són el nucli del que faig. Dissenyo i construeixo APIs REST i microserveis usant C# i .NET 6–10, dissenyo infraestructura Azure des de zero i gestiono el cicle de vida complet de lliurament des dels requisits fins a producció. Al backend em sento igual de còmode implementant noves funcionalitats, rastreant bugs o refactoritzant codi que necessita una nova vida. Faig servir eines d'IA cada dia per lliurar més ràpid i amb major qualitat.",
         "image": "softdev"
       },
       {
         "id": 2,
         "title": "Database Scripting",
-        "desc": "Al llarg dels anys he treballat amb diverses bases de dades, especialment amb SQL Server i Oracle, dissenyant taules i procediments. He gestionat migracions i manteniment de bases de dades SQL, adaptant APIs i bases de dades a noves versions de .NET, i implementant funcionalitats avançades d'Azure SQL com grups de failover i auditories. També puc treballar amb bases de dades NoSQL com CloudantDb o MongoDb.",
+        "desc": "Les bases de dades són on es guanya o es perd molt rendiment, i porto anys treballant en aquesta capa. Tinc àmplia experiència amb MS SQL Server i Oracle — dissenyant esquemes, escrivint procediments emmagatzemats i optimitzant consultes. He gestionat migracions complexes, actualitzat capes de base de dades a noves versions de .NET i implementat funcionalitats avançades d'Azure SQL com grups de failover. També em manejo amb bases de dades NoSQL com CosmosDB i MongoDB.",
         "image": "database"
       },
       {
         "id": 3,
         "title": "System Integration",
-        "desc": "Tinc experiència en integració de sistemes, incloent serveis de tercers (Mixpanel, Salesforce, Stripe, Perse, Loqate), desenvolupament de paquets NuGet personalitzats i solucions SSO. Sóc resolutiu davant documentació poc clara i ofereixo solucions robustes per als clients.",
+        "desc": "Connectar sistemes és un dels meus punts més forts. He integrat plataformes com Salesforce, Stripe, Mixpanel i més — construint paquets NuGet personalitzats, solucions SSO i serveis de notificació basats en cues de missatges. Sóc hàbil navegant documentació incompleta de tercers i convertint requisits ambigus en integracions robustes llestes per a producció. També em recolzo en la IA per prototipar i validar la lògica d'integració més ràpid que amb enfocaments tradicionals.",
         "image": "systemInt"
       },
       {
         "id": 4,
-        "title": "Error Fixing/Code Quality",
-        "desc": "Una de les meves fortaleses és analitzar el codi per detectar errors i millorar el rendiment o la mantenibilitat. He mantingut i millorat integracions, refactoritzat APIs per compatibilitat amb Docker i reforçat la seguretat traslladant secrets a Azure Key Vault.",
+        "title": "Error Fixing / Code Quality",
+        "desc": "De vegades el més valuós que puc fer és millorar el codi existent. Tinc bon ull per detectar bugs, colls d'ampolla de rendiment i problemes de mantenibilitat — i sé com arreglar-los sense introduir-ne de nous. Faig servir eines de revisió i anàlisi de codi assistides per IA com a part del meu flux de treball per detectar problemes abans i refactoritzar amb més confiança. També he millorat la seguretat migrant secrets a Azure Key Vault i he tornat la salut a bases de codi envellides.",
         "image": "errorFix"
       },
       {
         "id": 5,
         "title": "Software Process Improvement",
-        "desc": "Puc revisar el procés de desenvolupament de programari per dissenyar i implementar nous processos i eines. He contribuït a l'automatització DevOps, creació i modificació de pipelines, i gestionat infraestructures en entorns Azure. Això pot incloure la implementació de noves metodologies (Agile, Scrum), solucions de control de versions (Git, TFS) i pràctiques com revisions de codi.",
+        "desc": "El bon programari comença amb bons processos. Puc auditar el teu flux de treball de desenvolupament actual i ajudar-te a implementar pràctiques que realment funcionin — metodologies Agile, control de versions amb Git o TFS, pipelines CI/CD a Azure DevOps, cultura de revisió de codi i gestió d'infraestructura entre entorns. Ho he fet des de zero i ho he fet en equips resistents al canvi.",
         "image": "softdevProc"
       },
       {
         "id": 6,
         "title": "Team Management",
-        "desc": "Al llarg de la meva trajectòria he gestionat equips petits, tant presencials com distribuïts. He coordinat migracions i integracions, col·laborat amb stakeholders i guiat pràctiques DevOps. També puc mentoritzar membres júnior i fomentar l'adopció de bones pràctiques.",
+        "desc": "He liderat equips presencials i offshore, coordinat lliuraments multifuncionals i mentoritzat desenvolupadors a l'inici de les seves carreres. Sé com aconseguir que els equips avancin en la mateixa direcció — i com mantenir-los-hi. Si necessites algú que gestioni un projecte, aporti lideratge tècnic o simplement ajudi un desenvolupador júnior a créixer, puc ajudar-te.",
         "image": "teamMan"
       }
     ]

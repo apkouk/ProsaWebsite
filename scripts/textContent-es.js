@@ -431,42 +431,42 @@ var textContent_ES = {
   },
   "services": {
     "optionMenu" : "Servicios",
-    "title": "Como consultor autónomo ofrezco varios servicios a los clientes que pueden incluir:",
-    "serviceItems": [      
+    "title": "Me especializo en Azure, desarrollo de APIs e integraciones de sistemas. Así es como puedo ayudarte:",
+    "serviceItems": [
         {
           "id": 1,
-          "title": "Software Development",
-          "desc": "Durante más de quince años me he dedicado al desarrollo de software, creando soluciones con C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, SQL Server, JQuery, Angular, Typescript, HTML y CSS. He desarrollado APIs y microservicios con C#, .NET 6-10, Azure y React, participando en todo el ciclo de vida del proyecto, desde la toma de requisitos (Agile/JIRA) hasta las pruebas y el despliegue.",
+          "title": "API & Cloud Development",
+          "desc": "Las APIs y Azure son el núcleo de lo que hago. Diseño y construyo APIs REST y microservicios usando C# y .NET 6–10, diseño infraestructura Azure desde cero y gestiono el ciclo de vida completo de entrega desde los requisitos hasta producción. En el backend me siento igual de cómodo implementando nuevas funcionalidades, rastreando bugs o refactorizando código que necesita una nueva vida. Uso herramientas de IA a diario para entregar más rápido y con mayor calidad.",
           "image": "softdev"
         },
         {
           "id": 2,
           "title": "Database Scripting",
-          "desc": "A lo largo de los años he trabajado con diversas bases de datos, especialmente con SQL Server y Oracle, diseñando tablas y procedimientos. He gestionado migraciones y mantenimiento de bases de datos SQL, adaptando APIs y bases de datos a nuevas versiones de .NET, e implementando funcionalidades avanzadas de Azure SQL como grupos de failover y auditorías. También puedo trabajar con bases de datos NoSQL como CloudantDb o MongoDb.",
+          "desc": "Las bases de datos son donde se gana o se pierde mucho rendimiento, y llevo años trabajando en esa capa. Tengo amplia experiencia con MS SQL Server y Oracle — diseñando esquemas, escribiendo procedimientos almacenados y optimizando consultas. He gestionado migraciones complejas, actualizado capas de base de datos a nuevas versiones de .NET e implementado funcionalidades avanzadas de Azure SQL como grupos de failover. También me manejo con bases de datos NoSQL como CosmosDB y MongoDB.",
           "image": "database"
         },
         {
           "id": 3,
           "title": "System Integration",
-          "desc": "Tengo experiencia en integración de sistemas, incluyendo servicios de terceros (Mixpanel, Salesforce, Stripe, Perse, Loqate), desarrollo de paquetes NuGet personalizados y soluciones SSO. Soy resolutivo ante documentación poco clara y ofrezco soluciones robustas para los clientes.",
+          "desc": "Conectar sistemas es uno de mis puntos más fuertes. He integrado plataformas como Salesforce, Stripe, Mixpanel y más — construyendo paquetes NuGet personalizados, soluciones SSO y servicios de notificación basados en colas de mensajes. Soy hábil navegando documentación incompleta de terceros y convirtiendo requisitos ambiguos en integraciones robustas listas para producción. También me apoyo en la IA para prototipar y validar la lógica de integración más rápido que con enfoques tradicionales.",
           "image": "systemInt"
         },
         {
           "id": 4,
-          "title": "Error Fixing/Code Quality",
-          "desc": "Una de mis fortalezas es analizar el código para detectar errores y mejorar el rendimiento o la mantenibilidad. He mantenido y mejorado integraciones, refactorizado APIs para compatibilidad con Docker y reforzado la seguridad trasladando secretos a Azure Key Vault.",
+          "title": "Error Fixing / Code Quality",
+          "desc": "A veces lo más valioso que puedo hacer es mejorar el código existente. Tengo buen ojo para detectar bugs, cuellos de botella de rendimiento y problemas de mantenibilidad — y sé cómo arreglarlos sin introducir nuevos. Uso herramientas de revisión y análisis de código asistidas por IA como parte de mi flujo de trabajo para detectar problemas antes y refactorizar con más confianza. También he mejorado la seguridad migrando secrets a Azure Key Vault y devuelto la salud a bases de código envejecidas.",
           "image": "errorFix"
         },
         {
           "id": 5,
           "title": "Software Process Improvement",
-          "desc": "Puedo revisar el proceso de desarrollo de software para diseñar e implementar nuevos procesos y herramientas. He contribuido a la automatización DevOps, creación y modificación de pipelines, y gestionado infraestructuras en entornos Azure. Esto puede incluir la implementación de nuevas metodologías (Agile, Scrum), soluciones de control de versiones (Git, TFS) y prácticas como revisiones de código.",
+          "desc": "El buen software empieza con buenos procesos. Puedo auditar tu flujo de trabajo de desarrollo actual y ayudarte a implementar prácticas que realmente funcionen — metodologías Agile, control de versiones con Git o TFS, pipelines CI/CD en Azure DevOps, cultura de revisión de código y gestión de infraestructura entre entornos. Lo he hecho desde cero y lo he hecho en equipos resistentes al cambio.",
           "image": "softdevProc"
         },
         {
           "id": 6,
           "title": "Team Management",
-          "desc": "A lo largo de mi trayectoria he gestionado equipos pequeños, tanto presenciales como distribuidos. He coordinado migraciones e integraciones, colaborado con stakeholders y guiado prácticas DevOps. También puedo mentorizar miembros junior y fomentar la adopción de buenas prácticas.",
+          "desc": "He liderado equipos presenciales y offshore, coordinado entregas multifuncionales y mentorizado desarrolladores al inicio de sus carreras. Sé cómo conseguir que los equipos avancen en la misma dirección — y cómo mantenerlos ahí. Si necesitas a alguien que gestione un proyecto, aporte liderazgo técnico o simplemente ayude a un desarrollador junior a crecer, puedo ayudarte.",
           "image": "teamMan"
         }
     ]
