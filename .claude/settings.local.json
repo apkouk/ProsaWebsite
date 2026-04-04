@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /c/Users/cesco/source/ProsaWebSite/ProsaWebsite/scripts/textContent-*.js)"
+    ]
+  }
+}
