@@ -203,7 +203,7 @@ function services() {
     serviceItem.empty();
     $.each(textContent.services.serviceItems, function (i, service) {
         var serviceItemContainer = $("<div>", {
-            class: "col-sm-6 col-md-4 col-lg-3 service-item"
+            class: "service-item"
         });
         var serviceImageDiv = $("<div>", {
             class: "service-image"
