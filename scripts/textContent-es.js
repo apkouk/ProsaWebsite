@@ -31,7 +31,7 @@ var textContent_ES = {
       "Tengo un don para detectar ineficiencias — en el código, en los procesos y en los flujos de trabajo — y convertirlas en oportunidades para entregar más rápido y mejor. También adopto la IA como herramienta de trabajo diaria: la uso para escribir código más preciso, automatizar tareas repetitivas, depurar más rápido y anticiparme a los problemas antes de que lleguen a producción.",
       "Soy hablante nativo de español y catalán, y trabajo en inglés cada día. Tres idiomas, un desarrollador."
     ],
-    "optionMenu": "Skills personales"
+    "optionMenu": "Skills"
   },
   "experiences": {
     "optionMenu" : "Experiencia",
@@ -83,12 +83,12 @@ var textContent_ES = {
       "techStack": "",
       "description": "Una startup de viajes de lujo con un algoritmo ambicioso y una infraestructura en blanco. Construí el departamento de software desde cero — servidores, copias de seguridad, control de versiones y procesos — mientras lideraba un equipo de cuatro desarrolladores offshore en Pakistán.",
       "tasks": [
-        "Diseñé e implementé integraciones con APIs de terceros para reservas de hoteles, y prototipé una funcionalidad de reserva de vuelos.",
-        "Introduje el control de versiones TFS y establecí procesos claros de ramas, despliegue y pruebas para el equipo.",
-        "Configuré entornos de producción, backup y pruebas en Rackspace y Azure, con scripts de backup automatizados que guardaban bases de datos, imágenes y código en Amazon S3.",
-        "Resolví bugs de SQL y lógica de negocio, y contribuí a mejoras de front-end.",
-        "Diseñé e implementé planes de prueba para front y back-end usando TFS Online.",
-        "Migré el blog WordPress de la empresa a un servidor IIS interno, y moví los datos de MySQL a MS SQL Server."
+        "Diseñé e implementé integraciones con terceras API para reservas de hoteles. Prototipé una función de reserva de vuelos.",
+        "Se implementó el software de control de versiones TFS y se establecieron procesos sobre el mismo (fusiones de ramas, despliegues, pruebas).",
+        "Implementación de servidores de producción, backup y test usando Rackspace y la plataforma Azure. Copias de seguridad automatizadas mediante scripts para que las bases de datos, los servidores de imágenes y el código se pudieran guardar en el servicio Amazon S3.",
+        "Se resolvieron errores de codificación relacionados con SQL y lógica empresarial. Contribución a cambios cosméticos.",
+        "Implementé planes de prueba para front y back-end con TFS en línea.",
+        "Migré un blog de WordPress a un servidor IIS interno migrando los datos de MySQL a MS SQL Server."
       ],
       "image": "luxtripper"
     },
@@ -125,11 +125,12 @@ var textContent_ES = {
       "techStack": "",
       "description": "En Mission Communications trabajé en proyectos de clientes de distintas industrias, con un fuerte enfoque en el desarrollo de APIs y construcción de funcionalidades — destacando especialmente sightseeingpass.com, una plataforma para ayudar a los turistas a explorar Nueva York.",
       "tasks": [
-        "Construí un sitio web de e-commerce con sección de noticias y blog integrado con Facebook, Instagram y Twitter. (Web Forms, C#, Bootstrap, jQuery).",
-        "Desarrollé un sitio privado de gestión de propiedades protegido con contraseña para agentes de Londres — con presentación de diapositivas, funcionalidad de correo masivo y subida de PDFs. (Web Forms, C#, jQuery, Bootstrap, Typescript).",
-        "Convertí sitios web críticos para el negocio en aplicaciones web ASP.NET para mejorar la mantenibilidad y la depuración.",
-        "Migré varios sitios web de FTP a control de versiones TFS, permitiendo a los desarrolladores trabajar en local y reduciendo el riesgo de despliegue.",
-        "Diseñé y construí nuevos endpoints REST y resolví bugs en la API principal de la empresa — trabajando con arquitectura MVC, Entity Framework, MS SQL Server y Postman. Esta fue mi primera exposición profunda al desarrollo API-first.",
+        "Creé un sitio web de comercio electrónico y contenido de noticias/blogs que se integró con Facebook, Instagram y Twitter. Usé Web Forms, C#, Bootstrap y jQuery.",
+        "Creé un sitio para un evento de administradores de propiedades privadas. El sitio estaba protegido con contraseña para mostrar detalles sobre propiedades disponibles (imágenes, descripción, planos, etc.). Se implementó una presentación de diapositivas utilizando la biblioteca Slick JavaScript y Typescript. El sitio permitía a los agentes inmobiliarios enviar correos electrónicos individuales o masivos a los registrantes (adjuntando pdfs con la información de la propiedad). Construido en Web Forms, C#, jQuery y Bootstrap.",
+        "Conversión de sitios web críticos para la empresa en aplicaciones web ASP.NET para mejorar la capacidad de depuración.",
+        "Se migraron varios sitios web a TFS para permitir a los desarrolladores trabajar localmente, reemplazando una solución FTP problemática.",
+        "Implementé nuevos puntos finales y corrección de errores en la API de la empresa. La API se desarrolló utilizando la arquitectura MVC con un Entity Framework que apuntaba a una base de datos de MS SQL Server con Postman para llevar a cabo las pruebas de los endpoints.",    
+        "Construí un sitio web de e-commerce con sección de noticias y blog integrado con Facebook, Instagram y Twitter. (Web Forms, C#, Bootstrap, jQuery).",       
         "Refactoricé código heredado para alinearlo con los principios SOLID, mejorando la mantenibilidad a largo plazo."
       ],
       "sightseeingpass": [
@@ -210,10 +211,9 @@ var textContent_ES = {
       "dateStart": "Abril 2018",
       "dateEnd": "Actual",
       "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps y SQL",
-      "description": "Trabajo como desarrollador web freelance para una aplicación web destinada a pequeñas y medianas empresas para reducir sus emisiones y ser más sostenibles. Principalmente utilizo .Net, Azure y Azure DevOps con C#. El front-end está hecho con React y a veces también he tenido que trabajar en él.",
       "description": "Mi colaboración más larga y técnicamente rica hasta la fecha — y donde mi experiencia en Azure y APIs ha sido llevada más lejos. Trabajo como desarrollador freelance de Azure y .NET en <a href='https://zellar.com' target='_blank'>Zellar</a>, una plataforma de sostenibilidad que ayuda a las pymes a reducir sus emisiones. A lo largo de los años he evolucionado de construir APIs a ser responsable de la infraestructura cloud, los pipelines de DevOps y la capa de integración con terceros de toda la plataforma.",
       "tasks": [
-        "Desarrollé y evolucé las APIs de la aplicación usando C#, .NET 6–10, EF Core y SQL — trabajando en un entorno Agile/JIRA desde los requisitos hasta el despliegue.",
+        "Desarrollé y evolucioné las APIs de la aplicación usando C#, .NET 6–10, EF Core y SQL — trabajando en un entorno Agile/JIRA desde los requisitos hasta el despliegue.",
         "Lideré la migración de las APIs a .NET 6, .NET 8 y .NET 10 y las capas de base de datos a .NET Framework 4.8, modernizando los cimientos de la plataforma.",
         "Refactoricé todas las APIs para compatibilidad con Docker, configuré un Azure Container Registry y migré todo el conjunto de APIs a una nueva ubicación en Azure — incluyendo App Services y pipelines de DevOps.",
         "Construí y mantuve integraciones con Mixpanel, Salesforce, Stripe, Perse (consumo energético) y Loqate (servicios de localización), publicando paquetes NuGet personalizados alojados en Azure DevOps.",

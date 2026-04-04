@@ -31,7 +31,7 @@ var textContent_CA = {
       "Tinc un talent per detectar ineficiències — en el codi, en els processos i en els fluxos de treball — i convertir-les en oportunitats per lliurar més ràpid i millor. També adopto la IA com a eina de treball diària: la faig servir per escriure codi més precís, automatitzar tasques repetitives, depurar més ràpid i anticipar-me als problemes abans que arribin a producció.",
       "Sóc parlant nadiu de castellà i català, i treballo en anglès cada dia. Tres idiomes, un desenvolupador."
     ],
-    "optionMenu": "Skills personals"
+    "optionMenu": "Skills"
   },
   "experiences": {
     "optionMenu": "Experiència",    
@@ -42,7 +42,7 @@ var textContent_CA = {
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
-      "role": "Programmer",
+      "role": "Programador",
       "dateStart": "Dec 2009",
       "dateEnd": "Mai 2010",
       "techStack": "",
@@ -83,12 +83,12 @@ var textContent_CA = {
       "techStack": "",
       "description": "Una startup de viatges de luxe amb un algoritme ambiciós i una infraestructura en blanc. Vaig construir el departament de programari des de zero — servidors, còpies de seguretat, control de versions i processos — mentre liderava un equip de quatre desenvolupadors offshore al Pakistan.",
       "tasks": [
-        "Vaig dissenyar i implementar integracions amb APIs de tercers per a reserves d'hotel, i vaig prototipar una funcionalitat de reserva de vols.",
-        "Vaig introduir el control de versions TFS i vaig establir processos clars de branques, desplegament i proves per a l'equip.",
-        "Vaig configurar entorns de producció, backup i proves a Rackspace i Azure, amb scripts de backup automatitzats que guardaven bases de dades, imatges i codi a Amazon S3.",
-        "Vaig resoldre bugs de SQL i lògica de negoci, i vaig contribuir a millores de front-end.",
-        "Vaig dissenyar i implementar plans de prova per a front i back-end usant TFS Online.",
-        "Vaig migrar el blog WordPress de l'empresa a un servidor IIS intern, i vaig moure les dades de MySQL a MS SQL Server."
+        "Vaig dissenyar i vaig implementar integracions amb APIs de tercers per a dades de reserves d'hotel. També vaig prototipar una funció de reserva de vols.",
+        "Es va implementar un control de versions TFS i es van establir els processos sobre el mateix (fusions de branques, desplegaments, proves).",
+        "Implementació de servidors de producció, backup i test usant Rackspace i la plataforma Azure. Còpies de seguretat automatitzades mitjançant scripts perquè les bases de dades, els servidors d'imatges i el codi es puguin guardar al servei Amazon S3.",
+        "Es van resoldre errors de codificació relacionats amb SQL i lògica de negoci. Contribució a canvis cosmètics.",
+        "Vaig escriure plans de prova per front i back-end amb TFS en línia.",
+        "Vaig migrar un bloc de WordPress a un servidor IIS intern migrant les dades de MySQL a MS SQL Server."
       ],
       "image": "luxtripper"
     },
@@ -125,12 +125,12 @@ var textContent_CA = {
       "techStack": "",
       "description": "A Mission Communications vaig treballar en projectes de clients de diverses indústries, amb un fort enfocament en el desenvolupament d’APIs i construcció de funcionalitats — destacant especialment sightseeingpass.com, una plataforma per ajudar els turistes a explorar Nova York.",
       "tasks": [
-        "Vaig construir un lloc web d’e-commerce amb secció de notícies i blog integrat amb Facebook, Instagram i Twitter. (Web Forms, C#, Bootstrap, jQuery).",
-        "Vaig desenvolupar un lloc privat de gestió de propietats protegit amb contrasenya per a agents de Londres — amb presentació de diapositives, funcionalitat de correu massiu i pujada de PDFs. (Web Forms, C#, jQuery, Bootstrap, Typescript).",
-        "Vaig convertir llocs web crítics per al negoci en aplicacions web ASP.NET per millorar la mantenibilitat i la depuració.",
-        "Vaig migrar diversos llocs web de FTP a control de versions TFS, permetent als desenvolupadors treballar en local i reduint el risc de desplegament.",
-        "Vaig dissenyar i construir nous endpoints REST i vaig resoldre bugs en l’API principal de l’empresa — treballant amb arquitectura MVC, Entity Framework, MS SQL Server i Postman. Aquesta va ser la meva primera exposició profunda al desenvolupament API-first.",
-        "Vaig refactoritzar codi heretat per alinear-lo amb els principis SOLID, millorant la mantenibilitat a llarg termini."
+        "Vaig crear un lloc web de comerç electrònic i contingut de notícies/blog que es va integrar amb Facebook, Instagram i Twitter. Vaig fer servir Web Forms, C#, Bootstrap i jQuery.",
+        "Vaig crear un lloc per a un esdeveniment d'administradors de propietats privades. Aquest lloc protegit amb contrasenya era per mostrar detalls sobre propietats disponibles (imatges, vista general, plànols, etc.). Es va implementar una presentació de diapositives utilitzant la biblioteca Slick JavaScript . El lloc permetia als agents immobiliaris enviar correus electrònics individuals o massius als registrants (adjuntant pdfs amb la info de la propietat). Construït en Web Forms, C#, jQuery i Bootstrap.",
+        "Conversió de llocs web crítics per a l'empresa en aplicacions web ASP.NET per millorar la capacitat de depuració.",
+        "Es van migrar diversos llocs web a TFS per permetre als desenvolupadors treballar localment, reemplaçant una solució FTP problemàtica.",
+        "Vaig implementar nous punts finals i correcció d'errors en l'API de l'empresa. L'API es va desenvolupar utilitzant l'arquitectura MVC amb un Entity Framework que apuntava a una base de dades de MS SQL Server amb Postman per dur a terme les proves dels endpoints.",
+        "Codi refractoritzat segons els principis SOLID."
       ],
       "sightseeingpass": [
         "Vaig construir una funcionalitat de gestió d’imatges al back-end per a atraccions turístiques — amb pujada múltiple d’imatges, validació de mida i ordenació per arrossegar i deixar anar. (Web Forms, C#, jQuery, procediments emmagatzemats MS SQL).",
@@ -153,9 +153,9 @@ var textContent_CA = {
       "techStack": "Kentico CMS, C#, SQL Server, Javascript",
       "description": "Una col·laboració de sis mesos cobrint una baixa per maternitat en aquesta ONG barcelonina dedicada als drets de la infància. Breu en durada, però significativa en impacte — incloent la construcció d'una eina de crowdfunding que va facilitar a les persones contribuir a la seva causa.",
       "tasks": [
-        "Vaig construir un component de crowdfunding responsiu integrat amb els sistemes de pagament Redsys i PayPal, usant Kentico CMS, C#, JavaScript, HTML i CSS.",
-        "Vaig rastrejar i corregir bugs al lloc web i al CMS.",
-        "Vaig refactoritzar codi JavaScript en línia amb els principis SOLID per millorar la mantenibilitat a llarg termini."
+        "Vaig crear un component de crowdfunding a Kentico CMS integrat amb els sistemes de pagament Redsys i Paypal. Vaig fer servir components C#, Javascript, HTML, CSS i Kentico.",
+        "Correcció de bugs en el lloc web comercial, també en Kentico CMS.",
+        "Codi Javascript refactoritzat d'acord amb els principis SOLID."
       ],
       "image": "educo"
     },
@@ -207,8 +207,8 @@ var textContent_CA = {
       "city": "Barcelona",
       "website": "https://www.unimedia.tech",
       "role": "Azure and .NET Developer",
-      "dateStart": "April 2018",
-      "dateEnd": "Current",
+      "dateStart": "Abril 2018",
+      "dateEnd": "Actual",
       "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps i SQL",
       "description": "La meva col·laboració més llarga i tècnicament rica fins avui — i on la meva experiència en Azure i APIs ha estat portada més lluny. Treballo com a desenvolupador freelance d’Azure i .NET a <a href=’https://zellar.com’ target=’_blank’>Zellar</a>, una plataforma de sostenibilitat que ajuda les pimes a reduir les seves emissions. Al llarg dels anys he evolucionat de construir APIs a ser responsable de la infraestructura cloud, els pipelines de DevOps i la capa d’integració amb tercers de tota la plataforma.",
       "tasks": [
