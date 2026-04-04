@@ -151,7 +151,7 @@ var textContent_EN = {
       "dateStart": "Mar 2018",
       "dateEnd": "Aug 2018",
       "techStack": "Kentico CMS, C#, SQL Server, Javascript",
-      "description": "A six-month engagement covering a maternity leave for this Barcelona-based NGO dedicated to children's rights. Small in duration, but meaningful in impact — including building a crowdfunding tool that made it easier for people to contribute to their cause.",
+      "description": "A six-month engagement covering a maternity leave for this Barcelona-based NGO dedicated to children's rights including building a crowdfunding tool that made it easier for people to contribute to their cause.",
       "tasks": [
         "Built a responsive crowdfunding component integrated with Redsys and PayPal payments, using Kentico CMS, C#, JavaScript, HTML, and CSS.",
         "Tracked down and fixed bugs across the website and CMS.",
@@ -213,7 +213,7 @@ var textContent_EN = {
       "description": "My longest and most technically rich engagement to date — and where my Azure and API expertise has been pushed furthest. I work as a freelance Azure and .NET developer on <a href='https://zellar.com' target='_blank'>Zellar</a>, a sustainability platform helping SMEs reduce their emissions. Over the years I've evolved from building APIs to owning the cloud infrastructure, DevOps pipelines, and third-party integration layer across the entire platform.",
       "tasks": [
         "Developed and evolved the application's APIs using C#, .NET 6–10, EF Core, and SQL — working in an Agile/JIRA environment from requirements through to deployment.",
-        "Led the migration of APIs to .NET 6 and database layers to .NET Framework 4.8, modernising the platform's foundations.",
+        "Led the migration of APIs to .NET 6, .NET 8 and .NET 10, and database layers to .NET Framework 4.8, modernising the platform's foundations.",
         "Refactored all APIs for Docker compatibility, set up an Azure Container Registry, and migrated the full API estate to a new Azure location — including App Services and DevOps pipelines.",
         "Built and maintained integrations with Mixpanel, Salesforce, Stripe, Perse (energy consumption), and Loqate (location services), publishing custom NuGet packages hosted in Azure DevOps.",
         "Designed and built the platform's own SSO system, enabling Zellar account login across third-party platforms like Circle.",
