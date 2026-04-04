@@ -94,12 +94,13 @@
 
 /* ── Service grid container ─────────────────────────────────── */
 .row.service {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
     gap: 32px !important;
     margin: 0 !important;
     width: 100% !important;
     box-sizing: border-box;
+    padding: 0 !important;
 }
 
 /* ── Service items ──────────────────────────────────────────── */
@@ -108,8 +109,7 @@
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 10px;
     padding: 48px 36px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin: 0;
     text-align: center;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
     display: flex;
@@ -117,7 +117,9 @@
     align-items: center;
     box-sizing: border-box;
     float: none !important;
-    width: auto !important;
+    flex: 1 1 calc(33.333% - 22px);
+    max-width: calc(33.333% - 22px);
+    min-width: 260px;
 }
 
 .service-item:hover {
@@ -155,39 +157,41 @@
 
 /* ── Service responsive ─────────────────────────────────────── */
 @media (max-width: 480px) {
-    .row.service                 { grid-template-columns: 1fr !important; gap: 16px !important; }
-    .service-item                { padding: 36px 24px; margin-top: 8px; margin-bottom: 8px; }
+    .row.service                 { gap: 16px !important; }
+    .service-item                { flex: 1 1 100%; max-width: 100%; padding: 36px 24px; }
     .service-item h4             { font-size: 1.7rem; }
     .service-item p              { font-size: 1.25rem; }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .row.service                 { grid-template-columns: 1fr !important; gap: 20px !important; }
-    .service-item                { padding: 40px 28px; }
+    .row.service                 { gap: 20px !important; }
+    .service-item                { flex: 1 1 100%; max-width: 100%; padding: 40px 28px; }
     .service-item h4             { font-size: 1.85rem; }
     .service-item p              { font-size: 1.35rem; }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .row.service                 { grid-template-columns: repeat(2, 1fr) !important; gap: 24px !important; }
+    .row.service                 { gap: 24px !important; }
+    .service-item                { flex: 1 1 calc(50% - 12px); max-width: calc(50% - 12px); }
     .service-item h4             { font-size: 1.9rem; }
     .service-item p              { font-size: 1.4rem; }
 }
 
 @media (min-width: 1024px) {
-    .row.service                 { grid-template-columns: repeat(3, 1fr) !important; gap: 32px !important; }
+    .row.service                 { gap: 32px !important; }
+    .service-item                { flex: 1 1 calc(33.333% - 22px); max-width: calc(33.333% - 22px); }
 }
 
 @media (min-width: 1440px) {
     .row.service                 { gap: 40px !important; }
-    .service-item                { padding: 56px 40px; margin-top: 16px; margin-bottom: 16px; }
+    .service-item                { flex: 1 1 calc(33.333% - 27px); max-width: calc(33.333% - 27px); padding: 56px 40px; }
     .service-item h4             { font-size: 2.3rem; }
     .service-item p              { font-size: 1.6rem; }
 }
 
 @media (min-width: 1920px) {
     .row.service                 { gap: 48px !important; }
-    .service-item                { padding: 64px 48px; }
+    .service-item                { flex: 1 1 calc(33.333% - 32px); max-width: calc(33.333% - 32px); padding: 64px 48px; }
     .service-item h4             { font-size: 2.5rem; }
     .service-item p              { font-size: 1.7rem; }
 }
