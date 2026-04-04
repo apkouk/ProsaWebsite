@@ -1,9 +1,9 @@
 var textContent_EN = {
   "intro": {
     "paragraphs": [
-      "I'm a Senior .NET and Azure Developer with 15+ years of experience building software solutions across diverse industries. I specialize in .NET, Azure, C#, and SQL, and I'm passionate about solving complex problems and delivering high-quality code.",
-      "I believe in maintaining a healthy work-life balance that fuels both professional excellence and personal fulfillment.",
-      "In my free time I enjoy cinema, having a good read, or cooking a nice meal with family and friends. Feel free to explore my website to learn more about me and my work.",
+      "I've spent the last 15+ years doing what I love: building software that solves real problems. I specialise in Azure cloud architecture, API development, and system integrations — the kind of work that connects platforms, automates complexity, and makes distributed systems actually reliable. As a Microsoft Certified Azure Developer, I don't just write code that runs on the cloud; I design and own the infrastructure around it. On the backend I'm equally comfortable implementing new features, fixing bugs, or refactoring legacy code that's been accumulating debt for years.",
+      "I believe great work and a fulfilling life go hand in hand. The best code, like the best ideas, comes from people who are curious, rested, and inspired. I stay sharp by embracing new tools — including AI, which I use daily to accelerate development, improve code quality, and explore smarter solutions faster.",
+      "When I'm not in front of a screen, you'll find me at the cinema, lost in a good book, or cooking something ambitious for family and friends. Take a look around — I'd love for you to get to know me and my work.",
       "Hasta la vista!"
     ],
     "optionMenu": "Introduction",
@@ -12,13 +12,13 @@ var textContent_EN = {
   },
   "techSkills": {
     "paragraphs": [
-      "I consider myself a full stack developer able to contribute to projects across the stack. Most of my development experience has been with Microsoft technologies, including deep experience using C#, .NET (from .NET 6 to .NET 10), ASP.NET Core, Entity Framework and SQL Server. I specialize in Azure cloud services including App Services, Functions, Service Bus, API Management and Key Vault.",
-      "For web development projects I have worked with HTML/CSS and JavaScript including frameworks like React, Angular, and jQuery. I have extensive experience with CI/CD pipelines using Azure DevOps, containerization with Docker, and microservices architecture.",
-      "Below is a brief list of skills from my resume."
+      "My core is Azure and .NET — C#, .NET 6 through .NET 10, ASP.NET Core, and Entity Framework on the development side, and a deep Azure specialisation that spans App Services, Azure Functions, Service Bus, API Management, Azure Front Door, Key Vault, and more. I'm certified as an Azure Developer Associate (AZ-204) and I've spent years not just writing code for the cloud, but owning the infrastructure, pipelines, and security around it.",
+      "API design and system integration are where I do some of my best work. I've built and maintained APIs from scratch, connected platforms that weren't designed to talk to each other, and developed microservices that handle real production load. I also integrate AI tools into my daily workflow — using them to accelerate development, write better tests, and tackle complex problems faster. On the front end, I can hold my own with React, Angular, TypeScript, and jQuery when the project calls for it — but I'll be honest: the backend and cloud are where I'm truly at home.",
+      "Here's a snapshot of the tools and technologies I work with."
     ],
-    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry",
-    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles, Microservices, CI/CD pipelines",
-    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman",
+    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome",
+    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles, Microservices, CI/CD pipelines, design patterns",
+    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman, GitHub Copilot, Claude",
     "optionMenu" : "Tech",
     "subTitle1" : "Development",
     "subTitle2" : "Concepts",
@@ -26,10 +26,10 @@ var textContent_EN = {
   },
   "personalSkills": {
     "paragraphs": [
-      "In addition to offering a robust set of hands-on technical skills, I believe my interpersonal skills and business acumen are additional assets I offer to my clients. I am quite comfortable in client-facing roles that require soft skills in negotiating deliverables and managing expectations of stakeholders. ",
-      "Over my career I have successfully managed several projects, performed as a business analyst to gather requirements from users, and written detailed requirements documentation. I have also managed offshore development teams and am able to mentor junior level resources.",
-      "My analytical skills are another strength, and I have regularly been able to identify and resolve inefficiencies within development processes that have improved delivery speed.",
-      "I am a native speaker of Spanish and Catalan with additional fluency in English."
+      "Technical depth only gets you so far. What sets me apart is my ability to work with people — not just systems. I'm comfortable in client-facing roles, negotiating deliverables, managing expectations, and making sure everyone is aligned on what success looks like.",
+      "Over my career I've worn many hats: developer, business analyst, project manager, and team lead. I've gathered requirements directly from end users, written detailed specs, and managed offshore development teams across time zones. I genuinely enjoy mentoring junior developers and watching them grow.",
+      "I have a knack for spotting inefficiencies — in code, in processes, and in workflows — and turning them into opportunities to deliver faster and better. I also embrace AI as a daily working tool: I use it to write sharper code, automate repetitive tasks, debug faster, and stay ahead of problems before they reach production.",
+      "I'm a native speaker of Spanish and Catalan, and I work in English every day. Three languages, one developer."
     ],
     "optionMenu" : "Personal Skills"
   },
@@ -46,7 +46,7 @@ var textContent_EN = {
       "dateStart": "Dec 2009",
       "dateEnd": "May 2010",
       "techStack": "",
-      "description": "This was my first real programming role, and I built web pages using C# (framework 3.5), ASP.NET, HTML, MS SQL Server, and Visual Studio 2010.",
+      "description": "Every developer remembers their first real role. Mine was here — building web pages from scratch with C#, ASP.NET, HTML, MS SQL Server, and Visual Studio 2010. It's where the bug bit me, and I've never looked back.",
       "tasks": "",
       "image": "netlife"
     },
@@ -61,12 +61,12 @@ var textContent_EN = {
       "dateStart": "June 2010",
       "dateEnd": "Mar 2014",
       "techStack": "C#, Visual Studio, Oracle, MSSQL Server, TFS (Sharepoint integrated), ASP.NET, HTML, Gembase.",
-      "description": "At T&G (now Aggity) I was a software engineer focused on development using the Microsoft stack including C#, ASP.NET, and SQL Server. I also trained users.",
+      "description": "Four years at T&G (now Aggity) is where I really grew as a developer. Working deep in the Microsoft stack, I built features, designed databases, and learned that great software starts with understanding what clients actually need.",
       "tasks": [
-        "Developed and modified program features according to client specifications using Visual Studio 2010, C#, and ASP.NET.",        
-        "Designed and implemented MS SQL Server and Oracle databases including complex queries, stored procedures, views and integration, and data migrations for new clients.",
-        "Fixed software issues and SQL code irregularities in queries or stored procedures and business logic in C#.",
-        "Wrote functional documentation for new clients and trained new users."
+        "Built and modified application features to client specifications using C# and ASP.NET, turning requirements into working software.",
+        "Designed and implemented MS SQL Server and Oracle databases — complex queries, stored procedures, views, integrations, and data migrations for onboarding new clients.",
+        "Tracked down and fixed bugs in SQL and C# business logic, keeping systems running smoothly.",
+        "Wrote user-facing documentation and trained new clients — because software is only as good as the people who can use it."
       ],
       "image": "aggity"
     },
@@ -81,14 +81,14 @@ var textContent_EN = {
       "dateStart": "Jan 2015 ",
       "dateEnd": "Aug 2015",
       "techStack": "",
-      "description": "Startup in the luxury sector to find destinations worldwide according to its own algorithm. I implemented the minimal infrastructure (servers, backups, version control) and processes of a software department leading a team of four offshore developers in Pakistan.",
+      "description": "A luxury travel startup with a bold algorithm and a blank slate for infrastructure. I built the software department from the ground up — servers, backups, source control, and processes — while leading a team of four offshore developers in Pakistan.",
       "tasks": [
-        "Designed and implemented integrations with third APIs for hotel booking data. Prototyped a flight booking feature.",
-        "Implemented TFS source control software and set source control processes (branch merges, deployments, testing).",
-        "Implemented production, backup, and testing servers using Rackspace and the Azure platform. Automated backups using scripts so databases, image servers, and code could be saved to Amazon S3 service.",
-        "Resolved coding errors related to SQL and business logic. Contributed to cosmetic changes.",
-        "Implemented testing plans for both front and back-end with TFS online.",
-        "Migrated a WordPress blog to an internal IIS server and migrated data from MySQL to MS SQL Server. "
+        "Designed and implemented integrations with third-party hotel booking APIs, and prototyped a flight booking feature.",
+        "Introduced TFS source control and established clear branching, deployment, and testing processes for the team.",
+        "Set up production, backup, and testing environments on Rackspace and Azure, with automated backup scripts saving databases, images, and code to Amazon S3.",
+        "Resolved SQL and business logic bugs, and contributed to front-end improvements.",
+        "Designed and implemented testing plans for both front and back-end using TFS Online.",
+        "Migrated the company WordPress blog to an internal IIS server, and moved data from MySQL to MS SQL Server."
       ],
       "image": "luxtripper"
     },
@@ -103,12 +103,12 @@ var textContent_EN = {
       "dateStart": "Aug 2015",
       "dateEnd": "Aug 2016",
       "techStack": "",
-      "description": "At MES (now Civica) I was part of a team that implemented new features and functionality to a site used by NHS hospitals to gather and present survey data to users.",
+      "description": "At MES (now Civica) I contributed to a platform used by NHS hospitals to collect and present patient survey data. It was a meaningful project — the kind where you know the work actually matters to real people.",
       "tasks": [
-        "Added responsive web features to improve device compatibility and a progress bar to improve UI/UX.",
-        "Implemented Sort-Modify-Delete for survey questions/answers instead of requiring changes in the database.",
-        "Performed multiple database tasks including pivot tables, creation and design of tables, stored procedures, and query optimization. Wrote scripts to automate data import that improved speed from days to only six hours.",
-        "Built a responsive three-tier architecture admin tool that automated and optimized project managers tasks. (Bootstrap,Telerikframework, ASP.NET Webforms, C#, and MS SQL Server)."
+        "Added responsive web features to improve the experience across devices, and built a progress bar to guide users through survey flows.",
+        "Implemented Sort-Modify-Delete functionality for survey questions and answers, empowering admins to manage content without database access.",
+        "Handled a wide range of database work — pivot tables, table design, stored procedures, and query optimisation. Wrote import automation scripts that cut processing time from days to just six hours.",
+        "Built a responsive three-tier admin tool using Bootstrap, Telerik, ASP.NET WebForms, C#, and MS SQL Server — saving project managers hours of manual work."
       ],
       "image": "mes"
     },
@@ -123,20 +123,20 @@ var textContent_EN = {
       "dateStart": "Aug 2016",
       "dateEnd": "Nov 2017",
       "techStack": "",
-      "description": "At Mission Communications I was able to work on several web development projects for clients in diverse industries, and in particular I made significant contributions to the development of sightseeingpass.com",
+      "description": "At Mission Communications I worked across client projects in different industries, with a strong focus on API development and feature building — most notably for sightseeingpass.com, a platform helping tourists explore New York City.",
       "tasks": [
-        "Built a responsive e-commerce website (not yet deployed) and news/blog content that integrated with Facebook, Instagram and Twitter. (Web Forms, C#, Bootstrap, jQuery).",
-        "Built a private password-protected property management site to display details on available properties (images, description, plans, etc.) in London with a slide show (Slick JavaScript library, Typescript). The site enabled agents to send individual or bulk emails to registrants and upload PDFs with property data for download. (Web Forms, C#, jQuery, Bootstrap).",
-        "Converted business critical websites to web apps using ASP.NET to improve debugging capability.",
-        "Migrated several websites to TFS source control to enable developers to work locally, replacing a problematic FTP solution.",
-        "Implemented new API endpoints and fixed bugs in the company API. The API was developed using MVC architecture with an Entity Framework pointing to a MS SQL Server database with Postman to carry out endpoint testing.",
-        "Refactored code according to the SOLID principles."
+        "Built a responsive e-commerce website with a news and blog section integrated with Facebook, Instagram, and Twitter. (Web Forms, C#, Bootstrap, jQuery).",
+        "Developed a private, password-protected property management site for London agents — complete with slideshow, bulk email functionality, and PDF uploads. (Web Forms, C#, jQuery, Bootstrap, Typescript).",
+        "Converted business-critical websites to ASP.NET web apps to improve maintainability and debugging.",
+        "Migrated several websites from FTP to TFS source control, enabling developers to work locally and reducing deployment risk.",
+        "Designed and built new REST API endpoints and resolved bugs in the company's core API — working with MVC architecture, Entity Framework, MS SQL Server, and Postman for endpoint testing. This was my first deep exposure to API-first development.",
+        "Refactored legacy code to align with SOLID principles, improving long-term maintainability."
       ],
       "sightseeingpass": [
-        "Built a new back-end feature for sightseeingpass.com to manage all images related to a tourist attraction, including validation of image presence and size. Feature enabled users to upload multiple images at once and sort them via drag and drop. (Web Forms, C#, jQuery, MS SQL stored procedures for CRUD operations).",
-        "Developed a new sightseeingpass.com feature for users to create custom itineraries for New York bus tours with ability to select date and attractions from a list (using data from company API), creating a Google Map with most efficient routes. (Web Forms, Bootstrap, C#, JQuery, ASP.NET handlers, and internal APIs).",
-        "Built a feature using company API to compare data between systems with alerts for any differences. Solution enabled users to update disparate data through the website database or the central system database in one click and allowed team to check consistency between systems. (MS SQL Server, internal API, and C#).",
-        "Wrote unit tests to validate URL rewriting and accuracy for pricing (number of people, type of delivery, type of card, etc.). "
+        "Built a back-end image management feature for tourist attractions — supporting multi-image uploads, size validation, and drag-and-drop sorting. (Web Forms, C#, jQuery, MS SQL stored procedures).",
+        "Developed a custom itinerary builder for New York bus tours, letting users select dates and attractions and generating optimised Google Maps routes. (Web Forms, Bootstrap, C#, jQuery, ASP.NET handlers, internal APIs).",
+        "Created a data consistency tool that compared records between systems, flagging discrepancies and letting users sync data across databases with a single click. (MS SQL Server, internal API, C#).",
+        "Wrote unit tests to validate URL rewriting logic and pricing accuracy across multiple variables (group size, delivery type, card type, etc.)."
       ],
       "image": "mission"
     },
@@ -151,11 +151,11 @@ var textContent_EN = {
       "dateStart": "Mar 2018",
       "dateEnd": "Aug 2018",
       "techStack": "Kentico CMS, C#, SQL Server, Javascript",
-      "description": "NGO to watch over and safeguard the rights of children. I was covering a maternity leave for 6 months.",
+      "description": "A six-month engagement covering a maternity leave for this Barcelona-based NGO dedicated to children's rights including building a crowdfunding tool that made it easier for people to contribute to their cause.",
       "tasks": [
-        "Built a responsive crowdfunding component in Kentico CMS integrated with Redsys payments and Paypal. Used C#, Javascript, HTML, CSS and Kentico components.",
-        "Fixed bugs on the website, also in Kentico CMS.",
-        "Refactored Javascript code according to SOLID principles."
+        "Built a responsive crowdfunding component integrated with Redsys and PayPal payments, using Kentico CMS, C#, JavaScript, HTML, and CSS.",
+        "Tracked down and fixed bugs across the website and CMS.",
+        "Refactored JavaScript code in line with SOLID principles to improve long-term maintainability."
       ],
       "image": "educo"
     },
@@ -170,7 +170,7 @@ var textContent_EN = {
       "dateStart": "Oct 2018",
       "dateEnd": "Apr 2019",
       "techStack": "",
-      "description": "Due to a confidentiality agreement, it is not allowed to me to show publicly any description of any task nor technology during my time in this startup.",
+      "description": "I worked with this innovative Barcelona startup under a confidentiality agreement, so I'm unable to share details about the work or technologies involved. Some of the best projects are the ones you can't talk about.",
       "tasks": [],
       "image": "wivi"
     },
@@ -186,15 +186,15 @@ var textContent_EN = {
       "dateStart": "Aug 2018",
       "dateEnd": "Dec 2020",
       "techStack": "ASP.NET, ASP.NET API, C #, HTML, HTML5, CSS, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",      
-      "description": "Worked as a web developer for the learning and universities division, working on a solution for managing the courses' recruitment websites, the enrollment and the integration with learning platforms. Some of the clients I worked for: <a href='https://www.eae.es/' target='_blank'>EAE</a>, <a href='https://www.universidadviu.com/es/' target='_blank'>VIU</a>, <a href='https://www.ceac.es/' target='_blank'>CEAC</a>. Last 4 months I acted as team lead managing a team of 6 developers, 2 QA and 1 BA",
+      "description": "Working for one of Spain's largest publishing groups as a freelance developer was a career highlight. I contributed to a platform managing course recruitment, student enrolment, and learning platform integrations for major education brands including <a href='https://www.eae.es/' target='_blank'>EAE</a>, <a href='https://www.universidadviu.com/es/' target='_blank'>VIU</a>, and <a href='https://www.ceac.es/' target='_blank'>CEAC</a>. In my final four months I stepped up as Team Lead for a team of six developers, two QA engineers, and a BA.",
       "tasks": [
-        "Integration of two brands having to merge their data (students, enrollments, courses ...) to preserve their history",
-        "Solution for changing a conflicting NAS cabin where the documentation generated during the enrollment process (students and courses) was housed.",
-        "I modified the two main applications behavior to historicize the huge documentation that was generated in the enrollment process. Backup processes were simplified and the application performance was improved.",
-        "I wrote an script in SQL to avoid a known exploit on the websites CMS that allowed to create super users.",
-        "I participated as team lead in the upgrade of 3 Dotnet Nuke CMS, providing technical and functional help when required and carrying out the deployments.",
-        "I finished a critical project for the organization such as the exercises/tests editor migration from Flash to HTML5.",
-        "As a team lead I participated planning and executing to change the application's payment provider due to a European regulatory change (3DS)."
+        "Led the technical integration of two brands, merging student, enrolment, and course data while preserving historical records.",
+        "Resolved a critical infrastructure problem around a NAS storage system housing sensitive enrolment documentation, designing a more robust replacement solution.",
+        "Modified core application behaviour to historicise large volumes of enrolment documents, simplifying backup processes and significantly improving application performance.",
+        "Wrote an SQL script to patch a known CMS exploit that allowed unauthorised super-user creation.",
+        "As team lead, coordinated the upgrade of three DotNetNuke CMS instances — providing technical guidance, functional support, and managing deployments.",
+        "Completed a critical migration of the exercises and tests editor from Flash to HTML5, rescuing a project that was essential to the organisation.",
+        "Led the planning and execution of a payment provider migration required by the European 3DS regulatory change."
       ],
       "image": "planeta"
     },
@@ -210,18 +210,18 @@ var textContent_EN = {
       "dateStart": "April 2018",
       "dateEnd": "Current",
       "techStack": "C# .NET 6 to .NET 10, Azure, Azure DevOps and SQL",      
-      "description": "I work as a freelance web developer for a web application aimed at small and medium-sized businesses to reduce their emissions and be more sustainable. See more at <a href='https://zellar.com' target='_blank'>zellar.com</a>. I mainly use .Net, Azure and Azure DevOps with C#. The front-end is built with React and sometimes I have also had to work on it.",
+      "description": "My longest and most technically rich engagement to date — and where my Azure and API expertise has been pushed furthest. I work as a freelance Azure and .NET developer on <a href='https://zellar.com' target='_blank'>Zellar</a>, a sustainability platform helping SMEs reduce their emissions. Over the years I've evolved from building APIs to owning the cloud infrastructure, DevOps pipelines, and third-party integration layer across the entire platform.",
       "tasks": [
-        "Development of the application APIs using C#, .Net 6, EF Core 6 and SQL according to requirements (project management with JIRA and Agile methodology).",
-        "Migration of APIs to .NET 6 and databases to .NET framework 4.8 from older versions.",
-        "Adaptation of all APIs to work with Docker, creating an Azure Container Registry and modifying the App Services and their DevOps pipelines. I also migrated all APIs from one location to another within Azure.",
-        "Implementation of integrations with Mixpanel, Salesforce and Stripe, creating our own nugets hosted in Azure DevOps. I have maintained and improved other integrations such as Perse (energy consumption) or Loqate (location service).",
-        "Creation of our SSO to allow login with the Zellar account on other platforms like Circle.",
-        "Development of a microservice (API) to manage all notifications to third-party integrations through a message queue, using the Outbox pattern.",
-        "Maintenance of Azure DevOps services (pipelines and deployments), modifying or creating new pipelines.",
-        "Maintenance of infrastructure for all environments (development, testing and production) in Azure. Some of the services I have worked with are: App Services (logs, scaling rules, network protection and backups), SQL Servers (failover group, resolved SQL audits and network protections), Blobs Storage (different types), Service Bus, Azure Functions, Azure API Management, Azure Front Door and Azure Key Vault (secrets and certificates).",
-        "Implementation of Azure API Management in Azure to manage and protect our APIs (currently 4).",
-        "Moving all secrets from app settings to Azure Key Vault, replacing them during deployment from Azure DevOps."
+        "Developed and evolved the application's APIs using C#, .NET 6–10, EF Core, and SQL — working in an Agile/JIRA environment from requirements through to deployment.",
+        "Led the migration of APIs to .NET 6, .NET 8 and .NET 10, and database layers to .NET Framework 4.8, modernising the platform's foundations.",
+        "Refactored all APIs for Docker compatibility, set up an Azure Container Registry, and migrated the full API estate to a new Azure location — including App Services and DevOps pipelines.",
+        "Built and maintained integrations with Mixpanel, Salesforce, Stripe, Perse (energy consumption), and Loqate (location services), publishing custom NuGet packages hosted in Azure DevOps.",
+        "Designed and built the platform's own SSO system, enabling Zellar account login across third-party platforms like Circle.",
+        "Developed a notification microservice using a message queue and the Outbox pattern to reliably deliver events to third-party integrations.",
+        "Maintained and extended Azure DevOps pipelines and deployment configurations across all environments.",
+        "Managed infrastructure across development, testing, and production in Azure — including App Services (scaling, networking, backups), SQL Servers (failover groups, audits), Blob Storage, Service Bus, Azure Functions, API Management, Azure Front Door, and Key Vault (secrets and certificates).",
+        "Implemented Azure API Management to centralise, protect, and govern the platform's four APIs.",
+        "Migrated all application secrets from app settings to Azure Key Vault, with automatic injection during deployment via Azure DevOps."
       ],
       "image": "unimedia"
     }
@@ -430,42 +430,42 @@ var textContent_EN = {
   },
   "services": {
     "optionMenu" : "Services",
-    "title": "As a freelance consultant I offer various services to clients that can include:",
+    "title": "I specialise in Azure, API development, and system integrations. Here's how I can help:",
     "serviceItems": [      
         {
             "id": 1,
-            "title": "Software Development",
-            "desc": "For over fifteen years I have focused on software development work and I have built many solutions using C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typescript HTML and CSS. I have developed APIs and microservices using C#, .NET 6-10, Azure, and React, contributing to the full lifecycle from requirements gathering (Agile/JIRA) through testing and deployment.",
+            "title": "API & Cloud Development",
+            "desc": "APIs and Azure are at the heart of what I do. I design and build REST APIs and microservices using C# and .NET 6–10, architect Azure infrastructure from scratch, and manage the full delivery lifecycle from requirements to production. On the backend I'm equally comfortable implementing new features, tracking down bugs, or refactoring code that needs a new lease of life. I use AI tools daily to ship faster and with higher quality.",
             "image": "softdev"
         },
         {
             "id": 2,
             "title": "Database Scripting",
-            "desc": "Over the years I have worked with a number of databases, including extensive experience with Microsoft SQL Server and Oracle in designing tables and stored procedures. I have managed migrations and maintenance of SQL databases, adapting APIs and databases to newer .NET versions, and implementing advanced Azure SQL features such as failover groups and audits. I can also work with NoSql databases like CloudantDb or MongoDb.",
+            "desc": "Databases are where a lot of performance is won or lost, and I've spent years working at that layer. I have deep experience with MS SQL Server and Oracle — designing schemas, writing stored procedures, and optimising queries. I've managed complex migrations, upgraded database layers to newer .NET versions, and implemented advanced Azure SQL features like failover groups. I'm also comfortable with NoSQL databases including CosmosDB and MongoDB.",
             "image": "database"
         },
         {
             "id": 3,
             "title": "System Integration",
-            "desc": "My experience includes extensive system integration work, including integrating third-party services (Mixpanel, Salesforce, Stripe, Perse, Loqate), developing custom NuGet packages, and SSO solutions. I am skilled at problem solving and working with ambiguous or vague documentation related to third-party software and APIs, delivering robust solutions for clients.",
+            "desc": "Connecting systems is one of my strongest suits. I've integrated platforms like Salesforce, Stripe, Mixpanel, and more — building custom NuGet packages, SSO solutions, and message-queue-based notification services. I'm skilled at navigating incomplete third-party documentation and turning ambiguous requirements into robust, production-ready integrations. I also leverage AI to prototype and validate integration logic faster than traditional approaches.",
             "image": "systemInt"
         },
         {
             "id": 4,
-            "title": "Error Fixing/Code Quality",
-            "desc": "One of my strengths is the ability to analyze code to identify errors and areas for improvement for performance or maintainability. I have maintained and improved integrations, refactored APIs for Docker compatibility, and enhanced security by moving secrets to Azure Key Vault.",
+            "title": "Error Fixing / Code Quality",
+            "desc": "Sometimes the most valuable thing I can do is make existing code better. I have a strong eye for spotting bugs, performance bottlenecks, and maintainability issues — and I know how to fix them without introducing new ones. I use AI-assisted code review and analysis tools as part of my workflow to catch issues earlier and refactor more confidently. I've also improved security by migrating secrets to Azure Key Vault and brought ageing codebases back to health.",
             "image": "errorFix"
         },
         {
             "id": 5,
             "title": "Software Process Improvement",
-            "desc": "I am able to review your software development process in order to design and implement new processes and tools. I have contributed to DevOps automation, pipeline creation and modification, and managed infrastructure across environments (development, testing, production) in Azure. This may include implementations of new software development methodologies (Agile, Scrum), source control solutions (Git, Team Foundation Server), and industry practices such as code reviews.",
+            "desc": "Good software starts with good processes. I can audit your current development workflow and help you implement practices that actually stick — Agile methodologies, source control with Git or TFS, CI/CD pipelines in Azure DevOps, code review culture, and infrastructure management across environments. I've done this from scratch and I've done it in teams resistant to change.",
             "image": "softdevProc"
         },
         {
             "id": 6,  
             "title": "Team Management",
-            "desc": "Throughout my career I have managed small teams that include onsite and offshore or distributed team members. I have coordinated migrations and integrations, collaborated with stakeholders, and guided DevOps practices. I am also able to mentor junior team members and gain team buy-in for adhering to best practices.",
+            "desc": "I've led onsite and offshore teams, coordinated cross-functional deliveries, and mentored developers at the start of their careers. I know how to get teams moving in the same direction — and how to keep them there. Whether you need someone to manage a project, provide technical leadership, or simply help a junior developer level up, I can help.",
             "image": "teamMan"
         }
     ]
