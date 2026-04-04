@@ -1,9 +1,9 @@
 var textContent_ES = {
   "intro": {
     "paragraphs": [
-      "Soy un Desarrollador Senior de .NET y Azure con más de 15 años de experiencia construyendo soluciones de software en diversas industrias. Me especializo en .NET, Azure, C# y SQL, y me apasiona resolver problemas complejos y entregar código de alta calidad.",
-      "Creo en mantener un equilibrio saludable entre el trabajo y la vida personal que impulse tanto la excelencia profesional como la realización personal.",
-      "En mi tiempo libre disfruto del cine, leyendo un buen libro o cocinando una buena comida con familia y amigos. No dudes en explorar mi sitio web para conocer más sobre mí y mi trabajo.",
+      "Llevo los últimos 15 años haciendo lo que me apasiona: crear software que resuelve problemas reales. Me especializo en arquitectura cloud de Azure, desarrollo de APIs e integraciones de sistemas — el tipo de trabajo que conecta plataformas, automatiza la complejidad y hace que los sistemas distribuidos sean verdaderamente fiables. Como Microsoft Certified Azure Developer, no solo escribo código que corre en la nube; diseño y gestiono la infraestructura a su alrededor. En el backend me siento igual de cómodo implementando nuevas funcionalidades, corrigiendo errores o refactorizando código heredado que lleva años acumulando deuda técnica.",
+      "Creo que el buen trabajo y una vida plena van de la mano. El mejor código, como las mejores ideas, surge de personas curiosas, descansadas e inspiradas. Me mantengo al día adoptando nuevas herramientas — incluyendo la IA, que uso a diario para acelerar el desarrollo, mejorar la calidad del código y explorar soluciones más inteligentes con mayor rapidez.",
+      "Cuando no estoy frente a una pantalla, me encontrarás en el cine, perdido en un buen libro, o cocinando algo ambicioso para familia y amigos. Echa un vistazo — me encantaría que me conocieras a mí y a mi trabajo.",
       "¡Hasta la vista!"
     ],
     "optionMenu": "Intro",
@@ -12,12 +12,12 @@ var textContent_ES = {
   },
   "techSkills": {
     "paragraphs": [
-      "Me considero un desarrollador full-stack capaz de contribuir a proyectos en todas sus facetas. La mayor parte de mi experiencia ha sido con tecnologías de Microsoft, incluyendo amplia experiencia con C#, .NET (desde .NET 6 hasta .NET 10), ASP.NET Core, Entity Framework y SQL Server. Me especializo en servicios cloud de Azure como App Services, Functions, Service Bus, API Management y Key Vault.",
-      "Para proyectos de desarrollo web he trabajado con HTML/CSS y JavaScript incluyendo frameworks como React, Angular y jQuery. Tengo amplia experiencia con pipelines CI/CD usando Azure DevOps, contenedorización con Docker y arquitectura de microservicios.",
-      "A continuación se muestra una breve lista de mis habilidades."
+      "Mi base es Azure y .NET — C#, .NET 6 hasta .NET 10, ASP.NET Core y Entity Framework en el lado del desarrollo, y una profunda especialización en Azure que abarca App Services, Azure Functions, Service Bus, API Management, Azure Front Door, Key Vault y más. Estoy certificado como Azure Developer Associate (AZ-204) y llevo años no solo escribiendo código para la nube, sino siendo responsable de la infraestructura, los pipelines y la seguridad a su alrededor.",
+      "El diseño de APIs y la integración de sistemas son donde realizo algunos de mis mejores trabajos. He construido y mantenido APIs desde cero, conectado plataformas que no estaban diseñadas para comunicarse entre sí, y desarrollado microservicios que gestionan carga real en producción. También integro herramientas de IA en mi flujo de trabajo diario — usándolas para acelerar el desarrollo, escribir mejores tests y abordar problemas complejos con mayor rapidez. En el frontend me defiendo con React, Angular, TypeScript y jQuery cuando el proyecto lo requiere — pero seré honesto: el backend y la nube son donde realmente me siento en casa.",
+      "Aquí tienes un resumen de las herramientas y tecnologías con las que trabajo."
     ],
-    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry",
-    "concepts": "Proceso de desarrollo de software (Agile, Scrum), bases de datos relacionales, modelado de datos, programación orientada a objetos, TDD, MVC, arquitectura n-tier, principios SOLID, Microservicios, pipelines CI/CD, patrón Outbox",
+    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome",
+    "concepts": "Proceso de desarrollo de software (Agile, Scrum), bases de datos relacionales, modelado de datos, programación orientada a objetos, TDD, MVC, arquitectura n-tier, principios SOLID, Microservicios, pipelines CI/CD, patrones de diseño",
     "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman, GitHub Copilot, Claude",
     "optionMenu": "Tecnologías",
     "subTitle1" : "Desarrollo",

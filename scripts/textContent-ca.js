@@ -1,9 +1,9 @@
 var textContent_CA = {
   "intro": {
     "paragraphs": [
-      "Sóc un Desenvolupador Sènior de .NET i Azure amb més de 15 anys d'experiència construint solucions de programari en diverses indústries. M'especialitzo en .NET, Azure, C# i SQL, i m'apassiona resoldre problemes complexos i lliurar codi d'alta qualitat.",
-      "Crec en mantenir un equilibri saludable entre la feina i la vida personal que impulsi tant l'excel·lència professional com la realització personal.",
-      "En el meu temps lliure gaudeixo del cinema, llegint un bon llibre o cuinant un bon àpat amb família i amics. No dubtis a explorar el meu lloc web per conèixer més sobre mi i la meva feina.",
+      "Porto els últims 15 anys fent el que m'apassiona: crear programari que resol problemes reals. M'especialitzo en arquitectura cloud d'Azure, desenvolupament d'APIs i integracions de sistemes — el tipus de feina que connecta plataformes, automatitza la complexitat i fa que els sistemes distribuïts siguin veritablement fiables. Com a Microsoft Certified Azure Developer, no només escric codi que s'executa al núvol; dissenyo i gestiono la infraestructura al seu voltant. Al backend em sento igual de còmode implementant noves funcionalitats, corregint errors o refactoritzant codi heretat que porta anys acumulant deute tècnic.",
+      "Crec que la bona feina i una vida plena van de la mà. El millor codi, com les millors idees, sorgeix de persones curioses, descansades i inspirades. Em mantinc al dia adoptant noves eines — incloent la IA, que faig servir cada dia per accelerar el desenvolupament, millorar la qualitat del codi i explorar solucions més intel·ligents amb major rapidesa.",
+      "Quan no estic davant d'una pantalla, em trobaràs al cinema, perdut en un bon llibre, o cuinant alguna cosa ambiciosa per a família i amics. Fes una ullada — m'encantaria que em coneguessis a mi i a la meva feina.",
       "A reveure!"
     ],
     "optionMenu": "Intro",
@@ -12,13 +12,13 @@ var textContent_CA = {
   },
   "techSkills": {
     "paragraphs": [
-      "Em considero un desenvolupador full-stack capaç de contribuir en totes les vessants dels projectes. La majoria de la meva experiència ha estat amb tecnologies de Microsoft, incloent àmplia experiència amb C#, .NET (des de .NET 6 fins a .NET 10), ASP.NET Core, Entity Framework i SQL Server. M'especialitzo en serveis cloud d'Azure com App Services, Functions, Service Bus, API Management i Key Vault.",
-      "Per a projectes de desenvolupament web he treballat amb HTML/CSS i JavaScript incloent frameworks com React, Angular i jQuery. Tinc àmplia experiència amb pipelines CI/CD utilitzant Azure DevOps, contenidors amb Docker i arquitectura de microserveis.",
-      "A continuació es mostra una breu llista d'habilitats del meu currículum."
+      "La meva base és Azure i .NET — C#, .NET 6 fins a .NET 10, ASP.NET Core i Entity Framework en el costat del desenvolupament, i una profunda especialització en Azure que abasta App Services, Azure Functions, Service Bus, API Management, Azure Front Door, Key Vault i més. Estic certificat com a Azure Developer Associate (AZ-204) i porto anys no només escrivint codi per al núvol, sinó sent responsable de la infraestructura, els pipelines i la seguretat al seu voltant.",
+      "El disseny d'APIs i la integració de sistemes són on realitzo alguns dels meus millors treballs. He construït i mantingut APIs des de zero, connectat plataformes que no estaven dissenyades per comunicar-se entre elles, i desenvolupat microserveis que gestionen càrrega real en producció. També integro eines d'IA en el meu flux de treball diari — fent-les servir per accelerar el desenvolupament, escriure millors tests i abordar problemes complexos amb major rapidesa. Al frontend em defenso amb React, Angular, TypeScript i jQuery quan el projecte ho requereix — però seré honest: el backend i el núvol són on em sento veritablement a casa.",
+      "Aquí tens un resum de les eines i tecnologies amb les quals treballo."
     ],
-    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry",
-    "concepts": "Procés de desenvolupament de programari (Agile, Scrum), bases de dades relacionals, modelatge de dades, programació orientada a objectes, TDD, MVC, arquitectura n-tier, principis SOLID, Microserveis, pipelines CI/CD, patró Outbox",
-    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman",
+    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome",
+    "concepts": "Procés de desenvolupament de programari (Agile, Scrum), bases de dades relacionals, modelatge de dades, programació orientada a objectes, TDD, MVC, arquitectura n-tier, principis SOLID, Microserveis, pipelines CI/CD, patrons de disseny",
+    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman, GitHub Copilot, Claude",
     "optionMenu": "Tecnologies",
     "subTitle1": "Desenvolupament",
     "subTitle2": "Conceptes",
