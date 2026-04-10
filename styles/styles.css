@@ -1,9 +1,101 @@
+.education-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .education-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .education-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .experience-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+    .mainContainer {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+.card-image {
+    width: 100%;
+    height: 240px;
+    min-width: 280px;
+    min-height: 340px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        height: 100%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 100px;
+}
+.cardImg {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 40px;
+}
+.experience-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 html {
     scrollbar-width: none;
+    overflow-x: hidden;
 }
 
 html::-webkit-scrollbar {
     display: none;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 h2 {
@@ -69,11 +161,32 @@ nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 
 #body {
     margin: 0px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Manrope", "Segoe UI", sans-serif;
 }
 
 #intro, #educationContainer, #miscContainer, #personalSkillsContainer {
-    background-color: #F3F3F3;
+    background-color: #ffffff;
+}
+
+#intro {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#intro .intro {
+    width: 100%;
+    text-align: left;
+}
+
+@media (min-width: 769px) {
+    #intro .intro {
+        min-width: 105%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
 
 hr {
@@ -81,8 +194,17 @@ hr {
 }
 
 .mainContainer {
-    padding: 0px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    padding: 0;
     width: 100%;
+    max-width: 100%;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
 }
 
 .intro, .techSkills, .personalSkills, .experience, .education, .services, .misc, .contact, .footer {
@@ -91,7 +213,33 @@ hr {
     margin: 0 auto;
 }
 
-.wellcome {
+#experienceContainer {
+    position: relative;
+}
+
+#experienceContainer .experience {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#experienceContainer .slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#experienceContainer .slick-prev {
+    left: 10px !important;
+    z-index: 1;
+}
+
+#experienceContainer .slick-next {
+    right: 10px !important;
+    z-index: 1;
+}
+
+.welcome {
     color: #245580;
     font-size: 0.9em;
     background-color: #fff;
@@ -120,6 +268,7 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    position: relative;
 }
 
 .contactForm {
@@ -128,7 +277,7 @@ hr {
     width: 70%;
     margin: 0 auto;
 }
-
+        /* min-width removed for more flexible sizing */
 .contactEmail, #contactEmail {
     padding: 0px !important;
     margin: 0px !important;
@@ -163,6 +312,14 @@ hr {
     padding: 50px;
     border-left: 10px solid steelblue;
     border-right: 10px solid steelblue;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+min-width: fit-content;
+      padding-top: 10%;
+    padding-bottom: 10%;
+   
+        padding-left: 20%;
+        padding-right: 20%;
+   
 }
 
 .linksContainer {
@@ -192,15 +349,25 @@ hr {
 }
 
 .btnSelectLang {
-    border-radius: 40px;
-    width: 25px;
-    height: 25px;
+    border-radius: 50%;
+    padding: 5px 10px;
     border: none;
     margin-bottom: 5px;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    background: white;
+    color: #265b8a;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.lang-selected {
-    box-shadow: 0px 0px 1px 1px #265b8a;
+.btnSelectLang:hover {
+    opacity: 1;
+}
+
+.btnSelectLang.lang-selected {
+    opacity: 1 !important;
+    border: 1px solid #265b8a;
 }
 
 .catalonia {
@@ -218,7 +385,69 @@ hr {
 .navbar-default .navbar-brand {
     font-size: xx-large;
     font-weight: bolder;
-    color: #265b8a !important;
+    color: #6d3f9a !important;
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    padding: 0 15px;
+    height: 50px;
+}
+
+.navbar-header {
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.lang-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.lang-buttons .btnSelectLang {
+    margin: 0 2px;
+    padding: 5px 5px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#mainNav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Only apply flex to linksGroup on larger screens where navbar is expanded */
+@media (min-width: 768px) {
+    #linksGroup {
+        display: flex !important;
+        align-items: center;
+    }
+    
+    #linksGroup.collapse {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #linksGroup {
+        width: 100%;
+    }
+    
+    #linksGroup.collapse:not(.in) {
+        display: none !important;
+    }
+    
+    #linksGroup.collapse.in {
+        display: block !important;
+    }
+    
+    .navbar-header {
+        width: 100%;
+        justify-content: space-between;
+    }
 }
 
 .float-button {
@@ -306,6 +535,54 @@ hr {
     padding-bottom: 2%;
 }
 
+#techSkillsContainer #pdfsContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#experienceTitleContainer,
+#techSkillsTitleContainer,
+#educationTitleContainer,
+#miscTitleContainer {
+    text-align: center;
+    background-color: #265b8a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#techSkillsTitleContainer {
+    background-position: center 20%;
+}
+
+#experienceTitleContainer {
+    background-position: center 40%;
+}
+
+#educationTitleContainer {
+    background-position: center 60%;
+}
+
+#miscTitleContainer {
+    background-position: center 80%;
+}
+
+.servicesTitle {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.experienceTitle {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+}
+
 #pdfsContainer table {
     margin-left: auto;
     margin-right: auto;
@@ -358,11 +635,15 @@ hr {
     .introStart {
         font-size: 22px;
     }
-    .intro, .techSkills, .personalSkills, .education, .misc, .services, .experienceInfo, .contactItem p {
+    .intro, .techSkills, .personalSkills, .education, .misc, .services, .contactItem p {
         font-size: 15px;
     }
     .experience {
         padding: 50px 0px 50px 0px;
+    }
+    .experienceInfo{
+        padding-left: 2%;
+        padding-right: -1%;    
     }
     .experienceInfo h1 {
         font-size: 22px;
@@ -441,11 +722,15 @@ hr {
     .introStart {
         font-size: 40px;
     }
-    .intro, .techSkills, .personalSkills, .education, .misc, .experienceInfo, .contactItem p {
+    .intro, .techSkills, .personalSkills, .education, .misc,  .contactItem p {
         font-size: 21px;
     }
     .experience {
         padding: 50px 0px 50px 0px;
+    }
+    .experienceInfo{
+       padding-left: 10%;
+    padding-right: 10%;
     }
     .experienceInfo h1 {
         font-size: 24px;
@@ -604,11 +889,18 @@ hr {
         font-size: 21px;
     }
     .services {
-        font-size: 18px;
+        font-size: 15px;
+    }
+    #servicesList {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
     }
     .service-item {
-        height: 350px;
-        width: 48% !important;
+        height: 340px;
+        width: 46% !important;
+        margin-bottom: 24px;
+        font-size: 15px;
     }
     #closeInfo {
         margin-top: 3%;

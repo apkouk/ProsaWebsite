@@ -30,11 +30,7 @@ function loadOptionsMenu() {
 
     option = $("#techOption");
     option.empty();
-    option.text(textContent.techSkills.optionMenu);
-
-    option = $("#skillsOption");
-    option.empty();
-    option.text(textContent.personalSkills.optionMenu);
+    option.text(textContent.services.optionMenu);
 
     option = $("#experienceOption");
     option.empty();
@@ -44,25 +40,27 @@ function loadOptionsMenu() {
     option.empty();
     option.text(textContent.education.optionMenu);
 
-    option = $("#servicesOption");
-    option.empty();
-    option.text(textContent.services.optionMenu);
-
     option = $("#miscOption");
     option.empty();
-    option.text("Misc");
+    option.text(textContent.misc.optionMenu);
 
     option = $("#contactOption");
     option.empty();
     option.text(textContent.socialMedia.optionMenu);
 
-    option = $("#wellcome");
+    option = $("#welcome");
     option.empty();
-    option.text(textContent.intro.wellcome);
+    option.text(textContent.intro.welcome);
 
-    option = $("#btnWellcome");
+    option = $("#btnwelcome");
     option.empty();
-    option.text(textContent.intro.btnWellcome);
+    option.text(textContent.intro.btnwelcome);
+
+    // Section titles
+    $("#techSkillsTitle").text(textContent.services.optionMenu);
+    $("#experienceTitle").text(textContent.experiences.optionMenu);
+    $("#educationTitle").text(textContent.education.optionMenu);
+    $("#miscTitle").text(textContent.misc.optionMenu);
 }
 
 var textContent;
@@ -70,16 +68,24 @@ function loadTextContent(lang) {
     if (lang == undefined)
         lang = "en";
 
+    // Remove selected class from all language buttons
+    $("#lang-en").removeClass("lang-selected");
+    $("#lang-ca").removeClass("lang-selected");
+    $("#lang-es").removeClass("lang-selected");
+
     textContent = "";
     switch (lang) {
         case "en":
             textContent = textContent_EN;
+            $("#lang-en").addClass("lang-selected");
             break;
         case "es":
             textContent = textContent_ES;
+            $("#lang-es").addClass("lang-selected");
             break;
         case "ca":
             textContent = textContent_CA;
+            $("#lang-ca").addClass("lang-selected");
             break;
     }
 }
@@ -100,10 +106,6 @@ function canUseWebP() {
 function addHandlers() {
     resizingElement();
 
-    $("#lang-en").removeClass("lang-selected");
-    $("#lang-ca").removeClass("lang-selected");
-    $("#lang-es").removeClass("lang-selected");
-
     $("#lang-en").click(function () {
         $(location).prop("href", window.location.href.replace(window.location,'')  + "?lang=en");               
     });
@@ -116,76 +118,6 @@ function addHandlers() {
         $(location).prop("href", window.location.href.replace(window.location,'')  + "?lang=es");        
     });
 }
-
-function loadCarrousel() {
-    //$('.carrousel').unslick();
-    $('.carrousel').slick({
-        // prev arrow
-        prevArrow: '<button type="button" data-role="none" class="slick-prev">Previous</button>',
-
-        // next arrow
-        nextArrow: '<button type="button" data-role="none" class="slick-next">Next</button>',
-
-        // Enables auto play of slides
-        autoplay: true,
-
-        // Auto play change interval
-        autoplaySpeed: 5000,
-
-        // Current slide indicator dots
-        dots: true,
-
-        // Class for slide indicator dots container
-        dotsClass: 'slick-dots',
-
-        // Target containet to respond to
-        respondTo: 'window',
-
-        slidesToShow: 3,
-
-        infinite: false,
-
-        accessibility: true,
-
-        initialSlide: 0,
-
-        // Breakpoint triggered settings
-        responsive: [
-            {
-                breakpoint: 1648,
-                settings: {
-                    slidesToShow: 2,
-                    infinite: true
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    infinite: true
-                }
-            },
-            {
-                breakpoint: 300,
-                settings: "unslick" // destroys slick
-            }]
-
-    });
-
-    let experiences = [];
-    $.each(textContent.experiences, function (i, experience) {
-        if (experience.company != undefined) {
-            experiences.push(experience);
-        }
-    });
-
-    $.each(experiences.sort(SortById), function (i, experience) {
-        $(experience.slickitem).click(function () {
-            buildExperienceInfo(experience);
-        });
-    });
-}
-
 
 function initSections() {
     //intro
@@ -247,9 +179,8 @@ function personal() {
 }
 
 function education() {
-    var educationSection = $(".education");
+    var educationSection = $(".education-grid");
     educationSection.empty();
-    educationSection.append("<h2>" + textContent.education.optionMenu + "</h2>");
     $.each(textContent.education.collection, function (i, item) {
 
         var education = $("<div>", { class: "educationChunk" });
@@ -299,7 +230,7 @@ function services() {
 function misc() {
     var miscSection = $(".misc");
     miscSection.empty();
-    miscSection.append("<h2>" + textContent.misc.optionMenu + "</h2><hr>");
+    miscSection.append("<h2>" + textContent.misc.title + "</h2><hr>");
     $.each(textContent.misc.books, function (i, book) {
         miscSection.append("<ul><li><p><cite>" + book.title + "</cite></br> " + book.author + "</p></li></ul>");
     });

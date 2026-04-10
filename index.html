@@ -8,22 +8,13 @@
         content="This my personal website which is like a kind of curriculum vitae. Aquesta és la meva web personal que és com si fos el meu curriculum vitae. Esta es mi web personal que es como si fuera mi curriculum vitae.">
     <title>Prosa</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 
 <body id="body">
-    <div class="float-button">
-        <div>
-            <input id="lang-en" type="button" class="btnSelectLang uk">
-            <br>
-            <input id="lang-ca" type="button" class="btnSelectLang catalonia" style="border: 1px solid white ">
-            <br>
-            <input id="lang-es" type="button" class="btnSelectLang spain">
-        </div>
-        <!-- <div class="bootstrapHelper" style="height: 15px; width: 15px;">
-        </div>       -->
-    </div>
-
     <div id="page" class="container-fluid">
         <div id="navBar" class="navbar-expand-lg">
             <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix">
@@ -31,10 +22,15 @@
                     style="border-radius: 10px;margin-top: 2px;/* margin: 2px; */margin-bottom: 1px;color: white;">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header page-scroll">
+                        <a class="navbar-brand page-scroll" href="#page">
+                            <span style="display: flex; align-items: center;">
+                                <img src="src/images/prosa-logo-lila.png" alt="Prosa Logo" style="height:32px; margin-right:8px;" />
+                                <span>prosa</span>
+                            </span>
+                        </a>
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#linksGroup">
                             <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand page-scroll" href="#page">#prosa</a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,16 +43,10 @@
                                 <a id="techOption" class="page-scroll" href="#techSkillsContainer"></a>
                             </li>
                             <li>
-                                <a id="skillsOption" class="page-scroll" href="#personalSkillsContainer"></a>
-                            </li>
-                            <li>
                                 <a id="experienceOption" class="page-scroll" href="#experienceContainer"></a>
                             </li>
                             <li>
                                 <a id="educationOption" class="page-scroll" href="#educationContainer"></a>
-                            </li>
-                            <li>
-                                <a id="servicesOption" class="page-scroll" href="#serviciesContainer"></a>
                             </li>
                             <li>
                                 <a id="miscOption" class="page-scroll" href="#miscContainer"></a>
@@ -77,36 +67,32 @@
 
             <div id="introContainer" class="row introImage">
                 <div class="introStart navbar-items">
-                    <p id="wellcome" class="wellcome">
+                    <p id="welcome" class="welcome">
                     </p>
-                    <a id="btnWellcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row"
+                    <a id="btnwelcome" class="btn btn-primary btn-xl text-uppercase js-scroll-trigger row"
                         style="font-weight: bolder; border:none; " href="#intro"></a>
                 </div>
-
+                <div class="lang-buttons">
+                    <button id="lang-en" type="button" class="btnSelectLang" title="English">EN</button>
+                    <button id="lang-ca" type="button" class="btnSelectLang" title="Català">CA</button>
+                    <button id="lang-es" type="button" class="btnSelectLang" title="Español">ES</button>
+                </div>
             </div>
             <div id="intro" class="row">
                 <div class="col intro">
                 </div>
             </div>
             <div id="techSkillsContainer" class="row">
-                <div class="col techSkills">
-                </div>
-            </div>
-            <div id="personalSkillsContainer" class="row">
-                <div class="col personalSkills">
-                </div>
-            </div>
-            <div id="experienceContainer" class="container-fluid">
-                <div class="row experience">
-                    <div class="slider carrousel">
+                <div id="techSkillsTitleContainer" class="row" style="background-image: url('src/images/worldMap.webp');">
+                    <div id="techSkillsTitle" class="col-lg-12 servicesTitle">
                     </div>
                 </div>
-            </div>
-            <div id="educationContainer" class="row">
-                <div class="col education">
+                <div class="col techSkills">
                 </div>
-            </div>
-            <div id="serviciesContainer" class="row">
+                <div id="servicesTitleContainer" class="row" style="background-image: url('src/images/worldMap.webp');">
+                    <div id="servicesTitle" class="col-lg-12 servicesTitle">
+                    </div>
+                </div>
                 <div class="col services">
                     <div id="servicesList" class="container-fluid">
                         <div class="row service">
@@ -114,37 +100,42 @@
                     </div>
                 </div>
             </div>
+            <div id="personalSkillsContainer" class="row">
+                <div class="col personalSkills">
+                </div>
+            </div>
+            <div id="experienceContainer" class="row">
+                <div id="experienceTitleContainer" class="row" style="background-image: url('src/images/worldMap.webp');">
+                    <div id="experienceTitle" class="col-lg-12 experienceTitle">
+                    </div>
+                </div>
+                <div class="row experience container-fluid">
+                    <div class="experience-grid" style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: center;">
+                        <!-- Experience items will be rendered here as grid cards -->
+                    </div>
+                </div>
+            </div>
+            <div id="educationContainer" class="row">
+                <div id="educationTitleContainer" class="row" style="background-image: url('src/images/worldMap.webp');">
+                    <div id="educationTitle" class="col-lg-12 experienceTitle">
+                    </div>
+                </div>
+                <div class="col education" style="min-width: 100% !important;">
+                    <div class="education-grid" width="100%" style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: center;">
+                        <!-- Education items will be rendered here as grid cards -->
+                    </div>
+            </div>
             <div id="miscContainer" class="row">
+                <div id="miscTitleContainer" class="row" style="background-image: url('src/images/worldMap.webp');">
+                    <div id="miscTitle" class="col-lg-12 experienceTitle">
+                    </div>
+                </div>
                 <div class="col misc">
                 </div>
             </div>
-            <div id="pdfsContainer" class="row" style="background-image: url('src/images/worldMap.webp');">    
-                <h4 style="color: white; font-weight: bolder; ">Curriculum Vitae (.pdf)</h4>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <a class="btn btnSelectLang uk" href="src/cvs/ProsaResume-ENG.pdf"
-                                    download></a>
-                                    ENG
-                            </td>
-                            <td>
-                                <a class="btn btnSelectLang catalonia" href="src/cvs/ProsaResume-CAT.pdf"
-                                    download></a>
-                                    CAT
-                            </td>
-
-                            <td>
-                                <a class="btn btnSelectLang spain" href="src/cvs/ProsaResume-ESP.pdf"
-                                    download></a>
-                                    ESP
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div id="pdfsContainer" class="row" style="background-image: url('src/images/worldMap.webp');">
             </div>
             <div id="contactContainer" class="row">
-
                 <div class="col contact">
                 </div>
                 <div id="contactEmail" class="row">
@@ -216,9 +207,9 @@
 <link rel="stylesheet" type="text/css" href="scripts/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="scripts/bootstrap/dist/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="styles/cards.css">
-<link rel="stylesheet" type="text/css" href="styles/styles.css">
 <link rel="stylesheet" href="scripts/slick/slick.css">
 <link rel="stylesheet" href="scripts/slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
 
 <script type="text/javascript">
     new ActiveMenuLink(".navbar", {
@@ -245,7 +236,6 @@
         var url = new URL(window.location.href);
         loadTextContent(url.searchParams.get("lang"));
         buildPage();
-        loadCarrousel();
     });
 
 </script>

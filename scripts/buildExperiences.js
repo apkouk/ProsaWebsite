@@ -1,5 +1,5 @@
 function experience() {
-  var experienceSection = $(".carrousel");
+  var experienceSection = $(".experience-grid");
   experienceSection.empty();
 
   let experiences = [];
@@ -13,7 +13,7 @@ function experience() {
 
     if (experience.company != undefined) {
 
-      var card = $("<a>", { id: experience.id, class: "col-sm-6 col-md-auto col-lg-4 card" });
+      var card = $("<a>", { id: experience.id, target: "_blank" });
 
       var cardContainer = $("<div>", { id: experience.ref, class: "col card-container" });
       var cardImageDiv = $("<div>", { class: "card-image" });
@@ -31,6 +31,10 @@ function experience() {
       cardContainer.append(cardRole);
       card.append(cardContainer);
       experienceSection.append(card);
+
+       $(cardContainer).click(function () {
+            buildExperienceInfo(experience);
+        });
     }
   });
 }
@@ -46,9 +50,7 @@ function buildExperienceInfo(experience) {
   var experienceInfo = $(".experienceInfo");
   experienceInfo.empty();
   experienceInfo.append("<input id='closeInfo' type='image' src='src/images/close.png' />");
-
-  var width = $(".experience").width();
-  experienceInfo.css("margin", "0 auto");
+  
 
   var expHeader = $("<div>", { class: "expHeader" });
   // expHeader.append("<h1>" + experience.company  +"</h1>");
@@ -58,7 +60,7 @@ function buildExperienceInfo(experience) {
   // expHeader.append("<hr>");
   expHeader.append("<h2>" + experience.role + "</b>");
   expHeader.append("<h4>" + experience.city + ", " + experience.dateStart + "-" + experience.dateEnd + "</h4>");
-  expHeader.append("<a href='" + experience.website + "'>" + experience.website + "</a></br>");
+  expHeader.append("<a href='" + experience.website + "' target='_blank'>" + experience.website + "</a></br>");
   expHeader.append("<hr>");
   expHeader.append("<p>" + experience.description + "</p>");
   experienceInfo.append(expHeader);

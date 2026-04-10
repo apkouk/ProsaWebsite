@@ -1,25 +1,24 @@
 var textContent_ES = {
   "intro": {
     "paragraphs": [
-      "Mi nombre es Francisco pero todos me llaman Paco i me gano la vida como desarrolador de software.",
-      "He estado creando diversas soluciones de software para varios clientes desde 2009. Lo que más me gusta son los desafíos y resolver problemas, mejorando mis capacidades a diario. Me encanta ayudar a mis clientes y compañeros y ver cómo los proyectos maduran y crecen. Me inspira ser parte de un equipo con un objetivo común y me despierto todos los días motivado para hacer las cosas. En el día a día el trabajo me proporciona una gran satisfacción y la resolución de problemas es una de mis fortalezas y algo con lo que realmente disfruto.",
-      "También me apasiona aprender, conocer nuevos lugares y conocer gente nueva. Tengo la suerte de que mi carrera en el desarrollo me haya brindado la oportunidad de hacer las tres cosas.",
-      "En mi tiempo libre disfruto aprendiendo y tocando la guitarra, leyendo un buen libro o cocinando un buen festín con amigos. Aparte me encanta poder enseñar mis conocimientos dando clases particulares de programación. También me inscribo a cursos de humanidades cuando la ocasión lo merece para no olvidar mi parte más 'humana'. No dudes en echar un vistazo a mi sitio web para aprender más sobre mí y mi trabajo.",
+      "Llevo los últimos 15 años haciendo lo que me apasiona: crear software que resuelve problemas reales. Me especializo en arquitectura cloud de Azure, desarrollo de APIs e integraciones de sistemas — el tipo de trabajo que conecta plataformas, automatiza la complejidad y hace que los sistemas distribuidos sean verdaderamente fiables. Como Microsoft Certified Azure Developer, no solo escribo código que corre en la nube; diseño y gestiono la infraestructura a su alrededor. En el backend me siento igual de cómodo implementando nuevas funcionalidades, corrigiendo errores o refactorizando código heredado que lleva años acumulando deuda técnica.",
+      "Creo que el buen trabajo y una vida plena van de la mano. El mejor código, como las mejores ideas, surge de personas curiosas, descansadas e inspiradas. Me mantengo al día adoptando nuevas herramientas — incluyendo la IA, que uso a diario para acelerar el desarrollo, mejorar la calidad del código y explorar soluciones más inteligentes con mayor rapidez.",
+      "Cuando no estoy frente a una pantalla, me encontrarás en el cine, perdido en un buen libro, o cocinando algo ambicioso para familia y amigos. Echa un vistazo — me encantaría que me conocieras a mí y a mi trabajo.",
       "¡Hasta la vista!"
     ],
-    "optionMenu": "Introducción",
-    "wellcome" : "Bienvenido a mi website",
-    "btnWellcome" : "Explícame más..."
+    "optionMenu": "Intro",
+    "welcome" : "Bienvenido a mi website",
+    "btnwelcome" : "Explícame más..."
   },
   "techSkills": {
     "paragraphs": [
-      "Me considero un desarrollador full-stack capaz de contribuir a proyectos en todas sus facetas. La mayor parte de mi experiencia ha sido con tecnologías de Microsoft, incluida una amplia experiencia en el uso de C#, ASP.NET, Web Forms y SQL Server. Me siento cómodo usando una herramientas de Microsoft, incluidas varias versiones de Visual Studio, Entity Framework, Team Foundation Server y Git. ",
-      "Para proyectos de desarrollo web he trabajado con HTML/CSS y JavaScript, incluidos varios frameworks y librerias populares como ASP.NET, Telerik, Bootstrap, Angular, Slick y jQuery. También tengo experiencia en el uso de herramientas cloud de Azure y Amazon Web Services.",
-      "A continuación se muestra una breve lista de mis habilidades."
+      "Mi base es Azure y .NET — C#, .NET 6 hasta .NET 10, ASP.NET Core y Entity Framework en el lado del desarrollo, y una profunda especialización en Azure que abarca App Services, Azure Functions, Service Bus, API Management, Azure Front Door, Key Vault y más. Estoy certificado como Azure Developer Associate (AZ-204) y llevo años no solo escribiendo código para la nube, sino siendo responsable de la infraestructura, los pipelines y la seguridad a su alrededor.",
+      "El diseño de APIs y la integración de sistemas son donde realizo algunos de mis mejores trabajos. He construido y mantenido APIs desde cero, conectado plataformas que no estaban diseñadas para comunicarse entre sí, y desarrollado microservicios que gestionan carga real en producción. También integro herramientas de IA en mi flujo de trabajo diario — usándolas para acelerar el desarrollo, escribir mejores tests y abordar problemas complejos con mayor rapidez. En el frontend me defiendo con React, Angular, TypeScript y jQuery cuando el proyecto lo requiere — pero seré honesto: el backend y la nube son donde realmente me siento en casa.",
+      "Aquí tienes un resumen de las herramientas y tecnologías con las que trabajo."
     ],
-    "devSkills": "C#, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EFCore, Telerik, Solcuiones en Azure, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome, Oracle, SQL, CloudantDb, CosmoDb",
-    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles",
-    "tools": "TFS, Git, GitHub, Visual Studio 2019, Visual Studio Code, MSSQL Mangement Studio, Azure, Amazon Web Services, Notepad++, Atom, JetBrains Resharper, Docker, Source Tree, Postman",
+    "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome",
+    "concepts": "Proceso de desarrollo de software (Agile, Scrum), bases de datos relacionales, modelado de datos, programación orientada a objetos, TDD, MVC, arquitectura n-tier, principios SOLID, Microservicios, pipelines CI/CD, patrones de diseño",
+    "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman, GitHub Copilot, Claude",
     "optionMenu": "Tecnologías",
     "subTitle1" : "Desarrollo",
     "subTitle2" : "Conceptos",
@@ -27,69 +26,54 @@ var textContent_ES = {
   },
   "personalSkills": {
     "paragraphs": [
-      "Además de ofrecer un sólido conjunto de habilidades técnicas prácticas, creo que mis habilidades interpersonales y mi visión empresarial son activos adicionales que ofrezco a mis clientes. Me siento cómodo en roles de cara al cliente que requieren habilidades blandas para negociar entregables y administrar expectativas de los grupos de interés. ",
-      "A lo largo de mi carrera he gestionado con éxito varios proyectos. Trabajé como analista para recopilar los requisitos de los usuarios y redacté documentación detallada de los mismos. También he gestionado equipos de desarrollo en el extranjero y puedo mentorizar las integrantes de nivel junior del equipo.",
-      "Mis habilidades analíticas son otra fortaleza, y regularmente he podido identificar y resolver ineficiencias dentro de los procesos de desarrollo que han mejorado la velocidad de entrega.",
-      "Soy hablante nativo de español y catalán y puedo hablar fluidamente en inglés."
+      "La profundidad técnica solo llega hasta cierto punto. Lo que me distingue es mi capacidad para trabajar con personas — no solo con sistemas. Me siento cómodo en roles de cara al cliente, negociando entregables, gestionando expectativas y asegurándome de que todos estén alineados en lo que significa el éxito.",
+      "A lo largo de mi carrera he llevado muchos sombreros: desarrollador, analista de negocio, jefe de proyecto y líder de equipo. He recopilado requisitos directamente de los usuarios finales, redactado especificaciones detalladas y gestionado equipos de desarrollo en el extranjero a través de distintas zonas horarias. Disfruto genuinamente mentorizando a desarrolladores junior y viendo cómo crecen.",
+      "Tengo un don para detectar ineficiencias — en el código, en los procesos y en los flujos de trabajo — y convertirlas en oportunidades para entregar más rápido y mejor. También adopto la IA como herramienta de trabajo diaria: la uso para escribir código más preciso, automatizar tareas repetitivas, depurar más rápido y anticiparme a los problemas antes de que lleguen a producción.",
+      "Soy hablante nativo de español y catalán, y trabajo en inglés cada día. Tres idiomas, un desarrollador."
     ],
     "optionMenu": "Skills"
   },
   "experiences": {
     "optionMenu" : "Experiencia",
-    "desktopPublisher": {
-      "id": 1,
-      "ref": "Diseñador/Maquetador",
-      "slickitem":"#slick-slide08",
-      "company": "Varias compañias",
-      "website": "",
-      "city": "Barcelona",
-      "role": "Diseñador/Maquetador",
-      "dateStart": "Dic 2006",
-      "dateEnd": "Ago 2008",
-      "techStack": "",
-      "description": "Antes de entrar en el mundo de la infórmatica trabajé como diseñador/maquetador para varias empresas en el área de Barcelona utilizando mayormente Acrobat, Photoshop, Illustrator, InDesign, Quark, Freehand y ArtiosCad.",
-      "tasks": "",
-      "image": "graphic"
-    },
     "netLife": {
-      "id": 2,
+      "id": 1,
       "ref": "netLife",
-      "slickitem":"#slick-slide07",
+      "slickitem":"#slick-slide08",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
-      "role": "Programador",
+      "role": "Programmer",
       "dateStart": "Dec 2009",
       "dateEnd": "May 2010",
       "techStack": "",
-      "description": "Este fue mi primer trabajo como programador en prácticas montando páginas web usando C# (framework 3.5), ASP.NET, HTML, MS SQL Server y Visual Studio 2010.",
+      "description": "Todo desarrollador recuerda su primer trabajo de verdad. El mío fue aquí — construyendo páginas web desde cero con C#, ASP.NET, HTML, MS SQL Server y Visual Studio 2010. Fue donde me picó el gusanillo, y nunca he mirado atrás.",
       "tasks": "",
       "image": "netlife"
     },
     "btgsa": {
-      "id": 3,
+      "id": 2,
       "ref": "btgsa",
-      "slickitem":"#slick-slide06",
+      "slickitem":"#slick-slide07",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
-      "website": "http://btgsa.com",
+      "website": "https://aggity.com/",
       "role": "Software Engineer",
       "dateStart": "Jun 2010",
       "dateEnd": "Mar 2014",
       "techStack": "C#, Visual Studio, Oracle, MSSQL Server, TFS (Sharepoint integrated), ASP.NET, HTML, Gembase.",
-      "description": "At T&G (ahora Aggity) trabajé como software engineer focalizado en tareas de desarrollo utilizando el stack de Microsoft. También formé a usuarios finales entre otros.",
+      "description": "Los cuatro años en T&G (ahora Aggity) fueron donde realmente crecí como desarrollador. Trabajando en profundidad con el stack de Microsoft, construí funcionalidades, diseñé bases de datos y aprendí que el gran software empieza por entender lo que los clientes realmente necesitan.",
       "tasks": [
-        "Desarrollé y modifiqué funciones del programa de acuerdo con las especificaciones del cliente utilizando Visual Studio 2010, C# y ASP.NET.",
-        "Diseñé e implementé bases de datos de MS SQL Server y Oracle que incluían consultas complejas, procedimientos almacenados y vistas para las migraciones de datos de los nuevos clientes.",
-        "Se corrigieron problemas de software e irregularidades en consultas o procedimientos almacenados (SQL) y en la lógica de negocio en C#.",
-        "Escribí documentación funcional para nuevos clientes y capacité a nuevos usuarios."
+        "Construí y modifiqué funcionalidades de la aplicación según las especificaciones del cliente usando C# y ASP.NET, convirtiendo requisitos en software que funciona.",
+        "Diseñé e implementé bases de datos MS SQL Server y Oracle — consultas complejas, procedimientos almacenados, vistas, integraciones y migraciones de datos para la incorporación de nuevos clientes.",
+        "Rastreé y corregí bugs en la lógica de negocio de SQL y C#, manteniendo los sistemas funcionando sin problemas.",
+        "Escribí documentación para los usuarios finales y formé a nuevos clientes — porque el software solo es tan bueno como las personas que saben usarlo."
       ],
       "image": "aggity"
     },
     "luxtripper": {
-      "id": 4,
+      "id": 3,
       "ref": "luxtripper",
-      "slickitem":"#slick-slide05",
+      "slickitem":"#slick-slide06",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -97,9 +81,8 @@ var textContent_ES = {
       "dateStart": "Ene 2015 ",
       "dateEnd": "Ago 2015",
       "techStack": "",
-      "description": "Startup del sector del turimso de lujo para encontrar destinos a nivel mundial según un algoritmo propio. Implementé la infraestructura mínima (servidores, backups, control de versiones) y los procesos del departamento de software dirigiendo un equipo de cuatro desarrolladores offshore en Pakistán.",
+      "description": "Una startup de viajes de lujo con un algoritmo ambicioso y una infraestructura en blanco. Construí el departamento de software desde cero — servidores, copias de seguridad, control de versiones y procesos — mientras lideraba un equipo de cuatro desarrolladores offshore en Pakistán.",
       "tasks": [
-        "Gestioné varios proyectos internos. Desempeñé funciones como analista de negocios para recopilar y escribir los requisitos para los departamentos de ventas y marketing.",
         "Diseñé e implementé integraciones con terceras API para reservas de hoteles. Prototipé una función de reserva de vuelos.",
         "Se implementó el software de control de versiones TFS y se establecieron procesos sobre el mismo (fusiones de ramas, despliegues, pruebas).",
         "Implementación de servidores de producción, backup y test usando Rackspace y la plataforma Azure. Copias de seguridad automatizadas mediante scripts para que las bases de datos, los servidores de imágenes y el código se pudieran guardar en el servicio Amazon S3.",
@@ -110,29 +93,29 @@ var textContent_ES = {
       "image": "luxtripper"
     },
     "membra": {
-      "id": 5,
+      "id": 4,
       "ref": "membra",
-      "slickitem":"#slick-slide04",
+      "slickitem":"#slick-slide05",
       "company": "Membership Engagement Services",
       "city": "London",
-      "website": "http://membra.co.uk",
+      "website": "https://www.civica.com/",
       "role": "Web Developer",
       "dateStart": "Ago 2015",
       "dateEnd": "Ago 2016",
       "techStack": "",
-      "description": "Se implementaron nuevas características y funcionalidades en un sitio web utilizado por los hospitales de la NHS para recopilar y presentar datos de encuestas a los usuarios (casi no tenían back-end).",
+      "description": "En MES (ahora Civica) contribuí a una plataforma utilizada por hospitales del NHS para recopilar y presentar datos de encuestas de pacientes. Un proyecto con significado — del tipo donde sabes que el trabajo realmente importa a personas reales.",
       "tasks": [
-        "Se modificó sitio web para que fuera responsive y así mejorar la compatibilidad entre dispositivos. Se añadió una barra de progreso para mejorar UI/UX entre otras funcionalidades.",
-        "Implementación de un mantenimiento para todo lo referente a las preguntas/respuestas de encuestas como Ordenar-Modificar-Eliminar (en lugar de hacer cambios directamente en la base de datos).",
-        "Realice múltiples tareas de bases de datos, incluidas tablas dinámicas, creación y diseño de tablas, procedimientos almacenados y optimización de consultas. Hice un scripting para automatizar la importación de datos que mejoró la velocidad de días a solo seis horas.",
-        "Crée una herramienta de administración de arquitectura de tres niveles que automatizaba y optimizaba las tareas de los administradores de proyectos. Desarrollada con Bootstrap, Telerik framework, ASP.NET Webforms, C# y MS SQL Server."
+        "Añadí funcionalidades web responsivas para mejorar la experiencia en todos los dispositivos, y construí una barra de progreso para guiar a los usuarios a través de los flujos de encuesta.",
+        "Implementé la funcionalidad Ordenar-Modificar-Eliminar para preguntas y respuestas de encuestas, permitiendo a los administradores gestionar contenido sin acceso directo a la base de datos.",
+        "Gestioné un amplio abanico de trabajo de base de datos — tablas dinámicas, diseño de tablas, procedimientos almacenados y optimización de consultas. Escribí scripts de automatización de importación que redujeron el tiempo de procesamiento de días a solo seis horas.",
+        "Construí una herramienta de administración responsiva de tres niveles usando Bootstrap, Telerik, ASP.NET WebForms, C# y MS SQL Server — ahorrando a los gestores de proyecto horas de trabajo manual."
       ],
       "image": "mes"
     },
     "mission": {
-      "id": 6,
+      "id": 5,
       "ref": "mission",
-      "slickitem":"#slick-slide03",
+      "slickitem":"#slick-slide04",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -140,26 +123,28 @@ var textContent_ES = {
       "dateStart": "Ago 2016",
       "dateEnd": "Nov 2017",
       "techStack": "",
-      "description": "En Mission Communications pude trabajar en varios proyectos de desarrollo web para clientes de diversas industrias y en particular hice contribuciones significativas al desarrollo de sightseeingpass.com.",
+      "description": "En Mission Communications trabajé en proyectos de clientes de distintas industrias, con un fuerte enfoque en el desarrollo de APIs y construcción de funcionalidades — destacando especialmente sightseeingpass.com, una plataforma para ayudar a los turistas a explorar Nueva York.",
       "tasks": [
         "Creé un sitio web de comercio electrónico y contenido de noticias/blogs que se integró con Facebook, Instagram y Twitter. Usé Web Forms, C#, Bootstrap y jQuery.",
         "Creé un sitio para un evento de administradores de propiedades privadas. El sitio estaba protegido con contraseña para mostrar detalles sobre propiedades disponibles (imágenes, descripción, planos, etc.). Se implementó una presentación de diapositivas utilizando la biblioteca Slick JavaScript y Typescript. El sitio permitía a los agentes inmobiliarios enviar correos electrónicos individuales o masivos a los registrantes (adjuntando pdfs con la información de la propiedad). Construido en Web Forms, C#, jQuery y Bootstrap.",
         "Conversión de sitios web críticos para la empresa en aplicaciones web ASP.NET para mejorar la capacidad de depuración.",
         "Se migraron varios sitios web a TFS para permitir a los desarrolladores trabajar localmente, reemplazando una solución FTP problemática.",
-        "Implementé nuevos puntos finales y corrección de errores en la API de la empresa. La API se desarrolló utilizando la arquitectura MVC con un Entity Framework que apuntaba a una base de datos de MS SQL Server."
+        "Implementé nuevos puntos finales y corrección de errores en la API de la empresa. La API se desarrolló utilizando la arquitectura MVC con un Entity Framework que apuntaba a una base de datos de MS SQL Server con Postman para llevar a cabo las pruebas de los endpoints.",    
+        "Construí un sitio web de e-commerce con sección de noticias y blog integrado con Facebook, Instagram y Twitter. (Web Forms, C#, Bootstrap, jQuery).",       
+        "Refactoricé código heredado para alinearlo con los principios SOLID, mejorando la mantenibilidad a largo plazo."
       ],
       "sightseeingpass": [
-        "Añadí una nueva función en el back-end para sightseeingpass.com para administrar todas las imágenes relacionadas con una atracción turística. La función permitía a los usuarios cargar varias imágenes a la vez y ordenarlas mediante drag and drop. Se utilizaron Web Forms, C#, jQuery y SQL stored procedures para operaciones CRUD.",
-        "Desarrollé una nueva función en sightseeingpass.com para que los usuarios creasen itinerarios personalizados para los recorridos en autobús con la capacidad de seleccionar fechas y atracciones de una lista (utilizando datos de la API de la empresa), creando un mapa de Google con las rutas más eficientes utilizando el diseño aportado por la diseñadora gráfica. Lo hice con web forms (user control), Bootstrap, C#, JQuery, controladores ASP.NET y API internas.",
-        "Se creó una función utilizando la API de la empresa para comparar datos entre 3 bases de datos con alertas de cualquier diferencia. La solución permitió a los usuarios actualizar datos dispares a través de la base de datos del sitio web con la base de datos del sistema central con un solo clic y permitió que el equipo pudiera verificar bajo demanda la consistencia/coherencia entre los sistemas. Se utilizó MS SQL Server, API interna y C#.",
-        "Escribí pruebas unitarias para validar la reescritura de URL y la precisión de los precios de venta al público (número de personas, tipo de entrega, tipo de tarjeta, etc.)."
+        "Construí una funcionalidad de gestión de imágenes en el back-end para atracciones turísticas — con subida múltiple de imágenes, validación de tamaño y ordenación por arrastrar y soltar. (Web Forms, C#, jQuery, procedimientos almacenados MS SQL).",
+        "Desarrollé un constructor de itinerarios personalizado para los tours en autobús por Nueva York, permitiendo a los usuarios seleccionar fechas y atracciones y generando rutas optimizadas en Google Maps. (Web Forms, Bootstrap, C#, jQuery, handlers ASP.NET, APIs internas).",
+        "Creé una herramienta de consistencia de datos que comparaba registros entre sistemas, marcaba discrepancias y permitía a los usuarios sincronizar datos entre bases de datos con un solo clic. (MS SQL Server, API interna, C#).",
+        "Escribí pruebas unitarias para validar la lógica de reescritura de URL y la precisión de precios según múltiples variables (tamaño del grupo, tipo de entrega, tipo de tarjeta, etc.)."
       ],
       "image": "mission"
     },
     "educo": {
-      "id": 7,
+      "id": 6,
       "ref": "educo",
-      "slickitem":"#slick-slide02",
+      "slickitem":"#slick-slide03",
       "company": "Educo ONG",
       "city": "Barcelona",
       "website": "https://www.educo.org/",
@@ -167,18 +152,18 @@ var textContent_ES = {
       "dateStart": "Mar 2018",
       "dateEnd": "Ago 2018",
       "techStack": "Kentico CMS, C#, SQL Server, Javascript",
-      "description": "ONG para velar y salvaguardar los derechos de la infancia. Estuve cubriendo una baja por maternidad ayudando en el incidental del aplicativo.",
+      "description": "Una colaboración de seis meses cubriendo una baja por maternidad en esta ONG barcelonesa dedicada a los derechos de la infancia. Breve en duración, pero significativa en impacto — incluyendo la construcción de una herramienta de crowdfunding que facilitó a las personas contribuir a su causa.",
       "tasks": [
-        "Creé un componente de crowdfunding en Kentico CMS integrado con los sistemas de pago Redsys y Paypal. Usé componentes C#, Javascript, HTML, CSS y Kentico.",
-        "Corrección de bugs en el sitio web comercial, también en Kentico CMS.",
-        "Código Javascript refactorizado de acuerdo con los principios SOLID."
+        "Construí un componente de crowdfunding responsivo integrado con los sistemas de pago Redsys y PayPal, usando Kentico CMS, C#, JavaScript, HTML y CSS.",
+        "Rastreé y corregí bugs en el sitio web y el CMS.",
+        "Refactoricé código JavaScript en línea con los principios SOLID para mejorar la mantenibilidad a largo plazo."
       ],
       "image": "educo"
     },
     "wivi": {
-      "id": 8,
+      "id": 7,
       "ref": "wivi",
-      "slickitem":"#slick-slide01",
+      "slickitem":"#slick-slide02",
       "company": "Wivi Vision",
       "city": "Barcelona",
       "website": "https://wivivision.com/",
@@ -186,32 +171,60 @@ var textContent_ES = {
       "dateStart": "Oct 2018",
       "dateEnd": "Abr 2019",
       "techStack": "",
-      "description": "Debido a un acuerdo de confidencialidad no se me permite mostrar públicamente ninguna descripción de ninguna tarea ni tecnología durante mi tiempo en esta startup.",
+      "description": "Trabajé con esta innovadora startup barcelonesa bajo un acuerdo de confidencialidad, por lo que no puedo compartir detalles sobre el trabajo o las tecnologías implicadas. Algunos de los mejores proyectos son los que no puedes contar.",
       "tasks": [],
       "image": "wivi"
     },
     "planeta": {
-      "id": 9,
+      "id": 8,
       "ref": "planeta",
-      "slickitem":"#slick-slide00",
+      "slickitem":"#slick-slide01",
+      "slick-item":"slick-slide01",
       "company": "Grupo Planeta",
       "city": "Barcelona",
-      "website": "https://www.planeta.es/en/learning",
+      "website": "https://planeta.es/",
       "role": "Web Developer - Team Leader",
-      "dateStart": "Ago 2018",
+      "dateStart": "Sep 2019",
       "dateEnd": "Dic 2020",
       "techStack": "ASP.NET, ASP.NET API, C#, HTML, CSS, Canvas, Javascript, jQuery, SQL, SSIS, IIS, CMS DotnetNuke",
-      "description": "Trabajos como desarrollador web para la división de formación y universidades del grupo, donde se gestiona desde las webs de captación de los cursos hasta la matriculación en los mismos y la integración con las plataformas de aprendizaje. Los últimos 4 meses actué como team lead gestionando un equipo de 6 desarrolladores, 2 QA y 1 BA.",
+      "description": "Trabajar para uno de los grupos editoriales más grandes de España como desarrollador freelance fue un hito en mi carrera. Contribuí a una plataforma que gestiona la captación de cursos, la matriculación de estudiantes y las integraciones con plataformas de aprendizaje para grandes marcas educativas como <a href='https://www.eae.es/' target='_blank'>EAE</a>, <a href='https://www.universidadviu.com/es/' target='_blank'>VIU</a> y <a href='https://www.ceac.es/' target='_blank'>CEAC</a>. En mis últimos cuatro meses asumí el rol de Team Lead de un equipo de seis desarrolladores, dos ingenieros QA y un BA.",
       "tasks": [
-        "Integración de dos marcas debiendo migrar todos los datos de una marca (alumnos, matrículas, cursos…) hacia la otra para preservar el histórico de las mismas.",
-        "Solución para cambio de cabina NAS conflictiva donde se alojaba toda la documentación que se generaba durante el proceso de matriculación de los alumnos y de los cursos.",
-        "Modifiqué el comportamiento de los dos aplicativos principales para historificar la ingente documentación que se generaba en el proceso de negocio. Se simplificó de esta manera los procesos de backups de los mismos y se mejoró el rendimiento en la aplicación. Además se aplicaron normalizaciones a los nombres de documentos.",
-        "Creación de un script en SQL para evitar un exploit conocido del CMS de los sitios web que permite crear superusuarios en los sites.",
-        "Participé como team leader en los diferentes procesos de upgrade de 3 de los CMS donde corrían una parte de los sitios web, aportando ayuda técnica y funcional cuando se requería y llevando a cabo los despliegues.",
-        "Acabé proyecto crítico para la organización como la migración del editor de ejercicios/pruebas de Flash a HTML5, teniendo que utilizar canvas para la parte de preview de los mismos.",
-        "Como team lead participé en la planificación y ejecución para cambiar el proveedor de pagos de los aplicativos debido a un cambio normativo europeo (3DS)."
+        "Lideré la integración técnica de dos marcas, fusionando datos de estudiantes, matrículas y cursos preservando los registros históricos.",
+        "Resolví un problema crítico de infraestructura en torno a un sistema de almacenamiento NAS que alojaba documentación sensible de matrículas, diseñando una solución sustituta más robusta.",
+        "Modifiqué el comportamiento central de la aplicación para historificar grandes volúmenes de documentos de matrícula, simplificando los procesos de backup y mejorando significativamente el rendimiento de la aplicación.",
+        "Escribí un script SQL para parchear un exploit conocido del CMS que permitía la creación no autorizada de superusuarios.",
+        "Como team lead, coordiné la actualización de tres instancias del CMS DotNetNuke — aportando orientación técnica, soporte funcional y gestionando los despliegues.",
+        "Completé una migración crítica del editor de ejercicios y pruebas de Flash a HTML5, rescatando un proyecto esencial para la organización.",
+        "Lideré la planificación y ejecución de una migración de proveedor de pagos requerida por el cambio normativo europeo 3DS."
       ],
       "image": "planeta"
+    },
+     "unimedia": {
+      "id": 9,
+      "ref": "unimedia",
+      "slickitem":"#slick-slide00",
+      "slick-item":"slick-slide00",
+      "company": "Unimedia S.L",
+      "city": "Barcelona",
+      "website": "https://www.unimedia.tech",
+      "role": "Azure and .NET Developer",
+      "dateStart": "Abril 2021",
+      "dateEnd": "Actual",
+      "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps y SQL",
+      "description": "Mi colaboración más larga y técnicamente rica hasta la fecha — y donde mi experiencia en Azure y APIs ha sido llevada más lejos. Trabajo como desarrollador freelance de Azure y .NET en <a href='https://zellar.com' target='_blank'>Zellar</a>, una plataforma de sostenibilidad que ayuda a las pymes a reducir sus emisiones. A lo largo de los años he evolucionado de construir APIs a ser responsable de la infraestructura cloud, los pipelines de DevOps y la capa de integración con terceros de toda la plataforma.",
+      "tasks": [
+        "Desarrollé y evolucioné las APIs de la aplicación usando C#, .NET 6–10, EF Core y SQL — trabajando en un entorno Agile/JIRA desde los requisitos hasta el despliegue.",
+        "Lideré la migración de las APIs a .NET 6, .NET 8 y .NET 10 y las capas de base de datos a .NET Framework 4.8, modernizando los cimientos de la plataforma.",
+        "Refactoricé todas las APIs para compatibilidad con Docker, configuré un Azure Container Registry y migré todo el conjunto de APIs a una nueva ubicación en Azure — incluyendo App Services y pipelines de DevOps.",
+        "Construí y mantuve integraciones con Mixpanel, Salesforce, Stripe, Perse (consumo energético) y Loqate (servicios de localización), publicando paquetes NuGet personalizados alojados en Azure DevOps.",
+        "Diseñé y construí el sistema SSO propio de la plataforma, habilitando el inicio de sesión con cuenta Zellar en plataformas de terceros como Circle.",
+        "Desarrollé un microservicio de notificaciones usando una cola de mensajes y el patrón Outbox para entregar eventos de forma fiable a integraciones de terceros.",
+        "Mantuve y extendí los pipelines de Azure DevOps y las configuraciones de despliegue en todos los entornos.",
+        "Gestioné la infraestructura en desarrollo, pruebas y producción en Azure — incluyendo App Services (escalado, red, copias de seguridad), SQL Servers (grupos de failover, auditorías), Blob Storage, Service Bus, Azure Functions, API Management, Azure Front Door y Key Vault (secrets y certificados).",
+        "Implementé Azure API Management para centralizar, proteger y gobernar las cuatro APIs de la plataforma.",
+        "Migré todos los secrets de la aplicación desde la configuración de las apps a Azure Key Vault, con inyección automática durante el despliegue desde Azure DevOps."
+      ],
+      "image": "unimedia"
     }
   },
   "education": {
@@ -224,7 +237,7 @@ var textContent_ES = {
         "desc": "",
         "descUrl": "",
         "image": "az204",
-        "url": "https://www.credly.com/badges/4a608036-cc3e-44cc-9a30-b6c0a46392d8"
+        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
       },
       {
         "id": 2,
@@ -234,7 +247,7 @@ var textContent_ES = {
         "desc": "",
         "descUrl": "",
         "image": "dp900",
-        "url": "https://www.credly.com/badges/b4f0bec9-cba2-48e6-ab40-72be4c68c089"
+        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
       },
       {
         "id": 3,
@@ -244,12 +257,12 @@ var textContent_ES = {
         "desc": "",
         "descUrl": "",
         "image": "az900",
-        "url": "https://www.youracclaim.com/badges/a24463a9-7aef-4a38-b975-a83fcec3f16c"
+        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
       },
       {
         "id": 4,
         "center": "Microsoft Learn",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (2020 - 2021)",
         "title": "Varios módulos, learning paths y challenges",
         "desc": "",
         "descUrl": "",
@@ -310,7 +323,8 @@ var textContent_ES = {
     "optionMenu": "Educación"
   },
   "misc": {
-    "optionMenu" : "Mi biblioteca",
+    "title": "Libros",
+    "optionMenu" : "Misc",
     "optionMenu2" : "Conferencias y Meetups",
     "books": [
       {
@@ -357,27 +371,34 @@ var textContent_ES = {
     "conferences": [
       {
         "id": 1,
+        "name": "TALENT ARENA",
+        "desc": "",
+        "date": "2-4 Marzo 2026",
+        "URL": "https://talentarena.tech/"
+      },
+      {
+        "id": 2,
         "name": "SOFTWARE CRAFTSMANSHIP LONDON",
         "desc": "",
         "date": "5-6 October 2017",
         "URL": "http://sc-london.com/"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "CODENODE",
         "desc": "Cuando el tiempo lo permite atiendo a eventos y workshops sobre diferentes materias (el de las promises en javasript estuvo muy bien, por ejemplo)",
         "date": "-",
         "URL": "https://skillsmatter.com/"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "SOFTWARE CRAFTSMANSHIP BARCELONA",
         "desc": "Sigo lo eventos del Barcelona Meetup Group",
         "date": "-",
         "URL": "https://www.meetup.com/Barcelona-Software-Craftsmanship/events/"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Codebar",
         "desc": "Actué como mentor en sus eventos para enseñar programación con javascript o SQL",
         "date": "-",
@@ -403,51 +424,51 @@ var textContent_ES = {
       {
         "id": 3,
         "name": "GMail",
-        "URL": "https://www.linkedIn.com/in/pacorosa",
+        "URL": "mailto:cescorh@prosa.co.uk",
         "image": ""
       }
     ]
   },
   "services": {
     "optionMenu" : "Servicios",
-    "title": "Como consultor autónomo ofrezco varios servicios a los clientes que pueden incluir:",
+    "title": "Me especializo en Azure, desarrollo de APIs e integraciones de sistemas. Así es como puedo ayudarte:",
     "serviceItems": [
-      {
-        "id": 2,
-        "title": "Database Scripting",
-        "desc": "A lo largo de los años he trabajado con varias bases de datos, incluida una amplia experiencia con Microsoft SQL Server y Oracle en el diseño de tablas y procedimientos almacenados. Puedo trabajar con bases de datos NoSql como CLoudantDb o MongoDb.",
-        "image": "database"
-      },
-      {
-        "id": 3,
-        "title": "System Integration",
-        "desc": "Mi experiencia incluye un extenso trabajo de integración de sistemas que a menudo ha requerido la capacidad de resolver problemas y trabajar con documentación ambigua o vaga relacionada con software y API de terceros. Puedo navegar por estas áreas para los clientes y desarrollar una solución funcional.",
-        "image": "systemInt"
-      },
-      {
-        "id": 6,
-        "title": "Team Management",
-        "desc": "A lo largo de mi carrera, he dirigido pequeños equipos in situ y en el extranjero o distribuidos. También puedo orientar a los miembros del equipo junior y obtener la aceptación del equipo para que se adhieran a las mejores prácticas.",
-        "image": "teamMan"
-      },
-      {
-        "id": 4,
-        "title": "Error Fixing/Code Quality",
-        "desc": "Uno de mis puntos fuertes es la capacidad de analizar código para identificar errores y áreas de mejora para el rendimiento o la mantenibilidad.",
-        "image": "errorFix"
-      },
-      {
-        "id": 1,
-        "title": "Software Development",
-        "desc": "Durante diez años me he centrado en el trabajo de desarrollo de software y he creado muchas soluciones utilizando C#, ASP.NET, ASP.NET Core, ASP.NET Web API, Entity Framework, Microsoft SQL Server, JQuery, Angular, Typecript HTML y CSS. Puedo contribuir al ciclo de vida completo de los proyectos de desarrollo de software desde los requisitos hasta las pruebas y la implementación.",
-        "image": "softdev"
-      },
-      {
-        "id": 5,
-        "title": "Software Process Improvement",
-        "desc": "Puedo revisar el proceso de desarrollo de software para diseñar e implementar nuevos procesos y herramientas. Esto puede incluir implementaciones de nuevas metodologías de desarrollo de software (Agile, Scrum), soluciones de control de código (Git, Team Foundation Server) y buenas prácticas de la industria como revisiones de código.",
-        "image": "softdevProc"
-      }
+        {
+          "id": 1,
+          "title": "API & Cloud Development",
+          "desc": "Las APIs y Azure son el núcleo de lo que hago. Diseño y construyo APIs REST y microservicios usando C# y .NET 6–10, diseño infraestructura Azure desde cero y gestiono el ciclo de vida completo de entrega desde los requisitos hasta producción. En el backend me siento igual de cómodo implementando nuevas funcionalidades, rastreando bugs o refactorizando código que necesita una nueva vida. Uso herramientas de IA a diario para entregar más rápido y con mayor calidad.",
+          "image": "softdev"
+        },
+        {
+          "id": 2,
+          "title": "Database Scripting",
+          "desc": "Las bases de datos son donde se gana o se pierde mucho rendimiento, y llevo años trabajando en esa capa. Tengo amplia experiencia con MS SQL Server y Oracle — diseñando esquemas, escribiendo procedimientos almacenados y optimizando consultas. He gestionado migraciones complejas, actualizado capas de base de datos a nuevas versiones de .NET e implementado funcionalidades avanzadas de Azure SQL como grupos de failover. También me manejo con bases de datos NoSQL como CosmosDB y MongoDB.",
+          "image": "database"
+        },
+        {
+          "id": 3,
+          "title": "System Integration",
+          "desc": "Conectar sistemas es uno de mis puntos más fuertes. He integrado plataformas como Salesforce, Stripe, Mixpanel y más — construyendo paquetes NuGet personalizados, soluciones SSO y servicios de notificación basados en colas de mensajes. Soy hábil navegando documentación incompleta de terceros y convirtiendo requisitos ambiguos en integraciones robustas listas para producción. También me apoyo en la IA para prototipar y validar la lógica de integración más rápido que con enfoques tradicionales.",
+          "image": "systemInt"
+        },
+        {
+          "id": 4,
+          "title": "Error Fixing / Code Quality",
+          "desc": "A veces lo más valioso que puedo hacer es mejorar el código existente. Tengo buen ojo para detectar bugs, cuellos de botella de rendimiento y problemas de mantenibilidad — y sé cómo arreglarlos sin introducir nuevos. Uso herramientas de revisión y análisis de código asistidas por IA como parte de mi flujo de trabajo para detectar problemas antes y refactorizar con más confianza. También he mejorado la seguridad migrando secrets a Azure Key Vault y devuelto la salud a bases de código envejecidas.",
+          "image": "errorFix"
+        },
+        {
+          "id": 5,
+          "title": "Software Process Improvement",
+          "desc": "El buen software empieza con buenos procesos. Puedo auditar tu flujo de trabajo de desarrollo actual y ayudarte a implementar prácticas que realmente funcionen — metodologías Agile, control de versiones con Git o TFS, pipelines CI/CD en Azure DevOps, cultura de revisión de código y gestión de infraestructura entre entornos. Lo he hecho desde cero y lo he hecho en equipos resistentes al cambio.",
+          "image": "softdevProc"
+        },
+        {
+          "id": 6,
+          "title": "Team Management",
+          "desc": "He liderado equipos presenciales y offshore, coordinado entregas multifuncionales y mentorizado desarrolladores al inicio de sus carreras. Sé cómo conseguir que los equipos avancen en la misma dirección — y cómo mantenerlos ahí. Si necesitas a alguien que gestione un proyecto, aporte liderazgo técnico o simplemente ayude a un desarrollador junior a crecer, puedo ayudarte.",
+          "image": "teamMan"
+        }
     ]
   }
 }
