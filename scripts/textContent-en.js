@@ -2,7 +2,7 @@ var textContent_EN = {
   "intro": {
     "paragraphs": [
       "I've spent the last 15+ years doing what I love: building software that solves real problems. I specialise in Azure cloud architecture, API development, and system integrations — the kind of work that connects platforms, automates complexity, and makes distributed systems actually reliable. As a Microsoft Certified Azure Developer, I don't just write code that runs on the cloud; I design and own the infrastructure around it. On the backend I'm equally comfortable implementing new features, fixing bugs, or refactoring legacy code that's been accumulating debt for years.",
-      "I believe great work and a fulfilling life go hand in hand. The best code, like the best ideas, comes from people who are curious, rested, and inspired. I stay sharp by embracing new tools — including AI, which I use daily to accelerate development, improve code quality, and explore smarter solutions faster.",
+      "I believe great work and a fulfilling life go hand in hand. The best code, like the best ideas, comes from people who are curious, rested, and inspired. I stay sharp by embracing new tools — including AI, which I use daily to accelerate development, improve code quality, and explore smarter solutions faster. On recent projects I've adopted spec-driven development (SDD), writing clear specs before implementation to keep AI-assisted work structured, predictable, and easy to review.",
       "When I'm not in front of a screen, you'll find me at the cinema, lost in a good book, or cooking something ambitious for family and friends. Take a look around — I'd love for you to get to know me and my work.",
       "Hasta la vista!"
     ],
@@ -13,11 +13,11 @@ var textContent_EN = {
   "techSkills": {
     "paragraphs": [
       "My core is Azure and .NET — C#, .NET 6 through .NET 10, ASP.NET Core, and Entity Framework on the development side, and a deep Azure specialisation that spans App Services, Azure Functions, Service Bus, API Management, Azure Front Door, Key Vault, and more. I'm certified as an Azure Developer Associate (AZ-204) and I've spent years not just writing code for the cloud, but owning the infrastructure, pipelines, and security around it.",
-      "API design and system integration are where I do some of my best work. I've built and maintained APIs from scratch, connected platforms that weren't designed to talk to each other, and developed microservices that handle real production load. I also integrate AI tools into my daily workflow — using them to accelerate development, write better tests, and tackle complex problems faster. On the front end, I can hold my own with React, Angular, TypeScript, and jQuery when the project calls for it — but I'll be honest: the backend and cloud are where I'm truly at home.",
+      "API design and system integration are where I do some of my best work. I've built and maintained APIs from scratch, connected platforms that weren't designed to talk to each other, and developed microservices that handle real production load. I also integrate AI tools into my daily workflow — using them to accelerate development, write better tests, and tackle complex problems faster, following a spec-driven development (SDD) approach that keeps AI-generated code aligned with clear requirements. On the front end, I can hold my own with React, Angular, TypeScript, and jQuery when the project calls for it — but I'll be honest: the backend and cloud are where I'm truly at home.",
       "Here's a snapshot of the tools and technologies I work with."
     ],
     "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome",
-    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles, Microservices, CI/CD pipelines, design patterns",
+    "concepts": "Software development process (Agile, Scrum), spec-driven development (SDD), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles, Microservices, CI/CD pipelines, design patterns",
     "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman, GitHub Copilot, Claude",
     "optionMenu" : "Tech",
     "subTitle1" : "Development",
@@ -38,7 +38,6 @@ var textContent_EN = {
     "netLife": {
       "id": 1,
       "ref": "netLife",
-      "slickitem":"#slick-slide08",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -53,7 +52,6 @@ var textContent_EN = {
     "btgsa": {
       "id": 2,
       "ref": "btgsa",
-      "slickitem":"#slick-slide07",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "https://aggity.com/",
@@ -73,7 +71,6 @@ var textContent_EN = {
     "luxtripper": {
       "id": 3,
       "ref": "luxtripper",
-      "slickitem":"#slick-slide06",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -95,7 +92,6 @@ var textContent_EN = {
     "membra": {
       "id": 4,
       "ref": "membra",
-      "slickitem":"#slick-slide05",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "https://www.civica.com/",
@@ -115,7 +111,6 @@ var textContent_EN = {
     "mission": {
       "id": 5,
       "ref": "mission",
-      "slickitem":"#slick-slide04",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -143,7 +138,6 @@ var textContent_EN = {
     "educo": {
       "id": 6,
       "ref": "educo",
-      "slickitem":"#slick-slide03",
       "company": "Educo ONG",
       "city": "Barcelona",
       "website": "https://www.educo.org/",
@@ -162,7 +156,6 @@ var textContent_EN = {
     "wivi": {
       "id": 7,
       "ref": "wivi",
-      "slickitem":"#slick-slide02",
       "company": "Wivi Vision",
       "city": "Barcelona",
       "website": "https://wivivision.com/",
@@ -177,8 +170,6 @@ var textContent_EN = {
     "planeta": {
       "id": 8,
       "ref": "planeta",
-      "slickitem":"#slick-slide01",
-      "slick-item":"slick-slide01",
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://planeta.es/",
@@ -201,14 +192,12 @@ var textContent_EN = {
      "unimedia": {
       "id": 9,
       "ref": "unimedia",
-      "slickitem":"#slick-slide00",
-      "slick-item":"slick-slide00",
       "company": "Unimedia S.L",
       "city": "Barcelona",
       "website": "https://www.unimedia.tech",
       "role": "Azure and .NET Developer",
       "dateStart": "April 2021",
-      "dateEnd": "Current",
+      "dateEnd": "Apr 2026",
       "techStack": "C# .NET 6 to .NET 10, Azure, Azure DevOps and SQL",      
       "description": "My longest and most technically rich engagement to date — and where my Azure and API expertise has been pushed furthest. I work as a freelance Azure and .NET developer on <a href='https://zellar.com' target='_blank'>Zellar</a>, a sustainability platform helping SMEs reduce their emissions. Over the years I've evolved from building APIs to owning the cloud infrastructure, DevOps pipelines, and third-party integration layer across the entire platform.",
       "tasks": [
@@ -223,40 +212,62 @@ var textContent_EN = {
         "Implemented Azure API Management to centralise, protect, and govern the platform's four APIs.",
         "Migrated all application secrets from app settings to Azure Key Vault, with automatic injection during deployment via Azure DevOps."
       ],
-      "image": "unimedia"
+      "image": "unimedia-zellar"
+    },
+    "whyze": {
+      "id": 10,
+      "ref": "whyze",
+      "company": "Unimedia S.L",
+      "city": "Barcelona",
+      "website": "https://www.unimedia.tech",
+      "role": "Full-Stack Developer",
+      "dateStart": "May 2026",
+      "dateEnd": "Current",
+      "techStack": "NestJS, TypeScript, Prisma, PostgreSQL / AWS Aurora, AWS Cognito/JWT, Swagger/OpenAPI, Vitest, React, Redux Toolkit, Flutter, AWS (Fargate, ECR, S3, SES, KMS, Secrets Manager), Liquibase, GitHub Actions, Claude Code",
+      "description": "I work as a freelance full-stack developer on <a href='https://whyzehealth.com/' target='_blank'>WHYZE Care Suite</a>, a digital-health platform for clinical research supporting patients, healthcare practitioners, researchers, and administrators across web and mobile applications. I work across a NestJS/TypeScript backend and React/TypeScript frontends deployed on AWS, and use Claude Code (Anthropic's AI coding agent) as my primary development workflow across the whole stack.",
+      "tasks": [
+        "Designed and implemented a role-based access control system (L1/L2 super-admin provisioning and enforcement) across the NestJS backend and two React portals, using a fail-safe-deny guard strategy with a backfill migration for existing users.",
+        "Built a hybrid blind-index search feature for NHS numbers using a hashed, indexed column to enable fast lookups without exposing sensitive identifiers in plaintext indexes; backfilled 1,177 production records.",
+        "Implemented clinical protocol end-date management with JSONB audit trails and enum-based change tracking, plus a super-admin feature surfacing each user's organisational hierarchy and access level.",
+        "Led a cross-repository audit of date/timezone handling across 4 production repositories ahead of a UK deployment, producing findings and a remediation plan.",
+        "Migrated the patient-facing privacy/consent notice into a native mobile webview (Flutter) and restyled the hosted consent notice with bilingual (English/Welsh) support.",
+        "Diagnosed and resolved a CI/CD pipeline failure caused by immutable container-registry image tags, restoring reliable deployments across dev/UAT/production.",
+        "Used Claude Code as an AI-assisted development workflow across all 5 project repositories — planning, codebase audits, implementation, testing, and AWS/database operations — on a healthcare, compliance-sensitive codebase."
+      ],
+      "image": "unimedia-whyze"
     }
-  },  
+  },
   "education": {
     "collection": [      
       {
         "id": 1,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Since 2021)",
         "title": "Azure Developer Associate",
         "desc": "",
         "descUrl": "",
         "image": "az204",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/AF284222258AE506?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 2,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Since 2021)",
         "title": "Azure Data Fundamentals",
         "desc": "",
         "descUrl": "",
         "image": "dp900",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/3493B88ABBD3D44D?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 3,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Since 2021)",
         "title": "Azure Fundamentals",
         "desc": "",
         "descUrl": "",
         "image": "az900",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/9A616D4DA39B08C2?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 4,
@@ -459,7 +470,7 @@ var textContent_EN = {
         {
             "id": 5,
             "title": "Software Process Improvement",
-            "desc": "Good software starts with good processes. I can audit your current development workflow and help you implement practices that actually stick — Agile methodologies, source control with Git or TFS, CI/CD pipelines in Azure DevOps, code review culture, and infrastructure management across environments. I've done this from scratch and I've done it in teams resistant to change.",
+            "desc": "Good software starts with good processes. I can audit your current development workflow and help you implement practices that actually stick — Agile methodologies, spec-driven development (SDD) for AI-assisted work, source control with Git or TFS, CI/CD pipelines in Azure DevOps, code review culture, and infrastructure management across environments. I've done this from scratch and I've done it in teams resistant to change.",
             "image": "softdevProc"
         },
         {

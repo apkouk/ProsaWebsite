@@ -2,7 +2,7 @@ var textContent_CA = {
   "intro": {
     "paragraphs": [
       "Porto els últims 15 anys fent el que m'apassiona: crear programari que resol problemes reals. M'especialitzo en arquitectura cloud d'Azure, desenvolupament d'APIs i integracions de sistemes — el tipus de feina que connecta plataformes, automatitza la complexitat i fa que els sistemes distribuïts siguin veritablement fiables. Com a Microsoft Certified Azure Developer, no només escric codi que s'executa al núvol; dissenyo i gestiono la infraestructura al seu voltant. Al backend em sento igual de còmode implementant noves funcionalitats, corregint errors o refactoritzant codi heretat que porta anys acumulant deute tècnic.",
-      "Crec que la bona feina i una vida plena van de la mà. El millor codi, com les millors idees, sorgeix de persones curioses, descansades i inspirades. Em mantinc al dia adoptant noves eines — incloent la IA, que faig servir cada dia per accelerar el desenvolupament, millorar la qualitat del codi i explorar solucions més intel·ligents amb major rapidesa.",
+      "Crec que la bona feina i una vida plena van de la mà. El millor codi, com les millors idees, sorgeix de persones curioses, descansades i inspirades. Em mantinc al dia adoptant noves eines — incloent la IA, que faig servir cada dia per accelerar el desenvolupament, millorar la qualitat del codi i explorar solucions més intel·ligents amb major rapidesa. En projectes recents he adoptat el desenvolupament dirigit per especificacions (SDD), escrivint especificacions clares abans d'implementar per mantenir la feina assistida per IA estructurada, predictible i fàcil de revisar.",
       "Quan no estic davant d'una pantalla, em trobaràs al cinema, perdut en un bon llibre, o cuinant alguna cosa ambiciosa per a família i amics. Fes una ullada — m'encantaria que em coneguessis a mi i a la meva feina.",
       "A reveure!"
     ],
@@ -13,11 +13,11 @@ var textContent_CA = {
   "techSkills": {
     "paragraphs": [
       "La meva base és Azure i .NET — C#, .NET 6 fins a .NET 10, ASP.NET Core i Entity Framework en el costat del desenvolupament, i una profunda especialització en Azure que abasta App Services, Azure Functions, Service Bus, API Management, Azure Front Door, Key Vault i més. Estic certificat com a Azure Developer Associate (AZ-204) i porto anys no només escrivint codi per al núvol, sinó sent responsable de la infraestructura, els pipelines i la seguretat al seu voltant.",
-      "El disseny d'APIs i la integració de sistemes són on realitzo alguns dels meus millors treballs. He construït i mantingut APIs des de zero, connectat plataformes que no estaven dissenyades per comunicar-se entre elles, i desenvolupat microserveis que gestionen càrrega real en producció. També integro eines d'IA en el meu flux de treball diari — fent-les servir per accelerar el desenvolupament, escriure millors tests i abordar problemes complexos amb major rapidesa. Al frontend em defenso amb React, Angular, TypeScript i jQuery quan el projecte ho requereix — però seré honest: el backend i el núvol són on em sento veritablement a casa.",
+      "El disseny d'APIs i la integració de sistemes són on realitzo alguns dels meus millors treballs. He construït i mantingut APIs des de zero, connectat plataformes que no estaven dissenyades per comunicar-se entre elles, i desenvolupat microserveis que gestionen càrrega real en producció. També integro eines d'IA en el meu flux de treball diari — fent-les servir per accelerar el desenvolupament, escriure millors tests i abordar problemes complexos amb major rapidesa, seguint un enfocament de desenvolupament dirigit per especificacions (SDD) que manté el codi generat per IA alineat amb requisits clars. Al frontend em defenso amb React, Angular, TypeScript i jQuery quan el projecte ho requereix — però seré honest: el backend i el núvol són on em sento veritablement a casa.",
       "Aquí tens un resum de les eines i tecnologies amb les quals treballo."
     ],
     "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome",
-    "concepts": "Procés de desenvolupament de programari (Agile, Scrum), bases de dades relacionals, modelatge de dades, programació orientada a objectes, TDD, MVC, arquitectura n-tier, principis SOLID, Microserveis, pipelines CI/CD, patrons de disseny",
+    "concepts": "Procés de desenvolupament de programari (Agile, Scrum), desenvolupament dirigit per especificacions (SDD), bases de dades relacionals, modelatge de dades, programació orientada a objectes, TDD, MVC, arquitectura n-tier, principis SOLID, Microserveis, pipelines CI/CD, patrons de disseny",
     "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio 2022, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman, GitHub Copilot, Claude",
     "optionMenu": "Tecnologies",
     "subTitle1": "Desenvolupament",
@@ -38,7 +38,6 @@ var textContent_CA = {
     "netLife": {
       "id": 1,
       "ref": "netLife",
-      "slickitem":"#slick-slide08",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -53,7 +52,6 @@ var textContent_CA = {
     "btgsa": {
       "id": 2,
       "ref": "btgsa",
-      "slickitem":"#slick-slide07",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "https://aggity.com/",
@@ -73,7 +71,6 @@ var textContent_CA = {
     "luxtripper": {
       "id": 3,
       "ref": "luxtripper",
-      "slickitem":"#slick-slide06",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -95,7 +92,6 @@ var textContent_CA = {
     "membra": {
       "id": 4,
       "ref": "membra",
-      "slickitem":"#slick-slide05",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "https://www.civica.com/",
@@ -115,7 +111,6 @@ var textContent_CA = {
     "mission": {
       "id": 5,
       "ref": "mission",
-      "slickitem":"#slick-slide04",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -143,7 +138,6 @@ var textContent_CA = {
     "educo": {
       "id": 6,
       "ref": "educo",
-      "slickitem":"#slick-slide03",
       "company": "Educo ONG",
       "city": "Barcelona",
       "website": "https://www.educo.org/",
@@ -162,7 +156,6 @@ var textContent_CA = {
     "wivi": {
       "id": 7,
       "ref": "wivi",
-      "slickitem":"#slick-slide02",
       "company": "Wivi Vision",
       "city": "Barcelona",
       "website": "https://wivivision.com/",
@@ -177,8 +170,6 @@ var textContent_CA = {
     "planeta": {
       "id": 8,
       "ref": "planeta",
-      "slickitem":"#slick-slide01",
-      "slick-item":"slick-slide01",
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://planeta.es/",
@@ -201,14 +192,12 @@ var textContent_CA = {
      "unimedia": {
       "id": 9,
       "ref": "unimedia",
-      "slickitem":"#slick-slide00",
-      "slick-item":"slick-slide00",
       "company": "Unimedia S.L",
       "city": "Barcelona",
       "website": "https://www.unimedia.tech",
       "role": "Azure and .NET Developer",
       "dateStart": "Abril 2021",
-      "dateEnd": "Actual",
+      "dateEnd": "Abr 2026",
       "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps i SQL",
       "description": "La meva col·laboració més llarga i tècnicament rica fins avui — i on la meva experiència en Azure i APIs ha estat portada més lluny. Treballo com a desenvolupador freelance d’Azure i .NET a <a href=’https://zellar.com’ target=’_blank’>Zellar</a>, una plataforma de sostenibilitat que ajuda les pimes a reduir les seves emissions. Al llarg dels anys he evolucionat de construir APIs a ser responsable de la infraestructura cloud, els pipelines de DevOps i la capa d’integració amb tercers de tota la plataforma.",
       "tasks": [
@@ -223,7 +212,29 @@ var textContent_CA = {
         "Vaig implementar Azure API Management per centralitzar, protegir i governar les quatre APIs de la plataforma.",
         "Vaig migrar tots els secrets de l’aplicació des de la configuració de les apps a Azure Key Vault, amb injecció automàtica durant el desplegament des d’Azure DevOps."
       ],
-      "image": "unimedia"
+      "image": "unimedia-zellar"
+    },
+    "whyze": {
+      "id": 10,
+      "ref": "whyze",
+      "company": "Unimedia S.L",
+      "city": "Barcelona",
+      "website": "https://www.unimedia.tech",
+      "role": "Full-Stack Developer",
+      "dateStart": "Maig 2026",
+      "dateEnd": "Actual",
+      "techStack": "NestJS, TypeScript, Prisma, PostgreSQL / AWS Aurora, AWS Cognito/JWT, Swagger/OpenAPI, Vitest, React, Redux Toolkit, Flutter, AWS (Fargate, ECR, S3, SES, KMS, Secrets Manager), Liquibase, GitHub Actions, Claude Code",
+      "description": "Treballo com a desenvolupador full-stack freelance a <a href='https://whyzehealth.com/' target='_blank'>WHYZE Care Suite</a>, una plataforma de salut digital per a la investigació clínica que dona suport a pacients, professionals sanitaris, investigadors i administradors en aplicacions web i mòbils. Treballo tant en un backend de NestJS/TypeScript com en frontends de React/TypeScript desplegats a AWS, i faig servir Claude Code (l'agent de programació amb IA d'Anthropic) com el meu flux de treball principal de desenvolupament a tota la pila.",
+      "tasks": [
+        "Vaig dissenyar i implementar un sistema de control d'accés basat en rols (aprovisionament i aplicació de super-admin L1/L2) al backend de NestJS i dos portals de React, utilitzant una estratègia de guardes amb denegació per defecte (fail-safe-deny) i una migració de backfill per als usuaris existents.",
+        "Vaig construir una funcionalitat híbrida de cerca per índex cec per a números NHS, utilitzant una columna indexada i hashejada per permetre cerques ràpides sense exposar identificadors sensibles en índexs en text pla; vaig fer backfill de 1.177 registres en producció.",
+        "Vaig implementar la gestió de dates de finalització de protocols clínics amb registres d'auditoria en JSONB i seguiment de canvis basat en enums, a més d'una funcionalitat de super-admin que mostra la jerarquia organitzativa i el nivell d'accés de cada usuari.",
+        "Vaig liderar una auditoria creuada de repositoris sobre la gestió de dates/zones horàries en 4 repositoris de producció abans d'un desplegament al Regne Unit, produint troballes i un pla de remediació.",
+        "Vaig migrar l'avís de privacitat/consentiment orientat al pacient a un webview natiu mòbil (Flutter) i vaig redissenyar l'avís de consentiment allotjat amb suport bilingüe (anglès/gal·lès).",
+        "Vaig diagnosticar i resoldre una fallada al pipeline de CI/CD causada per etiquetes d'imatge immutables al registre de contenidors, restaurant desplegaments fiables a dev/UAT/producció.",
+        "Vaig utilitzar Claude Code com a flux de treball de desenvolupament assistit per IA en els 5 repositoris del projecte — planificació, auditories de codi, implementació, proves i operacions d'AWS/base de dades — en una base de codi sanitària i sensible en matèria de compliment normatiu."
+      ],
+      "image": "unimedia-whyze"
     }
   },
   "education": {
@@ -231,32 +242,32 @@ var textContent_CA = {
       {
         "id": 1,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Des de 2021)",
         "title": "Azure Developer Associate",
         "desc": "",
         "descUrl": "",
         "image": "az204",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/AF284222258AE506?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 2,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Des de 2021)",
         "title": "Azure Data Fundamentals",
         "desc": "",
         "descUrl": "",
         "image": "dp900",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/3493B88ABBD3D44D?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 3,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Des de 2021)",
         "title": "Azure Fundamentals",
         "desc": "",
         "descUrl": "",
         "image": "az900",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/9A616D4DA39B08C2?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 4,
@@ -459,7 +470,7 @@ var textContent_CA = {
       {
         "id": 5,
         "title": "Software Process Improvement",
-        "desc": "El bon programari comença amb bons processos. Puc auditar el teu flux de treball de desenvolupament actual i ajudar-te a implementar pràctiques que realment funcionin — metodologies Agile, control de versions amb Git o TFS, pipelines CI/CD a Azure DevOps, cultura de revisió de codi i gestió d'infraestructura entre entorns. Ho he fet des de zero i ho he fet en equips resistents al canvi.",
+        "desc": "El bon programari comença amb bons processos. Puc auditar el teu flux de treball de desenvolupament actual i ajudar-te a implementar pràctiques que realment funcionin — metodologies Agile, desenvolupament dirigit per especificacions (SDD) per a la feina assistida per IA, control de versions amb Git o TFS, pipelines CI/CD a Azure DevOps, cultura de revisió de codi i gestió d'infraestructura entre entorns. Ho he fet des de zero i ho he fet en equips resistents al canvi.",
         "image": "softdevProc"
       },
       {
