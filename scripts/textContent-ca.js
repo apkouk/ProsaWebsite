@@ -242,32 +242,32 @@ var textContent_CA = {
       {
         "id": 1,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Des de 2021)",
         "title": "Azure Developer Associate",
         "desc": "",
         "descUrl": "",
         "image": "az204",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/AF284222258AE506?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 2,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Des de 2021)",
         "title": "Azure Data Fundamentals",
         "desc": "",
         "descUrl": "",
         "image": "dp900",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/3493B88ABBD3D44D?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 3,
         "center": "Microsoft Certified",
-        "date": "Barcelona (2021)",
+        "date": "Barcelona (Des de 2021)",
         "title": "Azure Fundamentals",
         "desc": "",
         "descUrl": "",
         "image": "az900",
-        "url": "https://learn.microsoft.com/en-us/users/franciscorosaherrero-0686/transcript/7x9mhxp84n49wl7?source=docs"
+        "url": "https://learn.microsoft.com/api/credentials/share/es-es/FranciscoRosaHerrero-0686/9A616D4DA39B08C2?sharingId=CEA5F0E8CB759C6F"
       },
       {
         "id": 4,
