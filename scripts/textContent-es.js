@@ -213,7 +213,7 @@ var textContent_ES = {
         "Implementé Azure API Management para centralizar, proteger y gobernar las cuatro APIs de la plataforma.",
         "Migré todos los secrets de la aplicación desde la configuración de las apps a Azure Key Vault, con inyección automática durante el despliegue desde Azure DevOps."
       ],
-      "image": "unimedia"
+      "image": "unimedia-zellar"
     },
     "whyze": {
       "id": 10,

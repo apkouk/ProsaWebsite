@@ -212,7 +212,7 @@ var textContent_CA = {
         "Vaig implementar Azure API Management per centralitzar, protegir i governar les quatre APIs de la plataforma.",
         "Vaig migrar tots els secrets de l’aplicació des de la configuració de les apps a Azure Key Vault, amb injecció automàtica durant el desplegament des d’Azure DevOps."
       ],
-      "image": "unimedia"
+      "image": "unimedia-zellar"
     },
     "whyze": {
       "id": 10,
