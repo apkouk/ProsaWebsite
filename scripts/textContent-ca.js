@@ -234,7 +234,7 @@ var textContent_CA = {
         "Vaig diagnosticar i resoldre una fallada al pipeline de CI/CD causada per etiquetes d'imatge immutables al registre de contenidors, restaurant desplegaments fiables a dev/UAT/producció.",
         "Vaig utilitzar Claude Code com a flux de treball de desenvolupament assistit per IA en els 5 repositoris del projecte — planificació, auditories de codi, implementació, proves i operacions d'AWS/base de dades — en una base de codi sanitària i sensible en matèria de compliment normatiu."
       ],
-      "image": "whyze"
+      "image": "unimedia-whyze"
     }
   },
   "education": {

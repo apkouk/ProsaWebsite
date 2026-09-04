@@ -234,7 +234,7 @@ var textContent_EN = {
         "Diagnosed and resolved a CI/CD pipeline failure caused by immutable container-registry image tags, restoring reliable deployments across dev/UAT/production.",
         "Used Claude Code as an AI-assisted development workflow across all 5 project repositories — planning, codebase audits, implementation, testing, and AWS/database operations — on a healthcare, compliance-sensitive codebase."
       ],
-      "image": "whyze"
+      "image": "unimedia-whyze"
     }
   },
   "education": {

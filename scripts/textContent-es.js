@@ -235,7 +235,7 @@ var textContent_ES = {
         "Diagnostiqué y resolví un fallo en el pipeline de CI/CD causado por etiquetas de imagen inmutables en el registro de contenedores, restaurando despliegues fiables en dev/UAT/producción.",
         "Utilicé Claude Code como flujo de trabajo de desarrollo asistido por IA en los 5 repositorios del proyecto — planificación, auditorías de código, implementación, pruebas y operaciones de AWS/base de datos — en una base de código sanitaria y sensible en materia de cumplimiento normativo."
       ],
-      "image": "whyze"
+      "image": "unimedia-whyze"
     }
   },
   "education": {
