@@ -38,7 +38,6 @@ var textContent_EN = {
     "netLife": {
       "id": 1,
       "ref": "netLife",
-      "slickitem":"#slick-slide08",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -53,7 +52,6 @@ var textContent_EN = {
     "btgsa": {
       "id": 2,
       "ref": "btgsa",
-      "slickitem":"#slick-slide07",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "https://aggity.com/",
@@ -73,7 +71,6 @@ var textContent_EN = {
     "luxtripper": {
       "id": 3,
       "ref": "luxtripper",
-      "slickitem":"#slick-slide06",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -95,7 +92,6 @@ var textContent_EN = {
     "membra": {
       "id": 4,
       "ref": "membra",
-      "slickitem":"#slick-slide05",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "https://www.civica.com/",
@@ -115,7 +111,6 @@ var textContent_EN = {
     "mission": {
       "id": 5,
       "ref": "mission",
-      "slickitem":"#slick-slide04",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -143,7 +138,6 @@ var textContent_EN = {
     "educo": {
       "id": 6,
       "ref": "educo",
-      "slickitem":"#slick-slide03",
       "company": "Educo ONG",
       "city": "Barcelona",
       "website": "https://www.educo.org/",
@@ -162,7 +156,6 @@ var textContent_EN = {
     "wivi": {
       "id": 7,
       "ref": "wivi",
-      "slickitem":"#slick-slide02",
       "company": "Wivi Vision",
       "city": "Barcelona",
       "website": "https://wivivision.com/",
@@ -177,8 +170,6 @@ var textContent_EN = {
     "planeta": {
       "id": 8,
       "ref": "planeta",
-      "slickitem":"#slick-slide01",
-      "slick-item":"slick-slide01",
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://planeta.es/",
@@ -201,14 +192,12 @@ var textContent_EN = {
      "unimedia": {
       "id": 9,
       "ref": "unimedia",
-      "slickitem":"#slick-slide00",
-      "slick-item":"slick-slide00",
       "company": "Unimedia S.L",
       "city": "Barcelona",
       "website": "https://www.unimedia.tech",
       "role": "Azure and .NET Developer",
       "dateStart": "April 2021",
-      "dateEnd": "Current",
+      "dateEnd": "Apr 2026",
       "techStack": "C# .NET 6 to .NET 10, Azure, Azure DevOps and SQL",      
       "description": "My longest and most technically rich engagement to date — and where my Azure and API expertise has been pushed furthest. I work as a freelance Azure and .NET developer on <a href='https://zellar.com' target='_blank'>Zellar</a>, a sustainability platform helping SMEs reduce their emissions. Over the years I've evolved from building APIs to owning the cloud infrastructure, DevOps pipelines, and third-party integration layer across the entire platform.",
       "tasks": [
@@ -224,8 +213,30 @@ var textContent_EN = {
         "Migrated all application secrets from app settings to Azure Key Vault, with automatic injection during deployment via Azure DevOps."
       ],
       "image": "unimedia"
+    },
+    "whyze": {
+      "id": 10,
+      "ref": "whyze",
+      "company": "Unimedia S.L",
+      "city": "Barcelona",
+      "website": "https://www.unimedia.tech",
+      "role": "Full-Stack Developer",
+      "dateStart": "May 2026",
+      "dateEnd": "Current",
+      "techStack": "NestJS, TypeScript, Prisma, PostgreSQL / AWS Aurora, AWS Cognito/JWT, Swagger/OpenAPI, Vitest, React, Redux Toolkit, Flutter, AWS (Fargate, ECR, S3, SES, KMS, Secrets Manager), Liquibase, GitHub Actions, Claude Code",
+      "description": "I work as a freelance full-stack developer on WHYZE Care Suite, a digital-health platform for clinical research supporting patients, healthcare practitioners, researchers, and administrators across web and mobile applications. I work across a NestJS/TypeScript backend and React/TypeScript frontends deployed on AWS, and use Claude Code (Anthropic's AI coding agent) as my primary development workflow across the whole stack.",
+      "tasks": [
+        "Designed and implemented a role-based access control system (L1/L2 super-admin provisioning and enforcement) across the NestJS backend and two React portals, using a fail-safe-deny guard strategy with a backfill migration for existing users.",
+        "Built a hybrid blind-index search feature for NHS numbers using a hashed, indexed column to enable fast lookups without exposing sensitive identifiers in plaintext indexes; backfilled 1,177 production records.",
+        "Implemented clinical protocol end-date management with JSONB audit trails and enum-based change tracking, plus a super-admin feature surfacing each user's organisational hierarchy and access level.",
+        "Led a cross-repository audit of date/timezone handling across 4 production repositories ahead of a UK deployment, producing findings and a remediation plan.",
+        "Migrated the patient-facing privacy/consent notice into a native mobile webview (Flutter) and restyled the hosted consent notice with bilingual (English/Welsh) support.",
+        "Diagnosed and resolved a CI/CD pipeline failure caused by immutable container-registry image tags, restoring reliable deployments across dev/UAT/production.",
+        "Used Claude Code as an AI-assisted development workflow across all 5 project repositories — planning, codebase audits, implementation, testing, and AWS/database operations — on a healthcare, compliance-sensitive codebase."
+      ],
+      "image": "whyze"
     }
-  },  
+  },
   "education": {
     "collection": [      
       {

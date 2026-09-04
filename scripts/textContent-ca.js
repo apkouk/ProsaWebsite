@@ -38,7 +38,6 @@ var textContent_CA = {
     "netLife": {
       "id": 1,
       "ref": "netLife",
-      "slickitem":"#slick-slide08",
       "company": "Net-Life S.L",
       "city": "Barcelona",
       "website": "",
@@ -53,7 +52,6 @@ var textContent_CA = {
     "btgsa": {
       "id": 2,
       "ref": "btgsa",
-      "slickitem":"#slick-slide07",
       "company": "T&G Think & Grow (now Aggity) ",
       "city": "Barcelona",
       "website": "https://aggity.com/",
@@ -73,7 +71,6 @@ var textContent_CA = {
     "luxtripper": {
       "id": 3,
       "ref": "luxtripper",
-      "slickitem":"#slick-slide06",
       "company": "Luxtripper LTD",
       "city": "London",
       "website": "http://luxtripper.co.uk",
@@ -95,7 +92,6 @@ var textContent_CA = {
     "membra": {
       "id": 4,
       "ref": "membra",
-      "slickitem":"#slick-slide05",
       "company": "Membership Engagement Services",
       "city": "London",
       "website": "https://www.civica.com/",
@@ -115,7 +111,6 @@ var textContent_CA = {
     "mission": {
       "id": 5,
       "ref": "mission",
-      "slickitem":"#slick-slide04",
       "company": "Mission Communications",
       "city": "London",
       "website": "http://mission-communications.net",
@@ -143,7 +138,6 @@ var textContent_CA = {
     "educo": {
       "id": 6,
       "ref": "educo",
-      "slickitem":"#slick-slide03",
       "company": "Educo ONG",
       "city": "Barcelona",
       "website": "https://www.educo.org/",
@@ -162,7 +156,6 @@ var textContent_CA = {
     "wivi": {
       "id": 7,
       "ref": "wivi",
-      "slickitem":"#slick-slide02",
       "company": "Wivi Vision",
       "city": "Barcelona",
       "website": "https://wivivision.com/",
@@ -177,8 +170,6 @@ var textContent_CA = {
     "planeta": {
       "id": 8,
       "ref": "planeta",
-      "slickitem":"#slick-slide01",
-      "slick-item":"slick-slide01",
       "company": "Grupo Planeta",
       "city": "Barcelona",
       "website": "https://planeta.es/",
@@ -201,14 +192,12 @@ var textContent_CA = {
      "unimedia": {
       "id": 9,
       "ref": "unimedia",
-      "slickitem":"#slick-slide00",
-      "slick-item":"slick-slide00",
       "company": "Unimedia S.L",
       "city": "Barcelona",
       "website": "https://www.unimedia.tech",
       "role": "Azure and .NET Developer",
       "dateStart": "Abril 2021",
-      "dateEnd": "Actual",
+      "dateEnd": "Abr 2026",
       "techStack": "C# .NET 6 a .NET 10, Azure, Azure DevOps i SQL",
       "description": "La meva col·laboració més llarga i tècnicament rica fins avui — i on la meva experiència en Azure i APIs ha estat portada més lluny. Treballo com a desenvolupador freelance d’Azure i .NET a <a href=’https://zellar.com’ target=’_blank’>Zellar</a>, una plataforma de sostenibilitat que ajuda les pimes a reduir les seves emissions. Al llarg dels anys he evolucionat de construir APIs a ser responsable de la infraestructura cloud, els pipelines de DevOps i la capa d’integració amb tercers de tota la plataforma.",
       "tasks": [
@@ -224,6 +213,28 @@ var textContent_CA = {
         "Vaig migrar tots els secrets de l’aplicació des de la configuració de les apps a Azure Key Vault, amb injecció automàtica durant el desplegament des d’Azure DevOps."
       ],
       "image": "unimedia"
+    },
+    "whyze": {
+      "id": 10,
+      "ref": "whyze",
+      "company": "Unimedia S.L",
+      "city": "Barcelona",
+      "website": "https://www.unimedia.tech",
+      "role": "Full-Stack Developer",
+      "dateStart": "Maig 2026",
+      "dateEnd": "Actual",
+      "techStack": "NestJS, TypeScript, Prisma, PostgreSQL / AWS Aurora, AWS Cognito/JWT, Swagger/OpenAPI, Vitest, React, Redux Toolkit, Flutter, AWS (Fargate, ECR, S3, SES, KMS, Secrets Manager), Liquibase, GitHub Actions, Claude Code",
+      "description": "Treballo com a desenvolupador full-stack freelance a WHYZE Care Suite, una plataforma de salut digital per a la investigació clínica que dona suport a pacients, professionals sanitaris, investigadors i administradors en aplicacions web i mòbils. Treballo tant en un backend de NestJS/TypeScript com en frontends de React/TypeScript desplegats a AWS, i faig servir Claude Code (l'agent de programació amb IA d'Anthropic) com el meu flux de treball principal de desenvolupament a tota la pila.",
+      "tasks": [
+        "Vaig dissenyar i implementar un sistema de control d'accés basat en rols (aprovisionament i aplicació de super-admin L1/L2) al backend de NestJS i dos portals de React, utilitzant una estratègia de guardes amb denegació per defecte (fail-safe-deny) i una migració de backfill per als usuaris existents.",
+        "Vaig construir una funcionalitat híbrida de cerca per índex cec per a números NHS, utilitzant una columna indexada i hashejada per permetre cerques ràpides sense exposar identificadors sensibles en índexs en text pla; vaig fer backfill de 1.177 registres en producció.",
+        "Vaig implementar la gestió de dates de finalització de protocols clínics amb registres d'auditoria en JSONB i seguiment de canvis basat en enums, a més d'una funcionalitat de super-admin que mostra la jerarquia organitzativa i el nivell d'accés de cada usuari.",
+        "Vaig liderar una auditoria creuada de repositoris sobre la gestió de dates/zones horàries en 4 repositoris de producció abans d'un desplegament al Regne Unit, produint troballes i un pla de remediació.",
+        "Vaig migrar l'avís de privacitat/consentiment orientat al pacient a un webview natiu mòbil (Flutter) i vaig redissenyar l'avís de consentiment allotjat amb suport bilingüe (anglès/gal·lès).",
+        "Vaig diagnosticar i resoldre una fallada al pipeline de CI/CD causada per etiquetes d'imatge immutables al registre de contenidors, restaurant desplegaments fiables a dev/UAT/producció.",
+        "Vaig utilitzar Claude Code com a flux de treball de desenvolupament assistit per IA en els 5 repositoris del projecte — planificació, auditories de codi, implementació, proves i operacions d'AWS/base de dades — en una base de codi sanitària i sensible en matèria de compliment normatiu."
+      ],
+      "image": "whyze"
     }
   },
   "education": {
