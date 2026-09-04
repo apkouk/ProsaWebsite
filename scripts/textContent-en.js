@@ -2,7 +2,7 @@ var textContent_EN = {
   "intro": {
     "paragraphs": [
       "I've spent the last 15+ years doing what I love: building software that solves real problems. I specialise in Azure cloud architecture, API development, and system integrations — the kind of work that connects platforms, automates complexity, and makes distributed systems actually reliable. As a Microsoft Certified Azure Developer, I don't just write code that runs on the cloud; I design and own the infrastructure around it. On the backend I'm equally comfortable implementing new features, fixing bugs, or refactoring legacy code that's been accumulating debt for years.",
-      "I believe great work and a fulfilling life go hand in hand. The best code, like the best ideas, comes from people who are curious, rested, and inspired. I stay sharp by embracing new tools — including AI, which I use daily to accelerate development, improve code quality, and explore smarter solutions faster.",
+      "I believe great work and a fulfilling life go hand in hand. The best code, like the best ideas, comes from people who are curious, rested, and inspired. I stay sharp by embracing new tools — including AI, which I use daily to accelerate development, improve code quality, and explore smarter solutions faster. On recent projects I've adopted spec-driven development (SDD), writing clear specs before implementation to keep AI-assisted work structured, predictable, and easy to review.",
       "When I'm not in front of a screen, you'll find me at the cinema, lost in a good book, or cooking something ambitious for family and friends. Take a look around — I'd love for you to get to know me and my work.",
       "Hasta la vista!"
     ],
@@ -13,11 +13,11 @@ var textContent_EN = {
   "techSkills": {
     "paragraphs": [
       "My core is Azure and .NET — C#, .NET 6 through .NET 10, ASP.NET Core, and Entity Framework on the development side, and a deep Azure specialisation that spans App Services, Azure Functions, Service Bus, API Management, Azure Front Door, Key Vault, and more. I'm certified as an Azure Developer Associate (AZ-204) and I've spent years not just writing code for the cloud, but owning the infrastructure, pipelines, and security around it.",
-      "API design and system integration are where I do some of my best work. I've built and maintained APIs from scratch, connected platforms that weren't designed to talk to each other, and developed microservices that handle real production load. I also integrate AI tools into my daily workflow — using them to accelerate development, write better tests, and tackle complex problems faster. On the front end, I can hold my own with React, Angular, TypeScript, and jQuery when the project calls for it — but I'll be honest: the backend and cloud are where I'm truly at home.",
+      "API design and system integration are where I do some of my best work. I've built and maintained APIs from scratch, connected platforms that weren't designed to talk to each other, and developed microservices that handle real production load. I also integrate AI tools into my daily workflow — using them to accelerate development, write better tests, and tackle complex problems faster, following a spec-driven development (SDD) approach that keeps AI-generated code aligned with clear requirements. On the front end, I can hold my own with React, Angular, TypeScript, and jQuery when the project calls for it — but I'll be honest: the backend and cloud are where I'm truly at home.",
       "Here's a snapshot of the tools and technologies I work with."
     ],
     "devSkills": "C#, .NET 6-10, ASP.NET, ASP.NET Core, ASP.NET Web API, MVC, Entity Framework, EF Core, Oracle, SQL, CosmosDb, Azure App Services, Azure Functions, Azure Service Bus, Azure API Management, Azure Front Door, Azure Key Vault, Azure Blob Storage, Azure Container Registry, Telerik, React, jQuery, JavaScript, Angular, Typescript, HTML, CSS, Bootstrap, PrimeNg, FontAwesome",
-    "concepts": "Software development process (Agile, Scrum), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles, Microservices, CI/CD pipelines, design patterns",
+    "concepts": "Software development process (Agile, Scrum), spec-driven development (SDD), relational databases, data modelling, object-oriented programming, TDD, MVC, n-tier architecture, SOLID principles, Microservices, CI/CD pipelines, design patterns",
     "tools": "TFS, Git, GitHub, Azure DevOps, JIRA, Visual Studio, Visual Studio Code, MSSQL Management Studio, Azure Portal, Amazon Web Services, Docker, JetBrains Resharper, Source Tree, Postman, GitHub Copilot, Claude",
     "optionMenu" : "Tech",
     "subTitle1" : "Development",
@@ -224,7 +224,7 @@ var textContent_EN = {
       "dateStart": "May 2026",
       "dateEnd": "Current",
       "techStack": "NestJS, TypeScript, Prisma, PostgreSQL / AWS Aurora, AWS Cognito/JWT, Swagger/OpenAPI, Vitest, React, Redux Toolkit, Flutter, AWS (Fargate, ECR, S3, SES, KMS, Secrets Manager), Liquibase, GitHub Actions, Claude Code",
-      "description": "I work as a freelance full-stack developer on WHYZE Care Suite, a digital-health platform for clinical research supporting patients, healthcare practitioners, researchers, and administrators across web and mobile applications. I work across a NestJS/TypeScript backend and React/TypeScript frontends deployed on AWS, and use Claude Code (Anthropic's AI coding agent) as my primary development workflow across the whole stack.",
+      "description": "I work as a freelance full-stack developer on <a href='https://whyzehealth.com/' target='_blank'>WHYZE Care Suite</a>, a digital-health platform for clinical research supporting patients, healthcare practitioners, researchers, and administrators across web and mobile applications. I work across a NestJS/TypeScript backend and React/TypeScript frontends deployed on AWS, and use Claude Code (Anthropic's AI coding agent) as my primary development workflow across the whole stack.",
       "tasks": [
         "Designed and implemented a role-based access control system (L1/L2 super-admin provisioning and enforcement) across the NestJS backend and two React portals, using a fail-safe-deny guard strategy with a backfill migration for existing users.",
         "Built a hybrid blind-index search feature for NHS numbers using a hashed, indexed column to enable fast lookups without exposing sensitive identifiers in plaintext indexes; backfilled 1,177 production records.",
@@ -470,7 +470,7 @@ var textContent_EN = {
         {
             "id": 5,
             "title": "Software Process Improvement",
-            "desc": "Good software starts with good processes. I can audit your current development workflow and help you implement practices that actually stick — Agile methodologies, source control with Git or TFS, CI/CD pipelines in Azure DevOps, code review culture, and infrastructure management across environments. I've done this from scratch and I've done it in teams resistant to change.",
+            "desc": "Good software starts with good processes. I can audit your current development workflow and help you implement practices that actually stick — Agile methodologies, spec-driven development (SDD) for AI-assisted work, source control with Git or TFS, CI/CD pipelines in Azure DevOps, code review culture, and infrastructure management across environments. I've done this from scratch and I've done it in teams resistant to change.",
             "image": "softdevProc"
         },
         {
